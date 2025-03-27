@@ -29,7 +29,7 @@
 			"author": "Brad Wenner",
 			"cover": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-cover.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-cover.png"
 			},
 			"contents": [
 				{
@@ -113,7 +113,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-timeline.png"
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-timeline.png"
 									},
 									"title": "Pyora Timeline",
 									"credit": "From Session 0.1 on 6/11/21"
@@ -135,7 +135,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-hex.png"
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-hex.png"
 									},
 									"title": "Pyora original hex map"
 								},
@@ -143,7 +143,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-pyora.png"
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-pyora.png"
 									},
 									"title": "Pyora first draft map"
 								}
@@ -181,7 +181,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-saltmarsh.png"
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh.png"
 									},
 									"title": "Saltmarsh map"
 								},
@@ -189,7 +189,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/dc1-map-saltmarsh-region.jpg"
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh-region.jpg"
 									},
 									"title": "Saltmarsh region map"
 								}
@@ -313,7 +313,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/condition-intoxicated.jpg"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/condition-intoxicated.jpg"
 						}
 					}
 				]
@@ -440,7 +440,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/pron-elfmarked.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/pron-elfmarked.mp3"
 			},
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
@@ -633,7 +633,7 @@
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-pyoran.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
 			},
 			"fluff": {
 				"entries": [
@@ -735,7 +735,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-ravenfolk.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-ravenfolk.mp3"
 			},
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
@@ -845,7 +845,7 @@
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-tribeborn.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-tribeborn.mp3"
 			},
 			"fluff": {
 				"entries": [
@@ -872,7 +872,7 @@
 			"raceSource": "PHB",
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-pyoran.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
 			},
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
@@ -1105,7 +1105,7 @@
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-durandar.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-durandar.mp3"
 			},
 			"hasFluff": true,
 			"fluff": {
@@ -1149,7 +1149,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-abraxas.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-abraxas.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1188,7 +1188,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-anhon.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-anhon.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1229,7 +1229,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-azrael.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-azrael.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1272,7 +1272,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-ostara.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-ostara.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1314,7 +1314,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-proteus.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-proteus.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1355,7 +1355,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-ravenqueen.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-ravenqueen.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1396,7 +1396,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-selune.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-selune.jpg"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1434,7 +1434,7 @@
 				"type": "image",
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/deity-siduri.png"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-siduri.png"
 				},
 				"style": "deity-symbol",
 				"title": ""
@@ -1604,7 +1604,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-amelia-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-amelia-token.png"
 			},
 			"traitTags": [
 				"Magic Resistance"
@@ -1640,7 +1640,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-amelia.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-amelia.png"
 						}
 					}
 				]
@@ -1750,7 +1750,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-briar-tree-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-tree-token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1758,7 +1758,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-briar-tree.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-tree.png"
 						}
 					}
 				]
@@ -1872,7 +1872,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-briar-mound-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-mound-token.png"
 			},
 			"fluff": {
 				"images": [
@@ -1880,7 +1880,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-briar-mound.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-mound.png"
 						}
 					}
 				]
@@ -1982,7 +1982,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-clockwork-shark-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-clockwork-shark-token.png"
 			},
 			"senseTags": [
 				"D"
@@ -2005,7 +2005,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-clockwork-shark.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-clockwork-shark.png"
 						}
 					}
 				]
@@ -2162,14 +2162,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-coal-golem.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-coal-golem.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-coal-golem-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-coal-golem-token.png"
 			}
 		},
 		{
@@ -2271,14 +2271,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-hare.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-hare-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
 			}
 		},
 		{
@@ -2350,14 +2350,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-dire-hare.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-dire-hare-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
 			},
 			"senses": [
 				"darkvision 120 ft."
@@ -2574,7 +2574,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-commodore-daniel-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-commodore-daniel-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -2613,7 +2613,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-commodore-daniel.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-commodore-daniel.png"
 						}
 					}
 				]
@@ -2800,14 +2800,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-giant-coal-ant.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-giant-coal-ant.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-giant-coal-ant-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-giant-coal-ant-token.png"
 			}
 		},
 		{
@@ -2996,14 +2996,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-hellion-child.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-hellion-child.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-hellion-child-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-hellion-child-token.png"
 			}
 		},
 		{
@@ -3101,7 +3101,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-deputy-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-deputy-token.png"
 			},
 			"attachedItems": [
 				"longbow|phb",
@@ -3136,7 +3136,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-deputy.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-deputy.png"
 						}
 					}
 				]
@@ -3249,7 +3249,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-hunter-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-hunter-token.png"
 			},
 			"attachedItems": [
 				"longbow|phb",
@@ -3289,7 +3289,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-hunter.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-hunter.png"
 						}
 					}
 				]
@@ -3417,7 +3417,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-commodore-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-commodore-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -3448,7 +3448,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-commodore.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-commodore.png"
 						}
 					}
 				]
@@ -3556,7 +3556,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-knight-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-knight-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -3589,7 +3589,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-knight.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-knight.png"
 						}
 					}
 				]
@@ -3712,7 +3712,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-priest-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-priest-token.png"
 			},
 			"languageTags": [
 				"X"
@@ -3753,7 +3753,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-priest.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-priest.png"
 						}
 					}
 				]
@@ -3904,7 +3904,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-iron-rider-warder-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-warder-token.png"
 			},
 			"actionTags": [
 				"Multiattack"
@@ -3949,7 +3949,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-iron-rider-warder.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-warder.png"
 						}
 					}
 				]
@@ -4128,7 +4128,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-king-thistletongue-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-king-thistletongue-token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4167,7 +4167,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-king-thistletongue.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-king-thistletongue.png"
 						}
 					}
 				]
@@ -4359,7 +4359,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-lamont-solmar.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-lamont-solmar.mp3"
 			},
 			"traitTags": [
 				"Legendary Resistances",
@@ -4394,7 +4394,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-lamont-solmar-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-lamont-solmar-token.png"
 			},
 			"fluff": {
 				"entries": [
@@ -4411,7 +4411,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-lamont-solmar.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-lamont-solmar.png"
 						}
 					}
 				]
@@ -4540,7 +4540,7 @@
 			],
 			"soundClip": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/sounds/pron-mildred-magpie.mp3"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-mildred-magpie.mp3"
 			},
 			"traitTags": [
 				"Amphibious"
@@ -4739,14 +4739,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-mildred-magpie.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-mildred-magpie.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-mildred-magpie-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-mildred-magpie-token.png"
 			},
 			"conditionImmune": [
 				"charmed"
@@ -5069,14 +5069,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-zombie-raccoon.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-raccoon.png"
 						}
 					}
 				]
 			},
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-zombie-raccoon-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-raccoon-token.png"
 			}
 		},
 		{
@@ -5222,7 +5222,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/bestiary-zombie-vulture.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-vulture.png"
 						}
 					}
 				]
@@ -5232,7 +5232,7 @@
 			],
 			"tokenHref": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/tokens/bestiary-zombie-vulture-token.png"
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-vulture-token.png"
 			},
 			"environment": [
 				"desert",
@@ -5322,7 +5322,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-amulet-of-betrayal.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-amulet-of-betrayal.png"
 						}
 					}
 				]
@@ -5361,7 +5361,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-amulet-of-false-life.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-amulet-of-false-life.png"
 						}
 					}
 				],
@@ -5413,7 +5413,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-avalon-engineers-signet.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-avalon-engineers-signet.png"
 						}
 					}
 				]
@@ -5453,7 +5453,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-avalonian-lantern.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-avalonian-lantern.png"
 						}
 					}
 				]
@@ -5543,7 +5543,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-bag-of-rust.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-bag-of-rust.png"
 						}
 					}
 				]
@@ -5577,7 +5577,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-banshee-blight.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-banshee-blight.png"
 						}
 					}
 				]
@@ -5612,7 +5612,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-berserkers-draught.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-berserkers-draught.png"
 						}
 					}
 				],
@@ -5649,7 +5649,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-black-diamond.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-black-diamond.png"
 						}
 					}
 				]
@@ -5683,7 +5683,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-blacklung-brew.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-blacklung-brew.png"
 						}
 					}
 				],
@@ -5741,7 +5741,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-brooch-of-witchsight.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-brooch-of-witchsight.png"
 						}
 					}
 				]
@@ -5807,7 +5807,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-cloak-of-rats.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-cloak-of-rats.png"
 						}
 					}
 				]
@@ -5840,7 +5840,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-collector-of-souls.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-collector-of-souls.png"
 						}
 					}
 				],
@@ -5893,7 +5893,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dagger-of-profuse-bleeding.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dagger-of-profuse-bleeding.png"
 						}
 					}
 				]
@@ -5927,7 +5927,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dark-truth-serum.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dark-truth-serum.png"
 						}
 					}
 				],
@@ -5965,7 +5965,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-deepgarden-cider.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-deepgarden-cider.png"
 						}
 					}
 				],
@@ -6000,7 +6000,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dimensional-glasses.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dimensional-glasses.png"
 						}
 					}
 				]
@@ -6034,7 +6034,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dream-vine.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dream-vine.png"
 						}
 					}
 				]
@@ -6069,7 +6069,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-dubbelheart-ale.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dubbelheart-ale.png"
 						}
 					}
 				],
@@ -6116,7 +6116,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-entrancing-mirror.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-entrancing-mirror.png"
 						}
 					}
 				]
@@ -6150,7 +6150,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-essence-of-submission.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-essence-of-submission.png"
 						}
 					}
 				],
@@ -6201,7 +6201,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fedora-of-disguise.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fedora-of-disguise.png"
 						}
 					}
 				]
@@ -6252,7 +6252,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fist-of-durradin.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fist-of-durradin.png"
 						}
 					}
 				]
@@ -6283,7 +6283,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-fizs-flute.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fizs-flute.png"
 						}
 					}
 				]
@@ -6318,7 +6318,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-forge-mead.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-forge-mead.png"
 						}
 					}
 				]
@@ -6351,7 +6351,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-gloomroot-extract.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-gloomroot-extract.png"
 						}
 					}
 				],
@@ -6397,7 +6397,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-gnomish-tea-set.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-gnomish-tea-set.png"
 						}
 					}
 				]
@@ -6430,7 +6430,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-guildmasters-hunting-horn.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-guildmasters-hunting-horn.png"
 						}
 					}
 				]
@@ -6471,7 +6471,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ley-line-lens.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ley-line-lens.png"
 						}
 					}
 				]
@@ -6505,7 +6505,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-hearthhoney-braggot.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-hearthhoney-braggot.png"
 						}
 					}
 				],
@@ -6563,7 +6563,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-longsword-of-dragon-empire.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-longsword-of-dragon-empire.png"
 						}
 					}
 				]
@@ -6597,7 +6597,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-lumengrove-tincture.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-lumengrove-tincture.png"
 						}
 					}
 				],
@@ -6658,7 +6658,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-migrant-bitters.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-migrant-bitters.png"
 						}
 					}
 				]
@@ -6697,7 +6697,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-mildreds-amulet.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-mildreds-amulet.png"
 						}
 					}
 				]
@@ -6753,7 +6753,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-minor-belt-of-dwarvenkind.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-minor-belt-of-dwarvenkind.png"
 						}
 					}
 				]
@@ -6783,7 +6783,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-monster-id-cards.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-monster-id-cards.png"
 						}
 					}
 				]
@@ -6846,7 +6846,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-night-messenger-cloak.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-night-messenger-cloak.png"
 						}
 					}
 				]
@@ -6878,7 +6878,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-nightshades-ring.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-nightshades-ring.png"
 						}
 					}
 				]
@@ -6912,7 +6912,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-nightshade-poison.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-nightshade-poison.png"
 						}
 					}
 				]
@@ -6944,7 +6944,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-oil-of-immolation.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-oil-of-immolation.png"
 						}
 					}
 				]
@@ -6983,7 +6983,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-painting-lamont-solmar.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-painting-lamont-solmar.png"
 						}
 					}
 				]
@@ -7016,7 +7016,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-incorporeal-passage.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-incorporeal-passage.png"
 						}
 					}
 				]
@@ -7049,7 +7049,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-midnight-oil.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-midnight-oil.png"
 						}
 					}
 				]
@@ -7087,7 +7087,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-oblivion.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-oblivion.png"
 						}
 					}
 				]
@@ -7119,7 +7119,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-unbridled-potential.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-unbridled-potential.png"
 						}
 					}
 				]
@@ -7158,7 +7158,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-undeath.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-undeath.png"
 						}
 					}
 				]
@@ -7190,7 +7190,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-mossy-oak.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-mossy-oak.png"
 						}
 					}
 				]
@@ -7223,7 +7223,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-potion-of-vile-strength.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-vile-strength.png"
 						}
 					}
 				]
@@ -7257,7 +7257,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-pyrotov-cocktail.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-pyrotov-cocktail.png"
 						}
 					}
 				]
@@ -7291,7 +7291,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-rationing-spice.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-rationing-spice.png"
 						}
 					}
 				]
@@ -7328,7 +7328,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ring-of-prestidigitation.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ring-of-prestidigitation.png"
 						}
 					}
 				]
@@ -7360,7 +7360,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-ring-of-water-breathing.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ring-of-water-breathing.png"
 						}
 					}
 				]
@@ -7391,7 +7391,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sapphire-nightshade.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sapphire-nightshade.png"
 						}
 					}
 				]
@@ -7423,14 +7423,14 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-siduris-token_front.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-siduris-token_front.png"
 						}
 					},
 					{
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-siduris-token_back.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-siduris-token_back.png"
 						}
 					}
 				]
@@ -7460,7 +7460,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sphere-of-everlasting-ice.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sphere-of-everlasting-ice.png"
 						}
 					}
 				]
@@ -7502,7 +7502,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-sporebane.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sporebane.png"
 						}
 					}
 				]
@@ -7534,7 +7534,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-spores-of-delirium.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-spores-of-delirium.png"
 						}
 					}
 				]
@@ -7623,7 +7623,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stone-of-sargoth-the-eternal.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stone-of-sargoth-the-eternal.png"
 						}
 					}
 				]
@@ -7660,7 +7660,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stoneflower-ale.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stoneflower-ale.png"
 						}
 					}
 				],
@@ -7706,7 +7706,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-stone-tea.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stone-tea.png"
 						}
 					}
 				]
@@ -7740,7 +7740,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-shield-of-duskmire.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-shield-of-duskmire.png"
 						}
 					}
 				]
@@ -7781,7 +7781,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-shield-of-missile-deflection.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-shield-of-missile-deflection.png"
 						}
 					}
 				]
@@ -7812,7 +7812,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-skeleton-key.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-skeleton-key.png"
 						}
 					}
 				]
@@ -7854,7 +7854,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-soulbound-skull.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-soulbound-skull.png"
 						}
 					}
 				],
@@ -7914,7 +7914,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-red-talon.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-red-talon.png"
 						}
 					}
 				]
@@ -7947,7 +7947,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-dark-resolve.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-dark-resolve.png"
 						}
 					}
 				]
@@ -7980,7 +7980,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-last-harvest.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-last-harvest.png"
 						}
 					}
 				]
@@ -8014,7 +8014,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-vial-of-veilblood.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-veilblood.png"
 						}
 					}
 				]
@@ -8047,7 +8047,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-void-essence.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-void-essence.png"
 						}
 					}
 				]
@@ -8093,7 +8093,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-whisperwine.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-whisperwine.png"
 						}
 					}
 				]
@@ -8137,7 +8137,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-wooden-stake.png"
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-wooden-stake.png"
 						}
 					}
 				]
