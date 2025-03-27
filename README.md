@@ -1,10 +1,21 @@
-# Dungeon Church Homebrew
-Our homebrew setting of Pyora, for use with 5eTools. 
+<p align="center">
+    <img width="650" src="https://raw.githubusercontent.com/oakbrad/dungeonchurch/refs/heads/main/logo-chrome.png"><br>
+    <a href=https://github.com/oakbrad/dungeonchurch>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch?label=dungeonchurch&color=gray&labelColor=ff2600&logo=github></a>
+    <a href=https://github.com/oakbrad/dungeonchurch-pyora>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github></a>
+    <a href=https://github.com/oakbrad/dungeonchurch-cogs>
+        <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github></a>
+    <a href=https://github.com/5etools-mirror-3/5etools-2014-src><img src=https://img.shields.io/badge/5etools-2014--src-gray?logo=roll20&logoColor=ffffff&labelColor=ff2600></a>
+</p>
 
-*This content auto-loads into our mirror at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a>*
+# Pyora
+[Dungeon Church](https://www.dungeon.church)'s Pyora setting as [5eTools](https://5e.tools) compatible homebrew source.
 
-Or import:
-```https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/Dungeon Church; Pyora.json```
+Available at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a> or import to your preferred mirror:
+```
+https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Church; Pyora.json
+```
 
 # Contents
 * Books
@@ -157,10 +168,24 @@ Or import:
     * Sorcerer: Wild Magic Surge
     * Witchsight
 
-# Resources
+# 5eTools Resources
 * [5eTools Homebrew Wiki](https://wiki.tercept.net/en/Homebrew/TableOfReference) Reference of objects and their properties
 * [Homebrew Builder](https://5e.dungeon.church/makebrew.html) Monster & Spell builder tool
 * [Current 5ETools Source](https://github.com/5etools-mirror-2/5etools-mirror-2.github.io)
 * [Renderer Demo Page](https://5e.dungeon.church/renderdemo.html)  Format & template examples
 * ["Official" Homebrew Data](https://github.com/TheGiddyLimit/homebrew) good examples
 * [5ETools Discord Server](https://discord.gg/5etools)
+
+# Follow Elsewhere
+<p align="left">
+    <a href=https://www.dungeon.church>
+        <img src=https://img.shields.io/badge/dungeon.church-ff2600?logo=ghost&logoColor=ffffff></a>
+    <a href=https://bsky.app/profile/dungeon.church>
+        <img src=https://img.shields.io/badge/bluesky-ff2600?logo=bluesky&logoColor=ffffff></a>
+    <a href=https://twitch.tv/dungeonchurch>
+        <img src=https://img.shields.io/twitch/status/dungeonchurch?style=flat&logo=twitch&logoColor=ffffff&labelColor=ff2600&color=gray></a>
+    <a href=https://youtube.com/@DungeonChurch>
+        <img src=https://img.shields.io/youtube/channel/subscribers/UCMaCjbcyIqyQ_ykH7hIpQiA?style=flat&label=youtube&logo=youtube&labelColor=ff2600&color=gray></a>
+    <a href=https://www.dungeon.church/#/portal/support>
+        <img src=https://img.shields.io/badge/support-brightgreen?logo=cashapp&logoColor=ffffff> </a>
+</p>
