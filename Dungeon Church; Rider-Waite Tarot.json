@@ -172,7 +172,7 @@
 			},
 			"entries": [
 				"{@i Inspiration, Creation, Energy}",
-				"The Ace of Wands symbolizes an initial burst of inspiration and the raw potential to create or initiate a new endeavor. It encourages embracing opportunities with enthusiasm and passion."
+				"The {@link Ace of Wands|https://en.wikipedia.org/wiki/Ace_of_Wands_(tarot_card)} symbolizes an initial burst of inspiration and the raw potential to create or initiate a new endeavor. It encourages embracing opportunities with enthusiasm and passion."
 			  ]
 		},
 		{
@@ -193,7 +193,7 @@
 			},
 			"entries": [
 				"{@i Planning, Decisions, Progress}",
-				"The Two of Wands represents thoughtful planning and careful decision-making about the future. It suggests evaluating one's ambitions and setting clear intentions to progress toward goals."
+				"The {@link Two of Wands|https://en.wikipedia.org/wiki/Two_of_Wands} represents thoughtful planning and careful decision-making about the future. It suggests evaluating one's ambitions and setting clear intentions to progress toward goals."
 			  ]
 		},
 		{
@@ -214,7 +214,7 @@
 			},
 			"entries": [
 				"{@i Expansion, Exploration, Foresight}",
-				"The Three of Wands indicates a time of growth and exploring broader horizons. It encourages anticipation and confidence as efforts begin to yield promising results."
+				"The {@link Three of Wands|https://en.wikipedia.org/wiki/Three_of_Wands} indicates a time of growth and exploring broader horizons. It encourages anticipation and confidence as efforts begin to yield promising results."
 			  ]
 		},
 		{
@@ -235,7 +235,7 @@
 			},
 			"entries": [
 				"{@i Celebration, Harmony, Community}",
-				"The Four of Wands signifies celebration, joy, and communal harmony. It highlights enjoying milestones and fostering strong bonds within a supportive environment."
+				"The {@link Four of Wands|https://en.wikipedia.org/wiki/Four_of_Wands_(Tarot_card)} signifies celebration, joy, and communal harmony. It highlights enjoying milestones and fostering strong bonds within a supportive environment."
 			  ]
 		},
 		{
@@ -256,7 +256,7 @@
 			},
 			"entries": [
 				"{@i Competition, Conflict, Challenges}",
-				"The Five of Wands reflects a period of rivalry or minor conflicts that stimulate growth. It advises navigating these challenges constructively to foster personal improvement."
+				"The {@link Five of Wands|https://en.wikipedia.org/wiki/Five_of_Wands_(Tarot_card)} reflects a period of rivalry or minor conflicts that stimulate growth. It advises navigating these challenges constructively to foster personal improvement."
 			  ]
 		},
 		{
@@ -277,7 +277,7 @@
 			},
 			"entries": [
 				"{@i Victory, Recognition, Confidence}",
-				"The Six of Wands symbolizes triumph and public acknowledgment of one's achievements. It emphasizes confidence gained through success and recognition."
+				"The {@link Six of Wands|https://en.wikipedia.org/wiki/Six_of_Wands} symbolizes triumph and public acknowledgment of one's achievements. It emphasizes confidence gained through success and recognition."
 			  ]
 		},
 		{
@@ -298,7 +298,7 @@
 			},
 			"entries": [
 				"{@i Defense, Perseverance, Standing Ground}",
-				"The Seven of Wands highlights perseverance and the need to defend one's position or beliefs. It suggests maintaining resolve in the face of opposition."
+				"The {@link Seven of Wands|https://en.wikipedia.org/wiki/Seven_of_Wands} highlights perseverance and the need to defend one's position or beliefs. It suggests maintaining resolve in the face of opposition."
 			  ]
 		},
 		{
@@ -319,7 +319,7 @@
 			},
 			"entries": [
 				"{@i Action, Speed, Movement}",
-				"The Eight of Wands represents rapid movement, swift changes, or quick progress. It urges readiness to act decisively and embrace momentum when opportunities arise."
+				"The {@link Eight of Wands|https://en.wikipedia.org/wiki/Eight_of_Wands} represents rapid movement, swift changes, or quick progress. It urges readiness to act decisively and embrace momentum when opportunities arise."
 			  ]
 		},
 		{
@@ -340,7 +340,7 @@
 			},
 			"entries": [
 				"{@i Resilience, Endurance, Caution}",
-				"The Nine of Wands symbolizes endurance and resilience despite past struggles. It advises remaining cautious yet persistent, acknowledging strength gained from previous trials."
+				"The {@link Nine of Wands|https://en.wikipedia.org/wiki/Nine_of_Wands} symbolizes endurance and resilience despite past struggles. It advises remaining cautious yet persistent, acknowledging strength gained from previous trials."
 			  ]
 		},
 		{
@@ -361,7 +361,7 @@
 			},
 			"entries": [
 				"{@i Burden, Responsibility, Completion}",
-				"The Ten of Wands indicates heavy responsibilities or burdens nearing completion. It emphasizes recognizing one's limits and seeking balance to avoid burnout."
+				"The {@link Ten of Wands|https://en.wikipedia.org/wiki/Ten_of_Wands} indicates heavy responsibilities or burdens nearing completion. It emphasizes recognizing one's limits and seeking balance to avoid burnout."
 			  ]
 		},
 		{
@@ -383,7 +383,7 @@
 			},
 			"entries": [
 				"{@i Exploration, Enthusiasm, Discovery}",
-				"The Page of Wands embodies youthful curiosity and enthusiasm for discovery. It suggests openness to new experiences and eagerness to pursue creative ideas."
+				"The {@link Page of Wands|https://en.wikipedia.org/wiki/Page_of_Wands} embodies youthful curiosity and enthusiasm for discovery. It suggests openness to new experiences and eagerness to pursue creative ideas."
 			  ]
 		},
 		{
@@ -405,7 +405,7 @@
 			},
 			"entries": [
 				"{@i Adventure, Passion, Impulsivity}",
-				"The Knight of Wands represents an adventurous spirit driven by passion and impulsiveness. It encourages embracing new ventures with vigor but advises moderation to avoid recklessness."
+				"The {@link Knight of Wands|https://en.wikipedia.org/wiki/Knight_of_Wands} represents an adventurous spirit driven by passion and impulsiveness. It encourages embracing new ventures with vigor but advises moderation to avoid recklessness."
 			  ]
 		},
 		{
@@ -427,7 +427,7 @@
 			},
 			"entries": [
 				"{@i Confidence, Charisma, Determination}",
-				"The Queen of Wands embodies self-assuredness, charm, and unwavering determination. She represents strong leadership and the ability to inspire and uplift others."
+				"The {@link Queen of Wands|https://en.wikipedia.org/wiki/Queen_of_Wands} embodies self-assuredness, charm, and unwavering determination. She represents strong leadership and the ability to inspire and uplift others."
 			  ]
 		},
 		{
@@ -449,7 +449,7 @@
 			},
 			"entries": [
 				"{@i Leadership, Vision, Courage}",
-				"The King of Wands symbolizes visionary leadership, courage, and decisiveness. He encourages bold actions driven by clear vision and unwavering ambition."
+				"The {@link King of Wands|https://en.wikipedia.org/wiki/King_of_Wands} symbolizes visionary leadership, courage, and decisiveness. He encourages bold actions driven by clear vision and unwavering ambition."
 			  ]
 		},
         {
@@ -471,7 +471,7 @@
 			},
 			"entries": [
 				"{@i Love, Emotion, Intuition}",
-				"The Ace of Cups symbolizes emotional renewal, deep connections, and new feelings. It suggests openness to emotional experiences and the potential for fulfilling relationships."
+				"The {@link Ace of Cups|https://en.wikipedia.org/wiki/Ace_of_Cups} symbolizes emotional renewal, deep connections, and new feelings. It suggests openness to emotional experiences and the potential for fulfilling relationships."
 			  ]
 		},
 		{
@@ -492,7 +492,7 @@
 			},
 			"entries": [
 				"{@i Partnership, Unity, Harmony}",
-				"The Two of Cups signifies mutual attraction and emotional unity. It emphasizes the importance of balanced partnerships and harmonious relationships built on mutual respect."
+				"The {@link Two of Cups|https://en.wikipedia.org/wiki/Two_of_Cups} signifies mutual attraction and emotional unity. It emphasizes the importance of balanced partnerships and harmonious relationships built on mutual respect."
 			  ]
 		},
 		{
@@ -513,7 +513,7 @@
 			},
 			"entries": [
 				"{@i Celebration, Friendship, Community}",
-				"The Three of Cups highlights joyous celebrations and the supportive bond of friendships. It suggests sharing happiness with others and strengthening social connections."
+				"The {@link Three of Cups|https://en.wikipedia.org/wiki/Three_of_Cups} highlights joyous celebrations and the supportive bond of friendships. It suggests sharing happiness with others and strengthening social connections."
 			  ]
 		},
 		{
@@ -534,7 +534,7 @@
 			},
 			"entries": [
 				"{@i Contemplation, Apathy, Reevaluation}",
-				"The Four of Cups represents introspection and reevaluating emotional satisfaction. It advises being mindful of apathy and appreciating existing opportunities."
+				"The {@link Four of Cups|https://en.wikipedia.org/wiki/Four_of_Cups} represents introspection and reevaluating emotional satisfaction. It advises being mindful of apathy and appreciating existing opportunities."
 			  ]
 		},
 		{
@@ -555,7 +555,7 @@
 			},
 			"entries": [
 				"{@i Loss, Grief, Regret}",
-				"The Five of Cups symbolizes emotional setbacks and mourning loss. It advises acknowledging grief but also encourages seeing potential and hope in what remains."
+				"The {@link Five of Cups|https://en.wikipedia.org/wiki/Five_of_Cups} symbolizes emotional setbacks and mourning loss. It advises acknowledging grief but also encourages seeing potential and hope in what remains."
 			  ]
 		},
 		{
@@ -576,7 +576,7 @@
 			},
 			"entries": [
 				"{@i Nostalgia, Innocence, Reunion}",
-				"The Six of Cups reflects nostalgic emotions and memories. It suggests reconnecting with the innocence of past experiences or reuniting with familiar comforts."
+				"The {@link Six of Cups|https://en.wikipedia.org/wiki/Six_of_Cups} reflects nostalgic emotions and memories. It suggests reconnecting with the innocence of past experiences or reuniting with familiar comforts."
 			  ]
 		},
 		{
@@ -597,7 +597,7 @@
 			},
 			"entries": [
 				"{@i Choices, Illusion, Imagination}",
-				"The Seven of Cups indicates multiple choices, imaginative possibilities, and potential illusions. It advises discernment in distinguishing between realistic goals and fanciful dreams."
+				"The {@link Seven of Cups|https://en.wikipedia.org/wiki/Seven_of_Cups} indicates multiple choices, imaginative possibilities, and potential illusions. It advises discernment in distinguishing between realistic goals and fanciful dreams."
 			  ]
 		},
 		{
@@ -618,7 +618,7 @@
 			},
 			"entries": [
 				"{@i Withdrawal, Abandonment, Transition}",
-				"The Eight of Cups represents the emotional decision to move on from unfulfilling situations. It encourages seeking deeper meaning by leaving behind what no longer satisfies."
+				"The {@link Eight of Cups|https://en.wikipedia.org/wiki/Eight_of_Cups} represents the emotional decision to move on from unfulfilling situations. It encourages seeking deeper meaning by leaving behind what no longer satisfies."
 			  ]
 		},
 		{
@@ -639,7 +639,7 @@
 			},
 			"entries": [
 				"{@i Satisfaction, Wishes, Contentment}",
-				"The Nine of Cups signifies emotional fulfillment and satisfaction. It symbolizes achieving personal happiness and experiencing the joy of having one's wishes realized."
+				"The {@link Nine of Cups|https://en.wikipedia.org/wiki/Nine_of_Cups} signifies emotional fulfillment and satisfaction. It symbolizes achieving personal happiness and experiencing the joy of having one's wishes realized."
 			  ]
 		},
 		{
@@ -660,7 +660,7 @@
 			},
 			"entries": [
 				"{@i Harmony, Family, Happiness}",
-				"The Ten of Cups embodies emotional harmony, happiness, and familial unity. It represents a period of peace and contentment shared with loved ones."
+				"The {@link Ten of Cups|https://en.wikipedia.org/wiki/Ten_of_Cups} embodies emotional harmony, happiness, and familial unity. It represents a period of peace and contentment shared with loved ones."
 			  ]
 		},
 		{
@@ -682,7 +682,7 @@
 			},
 			"entries": [
 				"{@i Curiosity, Creativity, Sensitivity}",
-				"The Page of Cups symbolizes youthful curiosity, creative exploration, and emotional sensitivity. It suggests being open to imaginative possibilities and intuitive insights."
+				"The {@link Page of Cups|https://en.wikipedia.org/wiki/Page_of_Cups} symbolizes youthful curiosity, creative exploration, and emotional sensitivity. It suggests being open to imaginative possibilities and intuitive insights."
 			  ]
 		},
 		{
@@ -704,7 +704,7 @@
 			},
 			"entries": [
 				"{@i Romance, Idealism, Adventure}",
-				"The Knight of Cups embodies romantic pursuit, emotional idealism, and adventurous spirit. It encourages pursuing dreams and embracing emotional experiences openly and passionately."
+				"The {@link Knight of Cups|https://en.wikipedia.org/wiki/Knight_of_Cups} embodies romantic pursuit, emotional idealism, and adventurous spirit. It encourages pursuing dreams and embracing emotional experiences openly and passionately."
 			  ]
 		},
 		{
@@ -726,7 +726,7 @@
 			},
 			"entries": [
 				"{@i Compassion, Intuition, Empathy}",
-				"The Queen of Cups symbolizes deep emotional understanding, compassion, and empathy. She represents nurturing intuition and emotional guidance, creating harmonious connections."
+				"The {@link Queen of Cups|https://en.wikipedia.org/wiki/Queen_of_Cups} symbolizes deep emotional understanding, compassion, and empathy. She represents nurturing intuition and emotional guidance, creating harmonious connections."
 			  ]
 		},
 		{
@@ -748,7 +748,7 @@
 			},
 			"entries": [
 				"{@i Emotional Balance, Diplomacy, Wisdom}",
-				"The King of Cups embodies emotional maturity, balance, and diplomatic wisdom. He encourages managing emotions wisely and guiding others with compassionate understanding."
+				"The {@link King of Cups|https://en.wikipedia.org/wiki/King_of_Cups} embodies emotional maturity, balance, and diplomatic wisdom. He encourages managing emotions wisely and guiding others with compassionate understanding."
 			  ]
 		},
 		{
@@ -770,7 +770,7 @@
 			},
 			"entries": [
 				"{@i Clarity, Truth, Breakthrough}",
-				"The Ace of Swords symbolizes clear thinking and decisive breakthroughs. It highlights the power of intellect and encourages truthful communication."
+				"The {@link Ace of Swords|https://en.wikipedia.org/wiki/Ace_of_Swords} symbolizes clear thinking and decisive breakthroughs. It highlights the power of intellect and encourages truthful communication."
 			  ]
 		},
 		{
@@ -791,7 +791,7 @@
 			},
 			"entries": [
 				"{@i Indecision, Balance, Stalemate}",
-				"The Two of Swords represents difficult decisions and internal conflict. It suggests the need to balance logic and emotions to move beyond a stalemate."
+				"The {@link Two of Swords|https://en.wikipedia.org/wiki/Two_of_Swords} represents difficult decisions and internal conflict. It suggests the need to balance logic and emotions to move beyond a stalemate."
 			  ]
 		},
 		{
@@ -812,7 +812,7 @@
 			},
 			"entries": [
 				"{@i Heartbreak, Sorrow, Betrayal}",
-				"The Three of Swords signifies emotional pain and sorrow. It represents confronting harsh truths and encourages healing through acknowledgment of pain."
+				"The {@link Three of Swords|https://en.wikipedia.org/wiki/Three_of_Swords} signifies emotional pain and sorrow. It represents confronting harsh truths and encourages healing through acknowledgment of pain."
 			  ]
 		},
 		{
@@ -833,7 +833,7 @@
 			},
 			"entries": [
 				"{@i Rest, Recovery, Reflection}",
-				"The Four of Swords symbolizes rest and recuperation. It advises taking time for recovery and deep reflection after periods of stress or conflict."
+				"The {@link Four of Swords|https://en.wikipedia.org/wiki/Four_of_Swords} symbolizes rest and recuperation. It advises taking time for recovery and deep reflection after periods of stress or conflict."
 			  ]
 		},
 		{
@@ -854,7 +854,7 @@
 			},
 			"entries": [
 				"{@i Conflict, Defeat, Self-interest}",
-				"The Five of Swords reflects conflict and difficult victories. It cautions against actions driven by self-interest that may harm relationships or integrity."
+				"The {@link Five of Swords|https://en.wikipedia.org/wiki/Five_of_Swords} reflects conflict and difficult victories. It cautions against actions driven by self-interest that may harm relationships or integrity."
 			  ]
 		},
 		{
@@ -875,7 +875,7 @@
 			},
 			"entries": [
 				"{@i Transition, Release, Moving On}",
-				"The Six of Swords represents moving away from difficulties toward calmer conditions. It encourages embracing transitions and leaving behind past hardships."
+				"The {@link Six of Swords|https://en.wikipedia.org/wiki/Six_of_Swords} represents moving away from difficulties toward calmer conditions. It encourages embracing transitions and leaving behind past hardships."
 			  ]
 		},
 		{
@@ -896,7 +896,7 @@
 			},
 			"entries": [
 				"{@i Deception, Strategy, Resourcefulness}",
-				"The Seven of Swords symbolizes clever strategy or deception. It advises caution and awareness, highlighting the importance of integrity despite temptations."
+				"The {@link Seven of Swords|https://en.wikipedia.org/wiki/Seven_of_Swords} symbolizes clever strategy or deception. It advises caution and awareness, highlighting the importance of integrity despite temptations."
 			  ]
 		},
 		{
@@ -917,7 +917,7 @@
 			},
 			"entries": [
 				"{@i Restriction, Imprisonment, Powerlessness}",
-				"The Eight of Swords represents feelings of restriction or helplessness. It emphasizes recognizing self-imposed limitations and finding ways to regain personal freedom."
+				"The {@link Eight of Swords|https://en.wikipedia.org/wiki/Eight_of_Swords} represents feelings of restriction or helplessness. It emphasizes recognizing self-imposed limitations and finding ways to regain personal freedom."
 			  ]
 		},
 		{
@@ -938,7 +938,7 @@
 			},
 			"entries": [
 				"{@i Anxiety, Fear, Worry}",
-				"The Nine of Swords signifies intense anxiety and fear. It advises confronting inner worries directly to overcome their influence and regain emotional stability."
+				"The {@link Nine of Swords|https://en.wikipedia.org/wiki/Nine_of_Swords} signifies intense anxiety and fear. It advises confronting inner worries directly to overcome their influence and regain emotional stability."
 			  ]
 		},
 		{
@@ -959,7 +959,7 @@
 			},
 			"entries": [
 				"{@i Endings, Defeat, Renewal}",
-				"The Ten of Swords symbolizes a painful but definitive ending. It highlights the necessity of accepting closure to facilitate renewal and recovery."
+				"The {@link Ten of Swords|https://en.wikipedia.org/wiki/Ten_of_Swords} symbolizes a painful but definitive ending. It highlights the necessity of accepting closure to facilitate renewal and recovery."
 			  ]
 		},
 		{
@@ -981,7 +981,7 @@
 			},
 			"entries": [
 				"{@i Curiosity, Alertness, Communication}",
-				"The Page of Swords embodies youthful curiosity, alertness, and clear communication. It encourages asking questions and gathering information to build understanding."
+				"The {@link Page of Swords|https://en.wikipedia.org/wiki/Page_of_Swords} embodies youthful curiosity, alertness, and clear communication. It encourages asking questions and gathering information to build understanding."
 			  ]
 		},
 		{
@@ -1003,7 +1003,7 @@
 			},
 			"entries": [
 				"{@i Action, Ambition, Determination}",
-				"The Knight of Swords represents bold action and strong ambition. It emphasizes determination in pursuing goals but cautions against impulsive decisions."
+				"The {@link Knight of Swords|https://en.wikipedia.org/wiki/Knight_of_Swords} represents bold action and strong ambition. It emphasizes determination in pursuing goals but cautions against impulsive decisions."
 			  ]
 		},
 		{
@@ -1025,7 +1025,7 @@
 			},
 			"entries": [
 				"{@i Perception, Independence, Clarity}",
-				"The Queen of Swords symbolizes keen perception, independent thinking, and clear communication. She encourages approaching situations with honesty and rational clarity."
+				"The {@link Queen of Swords|https://en.wikipedia.org/wiki/Queen_of_Swords} symbolizes keen perception, independent thinking, and clear communication. She encourages approaching situations with honesty and rational clarity."
 			  ]
 		},
 		{
@@ -1047,7 +1047,7 @@
 			},
 			"entries": [
 				"{@i Authority, Truth, Intellectual Power}",
-				"The King of Swords embodies intellectual strength, authoritative clarity, and ethical judgment. He advises using reason and fairness when making decisions."
+				"The {@link King of Swords|https://en.wikipedia.org/wiki/King_of_Swords} embodies intellectual strength, authoritative clarity, and ethical judgment. He advises using reason and fairness when making decisions."
 			  ]
 		},
 		{
@@ -1069,7 +1069,7 @@
 			},
 			"entries": [
 				"{@i Opportunity, Prosperity, New Ventures}",
-				"The Ace of Pentacles symbolizes promising opportunities and material prosperity. It suggests the potential for new ventures that can lead to abundance."
+				"The {@link Ace of Pentacles|https://en.wikipedia.org/wiki/Ace_of_Coins} symbolizes promising opportunities and material prosperity. It suggests the potential for new ventures that can lead to abundance."
 			  ]
 		},
 		{
@@ -1090,7 +1090,7 @@
 			},
 			"entries": [
 				"{@i Balance, Adaptability, Management}",
-				"The Two of Pentacles represents managing multiple priorities and maintaining balance. It advises flexibility and adaptability when handling responsibilities."
+				"The {@link Two of Pentacles|https://en.wikipedia.org/wiki/Two_of_Coins} represents managing multiple priorities and maintaining balance. It advises flexibility and adaptability when handling responsibilities."
 			  ]
 		},
 		{
@@ -1111,7 +1111,7 @@
 			},
 			"entries": [
 				"{@i Teamwork, Collaboration, Skill}",
-				"The Three of Pentacles emphasizes collaboration and teamwork. It symbolizes the importance of collective effort and skillful contribution towards a common goal."
+				"The {@link Three of Pentacles|https://en.wikipedia.org/wiki/Three_of_Coins} emphasizes collaboration and teamwork. It symbolizes the importance of collective effort and skillful contribution towards a common goal."
 			  ]
 		},
 		{
@@ -1132,7 +1132,7 @@
 			},
 			"entries": [
 				"{@i Security, Conservatism, Control}",
-				"The Four of Pentacles signifies a focus on security and financial stability. It advises moderation, warning against excessive control or fear of loss."
+				"The {@link Four of Pentacles|https://en.wikipedia.org/wiki/Four_of_Coins} signifies a focus on security and financial stability. It advises moderation, warning against excessive control or fear of loss."
 			  ]
 		},
 		{
@@ -1153,7 +1153,7 @@
 			},
 			"entries": [
 				"{@i Hardship, Loss, Isolation}",
-				"The Five of Pentacles symbolizes experiencing hardship or financial difficulty. It encourages seeking support and recognizing opportunities for relief."
+				"The {@link Five of Pentacles|https://en.wikipedia.org/wiki/Five_of_Coins} symbolizes experiencing hardship or financial difficulty. It encourages seeking support and recognizing opportunities for relief."
 			  ]
 		},
 		{
@@ -1174,7 +1174,7 @@
 			},
 			"entries": [
 				"{@i Generosity, Charity, Reciprocity}",
-				"The Six of Pentacles highlights generosity and mutual assistance. It represents both giving and receiving support in balanced and fair exchanges."
+				"The {@link Six of Pentacles|https://en.wikipedia.org/wiki/Six_of_Coins} highlights generosity and mutual assistance. It represents both giving and receiving support in balanced and fair exchanges."
 			  ]
 		},
 		{
@@ -1195,7 +1195,7 @@
 			},
 			"entries": [
 				"{@i Assessment, Patience, Reward}",
-				"The Seven of Pentacles represents assessing progress and patiently awaiting rewards. It advises reflecting on efforts and adjusting plans for future growth."
+				"The {@link Seven of Pentacles|https://en.wikipedia.org/wiki/Seven_of_Coins} represents assessing progress and patiently awaiting rewards. It advises reflecting on efforts and adjusting plans for future growth."
 			  ]
 		},
 		{
@@ -1216,7 +1216,7 @@
 			},
 			"entries": [
 				"{@i Mastery, Diligence, Dedication}",
-				"The Eight of Pentacles symbolizes diligent effort and mastery of skills. It encourages dedication to one's craft and continual improvement."
+				"The {@link Eight of Pentacles|https://en.wikipedia.org/wiki/Eight_of_Coins} symbolizes diligent effort and mastery of skills. It encourages dedication to one's craft and continual improvement."
 			  ]
 		},
 		{
@@ -1237,7 +1237,7 @@
 			},
 			"entries": [
 				"{@i Independence, Luxury, Achievement}",
-				"The Nine of Pentacles signifies independence, comfort, and material success. It represents personal achievement and the enjoyment of life's finer things."
+				"The {@link Nine of Pentacles|https://en.wikipedia.org/wiki/Nine_of_Coins} signifies independence, comfort, and material success. It represents personal achievement and the enjoyment of life's finer things."
 			  ]
 		},
 		{
@@ -1258,7 +1258,7 @@
 			},
 			"entries": [
 				"{@i Legacy, Wealth, Family}",
-				"The Ten of Pentacles symbolizes lasting wealth, family legacy, and stability. It highlights the importance of security and continuity across generations."
+				"The {@link Ten of Pentacles|https://en.wikipedia.org/wiki/Ten_of_Coins} symbolizes lasting wealth, family legacy, and stability. It highlights the importance of security and continuity across generations."
 			  ]
 		},
 		{
@@ -1280,7 +1280,7 @@
 			},
 			"entries": [
 				"{@i Ambition, Learning, Practicality}",
-				"The Page of Pentacles represents ambition, practicality, and a desire for learning. It encourages pursuing knowledge and new skills with a grounded approach."
+				"The {@link Page of Pentacles|https://en.wikipedia.org/wiki/Page_of_Coins} represents ambition, practicality, and a desire for learning. It encourages pursuing knowledge and new skills with a grounded approach."
 			  ]
 		},
 		{
@@ -1302,7 +1302,7 @@
 			},
 			"entries": [
 				"{@i Reliability, Patience, Efficiency}",
-				"The Knight of Pentacles symbolizes reliability and careful planning. It emphasizes steady, patient effort and methodical approaches to achieving goals."
+				"The {@link Knight of Pentacles|https://en.wikipedia.org/wiki/Knight_of_Coins} symbolizes reliability and careful planning. It emphasizes steady, patient effort and methodical approaches to achieving goals."
 			  ]
 		},
 		{
@@ -1324,7 +1324,7 @@
 			},
 			"entries": [
 				"{@i Nurturing, Practicality, Abundance}",
-				"The Queen of Pentacles embodies nurturing, practicality, and material comfort. She symbolizes a balanced approach to managing resources and supporting others."
+				"The {@link Queen of Pentacles|https://en.wikipedia.org/wiki/Queen_of_Coins} embodies nurturing, practicality, and material comfort. She symbolizes a balanced approach to managing resources and supporting others."
 			  ]
 		},
 		{
@@ -1346,7 +1346,7 @@
 			},
 			"entries": [
 				"{@i Prosperity, Security, Leadership}",
-				"The King of Pentacles represents prosperity, security, and effective leadership. He symbolizes mastery in creating and maintaining wealth and stability."
+				"The {@link King of Pentacles|https://en.wikipedia.org/wiki/King_of_Coins} represents prosperity, security, and effective leadership. He symbolizes mastery in creating and maintaining wealth and stability."
 			  ]
 		},
 		{
@@ -1367,7 +1367,7 @@
 			},
 			"entries": [
 				"{@i Folly, Freedom, Potential}",
-				"The Fool embodies pure potential, stepping forward with innocence and openness. It highlights the unlimited possibilities and the adventurous spirit that explores beyond the known."
+				"{@link The Fool|https://en.wikipedia.org/wiki/The_Fool_(tarot_card)} embodies pure potential, stepping forward with innocence and openness. It highlights the unlimited possibilities and the adventurous spirit that explores beyond the known."
 			]
 		},
 		{
@@ -1388,7 +1388,7 @@
 			},
 			"entries": [
 				"{@i Skill, Manifestation, Willpower}",
-				"The Magician represents focused intention and the power to manifest one's desires. It symbolizes the mastery of using resources effectively to bridge spiritual ideas and physical realities."
+				"{@link The Magician|https://en.wikipedia.org/wiki/The_Magician_(tarot_card)} represents focused intention and the power to manifest one's desires. It symbolizes the mastery of using resources effectively to bridge spiritual ideas and physical realities."
 			]
 		},	
 		{
@@ -1409,7 +1409,7 @@
 			},
 			"entries": [
 				"{@i Mystery, Intuition, Inner Voice}",
-				"The High Priestess signifies deep intuition and the hidden aspects of the psyche. She encourages accessing one's inner wisdom to reveal insights beyond surface-level perceptions."
+				"{@link The High Priestess|https://en.wikipedia.org/wiki/The_High_Priestess} signifies deep intuition and the hidden aspects of the psyche. She encourages accessing one's inner wisdom to reveal insights beyond surface-level perceptions."
 			]
 		},
 		{
@@ -1430,7 +1430,7 @@
 			},
 			"entries": [
 				"{@i Fertility, Abundance, Nurturing}",
-				"The Empress symbolizes creativity, nurturing, and natural abundance. She represents a fertile and supportive environment necessary for growth and harmony."
+				"{@link The Empress|https://en.wikipedia.org/wiki/The_Empress_(tarot_card)} symbolizes creativity, nurturing, and natural abundance. She represents a fertile and supportive environment necessary for growth and harmony."
 			]
 		},
 		{
@@ -1451,7 +1451,7 @@
 			},
 			"entries": [
 				"{@i Authority, Structure, Control}",
-				"The Emperor embodies structured authority and stability, symbolizing the importance of discipline and strong leadership in achieving goals."
+				"{@link The Emperor|https://en.wikipedia.org/wiki/The_Emperor_(tarot_card)} embodies structured authority and stability, symbolizing the importance of discipline and strong leadership in achieving goals."
 			]
 		},
 		{
@@ -1472,7 +1472,7 @@
 			},
 			"entries": [
 				"{@i Tradition, Belief, Conformity}",
-				"The Hierophant represents structured traditions and collective beliefs, highlighting the guidance found in cultural wisdom and societal frameworks."
+				"{@link The Hierophant|https://en.wikipedia.org/wiki/The_Hierophant} represents structured traditions and collective beliefs, highlighting the guidance found in cultural wisdom and societal frameworks."
 			]
 		},
 		{
@@ -1493,7 +1493,7 @@
 			},
 			"entries": [
 				"{@i Love, Union, Choices}",
-				"The Lovers embody harmony in relationships and the importance of significant choices. The card emphasizes moral decisions and the deep connections formed through commitment."
+				"{@link The Lovers|https://en.wikipedia.org/wiki/The_Lovers} embody harmony in relationships and the importance of significant choices. The card emphasizes moral decisions and the deep connections formed through commitment."
 			]
 		},
 		{
@@ -1514,7 +1514,7 @@
 			},
 			"entries": [
 				"{@i Triumph, Determination, Control}",
-				"The Chariot signifies the victory achieved through determination and self-discipline. It reflects the power of focused will to overcome challenges."
+				"{@link The Chariot|https://en.wikipedia.org/wiki/The_Chariot_(tarot_card)} signifies the victory achieved through determination and self-discipline. It reflects the power of focused will to overcome challenges."
 			]
 		},
 		{
@@ -1535,7 +1535,7 @@
 			},
 			"entries": [
 				"{@i Courage, Patience, Inner Power}",
-				"Strength symbolizes inner resilience, compassionate courage, and the calm control of primal instincts. It demonstrates that true strength lies in gentle perseverance."
+				"{@link Strength|https://en.wikipedia.org/wiki/Strength_(tarot_card)} symbolizes inner resilience, compassionate courage, and the calm control of primal instincts. It demonstrates that true strength lies in gentle perseverance."
 			]
 		},
 		{
@@ -1556,7 +1556,7 @@
 			},
 			"entries": [
 				"{@i Solitude, Introspection, Wisdom}",
-				"The Hermit emphasizes seeking deeper wisdom through introspection and solitude. It advises withdrawing from external distractions to discover inner truths."
+				"{@link The Hermit|https://en.wikipedia.org/wiki/The_Hermit_(tarot_card)} emphasizes seeking deeper wisdom through introspection and solitude. It advises withdrawing from external distractions to discover inner truths."
 			]
 		},
 		{
@@ -1577,7 +1577,7 @@
 			},
 			"entries": [
 				"{@i Change, Destiny, Cycles}",
-				"The Wheel of Fortune highlights the cyclical nature of life, underscoring inevitable change and the interconnectedness of events. It suggests adaptability to life's unfolding patterns."
+				"The {@link Wheel of Fortune|https://en.wikipedia.org/wiki/Wheel_of_Fortune_(tarot_card)} highlights the cyclical nature of life, underscoring inevitable change and the interconnectedness of events. It suggests adaptability to life's unfolding patterns."
 			]
 		},
 		{
@@ -1598,7 +1598,7 @@
 			},
 			"entries": [
 				"{@i Truth, Fairness, Law}",
-				"Justice embodies fairness and balanced evaluation. It urges an impartial assessment of situations, ensuring actions are aligned with ethical standards."
+				"{@link Justice|https://en.wikipedia.org/wiki/Justice_(tarot_card)} embodies fairness and balanced evaluation. It urges an impartial assessment of situations, ensuring actions are aligned with ethical standards."
 			]
 		},
 		{
@@ -1619,7 +1619,7 @@
 			},
 			"entries": [
 				"{@i Sacrifice, Release, New Perspectives}",
-				"The Hanged Man represents the need for surrender and letting go to gain new insights. It highlights that clarity often comes from viewing situations from an entirely different perspective."
+				"{@link The Hanged Man|https://en.wikipedia.org/wiki/The_Hanged_Man_(tarot_card)} represents the need for surrender and letting go to gain new insights. It highlights that clarity often comes from viewing situations from an entirely different perspective."
 			]
 		},
 		{
@@ -1640,7 +1640,7 @@
 			},
 			"entries": [
 				"{@i Transformation, Endings, Rebirth}",
-				"Death signifies profound change and the necessary end of one phase to usher in renewal. It embodies transformation as a vital part of personal growth."
+				"{@link Death|https://en.wikipedia.org/wiki/Death_(tarot_card)} signifies profound change and the necessary end of one phase to usher in renewal. It embodies transformation as a vital part of personal growth."
 			]
 		},
 		{
@@ -1661,7 +1661,7 @@
 			},
 			"entries": [
 				"{@i Moderation, Balance, Harmony}",
-				"Temperance symbolizes harmony achieved through balance and moderation. It encourages patience and the blending of different elements to create equilibrium."
+				"{@link Temperance|https://en.wikipedia.org/wiki/Temperance_(tarot_card)} symbolizes harmony achieved through balance and moderation. It encourages patience and the blending of different elements to create equilibrium."
 			]
 		},
 		{
@@ -1682,7 +1682,7 @@
 			},
 			"entries": [
 				"{@i Bondage, Temptation, Materialism}",
-				"The Devil signifies the power of illusion, material attachment, and the seductive nature of temptation. It emphasizes recognizing unhealthy bonds and breaking free from self-imposed limitations."
+				"{@link The Devil|https://en.wikipedia.org/wiki/The_Devil_(tarot_card)} signifies the power of illusion, material attachment, and the seductive nature of temptation. It emphasizes recognizing unhealthy bonds and breaking free from self-imposed limitations."
 			  ]
 		},
 		{
@@ -1703,7 +1703,7 @@
 			},
 			"entries": [
 				"{@i Upheaval, Crisis, Revelation}",
-				"The Tower signifies sudden and unexpected events that strip away illusions, leaving reality starkly visible. It represents the challenging yet liberating moments when truth emerges, often through disruption."
+				"{@link The Tower|https://en.wikipedia.org/wiki/The_Tower_(tarot_card)} signifies sudden and unexpected events that strip away illusions, leaving reality starkly visible. It represents the challenging yet liberating moments when truth emerges, often through disruption."
 			  ]
 		},
 		{
@@ -1724,7 +1724,7 @@
 			},
 			"entries": [
 				"{@i Hope, Inspiration, Renewal}",
-				"The Star appears as a guiding light after turmoil, offering clarity and encouraging optimism for the future. It suggests a deep inner peace and the gentle reassurance that better times lie ahead."
+				"{@link The Star|https://en.wikipedia.org/wiki/The_Star_(tarot_card)} appears as a guiding light after turmoil, offering clarity and encouraging optimism for the future. It suggests a deep inner peace and the gentle reassurance that better times lie ahead."
 			  ]
 		},
 		{
@@ -1745,7 +1745,7 @@
 			},
 			"entries": [
 				"{@i Illusion, Intuition, Subconscious}",
-				"The Moon calls attention to the hidden layers of perception and the complexities of emotions. It advises trusting one's inner voice and intuition to navigate uncertainties and ambiguities."
+				"{@link The Moon|https://en.wikipedia.org/wiki/The_Moon_(tarot_card)} calls attention to the hidden layers of perception and the complexities of emotions. It advises trusting one's inner voice and intuition to navigate uncertainties and ambiguities."
 			  ]
 		},
 		{
@@ -1766,7 +1766,7 @@
 			},
 			"entries": [
 				"{@i Joy, Success, Vitality}",
-				"The Sun brings warmth, clarity, and an abundance of positive energy. It suggests that a period of growth, confidence, and prosperity is at hand, encouraging a joyful embrace of life's opportunities."
+				"{@link The Sun|https://en.wikipedia.org/wiki/The_Sun_(tarot_card)} brings warmth, clarity, and an abundance of positive energy. It suggests that a period of growth, confidence, and prosperity is at hand, encouraging a joyful embrace of life's opportunities."
 			  ]
 		},
 		{
@@ -1787,7 +1787,7 @@
 			},
 			"entries": [
 				"{@i Reflection, Reckoning, Rebirth}",
-				"Judgement emphasizes a moment of profound clarity and awakening, encouraging a sincere evaluation of one's past choices and actions. It heralds the potential for profound personal transformation."
+				"{@link Judgement|https://en.wikipedia.org/wiki/Judgement_(tarot_card)} emphasizes a moment of profound clarity and awakening, encouraging a sincere evaluation of one's past choices and actions. It heralds the potential for profound personal transformation."
 			  ]
 		},
 		{
@@ -1808,7 +1808,7 @@
 			},
 			"entries": [
 				"{@i Completion, Wholeness, Fulfillment}",
-				"The World marks the harmonious conclusion of a journey, symbolizing the integration of experiences into a balanced whole. It represents satisfaction, unity, and the realization of one's efforts and aspirations."
+				"{@link The World|https://en.wikipedia.org/wiki/The_World_(tarot_card)} marks the harmonious conclusion of a journey, symbolizing the integration of experiences into a balanced whole. It represents satisfaction, unity, and the realization of one's efforts and aspirations."
 			  ]
 		}
     ]
