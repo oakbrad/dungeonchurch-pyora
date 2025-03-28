@@ -5,7 +5,7 @@
 				"json": "DCRWT",
 				"abbreviation": "CHURCH",
 				"full": "Dungeon Church: Rider-Waite Tarot",
-				"version": "0.1",
+				"version": "0.9",
 				"url": "https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot",
 				"authors": [
 					"A.E. Waite","Pamela Colman Smith", "Wikipedia"
@@ -171,8 +171,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Inspiration, Creation, Energy}",
+				"The Ace of Wands symbolizes an initial burst of inspiration and the raw potential to create or initiate a new endeavor. It encourages embracing opportunities with enthusiasm and passion."
+			  ]
 		},
 		{
 			"name": "Two of Wands",
@@ -191,8 +192,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Planning, Decisions, Progress}",
+				"The Two of Wands represents thoughtful planning and careful decision-making about the future. It suggests evaluating one's ambitions and setting clear intentions to progress toward goals."
+			  ]
 		},
 		{
 			"name": "Three of Wands",
@@ -211,8 +213,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Expansion, Exploration, Foresight}",
+				"The Three of Wands indicates a time of growth and exploring broader horizons. It encourages anticipation and confidence as efforts begin to yield promising results."
+			  ]
 		},
 		{
 			"name": "Four of Wands",
@@ -231,8 +234,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Celebration, Harmony, Community}",
+				"The Four of Wands signifies celebration, joy, and communal harmony. It highlights enjoying milestones and fostering strong bonds within a supportive environment."
+			  ]
 		},
 		{
 			"name": "Five of Wands",
@@ -251,8 +255,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Competition, Conflict, Challenges}",
+				"The Five of Wands reflects a period of rivalry or minor conflicts that stimulate growth. It advises navigating these challenges constructively to foster personal improvement."
+			  ]
 		},
 		{
 			"name": "Six of Wands",
@@ -271,8 +276,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Victory, Recognition, Confidence}",
+				"The Six of Wands symbolizes triumph and public acknowledgment of one's achievements. It emphasizes confidence gained through success and recognition."
+			  ]
 		},
 		{
 			"name": "Seven of Wands",
@@ -291,8 +297,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Defense, Perseverance, Standing Ground}",
+				"The Seven of Wands highlights perseverance and the need to defend one's position or beliefs. It suggests maintaining resolve in the face of opposition."
+			  ]
 		},
 		{
 			"name": "Eight of Wands",
@@ -311,8 +318,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Action, Speed, Movement}",
+				"The Eight of Wands represents rapid movement, swift changes, or quick progress. It urges readiness to act decisively and embrace momentum when opportunities arise."
+			  ]
 		},
 		{
 			"name": "Nine of Wands",
@@ -331,8 +339,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Resilience, Endurance, Caution}",
+				"The Nine of Wands symbolizes endurance and resilience despite past struggles. It advises remaining cautious yet persistent, acknowledging strength gained from previous trials."
+			  ]
 		},
 		{
 			"name": "Ten of Wands",
@@ -351,8 +360,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Burden, Responsibility, Completion}",
+				"The Ten of Wands indicates heavy responsibilities or burdens nearing completion. It emphasizes recognizing one's limits and seeking balance to avoid burnout."
+			  ]
 		},
 		{
 			"name": "Page of Wands",
@@ -372,8 +382,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Exploration, Enthusiasm, Discovery}",
+				"The Page of Wands embodies youthful curiosity and enthusiasm for discovery. It suggests openness to new experiences and eagerness to pursue creative ideas."
+			  ]
 		},
 		{
 			"name": "Knight of Wands",
@@ -393,8 +404,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Adventure, Passion, Impulsivity}",
+				"The Knight of Wands represents an adventurous spirit driven by passion and impulsiveness. It encourages embracing new ventures with vigor but advises moderation to avoid recklessness."
+			  ]
 		},
 		{
 			"name": "Queen of Wands",
@@ -414,8 +426,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Confidence, Charisma, Determination}",
+				"The Queen of Wands embodies self-assuredness, charm, and unwavering determination. She represents strong leadership and the ability to inspire and uplift others."
+			  ]
 		},
 		{
 			"name": "King of Wands",
@@ -435,8 +448,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Leadership, Vision, Courage}",
+				"The King of Wands symbolizes visionary leadership, courage, and decisiveness. He encourages bold actions driven by clear vision and unwavering ambition."
+			  ]
 		},
         {
 			"name": "Ace of Cups",
@@ -456,8 +470,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Love, Emotion, Intuition}",
+				"The Ace of Cups symbolizes emotional renewal, deep connections, and new feelings. It suggests openness to emotional experiences and the potential for fulfilling relationships."
+			  ]
 		},
 		{
 			"name": "Two of Cups",
@@ -476,8 +491,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Partnership, Unity, Harmony}",
+				"The Two of Cups signifies mutual attraction and emotional unity. It emphasizes the importance of balanced partnerships and harmonious relationships built on mutual respect."
+			  ]
 		},
 		{
 			"name": "Three of Cups",
@@ -496,8 +512,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Celebration, Friendship, Community}",
+				"The Three of Cups highlights joyous celebrations and the supportive bond of friendships. It suggests sharing happiness with others and strengthening social connections."
+			  ]
 		},
 		{
 			"name": "Four of Cups",
@@ -516,8 +533,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Contemplation, Apathy, Reevaluation}",
+				"The Four of Cups represents introspection and reevaluating emotional satisfaction. It advises being mindful of apathy and appreciating existing opportunities."
+			  ]
 		},
 		{
 			"name": "Five of Cups",
@@ -536,8 +554,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Loss, Grief, Regret}",
+				"The Five of Cups symbolizes emotional setbacks and mourning loss. It advises acknowledging grief but also encourages seeing potential and hope in what remains."
+			  ]
 		},
 		{
 			"name": "Six of Cups",
@@ -556,8 +575,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Nostalgia, Innocence, Reunion}",
+				"The Six of Cups reflects nostalgic emotions and memories. It suggests reconnecting with the innocence of past experiences or reuniting with familiar comforts."
+			  ]
 		},
 		{
 			"name": "Seven of Cups",
@@ -576,8 +596,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Choices, Illusion, Imagination}",
+				"The Seven of Cups indicates multiple choices, imaginative possibilities, and potential illusions. It advises discernment in distinguishing between realistic goals and fanciful dreams."
+			  ]
 		},
 		{
 			"name": "Eight of Cups",
@@ -596,8 +617,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Withdrawal, Abandonment, Transition}",
+				"The Eight of Cups represents the emotional decision to move on from unfulfilling situations. It encourages seeking deeper meaning by leaving behind what no longer satisfies."
+			  ]
 		},
 		{
 			"name": "Nine of Cups",
@@ -616,8 +638,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Satisfaction, Wishes, Contentment}",
+				"The Nine of Cups signifies emotional fulfillment and satisfaction. It symbolizes achieving personal happiness and experiencing the joy of having one's wishes realized."
+			  ]
 		},
 		{
 			"name": "Ten of Cups",
@@ -636,8 +659,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Harmony, Family, Happiness}",
+				"The Ten of Cups embodies emotional harmony, happiness, and familial unity. It represents a period of peace and contentment shared with loved ones."
+			  ]
 		},
 		{
 			"name": "Page of Cups",
@@ -657,8 +681,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Curiosity, Creativity, Sensitivity}",
+				"The Page of Cups symbolizes youthful curiosity, creative exploration, and emotional sensitivity. It suggests being open to imaginative possibilities and intuitive insights."
+			  ]
 		},
 		{
 			"name": "Knight of Cups",
@@ -678,8 +703,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Romance, Idealism, Adventure}",
+				"The Knight of Cups embodies romantic pursuit, emotional idealism, and adventurous spirit. It encourages pursuing dreams and embracing emotional experiences openly and passionately."
+			  ]
 		},
 		{
 			"name": "Queen of Cups",
@@ -699,8 +725,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Compassion, Intuition, Empathy}",
+				"The Queen of Cups symbolizes deep emotional understanding, compassion, and empathy. She represents nurturing intuition and emotional guidance, creating harmonious connections."
+			  ]
 		},
 		{
 			"name": "King of Cups",
@@ -720,8 +747,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Emotional Balance, Diplomacy, Wisdom}",
+				"The King of Cups embodies emotional maturity, balance, and diplomatic wisdom. He encourages managing emotions wisely and guiding others with compassionate understanding."
+			  ]
 		},
 		{
 			"name": "Ace of Swords",
@@ -741,8 +769,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Clarity, Truth, Breakthrough}",
+				"The Ace of Swords symbolizes clear thinking and decisive breakthroughs. It highlights the power of intellect and encourages truthful communication."
+			  ]
 		},
 		{
 			"name": "Two of Swords",
@@ -761,8 +790,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Indecision, Balance, Stalemate}",
+				"The Two of Swords represents difficult decisions and internal conflict. It suggests the need to balance logic and emotions to move beyond a stalemate."
+			  ]
 		},
 		{
 			"name": "Three of Swords",
@@ -781,8 +811,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Heartbreak, Sorrow, Betrayal}",
+				"The Three of Swords signifies emotional pain and sorrow. It represents confronting harsh truths and encourages healing through acknowledgment of pain."
+			  ]
 		},
 		{
 			"name": "Four of Swords",
@@ -801,8 +832,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Rest, Recovery, Reflection}",
+				"The Four of Swords symbolizes rest and recuperation. It advises taking time for recovery and deep reflection after periods of stress or conflict."
+			  ]
 		},
 		{
 			"name": "Five of Swords",
@@ -821,8 +853,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Conflict, Defeat, Self-interest}",
+				"The Five of Swords reflects conflict and difficult victories. It cautions against actions driven by self-interest that may harm relationships or integrity."
+			  ]
 		},
 		{
 			"name": "Six of Swords",
@@ -841,8 +874,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Transition, Release, Moving On}",
+				"The Six of Swords represents moving away from difficulties toward calmer conditions. It encourages embracing transitions and leaving behind past hardships."
+			  ]
 		},
 		{
 			"name": "Seven of Swords",
@@ -861,8 +895,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Deception, Strategy, Resourcefulness}",
+				"The Seven of Swords symbolizes clever strategy or deception. It advises caution and awareness, highlighting the importance of integrity despite temptations."
+			  ]
 		},
 		{
 			"name": "Eight of Swords",
@@ -881,8 +916,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Restriction, Imprisonment, Powerlessness}",
+				"The Eight of Swords represents feelings of restriction or helplessness. It emphasizes recognizing self-imposed limitations and finding ways to regain personal freedom."
+			  ]
 		},
 		{
 			"name": "Nine of Swords",
@@ -901,8 +937,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Anxiety, Fear, Worry}",
+				"The Nine of Swords signifies intense anxiety and fear. It advises confronting inner worries directly to overcome their influence and regain emotional stability."
+			  ]
 		},
 		{
 			"name": "Ten of Swords",
@@ -921,8 +958,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Endings, Defeat, Renewal}",
+				"The Ten of Swords symbolizes a painful but definitive ending. It highlights the necessity of accepting closure to facilitate renewal and recovery."
+			  ]
 		},
 		{
 			"name": "Page of Swords",
@@ -942,8 +980,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Curiosity, Alertness, Communication}",
+				"The Page of Swords embodies youthful curiosity, alertness, and clear communication. It encourages asking questions and gathering information to build understanding."
+			  ]
 		},
 		{
 			"name": "Knight of Swords",
@@ -963,8 +1002,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Action, Ambition, Determination}",
+				"The Knight of Swords represents bold action and strong ambition. It emphasizes determination in pursuing goals but cautions against impulsive decisions."
+			  ]
 		},
 		{
 			"name": "Queen of Swords",
@@ -984,8 +1024,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Perception, Independence, Clarity}",
+				"The Queen of Swords symbolizes keen perception, independent thinking, and clear communication. She encourages approaching situations with honesty and rational clarity."
+			  ]
 		},
 		{
 			"name": "King of Swords",
@@ -1005,8 +1046,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Authority, Truth, Intellectual Power}",
+				"The King of Swords embodies intellectual strength, authoritative clarity, and ethical judgment. He advises using reason and fairness when making decisions."
+			  ]
 		},
 		{
 			"name": "Ace of Pentacles",
@@ -1026,8 +1068,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Opportunity, Prosperity, New Ventures}",
+				"The Ace of Pentacles symbolizes promising opportunities and material prosperity. It suggests the potential for new ventures that can lead to abundance."
+			  ]
 		},
 		{
 			"name": "Two of Pentacles",
@@ -1046,8 +1089,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Balance, Adaptability, Management}",
+				"The Two of Pentacles represents managing multiple priorities and maintaining balance. It advises flexibility and adaptability when handling responsibilities."
+			  ]
 		},
 		{
 			"name": "Three of Pentacles",
@@ -1066,8 +1110,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Teamwork, Collaboration, Skill}",
+				"The Three of Pentacles emphasizes collaboration and teamwork. It symbolizes the importance of collective effort and skillful contribution towards a common goal."
+			  ]
 		},
 		{
 			"name": "Four of Pentacles",
@@ -1086,8 +1131,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Security, Conservatism, Control}",
+				"The Four of Pentacles signifies a focus on security and financial stability. It advises moderation, warning against excessive control or fear of loss."
+			  ]
 		},
 		{
 			"name": "Five of Pentacles",
@@ -1106,8 +1152,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Hardship, Loss, Isolation}",
+				"The Five of Pentacles symbolizes experiencing hardship or financial difficulty. It encourages seeking support and recognizing opportunities for relief."
+			  ]
 		},
 		{
 			"name": "Six of Pentacles",
@@ -1126,8 +1173,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Generosity, Charity, Reciprocity}",
+				"The Six of Pentacles highlights generosity and mutual assistance. It represents both giving and receiving support in balanced and fair exchanges."
+			  ]
 		},
 		{
 			"name": "Seven of Pentacles",
@@ -1146,8 +1194,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Assessment, Patience, Reward}",
+				"The Seven of Pentacles represents assessing progress and patiently awaiting rewards. It advises reflecting on efforts and adjusting plans for future growth."
+			  ]
 		},
 		{
 			"name": "Eight of Pentacles",
@@ -1166,8 +1215,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Mastery, Diligence, Dedication}",
+				"The Eight of Pentacles symbolizes diligent effort and mastery of skills. It encourages dedication to one's craft and continual improvement."
+			  ]
 		},
 		{
 			"name": "Nine of Pentacles",
@@ -1186,8 +1236,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Independence, Luxury, Achievement}",
+				"The Nine of Pentacles signifies independence, comfort, and material success. It represents personal achievement and the enjoyment of life's finer things."
+			  ]
 		},
 		{
 			"name": "Ten of Pentacles",
@@ -1206,8 +1257,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Legacy, Wealth, Family}",
+				"The Ten of Pentacles symbolizes lasting wealth, family legacy, and stability. It highlights the importance of security and continuity across generations."
+			  ]
 		},
 		{
 			"name": "Page of Pentacles",
@@ -1227,8 +1279,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Ambition, Learning, Practicality}",
+				"The Page of Pentacles represents ambition, practicality, and a desire for learning. It encourages pursuing knowledge and new skills with a grounded approach."
+			  ]
 		},
 		{
 			"name": "Knight of Pentacles",
@@ -1248,8 +1301,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Reliability, Patience, Efficiency}",
+				"The Knight of Pentacles symbolizes reliability and careful planning. It emphasizes steady, patient effort and methodical approaches to achieving goals."
+			  ]
 		},
 		{
 			"name": "Queen of Pentacles",
@@ -1269,8 +1323,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Nurturing, Practicality, Abundance}",
+				"The Queen of Pentacles embodies nurturing, practicality, and material comfort. She symbolizes a balanced approach to managing resources and supporting others."
+			  ]
 		},
 		{
 			"name": "King of Pentacles",
@@ -1290,14 +1345,15 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Prosperity, Security, Leadership}",
+				"The King of Pentacles represents prosperity, security, and effective leadership. He symbolizes mastery in creating and maintaining wealth and stability."
+			  ]
 		},
 		{
 			"name": "The Fool",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 0,
 			"face": {
 				"type": "image",
@@ -1318,7 +1374,7 @@
 			"name": "The Magician",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 1,
 			"face": {
 				"type": "image",
@@ -1339,7 +1395,7 @@
 			"name": "The High Priestess",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 2,
 			"face": {
 				"type": "image",
@@ -1360,7 +1416,7 @@
 			"name": "The Empress",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 3,
 			"face": {
 				"type": "image",
@@ -1381,7 +1437,7 @@
 			"name": "The Emperor",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 4,
 			"face": {
 				"type": "image",
@@ -1402,7 +1458,7 @@
 			"name": "The Hierophant",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 5,
 			"face": {
 				"type": "image",
@@ -1423,7 +1479,7 @@
 			"name": "The Lovers",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 6,
 			"face": {
 				"type": "image",
@@ -1444,7 +1500,7 @@
 			"name": "The Chariot",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 7,
 			"face": {
 				"type": "image",
@@ -1465,7 +1521,7 @@
 			"name": "Strength",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 8,
 			"face": {
 				"type": "image",
@@ -1486,7 +1542,7 @@
 			"name": "The Hermit",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 9,
 			"face": {
 				"type": "image",
@@ -1507,7 +1563,7 @@
 			"name": "Wheel of Fortune",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 10,
 			"face": {
 				"type": "image",
@@ -1528,7 +1584,7 @@
 			"name": "Justice",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 11,
 			"face": {
 				"type": "image",
@@ -1549,7 +1605,7 @@
 			"name": "The Hanged Man",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 12,
 			"face": {
 				"type": "image",
@@ -1570,7 +1626,7 @@
 			"name": "Death",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 13,
 			"face": {
 				"type": "image",
@@ -1591,7 +1647,7 @@
 			"name": "Temperance",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 14,
 			"face": {
 				"type": "image",
@@ -1612,7 +1668,7 @@
 			"name": "The Devil",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 15,
 			"face": {
 				"type": "image",
@@ -1633,7 +1689,7 @@
 			"name": "The Tower",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 16,
 			"face": {
 				"type": "image",
@@ -1654,7 +1710,7 @@
 			"name": "The Star",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 17,
 			"face": {
 				"type": "image",
@@ -1675,7 +1731,7 @@
 			"name": "The Moon",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 18,
 			"face": {
 				"type": "image",
@@ -1696,7 +1752,7 @@
 			"name": "The Sun",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 19,
 			"face": {
 				"type": "image",
@@ -1717,7 +1773,7 @@
 			"name": "Judgement",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 20,
 			"face": {
 				"type": "image",
@@ -1738,7 +1794,7 @@
 			"name": "The World",
 			"source": "DCRWT",
 			"set": "Rider-Waite Tarot",
-			"suit": "Major",
+			"suit": "Major Arcana",
 			"value": 21,
 			"face": {
 				"type": "image",
