@@ -119,9 +119,35 @@
                 {
                     "type": "section",
                     "entries": [
-                        "Deck description."
+                        "The {@link Rider-Waite Tarot|https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot} is a widely popular deck for tarot card reading, first published by {@link William Rider & Son|https://en.wikipedia.org/wiki/Rider_(imprint)} in 1909, based on the instructions of academic and mystic {@link A. E. Waite|https://en.wikipedia.org/wiki/A._E._Waite} and illustrated by {@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}, both members of the {@link Hermetic Order of the Golden Dawn|https://en.wikipedia.org/wiki/Hermetic_Order_of_the_Golden_Dawn}. Also known as the Waite-Smith, Rider-Waite-Smith, or Rider Tarot, the deck has been published in numerous editions and inspired a wide array of variants and imitations. Estimates suggest over 100 million copies of the deck circulate across over 20 countries."
                     ]
-                }
+                },
+				{
+					"type": "section",
+					"name": "Overview",
+					"entries": [
+						"The Rider-Waite tarot deck has 78 cards: 56 {@link Minor Arcana|https://en.wikipedia.org/wiki/Minor_Arcana}, and 22 {@link Major Arcana|https://en.wikipedia.org/wiki/Major_Arcana}. The Minor Arcana generally correspond to the suits of {@link Spanish|https://en.wikipedia.org/wiki/Spanish-suited_playing_cards} or {@link Italian playing cards|https://en.wikipedia.org/wiki/Italian_playing_cards}. The Major Arcana, corresponding to the {@link trump cards|https://en.wikipedia.org/wiki/Trump_(card_games)} of gaming tarot, have unique designs numbered from 0 ({@link The Fool|https://en.wikipedia.org/wiki/The_Fool_(tarot_card)}) to 21 ({@link The World|https://en.wikipedia.org/wiki/The_World_(tarot_card)}).",
+						"While the images are simple, the details and backgrounds feature abundant symbolism. Some imagery remains similar to that found in earlier decks, but overall the Waite-Smith card designs are substantially different from their predecessors. Christian imagery was removed from some cards, and added to others. For example, the 'Papess' became the 'High Priestess' and no longer features a Papal tiara. The 'Lovers' card, previously depicting a medieval scene of a clothed man and woman receiving a blessing from a noble or cleric was changed to a depiction of the naked {@link Adam and Eve|https://en.wikipedia.org/wiki/Adam_and_Eve} in the {@link Garden of Eden|https://en.wikipedia.org/wiki/Garden_of_Eden}, and the ace of cups featuring a dove carrying {@link Sacramental bread|https://en.wikipedia.org/wiki/Sacramental_bread}. The Minor Arcana are illustrated with allegorical scenes by Smith, where earlier decks, with a few rare exceptions, had simple designs for the Minor Arcana.",
+						"The symbols and imagery used in the deck were influenced by the 19th-century magician and occultist {@link Eliphas Levi|https://en.wikipedia.org/wiki/Eliphas_Levi}, as well as by the teachings of the {@link Hermetic Order of the Golden Dawn|https://en.wikipedia.org/wiki/Hermetic_Order_of_the_Golden_Dawn}. In order to accommodate the {@link astrological|https://en.wikipedia.org/wiki/Astrology} correspondences taught by the Golden Dawn, Waite introduced several innovations to the deck. He switched the order of the Strength and Justice cards so that Strength corresponded with {@link Leo|https://en.wikipedia.org/wiki/Leo_(astrology)} and Justice corresponded with {@link Libra|https://en.wikipedia.org/wiki/Libra_(astrology)}. He based '{@link the Lovers|https://en.wikipedia.org/wiki/The_Lovers}' card on Italian tarot decks, which have two persons and an angel, to reinforce its correspondence with {@link Gemini|https://en.wikipedia.org/wiki/Gemini_(astrology)}."
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Major Arcana",
+					"entries": [
+						"The Major Arcana are the named cards in a {@link cartomantic tarot pack|https://en.wikipedia.org/wiki/Tarot#Cartomancy}. There are usually 22 such cards in a standard 78-card pack, typically numbered from 0 to 21 (or 1 to 21, with the Fool being left unnumbered). Although the cards correspond to the {@link trump cards|https://en.wikipedia.org/wiki/Tarot_card_game} of a pack used for playing tarot card game, the term 'Major Arcana' is rarely used by players and is typically associated exclusively with use for {@link divination|https://en.wikipedia.org/wiki/Divination} by {@link occultists|https://en.wikipedia.org/wiki/Occultist}."
+					]
+				},
+				{
+					"type": "section",
+					"name": "The Minor Arcana",
+					"entries": [
+						"The Minor Arcana, sometimes known as the Lesser Arcana, are the {@link suit cards|https://en.wikipedia.org/wiki/Suit_(cards)} in a {@link cartomantic tarot deck|https://en.wikipedia.org/wiki/Cartomancy}.",
+						"Cartomantic tarot cards emerged in France in the late 18th century, popularised by occultists such as {@link Etteilla|https://en.wikipedia.org/wiki/Etteilla}. The terms Major and Minor Arcana originate with {@link Jean-Baptiste Pitois|https://en.wikipedia.org/wiki/Jean-Baptiste_Pitois} (1811-1877), {@link nom de plume|https://en.wikipedia.org/wiki/Nom_de_plume} Paul Christian.",
+						"In their contemporary versions, the Minor Arcana are often illustrated—a convention popularized by the Rider-Waite tarot in 1910. Used in a tarot card reading in conjunction with the Major Arcana, the cards of the Minor Arcana suggest subtleties and details, and signify day-to-day insights."
+					]
+				},
+				"{@i Text from {@link Wikipedia|https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot}}"
             ],
 			"hasCardArt": true
         }
