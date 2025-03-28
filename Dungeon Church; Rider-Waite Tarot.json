@@ -8,7 +8,7 @@
 				"version": "0.1",
 				"url": "https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot",
 				"authors": [
-					"A.E. Waite","Pamela Colman Smith"
+					"A.E. Waite","Pamela Colman Smith", "Wikipedia"
 				],
 				"convertedBy": [
 					"Brad Wenner, Dungeon Church"
@@ -47,7 +47,7 @@
 				"The Moon|Rider-Waite Tarot|DCRWT",
 				"The Sun|Rider-Waite Tarot|DCRWT",
 				"Judgement|Rider-Waite Tarot|DCRWT",
-                "The World|Rider-Waite Tarot|DCRWT",
+            	"The World|Rider-Waite Tarot|DCRWT",
 				"Ace of Wands|Rider-Waite Tarot|DCRWT",
 				"Two of Wands|Rider-Waite Tarot|DCRWT",
 				"Three of Wands|Rider-Waite Tarot|DCRWT",
@@ -591,7 +591,7 @@
 				"height": 1112,
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-7.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-8.jpg"
 				},
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
@@ -611,7 +611,7 @@
 				"height": 1112,
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-8.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-9.jpg"
 				},
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
