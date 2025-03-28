@@ -1310,7 +1310,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Folly, Freedom, Potential}",
+				"The Fool embodies pure potential, stepping forward with innocence and openness. It highlights the unlimited possibilities and the adventurous spirit that explores beyond the known."
 			]
 		},
 		{
@@ -1330,9 +1331,10 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Skill, Manifestation, Willpower}",
+				"The Magician represents focused intention and the power to manifest one's desires. It symbolizes the mastery of using resources effectively to bridge spiritual ideas and physical realities."
 			]
-		},
+		},	
 		{
 			"name": "The High Priestess",
 			"source": "DCRWT",
@@ -1350,7 +1352,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Mystery, Intuition, Inner Voice}",
+				"The High Priestess signifies deep intuition and the hidden aspects of the psyche. She encourages accessing one's inner wisdom to reveal insights beyond surface-level perceptions."
 			]
 		},
 		{
@@ -1370,7 +1373,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Fertility, Abundance, Nurturing}",
+				"The Empress symbolizes creativity, nurturing, and natural abundance. She represents a fertile and supportive environment necessary for growth and harmony."
 			]
 		},
 		{
@@ -1390,7 +1394,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Authority, Structure, Control}",
+				"The Emperor embodies structured authority and stability, symbolizing the importance of discipline and strong leadership in achieving goals."
 			]
 		},
 		{
@@ -1410,7 +1415,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Tradition, Belief, Conformity}",
+				"The Hierophant represents structured traditions and collective beliefs, highlighting the guidance found in cultural wisdom and societal frameworks."
 			]
 		},
 		{
@@ -1430,7 +1436,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Love, Union, Choices}",
+				"The Lovers embody harmony in relationships and the importance of significant choices. The card emphasizes moral decisions and the deep connections formed through commitment."
 			]
 		},
 		{
@@ -1450,7 +1457,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Triumph, Determination, Control}",
+				"The Chariot signifies the victory achieved through determination and self-discipline. It reflects the power of focused will to overcome challenges."
 			]
 		},
 		{
@@ -1470,7 +1478,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Courage, Patience, Inner Power}",
+				"Strength symbolizes inner resilience, compassionate courage, and the calm control of primal instincts. It demonstrates that true strength lies in gentle perseverance."
 			]
 		},
 		{
@@ -1490,7 +1499,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Solitude, Introspection, Wisdom}",
+				"The Hermit emphasizes seeking deeper wisdom through introspection and solitude. It advises withdrawing from external distractions to discover inner truths."
 			]
 		},
 		{
@@ -1510,7 +1520,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Change, Destiny, Cycles}",
+				"The Wheel of Fortune highlights the cyclical nature of life, underscoring inevitable change and the interconnectedness of events. It suggests adaptability to life's unfolding patterns."
 			]
 		},
 		{
@@ -1530,7 +1541,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Truth, Fairness, Law}",
+				"Justice embodies fairness and balanced evaluation. It urges an impartial assessment of situations, ensuring actions are aligned with ethical standards."
 			]
 		},
 		{
@@ -1550,7 +1562,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Sacrifice, Release, New Perspectives}",
+				"The Hanged Man represents the need for surrender and letting go to gain new insights. It highlights that clarity often comes from viewing situations from an entirely different perspective."
 			]
 		},
 		{
@@ -1570,7 +1583,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Transformation, Endings, Rebirth}",
+				"Death signifies profound change and the necessary end of one phase to usher in renewal. It embodies transformation as a vital part of personal growth."
 			]
 		},
 		{
@@ -1590,7 +1604,8 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
+				"{@i Moderation, Balance, Harmony}",
+				"Temperance symbolizes harmony achieved through balance and moderation. It encourages patience and the blending of different elements to create equilibrium."
 			]
 		},
 		{
@@ -1610,8 +1625,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Bondage, Temptation, Materialism}",
+				"The Devil signifies the power of illusion, material attachment, and the seductive nature of temptation. It emphasizes recognizing unhealthy bonds and breaking free from self-imposed limitations."
+			  ]
 		},
 		{
 			"name": "The Tower",
@@ -1630,8 +1646,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Upheaval, Crisis, Revelation}",
+				"The Tower signifies sudden and unexpected events that strip away illusions, leaving reality starkly visible. It represents the challenging yet liberating moments when truth emerges, often through disruption."
+			  ]
 		},
 		{
 			"name": "The Star",
@@ -1650,8 +1667,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Hope, Inspiration, Renewal}",
+				"The Star appears as a guiding light after turmoil, offering clarity and encouraging optimism for the future. It suggests a deep inner peace and the gentle reassurance that better times lie ahead."
+			  ]
 		},
 		{
 			"name": "The Moon",
@@ -1670,8 +1688,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Illusion, Intuition, Subconscious}",
+				"The Moon calls attention to the hidden layers of perception and the complexities of emotions. It advises trusting one's inner voice and intuition to navigate uncertainties and ambiguities."
+			  ]
 		},
 		{
 			"name": "The Sun",
@@ -1690,8 +1709,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Joy, Success, Vitality}",
+				"The Sun brings warmth, clarity, and an abundance of positive energy. It suggests that a period of growth, confidence, and prosperity is at hand, encouraging a joyful embrace of life's opportunities."
+			  ]
 		},
 		{
 			"name": "Judgement",
@@ -1710,8 +1730,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Reflection, Reckoning, Rebirth}",
+				"Judgement emphasizes a moment of profound clarity and awakening, encouraging a sincere evaluation of one's past choices and actions. It heralds the potential for profound personal transformation."
+			  ]
 		},
 		{
 			"name": "The World",
@@ -1730,8 +1751,9 @@
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
 			"entries": [
-				"Card description"
-			]
+				"{@i Completion, Wholeness, Fulfillment}",
+				"The World marks the harmonious conclusion of a journey, symbolizing the integration of experiences into a balanced whole. It represents satisfaction, unity, and the realization of one's efforts and aspirations."
+			  ]
 		}
     ]
 }
