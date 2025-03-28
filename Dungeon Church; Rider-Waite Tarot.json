@@ -27,7 +27,61 @@
             "source": "DCRWT",
             "cards": [
                 "Ace of Cups|Rider-Waite Tarot|DCRWT",
-				"Two of Cups|Rider-Waite Tarot|DCRWT"
+				"Two of Cups|Rider-Waite Tarot|DCRWT",
+				"Three of Cups|Rider-Waite Tarot|DCRWT",
+				"Four of Cups|Rider-Waite Tarot|DCRWT",
+				"Five of Cups|Rider-Waite Tarot|DCRWT",
+				"Six of Cups|Rider-Waite Tarot|DCRWT",
+				"Seven of Cups|Rider-Waite Tarot|DCRWT",
+				"Eight of Cups|Rider-Waite Tarot|DCRWT",
+				"Nine of Cups|Rider-Waite Tarot|DCRWT",
+				"Ten of Cups|Rider-Waite Tarot|DCRWT",
+				"Page of Cups|Rider-Waite Tarot|DCRWT",
+				"Knight of Cups|Rider-Waite Tarot|DCRWT",
+				"Queen of Cups|Rider-Waite Tarot|DCRWT",
+				"King of Cups|Rider-Waite Tarot|DCRWT",
+				"Ace of Swords|Rider-Waite Tarot|DCRWT",
+				"Two of Swords|Rider-Waite Tarot|DCRWT",
+				"Three of Swords|Rider-Waite Tarot|DCRWT",
+				"Four of Swords|Rider-Waite Tarot|DCRWT",
+				"Five of Swords|Rider-Waite Tarot|DCRWT",
+				"Six of Swords|Rider-Waite Tarot|DCRWT",
+				"Seven of Swords|Rider-Waite Tarot|DCRWT",
+				"Eight of Swords|Rider-Waite Tarot|DCRWT",
+				"Nine of Swords|Rider-Waite Tarot|DCRWT",
+				"Ten of Swords|Rider-Waite Tarot|DCRWT",
+				"Page of Swords|Rider-Waite Tarot|DCRWT",
+				"Knight of Swords|Rider-Waite Tarot|DCRWT",
+				"Queen of Swords|Rider-Waite Tarot|DCRWT",
+				"King of Swords|Rider-Waite Tarot|DCRWT",
+				"Ace of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Two of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Three of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Four of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Five of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Six of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Seven of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Eight of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Nine of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Ten of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Page of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Knight of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Queen of Pentacles|Rider-Waite Tarot|DCRWT",
+				"King of Pentacles|Rider-Waite Tarot|DCRWT",
+				"Ace of Wands|Rider-Waite Tarot|DCRWT",
+				"Two of Wands|Rider-Waite Tarot|DCRWT",
+				"Three of Wands|Rider-Waite Tarot|DCRWT",
+				"Four of Wands|Rider-Waite Tarot|DCRWT",
+				"Five of Wands|Rider-Waite Tarot|DCRWT",
+				"Six of Wands|Rider-Waite Tarot|DCRWT",
+				"Seven of Wands|Rider-Waite Tarot|DCRWT",
+				"Eight of Wands|Rider-Waite Tarot|DCRWT",
+				"Nine of Wands|Rider-Waite Tarot|DCRWT",
+				"Ten of Wands|Rider-Waite Tarot|DCRWT",
+				"Page of Wands|Rider-Waite Tarot|DCRWT",
+				"Knight of Wands|Rider-Waite Tarot|DCRWT",
+				"Queen of Wands|Rider-Waite Tarot|DCRWT",
+				"King of Wands|Rider-Waite Tarot|DCRWT"
             ],
             "back": {
                 "type": "image",
@@ -35,7 +89,7 @@
                 "height": 0,
                 "href": {
                     "type": "external",
-                    "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Back.jpg"
+                    "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-back.jpg"
                 },
                 "altText": "alt"
             },
@@ -64,7 +118,7 @@
 				"height": 1112,
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Cups1.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-1.jpg"
 				},
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
@@ -84,7 +138,1106 @@
 				"height": 1112,
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Cups2.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-2.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Three of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 3,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-3.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Four of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 4,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-4.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Five of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 5,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-5.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Six of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 6,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-6.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Seven of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 7,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Eight of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 8,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Nine of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 9,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-8.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ten of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 10,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-10.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Page of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 11,
+			"valueName": "page",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-page.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Knight of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 12,
+			"valueName": "knight",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-knight.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Queen of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 13,
+			"valueName": "queen",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-queen.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "King of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 14,
+			"valueName": "king",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-cups-king.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ace of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 1,
+			"valueName": "ace",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-1.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Two of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 2,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-2.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Three of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 3,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-3.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Four of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 4,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-4.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Five of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 5,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-5.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Six of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 6,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-6.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Seven of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 7,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Eight of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 8,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Nine of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 9,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-8.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ten of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 10,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-10.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Page of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 11,
+			"valueName": "page",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-page.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Knight of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 12,
+			"valueName": "knight",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-knight.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Queen of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 13,
+			"valueName": "queen",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-queen.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "King of Swords",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Swords",
+			"value": 14,
+			"valueName": "king",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-swords-king.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ace of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 1,
+			"valueName": "ace",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-1.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Two of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 2,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-2.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Three of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 3,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-3.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Four of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 4,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-4.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Five of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 5,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-5.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Six of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 6,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-6.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Seven of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 7,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Eight of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 8,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Nine of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 9,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-8.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ten of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 10,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-10.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Page of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 11,
+			"valueName": "page",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-page.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Knight of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 12,
+			"valueName": "knight",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-knight.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Queen of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 13,
+			"valueName": "queen",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-queen.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "King of Pentacles",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Pentacles",
+			"value": 14,
+			"valueName": "king",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-king.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ace of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 1,
+			"valueName": "ace",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-1.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Two of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 2,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-2.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Three of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 3,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-3.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Four of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 4,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-4.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Five of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 5,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-5.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Six of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 6,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-6.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Seven of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 7,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Eight of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 8,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-7.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Nine of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 9,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-8.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Ten of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 10,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-10.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Page of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 11,
+			"valueName": "page",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-page.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Knight of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 12,
+			"valueName": "knight",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-knight.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Queen of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 13,
+			"valueName": "queen",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-queen.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "King of Wands",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Wands",
+			"value": 14,
+			"valueName": "king",
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/tarot-pentacles-king.jpg"
 				},
 				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
 			},
