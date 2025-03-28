@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "DungeonChurch",
+				"json": "DCRWT",
 				"abbreviation": "CHURCH",
-				"full": "Dungeon Church",
+				"full": "Dungeon Church: Rider-Waite Tarot",
 				"version": "0.1",
 				"url": "https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot",
 				"authors": [
@@ -13,19 +13,21 @@
 				"convertedBy": [
 					"Brad Wenner, Dungeon Church"
 				],
-				"color": "a90001",
+				"color": "ff2600",
                 "dateReleased": "1909-01-01"
 			}
 		],
+		"edition": "classic",
 		"dateAdded": 0,
 		"dateLastModified": 0
 	},
     "deck": [
         {
             "name": "Rider-Waite Tarot",
-            "source": "CHURCH",
+            "source": "DCRWT",
             "cards": [
-                "Ace of Cups|Rider-Waite Tarot|CHURCH"
+                "Ace of Cups|Rider-Waite Tarot|DCRWT",
+				"Two of Cups|Rider-Waite Tarot|DCRWT"
             ],
             "back": {
                 "type": "image",
@@ -33,7 +35,7 @@
                 "height": 0,
                 "href": {
                     "type": "external",
-                    "url": "https://url"
+                    "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Back.jpg"
                 },
                 "altText": "alt"
             },
@@ -44,27 +46,51 @@
                         "Deck description."
                     ]
                 }
-            ]
+            ],
+			"hasCardArt": true
         }
     ],
     "card": [
         {
 			"name": "Ace of Cups",
-			"source": "DungeonChurch",
-			"set": "Corrupted Tarot",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
 			"suit": "Cups",
 			"value": 1,
 			"valueName": "ace",
 			"face": {
 				"type": "image",
-				"width": 608,
-				"height": 1024,
+				"width": 1920,
+				"height": 1112,
 				"href": {
 					"type": "external",
-					"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/WWCT/Ace-of-Cups.jpg"
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Cups1.jpg"
 				},
-				"credit": "{@link Nataša Ilinčić|https://natasailincic.com/}"
-			}
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
+		},
+		{
+			"name": "Two of Cups",
+			"source": "DCRWT",
+			"set": "Rider-Waite Tarot",
+			"suit": "Cups",
+			"value": 2,
+			"face": {
+				"type": "image",
+				"width": 1920,
+				"height": 1112,
+				"href": {
+					"type": "external",
+					"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tarot/Cups2.jpg"
+				},
+				"credit": "{@link Pamela Colman Smith|https://en.wikipedia.org/wiki/Pamela_Colman_Smith}"
+			},
+			"entries": [
+				"Card description"
+			]
 		}
     ]
 }
