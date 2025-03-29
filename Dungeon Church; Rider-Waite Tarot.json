@@ -4,14 +4,14 @@
 			{
 				"json": "DCRWT",
 				"abbreviation": "CHURCH",
-				"full": "Dungeon Church: Rider-Waite Tarot",
+				"full": "Dungeon Church: Rider-Waite Tarot Deck",
 				"version": "0.9",
-				"url": "https://en.wikipedia.org/wiki/Rider%E2%80%93Waite_Tarot",
+				"url": "https://dungeon.church/rider-waite-tarot-deck-for-5etools",
 				"authors": [
-					"A.E. Waite","Pamela Colman Smith", "Wikipedia"
+					"A.E. Waite","Pamela Colman Smith"
 				],
 				"convertedBy": [
-					"Brad Wenner, Dungeon Church"
+					"Dungeon Church"
 				],
 				"color": "ff2600",
                 "dateReleased": "1909-01-01"
@@ -23,87 +23,87 @@
 	},
     "deck": [
         {
-            "name": "Rider-Waite Tarot",
+            "name": "Rider-Waite Tarot Deck",
             "source": "DCRWT",
             "cards": [
-				"The Fool|Rider-Waite Tarot|DCRWT",
-				"The Magician|Rider-Waite Tarot|DCRWT",
-				"The High Priestess|Rider-Waite Tarot|DCRWT",
-				"The Empress|Rider-Waite Tarot|DCRWT",
-				"The Emperor|Rider-Waite Tarot|DCRWT",
-				"The Hierophant|Rider-Waite Tarot|DCRWT",
-				"The Lovers|Rider-Waite Tarot|DCRWT",
-				"The Chariot|Rider-Waite Tarot|DCRWT",
-				"Strength|Rider-Waite Tarot|DCRWT",
-				"The Hermit|Rider-Waite Tarot|DCRWT",
-				"Wheel of Fortune|Rider-Waite Tarot|DCRWT",
-				"Justice|Rider-Waite Tarot|DCRWT",
-				"The Hanged Man|Rider-Waite Tarot|DCRWT",
-				"Death|Rider-Waite Tarot|DCRWT",
-				"Temperance|Rider-Waite Tarot|DCRWT",
-				"The Devil|Rider-Waite Tarot|DCRWT",
-				"The Tower|Rider-Waite Tarot|DCRWT",
-				"The Star|Rider-Waite Tarot|DCRWT",
-				"The Moon|Rider-Waite Tarot|DCRWT",
-				"The Sun|Rider-Waite Tarot|DCRWT",
-				"Judgement|Rider-Waite Tarot|DCRWT",
-            	"The World|Rider-Waite Tarot|DCRWT",
-				"Ace of Wands|Rider-Waite Tarot|DCRWT",
-				"Two of Wands|Rider-Waite Tarot|DCRWT",
-				"Three of Wands|Rider-Waite Tarot|DCRWT",
-				"Four of Wands|Rider-Waite Tarot|DCRWT",
-				"Five of Wands|Rider-Waite Tarot|DCRWT",
-				"Six of Wands|Rider-Waite Tarot|DCRWT",
-				"Seven of Wands|Rider-Waite Tarot|DCRWT",
-				"Eight of Wands|Rider-Waite Tarot|DCRWT",
-				"Nine of Wands|Rider-Waite Tarot|DCRWT",
-				"Ten of Wands|Rider-Waite Tarot|DCRWT",
-				"Page of Wands|Rider-Waite Tarot|DCRWT",
-				"Knight of Wands|Rider-Waite Tarot|DCRWT",
-				"Queen of Wands|Rider-Waite Tarot|DCRWT",
-				"King of Wands|Rider-Waite Tarot|DCRWT",
-				"Ace of Cups|Rider-Waite Tarot|DCRWT",
-				"Two of Cups|Rider-Waite Tarot|DCRWT",
-				"Three of Cups|Rider-Waite Tarot|DCRWT",
-				"Four of Cups|Rider-Waite Tarot|DCRWT",
-				"Five of Cups|Rider-Waite Tarot|DCRWT",
-				"Six of Cups|Rider-Waite Tarot|DCRWT",
-				"Seven of Cups|Rider-Waite Tarot|DCRWT",
-				"Eight of Cups|Rider-Waite Tarot|DCRWT",
-				"Nine of Cups|Rider-Waite Tarot|DCRWT",
-				"Ten of Cups|Rider-Waite Tarot|DCRWT",
-				"Page of Cups|Rider-Waite Tarot|DCRWT",
-				"Knight of Cups|Rider-Waite Tarot|DCRWT",
-				"Queen of Cups|Rider-Waite Tarot|DCRWT",
-				"King of Cups|Rider-Waite Tarot|DCRWT",
-				"Ace of Swords|Rider-Waite Tarot|DCRWT",
-				"Two of Swords|Rider-Waite Tarot|DCRWT",
-				"Three of Swords|Rider-Waite Tarot|DCRWT",
-				"Four of Swords|Rider-Waite Tarot|DCRWT",
-				"Five of Swords|Rider-Waite Tarot|DCRWT",
-				"Six of Swords|Rider-Waite Tarot|DCRWT",
-				"Seven of Swords|Rider-Waite Tarot|DCRWT",
-				"Eight of Swords|Rider-Waite Tarot|DCRWT",
-				"Nine of Swords|Rider-Waite Tarot|DCRWT",
-				"Ten of Swords|Rider-Waite Tarot|DCRWT",
-				"Page of Swords|Rider-Waite Tarot|DCRWT",
-				"Knight of Swords|Rider-Waite Tarot|DCRWT",
-				"Queen of Swords|Rider-Waite Tarot|DCRWT",
-				"King of Swords|Rider-Waite Tarot|DCRWT",
-				"Ace of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Two of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Three of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Four of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Five of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Six of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Seven of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Eight of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Nine of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Ten of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Page of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Knight of Pentacles|Rider-Waite Tarot|DCRWT",
-				"Queen of Pentacles|Rider-Waite Tarot|DCRWT",
-				"King of Pentacles|Rider-Waite Tarot|DCRWT"
+				"The Fool|Rider-Waite Tarot Deck|DCRWT",
+				"The Magician|Rider-Waite Tarot Deck|DCRWT",
+				"The High Priestess|Rider-Waite Tarot Deck|DCRWT",
+				"The Empress|Rider-Waite Tarot Deck|DCRWT",
+				"The Emperor|Rider-Waite Tarot Deck|DCRWT",
+				"The Hierophant|Rider-Waite Tarot Deck|DCRWT",
+				"The Lovers|Rider-Waite Tarot Deck|DCRWT",
+				"The Chariot|Rider-Waite Tarot Deck|DCRWT",
+				"Strength|Rider-Waite Tarot Deck|DCRWT",
+				"The Hermit|Rider-Waite Tarot Deck|DCRWT",
+				"Wheel of Fortune|Rider-Waite Tarot Deck|DCRWT",
+				"Justice|Rider-Waite Tarot Deck|DCRWT",
+				"The Hanged Man|Rider-Waite Tarot Deck|DCRWT",
+				"Death|Rider-Waite Tarot Deck|DCRWT",
+				"Temperance|Rider-Waite Tarot Deck|DCRWT",
+				"The Devil|Rider-Waite Tarot Deck|DCRWT",
+				"The Tower|Rider-Waite Tarot Deck|DCRWT",
+				"The Star|Rider-Waite Tarot Deck|DCRWT",
+				"The Moon|Rider-Waite Tarot Deck|DCRWT",
+				"The Sun|Rider-Waite Tarot Deck|DCRWT",
+				"Judgement|Rider-Waite Tarot Deck|DCRWT",
+            	"The World|Rider-Waite Tarot Deck|DCRWT",
+				"Ace of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Two of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Three of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Four of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Five of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Six of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Seven of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Eight of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Nine of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Ten of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Page of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Knight of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Queen of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"King of Wands|Rider-Waite Tarot Deck|DCRWT",
+				"Ace of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Two of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Three of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Four of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Five of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Six of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Seven of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Eight of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Nine of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Ten of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Page of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Knight of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Queen of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"King of Cups|Rider-Waite Tarot Deck|DCRWT",
+				"Ace of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Two of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Three of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Four of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Five of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Six of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Seven of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Eight of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Nine of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Ten of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Page of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Knight of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Queen of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"King of Swords|Rider-Waite Tarot Deck|DCRWT",
+				"Ace of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Two of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Three of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Four of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Five of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Six of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Seven of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Eight of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Nine of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Ten of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Page of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Knight of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"Queen of Pentacles|Rider-Waite Tarot Deck|DCRWT",
+				"King of Pentacles|Rider-Waite Tarot Deck|DCRWT"
             ],
             "back": {
                 "type": "image",
@@ -156,7 +156,7 @@
 		{
 			"name": "Ace of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 1,
 			"valueName": "ace",
@@ -178,7 +178,7 @@
 		{
 			"name": "Two of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 2,
 			"face": {
@@ -199,7 +199,7 @@
 		{
 			"name": "Three of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 3,
 			"face": {
@@ -220,7 +220,7 @@
 		{
 			"name": "Four of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 4,
 			"face": {
@@ -241,7 +241,7 @@
 		{
 			"name": "Five of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 5,
 			"face": {
@@ -262,7 +262,7 @@
 		{
 			"name": "Six of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 6,
 			"face": {
@@ -283,7 +283,7 @@
 		{
 			"name": "Seven of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 7,
 			"face": {
@@ -304,7 +304,7 @@
 		{
 			"name": "Eight of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 8,
 			"face": {
@@ -325,7 +325,7 @@
 		{
 			"name": "Nine of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 9,
 			"face": {
@@ -346,7 +346,7 @@
 		{
 			"name": "Ten of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 10,
 			"face": {
@@ -367,7 +367,7 @@
 		{
 			"name": "Page of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 11,
 			"valueName": "page",
@@ -389,7 +389,7 @@
 		{
 			"name": "Knight of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 12,
 			"valueName": "knight",
@@ -411,7 +411,7 @@
 		{
 			"name": "Queen of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 13,
 			"valueName": "queen",
@@ -433,7 +433,7 @@
 		{
 			"name": "King of Wands",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Wands",
 			"value": 14,
 			"valueName": "king",
@@ -455,7 +455,7 @@
         {
 			"name": "Ace of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 1,
 			"valueName": "ace",
@@ -477,7 +477,7 @@
 		{
 			"name": "Two of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 2,
 			"face": {
@@ -498,7 +498,7 @@
 		{
 			"name": "Three of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 3,
 			"face": {
@@ -519,7 +519,7 @@
 		{
 			"name": "Four of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 4,
 			"face": {
@@ -540,7 +540,7 @@
 		{
 			"name": "Five of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 5,
 			"face": {
@@ -561,7 +561,7 @@
 		{
 			"name": "Six of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 6,
 			"face": {
@@ -582,7 +582,7 @@
 		{
 			"name": "Seven of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 7,
 			"face": {
@@ -603,7 +603,7 @@
 		{
 			"name": "Eight of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 8,
 			"face": {
@@ -624,7 +624,7 @@
 		{
 			"name": "Nine of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 9,
 			"face": {
@@ -645,7 +645,7 @@
 		{
 			"name": "Ten of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 10,
 			"face": {
@@ -666,7 +666,7 @@
 		{
 			"name": "Page of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 11,
 			"valueName": "page",
@@ -688,7 +688,7 @@
 		{
 			"name": "Knight of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 12,
 			"valueName": "knight",
@@ -710,7 +710,7 @@
 		{
 			"name": "Queen of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 13,
 			"valueName": "queen",
@@ -732,7 +732,7 @@
 		{
 			"name": "King of Cups",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Cups",
 			"value": 14,
 			"valueName": "king",
@@ -754,7 +754,7 @@
 		{
 			"name": "Ace of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 1,
 			"valueName": "ace",
@@ -776,7 +776,7 @@
 		{
 			"name": "Two of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 2,
 			"face": {
@@ -797,7 +797,7 @@
 		{
 			"name": "Three of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 3,
 			"face": {
@@ -818,7 +818,7 @@
 		{
 			"name": "Four of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 4,
 			"face": {
@@ -839,7 +839,7 @@
 		{
 			"name": "Five of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 5,
 			"face": {
@@ -860,7 +860,7 @@
 		{
 			"name": "Six of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 6,
 			"face": {
@@ -881,7 +881,7 @@
 		{
 			"name": "Seven of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 7,
 			"face": {
@@ -902,7 +902,7 @@
 		{
 			"name": "Eight of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 8,
 			"face": {
@@ -923,7 +923,7 @@
 		{
 			"name": "Nine of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 9,
 			"face": {
@@ -944,7 +944,7 @@
 		{
 			"name": "Ten of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 10,
 			"face": {
@@ -965,7 +965,7 @@
 		{
 			"name": "Page of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 11,
 			"valueName": "page",
@@ -987,7 +987,7 @@
 		{
 			"name": "Knight of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 12,
 			"valueName": "knight",
@@ -1009,7 +1009,7 @@
 		{
 			"name": "Queen of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 13,
 			"valueName": "queen",
@@ -1031,7 +1031,7 @@
 		{
 			"name": "King of Swords",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Swords",
 			"value": 14,
 			"valueName": "king",
@@ -1053,7 +1053,7 @@
 		{
 			"name": "Ace of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 1,
 			"valueName": "ace",
@@ -1075,7 +1075,7 @@
 		{
 			"name": "Two of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 2,
 			"face": {
@@ -1096,7 +1096,7 @@
 		{
 			"name": "Three of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 3,
 			"face": {
@@ -1117,7 +1117,7 @@
 		{
 			"name": "Four of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 4,
 			"face": {
@@ -1138,7 +1138,7 @@
 		{
 			"name": "Five of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 5,
 			"face": {
@@ -1159,7 +1159,7 @@
 		{
 			"name": "Six of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 6,
 			"face": {
@@ -1180,7 +1180,7 @@
 		{
 			"name": "Seven of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 7,
 			"face": {
@@ -1201,7 +1201,7 @@
 		{
 			"name": "Eight of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 8,
 			"face": {
@@ -1222,7 +1222,7 @@
 		{
 			"name": "Nine of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 9,
 			"face": {
@@ -1243,7 +1243,7 @@
 		{
 			"name": "Ten of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 10,
 			"face": {
@@ -1264,7 +1264,7 @@
 		{
 			"name": "Page of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 11,
 			"valueName": "page",
@@ -1286,7 +1286,7 @@
 		{
 			"name": "Knight of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 12,
 			"valueName": "knight",
@@ -1308,7 +1308,7 @@
 		{
 			"name": "Queen of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 13,
 			"valueName": "queen",
@@ -1330,7 +1330,7 @@
 		{
 			"name": "King of Pentacles",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Pentacles",
 			"value": 14,
 			"valueName": "king",
@@ -1352,7 +1352,7 @@
 		{
 			"name": "The Fool",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 0,
 			"face": {
@@ -1373,7 +1373,7 @@
 		{
 			"name": "The Magician",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 1,
 			"face": {
@@ -1394,7 +1394,7 @@
 		{
 			"name": "The High Priestess",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 2,
 			"face": {
@@ -1415,7 +1415,7 @@
 		{
 			"name": "The Empress",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 3,
 			"face": {
@@ -1436,7 +1436,7 @@
 		{
 			"name": "The Emperor",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 4,
 			"face": {
@@ -1457,7 +1457,7 @@
 		{
 			"name": "The Hierophant",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 5,
 			"face": {
@@ -1478,7 +1478,7 @@
 		{
 			"name": "The Lovers",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 6,
 			"face": {
@@ -1499,7 +1499,7 @@
 		{
 			"name": "The Chariot",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 7,
 			"face": {
@@ -1520,7 +1520,7 @@
 		{
 			"name": "Strength",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 8,
 			"face": {
@@ -1541,7 +1541,7 @@
 		{
 			"name": "The Hermit",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 9,
 			"face": {
@@ -1562,7 +1562,7 @@
 		{
 			"name": "Wheel of Fortune",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 10,
 			"face": {
@@ -1583,7 +1583,7 @@
 		{
 			"name": "Justice",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 11,
 			"face": {
@@ -1604,7 +1604,7 @@
 		{
 			"name": "The Hanged Man",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 12,
 			"face": {
@@ -1625,7 +1625,7 @@
 		{
 			"name": "Death",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 13,
 			"face": {
@@ -1646,7 +1646,7 @@
 		{
 			"name": "Temperance",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 14,
 			"face": {
@@ -1667,7 +1667,7 @@
 		{
 			"name": "The Devil",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 15,
 			"face": {
@@ -1688,7 +1688,7 @@
 		{
 			"name": "The Tower",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 16,
 			"face": {
@@ -1709,7 +1709,7 @@
 		{
 			"name": "The Star",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 17,
 			"face": {
@@ -1730,7 +1730,7 @@
 		{
 			"name": "The Moon",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 18,
 			"face": {
@@ -1751,7 +1751,7 @@
 		{
 			"name": "The Sun",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 19,
 			"face": {
@@ -1772,7 +1772,7 @@
 		{
 			"name": "Judgement",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 20,
 			"face": {
@@ -1793,7 +1793,7 @@
 		{
 			"name": "The World",
 			"source": "DCRWT",
-			"set": "Rider-Waite Tarot",
+			"set": "Rider-Waite Tarot Deck",
 			"suit": "Major Arcana",
 			"value": 21,
 			"face": {

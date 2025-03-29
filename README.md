@@ -6,7 +6,6 @@
         <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-pyora?label=dungeonchurch-pyora&color=gray&labelColor=ff2600&logo=github></a>
     <a href=https://github.com/oakbrad/dungeonchurch-cogs>
         <img src=https://img.shields.io/github/last-commit/oakbrad/dungeonchurch-cogs?label=dungeonchurch-cogs&color=gray&labelColor=ff2600&logo=github></a>
-    <a href=https://github.com/5etools-mirror-3/5etools-2014-src><img src=https://img.shields.io/badge/5etools-2014--src-gray?logo=roll20&logoColor=ffffff&labelColor=ff2600></a>
 </p>
 
 # Pyora
@@ -16,8 +15,12 @@ Available at <a href=https://5e.dungeon.church>https://5e.dungeon.church</a> or 
 ```
 https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Church; Pyora.json
 ```
-
-# Contents
+### Rider-Waite Tarot Deck
+A public domain tarot deck for 5eTools.
+```
+https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Church; Rider-Waite Tarot.json
+```
+# Pyora Setting
 * Books
     * [Dungeon Church Zine 1](https://www.dungeon.church/zine-no1/)
 * Conditions
