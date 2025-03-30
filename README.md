@@ -68,6 +68,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Essence of Submission](https://lore.dungeon.church/doc/essence-of-submission-U5IGAEmwpH)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Dark Truth Serum](https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML)
+    * [Delerium-Forged Dagger](https://lore.dungeon.church/doc/delerium-forged-dagger-5OshXhJW5D)
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
     * [Dream Vine](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7)
     * [Dubbelheart Ale](https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA)

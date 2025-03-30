@@ -5973,8 +5973,63 @@
 					"Deep beneath the bustling forges and grand halls of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} lie the carefully tended \"arks\" of the {@link Arkwrights Guild|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}, subterranean gardens where the guild's Curators nurture rare plants and fruits from across Pyora. Among these are special orchards of Deepgarden Apples, small fruits with shimmering golden skin adapted to thrive solely beneath the earth, nourished by the bioluminescent glow of specific fungi. These apples, when pressed and fermented, produce Deepgarden Cider, a staple beverage common on every menu and dinner table across Durandar."
 				]
 			}
-		}
-		,
+		},
+		{
+			"name": "Delerium-Forged Dagger",
+			"source": "DungeonChurch",
+			"otherSources": [
+				{
+					"source": "DoDk"
+				}
+			],
+			"type": "M",
+			"rarity": "rare",
+			"weight": 3,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"weapon": true,
+			"dagger": true,
+			"bonusWeapon": "+1",
+			"hasFluffImages": true,
+			"genericVariant": {
+				"name": "Delerium-Forged Blade",
+				"source": "DoDk"
+			},
+			"entries": [
+				"This dagger has a small delerium sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with delerium dust, which causes it to softly glow with octarine light.",
+				"You gain a +1 bonus to attack and damage rolls made with this weapon.",
+				"When you make an attack with this dagger, you can use your spellcasting ability modifier, instead of Strength or Dexterity, for the attack and damage rolls. In addition, you can use this weapon as a spellcasting focus.",
+				"When you roll a 20 on an attack roll made with this weapon against a humanoid, the humanoid must succeed on a {@dc 15} Constitution saving throw or take an extra ({@damage 1d6}) necrotic damage and gain one {@adventure level of contamination|DoDk|12}.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Delerium-Forged Dagger in the wiki|https://lore.dungeon.church/doc/delerium-forged-dagger-5OshXhJW5D}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-delerium-forged-dagger.png"
+						}
+					}
+				]
+			}
+		},
 		{
 			"name": "Dimensional Glasses",
 			"source": "DungeonChurch",
@@ -8850,7 +8905,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d71",
+				"d72",
 				"Item"
 			],
 			"rows": [
@@ -9137,6 +9192,10 @@
 				[
 					"71",
 					"{@item Lumengrove Tincture|dungeonchurch}"
+				],
+				[
+					"72",
+					"{@item Delerium-Forged Dagger|dungeonchurch}"
 				]
 			]
 			
