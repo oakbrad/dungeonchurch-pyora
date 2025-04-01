@@ -4941,6 +4941,179 @@
 			]
 		},
 		{
+			"name": "Vomit Ooze",
+			"source": "DungeonChurch",
+			"size": [
+				"L"
+			],
+			"type": "ooze",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"ac": [
+				7
+			],
+			"hp": {
+				"average": 120,
+				"formula": "16d10 + 32"
+			},
+			"speed": {
+				"climb": 10,
+				"walk": 10
+			},
+			"str": 14,
+			"dex": 4,
+			"con": 14,
+			"int": 1,
+			"wis": 6,
+			"cha": 8,
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)"
+			],
+			"passive": 8,
+			"immune": [
+				"acid",
+				"necrotic",
+				"poison",
+				"slashing"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"prone"
+			],
+			"cr": "3",
+			"trait": [
+				{
+					"name": "Amorphous",
+					"entries": [
+						"The vomit ooze can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Drunken Miasma",
+					"entries": [
+						"Creatures that start their turn within 10 feet of the ooze that can smell it must make a {@dc 12} Constitution saving throw. If the creature fails, it takes 3 ({@damage 1d6}) psychic damage and is {@condition intoxicated|dungeonchurch} for {@dice 1d4} rounds."
+					]
+				},
+				{
+					"name": "Spider Climb",
+					"entries": [
+						"The vomit ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Pseudopod",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Alcohol-Infused Pseudopod {@recharge 5}",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) psychic damage and the target must succeed on a {@dc 12} Wisdom saving throw or its Intelligence score is reduced by {@dice 1d4}. The target dies if this reduces its Intelligence to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Split",
+					"entries": [
+						"When a vomit ooze is subject to slashing damage, it splits into two new oozes if it has at least 10 HP. Each new ooze has HP equal to half the original ooze's, rounded down. New oozes are one size smaller than the original ooze."
+					]
+				},
+				{
+					"name": "Last Call",
+					"entries": [
+					  "When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 {@damage 2d6} poison damage and be {@condition blinded} until the end of its next turn."
+					]
+				  }
+			],
+			"environment": [
+				"urban"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-vomit-ooze-token.png"
+			},
+			"traitTags": [
+				"Amorphous",
+				"Spider Climb"
+			],
+			"senseTags": [
+				"B"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							{
+								"type": "entries",
+								"entries": [
+									{
+										"type": "quote",
+										"entries": [
+											"You ever pound glög until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
+										],
+										"by": "{@link Rorsh the Acolyte|https://lore.dungeon.church/doc/rorsh-the-mage-umxTjXQj7k}"
+									},
+									"Vomit oozes are spontaneous arcane accidents—born from a particularly potent mixture of booze, {@table Pyoran Substances|dungeonchurch|illicit magical intoxication}, and emotional instability. When a magically inclined individual overindulges and loses their stomach in a dingy alley, there's a small chance that the expelled mess keeps the party going... mindlessly seeking out more alcohol and the opportunity for a brawl.",
+									{
+										"type": "entries",
+										"name": "Urban Hazard",
+										"entries": [
+											"Often mistaken for spilled chamber pots or rotting garbage, vomit oozes lurk in alleys, sewers, or near taverns of ill repute. While slow moving and unintelligent, when provoked they respond with drunken rage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Ooze Nature",
+										"entries": [
+											"A vomit ooze doesn't require sleep, air, or food but consuming more alcohol makes it grow larger in size and more chaotic in temperament. It will seek out anything that smells of booze, including recent imbibers."
+										]
+									},
+									{
+										"type": "inset",
+										"name": "Dungeon Church Lore",
+										"entries": [
+											"Learn more about the {@link Vomit Ooze in the wiki|https://lore.dungeon.church/doc/vomit-ooze-DhW28eyxrK}."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-vomit-ooze.png"
+						}
+					}
+				]
+			},
+			"conditionInflict": [
+				"intoxicated|dungeonchurch"
+			],
+			"damageTags": [
+				"B",
+				"Y"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"wisdom"
+			]
+		},
+		{
 			"name": "Zombie Raccoon",
 			"source": "DungeonChurch",
 			"size": [
@@ -9489,7 +9662,7 @@
 				],
 				[
 					"4",
-					"Dwarven Glog"
+					"Dwarven Glög"
 				],
 				[
 					"5",
@@ -9505,7 +9678,7 @@
 				],
 				[
 					"8",
-					"Never touched the stuff"
+					"Never touch the stuff"
 				]
 			]
 		}
