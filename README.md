@@ -93,6 +93,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Nightshade Poison](https://lore.dungeon.church/doc/nightshade-poison-rGISMbm8AA)
     * [Oil of Immolation](https://lore.dungeon.church/doc/oil-of-immolation-nrtJScIEL4)
     * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
+    * [Pluvovitz Schnapps](https://lore.dungeon.church/doc/pluvovitz-schnapps-8Ec1Ea1KuI)
     * [Potion of Incorporeal Passage](https://lore.dungeon.church/doc/potion-of-incorporeal-passage-izVvGx3r6c)
     * [Potion of Unbridled Potential](https://lore.dungeon.church/doc/potion-of-unbridled-potential-MeZ67CPgHh)
     * [Potion of Undeath](https://lore.dungeon.church/doc/potion-of-undeath-RkXumhgmhW)

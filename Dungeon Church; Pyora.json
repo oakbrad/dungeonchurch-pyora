@@ -5031,7 +5031,7 @@
 				{
 					"name": "Last Call",
 					"entries": [
-					  "When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 {@damage 2d6} poison damage and be {@condition blinded} until the end of its next turn."
+					  "When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be {@condition blinded} until the end of its next turn."
 					]
 				  }
 			],
@@ -7218,6 +7218,44 @@
 			}
 		},
 		{
+			"name": "Pluvovitz Schnapps",
+			"source": "DungeonChurch",
+			"type": "P",
+			"lootTables": [
+				"Durandian Draughts|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Potions|dungeonchurch"
+			],
+			"rarity": "common",
+			"entries": [
+				"A spiced schnapps distilled from the pits of sweet, juicy plums grown in the subterranean orchards beneath Durandar.",
+				"Immediately recover one expended Hit Die upon consumption; you can benefit from this effect only once per long rest.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Pluvovitz Schnapps in the wiki|https://lore.dungeon.church/doc/pluvovitz-schnapps-8Ec1Ea1KuI}."
+					]
+				}
+			],
+			"fluff": {
+				"name": "Pluvovitz Schnapps",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-pluvovitz-schnapps.png"
+						}
+					}
+				],
+				"entries": [
+					"Among the most cherished of libations in Durandar is a spiced schnapps distilled from the pits of the exceptionally dark purple plums grown in the underground orchards tended by the Arkwrights Guild. Often drunk as an aperitif or as a reward after a hard day's work, the sweetened drink is blended with cinnamon, clove, and a spicy, upland ginger that grows in the volcanic valleys that surround the city's mountain home."
+				]
+			}
+		},		
+		{
 			"name": "Potion of Incorporeal Passage",
 			"type": "P",
 			"rarity": "uncommon",
@@ -8510,6 +8548,21 @@
 				}
 			],
 			"trapHazType": "WLD"
+		},
+		{
+			"name": "Vomit Ooze",
+			"source": "DungeonChurch",
+			"entries": [
+				"",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about {@link Vomit Ooze in the wiki|https://lore.dungeon.church/doc/vomit-ooze-oyU1zzkSzs}."
+					]
+				}
+			],
+			"trapHazType": "HAZ"
 		}
 	],
 	"table": [
@@ -8518,7 +8571,7 @@
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
 			"colLabels": [
-				"1d10",
+				"1d11",
 				"Draught"
 			],
 			"rows": [
@@ -8561,6 +8614,10 @@
 				[
 					"10",
 					"{@item Lumengrove Tincture|dungeonchurch}"
+				],
+				[
+					"11",
+					"{@item Pluvovitz Schnapps|dungeonchurch}"
 				]
 			]
 		},
@@ -9078,7 +9135,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d72",
+				"d73",
 				"Item"
 			],
 			"rows": [
@@ -9369,6 +9426,10 @@
 				[
 					"72",
 					"{@item Delerium-Forged Dagger|dungeonchurch}"
+				],
+				[
+					"73",
+					"{@item Pluvovitz Schnapps|dungeonchurch}"
 				]
 			]
 			
@@ -9491,7 +9552,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d21",
+				"d22",
 				"Potion"
 			],
 			"rows": [
@@ -9578,6 +9639,10 @@
 				[
 					"21",
 					"{@item Vial of Dark Resolve|dungeonchurch}"
+				],
+				[
+					"22",
+					"{@item Pluvovitz Schnapps|dungeonchurch}"
 				]
 			]
 		},
