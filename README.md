@@ -152,6 +152,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 * Optional Features
     * Witchsight
 * Tables
+    * Dungeon Dome Concessions
     * Durandian Draughts
     * Faction Reptuation Tracking
     * I Know a Guy... in Pyora

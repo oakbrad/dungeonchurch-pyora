@@ -8567,6 +8567,213 @@
 	],
 	"table": [
 		{
+			"name": "Dungeon Dome Concessions",
+			"source": "DungeonChurch",
+			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
+			"colLabels": [
+				"1d49",
+				"Item"
+			],
+			"rows": [
+				[
+					"1",
+					"{@item Acid (Vial)|PHB}"
+				],
+				[
+					"2",
+					"{@item Ball bearings (bag of 1,000)|PHB}"
+				],
+				[
+					"3",
+					"{@item Alchemist's fire (flask)|PHB}"
+				],
+				[
+					"4",
+					"{@item Grappling Hook|PHB}"
+				],
+				[
+					"5",
+					"{@item Holy water (flask)|PHB}"
+				],
+				[
+					"6",
+					"{@item Oil (flask)|PHB}"
+				],
+				[
+					"7",
+					"{@item Basic poison (vial)|PHB}"
+				],
+				[
+					"8",
+					"{@item Pole (10-foot)|PHB}"
+				],
+				[
+					"9",
+					"{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}"
+				],
+				[
+					"10",
+					"{@item Potion of Healing|DMG}"
+				],
+				[
+					"11",
+					"{@item Caltrops (bag of 20)|PHB}"
+				],
+				[
+					"12",
+					"{@item iron spikes (10)|PHB|Spikes, iron (10)}"
+				],
+				[
+					"13",
+					"{@item Torch|PHB}"
+				],
+				[
+					"14",
+					"{@item Spyglass|PHB}"
+				],
+				[
+					"15",
+					"{@item Hunting trap|PHB}"
+				],
+				[
+					"16",
+					"{@item Sling|PHB} and {@item Sling bullets (20)|PHB|bullets}"
+				],
+				[
+					"17",
+					"{@item Potion of Climbing|DMG}"
+				],
+				[
+					"18",
+					"{@item Potion of Diminution|DMG}"
+				],
+				[
+					"19",
+					"{@item Potion of Water Breathing|DMG}"
+				],
+				[
+					"20",
+					"{@item Potion of Animal Friendship|DMG}"
+				],
+				[
+					"21",
+					"{@item Potion of Invisibility|DMG}"
+				],
+				[
+					"22",
+					"{@item Potion of Heroism|DMG}"
+				],
+				[
+					"23",
+					"{@item Potion of Speed|DMG}"
+				],
+				[
+					"24",
+					"{@item Potion of Fire Breath|DMG}"
+				],
+				[
+					"25",
+					"{@item Bag of Rust|dungeonchurch}"
+				],
+				[
+					"26",
+					"{@item Monster Identification Cards|dungeonchurch}"
+				],
+				[
+					"27",
+					"{@item Potion of Undeath|dungeonchurch}"
+				],
+				[
+					"28",
+					"{@item Potion of Unbridled Potential|dungeonchurch}"
+				],
+				[
+					"29",
+					"{@item Vial of the Last Harvest|dungeonchurch}"
+				],
+				[
+					"30",
+					"{@item Oil of Immolation|dungeonchurch}"
+				],
+				[
+					"31",
+					"{@item Potion of Vile Strength|dungeonchurch}"
+				],
+				[
+					"32",
+					"{@item Gloomroot Extract|dungeonchurch}"
+				],
+				[
+					"33",
+					"{@item Void Essence|dungeonchurch}"
+				],
+				[
+					"34",
+					"{@item Berserker's Draught|dungeonchurch}"
+				],
+				[
+					"35",
+					"{@item Potion of Incorporeal Passage|dungeonchurch}"
+				],
+				[
+					"36",
+					"{@item Vial of Veilblood|dungeonchurch}"
+				],
+				[
+					"37",
+					"{@item Wooden Stake|dungeonchurch}"
+				],
+				[
+					"38",
+					"{@item Pyrotov Cocktail|dungeonchurch}"
+				],
+				[
+					"39",
+					"{@item Forge Mead|dungeonchurch}"
+				],
+				[
+					"40",
+					"{@item Vial of Dark Resolve|dungeonchurch}"
+				],
+				[
+					"41",
+					"{@item Soulbound Skull|dungeonchurch}"
+				],
+				[
+					"42",
+					"{@item Blacklung Brew|dungeonchurch}"
+				],
+				[
+					"43",
+					"{@item Dubbelheart Ale|dungeonchurch}"
+				],
+				[
+					"44",
+					"{@item Stoneflower Ale|dungeonchurch}"
+				],
+				[
+					"45",
+					"{@item Lumengrove Tincture|dungeonchurch}"
+				],
+				[
+					"46",
+					"Angry {@creature Cat|MM}"
+				],
+				[
+					"47",
+					"Popcorn"
+				],
+				[
+					"48",
+					"Beating human heart"
+				],
+				[
+					"49",
+					"{@item Dream Vine|dungeonchurch} cigarette"
+				]
+			]
+		},
+		{
 			"name": "Durandian Draughts",
 			"source": "DungeonChurch",
 			"caption": "The dwarves of Durandar may have eschewed the use of magic, but their creative talents have brought ferment to a wide range of alchemical draughts.",
