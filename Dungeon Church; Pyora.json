@@ -5958,7 +5958,9 @@
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Dungeon Dome Concessions|dungeonchurch"
-			]
+			],
+			"charges": 1,
+			"recharge": "dawn"
 		},
 		{
 			"name": "Bottled Sarlacc Pheromones",
@@ -5992,7 +5994,9 @@
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
 				"Dungeon Dome Concessions|dungeonchurch"
-			]
+			],
+			"charges": 1,
+			"recharge": "dawn"
 		},
 		{
 			"name": "Cirilla's Gift",
@@ -7411,7 +7415,9 @@
 			"entries":[
 				"This golden gong can be rung with an action, causing all player characters within the {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} to fall under the effects of {@spell Otto's Irresistible Dance|PHB}.",
 				"Once rung, the effect cannot be used again until the next dawn."
-			]
+			],
+			"charges": 1,
+			"recharge": "dawn"
 		},
 		{
 			"name": "Painting of Lamont Solmar",
@@ -7836,6 +7842,7 @@
 			"name": "Red Wizard Collectible Cup",
 			"type": "TG",
 			"tier": "minor",
+			"value": 1000000000,
 			"rarity": "very rare",
 			"source": "DungeonChurch",
 			"lootTables": [
@@ -9299,6 +9306,10 @@
 				[
 					"77",
 					"{@item Glyph of Teleportation Circle|dungeonchurch}"
+				],
+				[
+					"78",
+					"{@item Red Wizard Collectible Cup|dungeonchurch}"
 				]
 			]
 		},
@@ -10471,6 +10482,10 @@
 				[
 					"24",
 					"{@item Vial of Gladiator Blood|dungeonchurch}"
+				],
+				[
+					"25",
+					"{@item Bottled Sarlacc Pheromones|dungeonchurch}"
 				]
 			]
 		},
