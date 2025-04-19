@@ -51,6 +51,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)
     * [Amulet of False Life](https://lore.dungeon.church/doc/amulet-of-false-life-vuSsCyR2g0)
+    * Animated Peanuts
     * [Avalon Engineer's Signet](https://lore.dungeon.church/doc/avalon-engineers-signet-63RXQwAWMe)
     * [Avalonian Lantern](https://lore.dungeon.church/doc/avalonian-lantern-4rhyHvymXn)
     * [Bag of Rust](https://lore.dungeon.church/doc/bag-of-rust-SfaknUwwtp)
@@ -59,6 +60,9 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Black Diamond](https://lore.dungeon.church/doc/black-diamond-pTSDpxQOJ4)
     * [Blacklung Brew](https://lore.dungeon.church/doc/blacklung-brew-SzL7h3Wqun)
     * [Brooch of Witchsight](https://lore.dungeon.church/doc/brooch-of-witchsight-Do7tfU7V9e)
+    * Boots of Black Ice
+    * Boot of Beer
+    * Bottled Sarlacc Pheromone
     * [Cirilla's Gift](https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS)
     * [Cloak of Rats](https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1)
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
@@ -72,12 +76,18 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Dimensional Glasses](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE)
     * [Dream Vine](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7)
     * [Dubbelheart Ale](https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA)
+    * Dust of Deliciousness
+    * Faerie Fire Grenade
     * [Fedora of Disguise](https://lore.dungeon.church/doc/fedora-of-disguise-c7i4G0ePRf)
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
     * [Forge Mead](https://lore.dungeon.church/doc/forge-mead-wP6KD1RtSA)
     * [Gloomroot Extract](https://lore.dungeon.church/doc/gloomroot-extract-q9dbCwX0TX)
+    * Glyph of Longstrider
+    * Glyph of Portal
+    * Glyph of Jump Pad
     * [Gnomish Tea Set](https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V)
+    * Grease Grenade
     * [Guildmaster's Hunting Horn](https://lore.dungeon.church/doc/guildmasters-hunting-horn-PkmJIssiGT)
     * [Hearthhoney Braggot](https://lore.dungeon.church/doc/hearthhoney-braggot-zL90z9tilm)
     * [Ley Line Lens](https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x)
@@ -91,7 +101,9 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Night Messenger's Cloak](https://lore.dungeon.church/doc/night-messengers-cloak-wPglVS3jpz)
     * [Nightshade's Ring](https://lore.dungeon.church/doc/nightshades-ring-D07HSUmuuy)
     * [Nightshade Poison](https://lore.dungeon.church/doc/nightshade-poison-rGISMbm8AA)
+    * Nilbog's Scepter
     * [Oil of Immolation](https://lore.dungeon.church/doc/oil-of-immolation-nrtJScIEL4)
+    * Otto's Gong
     * [Painting of Lamont Solmar](https://lore.dungeon.church/doc/painting-of-lamont-solmar-h8zc7ZQfRp)
     * [Pluvovitz Schnapps](https://lore.dungeon.church/doc/pluvovitz-schnapps-8Ec1Ea1KuI)
     * [Potion of Incorporeal Passage](https://lore.dungeon.church/doc/potion-of-incorporeal-passage-izVvGx3r6c)
@@ -101,26 +113,36 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Potion of the Mossy Oak](https://lore.dungeon.church/doc/potion-of-the-mossy-oak-EUrhe6nCRs)
     * [Potion of Oblivion](https://lore.dungeon.church/doc/potion-of-oblivion-DBhlvDmtCl)
     * [Potion of Vile Strength](https://lore.dungeon.church/doc/potion-of-vile-strength-v5oDyTkJ2B)
+    * Pumpkin of Unreliable Fireball
     * [Pyrotov Cocktail](https://lore.dungeon.church/doc/pyrotov-cocktail-1AqaCK0mQh)
     * [Rationing Spice](https://lore.dungeon.church/doc/rationing-spice-iguPtdfdS2)
+    * Red Cape of Taunting
     * [Red Talon](https://lore.dungeon.church/doc/the-red-talon-JmZrNqSkRX)
+    * Red Wizard Collectible Cup
+    * Red Wizard's Bong
     * [Ring of Prestidigitation](https://lore.dungeon.church/doc/ring-of-prestidigitation-RrfeGNnCzv)
+    * Ring of Summon Streaker
     * [Ring of Water Breathing](https://lore.dungeon.church/doc/ring-of-water-breathing-hgx2rNwFjj)
     * [Sapphire Nightshade](https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy)
     * [Shield of Duskmire](https://lore.dungeon.church/doc/shield-of-duskmire-8Z1MhlOIXG)
     * [Shield of Missile Deflection](https://lore.dungeon.church/doc/shield-of-missile-deflection-cltEpG9HRg)
+    * Silence Grenade
     * [Siduri's Token](https://lore.dungeon.church/doc/siduris-token-2Bkwhc8XEo)
     * [Skeleton Key](https://lore.dungeon.church/doc/skeleton-key-aCKEViKMZf)
     * [Soulbound Skull](https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ)
     * [Sphere of Everlasting Ice](https://lore.dungeon.church/doc/sphere-of-everlasting-ice-hjFNSWJiwx)
     * [Spores of Delirium](https://lore.dungeon.church/doc/spores-of-delirium-JpyH7CL4vS)
+    * Stink Grenade
     * [Stone of Sargoth the Eternal](https://lore.dungeon.church/doc/stone-of-sargoth-the-eternal-1sQ7dwJoJz)
     * [Stoneflower Ale](https://lore.dungeon.church/doc/stoneflower-ale-yY7nlXWO8Y)
     * [Stone Tea](https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM)
     * [Vial of Dark Resolve](https://lore.dungeon.church/doc/vial-of-dark-resolve-hdap6jS2a8)
+    * Vial of Gladiator Blood
+    * Vial of Gladiator Sweat
     * [Vial of the Last Harvest](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP)
     * [Vial of Vielblood](https://lore.dungeon.church/doc/vial-of-veilblood-cuYF9sYCbQ)
     * [Void Essence](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD)
+    * Whip of Blinding Speed
     * [Whisperwine](https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS)
     * [Wooden Stake](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI)
 * Bestiary

@@ -5544,6 +5544,22 @@
 			}
 		},
 		{
+			"name": "Animated Peanuts",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"type": "OTH",
+			"rarity": "uncommon",
+			"attachedSpells": [
+				"vicious mockery"
+			],
+			"entries": [
+				"A paper bag of {@dice 1d6} roasted, sentient peanuts. The salty peanuts have a profound hatred of mortals. The snacker may use an action to eat one, allowing them to cast {@spell Vicious Mockery} on a target of their choice."
+			]
+		},
+		{
 			"name": "Avalon Engineer's Signet",
 			"otherSources": [
 				{
@@ -5921,6 +5937,64 @@
 			}
 		},
 		{
+			"name": "Boot of Beer",
+			"source": "DungeonChurch",
+			"tier": "major",
+			"rarity": "rare",
+			"wondrous": true,
+			"weight": 8,
+			"entries": [
+				"This ordinary looking dwarven boot appears to be able to hold about a gallon of liquid.",
+				"You can use an action to roll a random draught from the table below, causing the boot to produce that liquid.",
+				"Afterward, you can pour that liquid out as an action, up to 2 gallons per minute.",
+				"Once the boot starts producing a liquid, it can't produce a different one until the next dawn.",
+				{
+					"type": "statblock",
+					"tag": "table",
+					"source": "DungeonChurch",
+					"name": "Durandian Draughts"
+				}
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
+			"name": "Bottled Sarlacc Pheromones",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"type": "P",
+			"rarity": "rare",
+			"wondrous": "true",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				"This bottle contains sarlacc pheromones. When poured on the ground, a sarlacc pit appears with a diameter of 30' and is difficult terrain.",
+				"Creatures who move into or start their turn in the sarlacc pit must make a DC 14 Strength saving throw or be pulled 10' further into the pit.",
+				"If the creature is pulled into the center of the pit, it takes {@dice 2d6} piercing damage and is {@condition grappled} by the sarlacc."
+			]
+		},
+		{
+			"name": "Boots of Black Ice",
+			"source": "DungeonChurch",
+			"tier": "major",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"entries": [
+				"While you wear these boots, you can use an action to create a slippery path of black ice along the path of your movement this turn. The ice melts at the end of your next turn.",
+				"The black ice is {@quickref difficult terrain||3}. When a creature steps onto the ice for the first time or starts its turn there, it must make a DC 15 Dexterity save or fall {@condition prone}.",
+				"If a creature starts its turn in the spell's area and is {@status concentration||concentrating} on a spell, the creature must make a successful Constitution saving throw or lose {@status concentration}."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
 			"name": "Cirilla's Gift",
 			"source": "DungeonChurch",
 			"type": "RG",
@@ -6240,7 +6314,8 @@
 			"type": "IDG",
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
-				"Pyoran Substances|dungeonchurch"
+				"Pyoran Substances|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
 			],
 			"rarity": "common",
 			"entries": [
@@ -6305,7 +6380,41 @@
 					"The forgemasters of Durandar keep the recipe close among their own, believing that the unqiue spice blend with the heat of the hearth imparts not just flavor, but fortitude. It is often shared before long journeys, coming of age celebrations, or dangerous battles, ensuring that a dwarf's heart burns as strong as their forge."
 				]
 			}
-		},		
+		},
+		{
+			"name": "Dust of Deliciousness",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"reqAttune": false,
+			"wondrous": false,
+			"entries": [
+				"The Dust of Deliciousness is a reddish-brown dust that, when sprinkled on any edible substance, greatly improves the flavor. It also dulls the senses of the consumer, giving them disadvantage on wisdom-based checks and saves for one hour."
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
+			"name": "Faerie Fire Grenade",
+			"source": "DungeonChurch",
+			"type": "EXP",
+			"rarity": "uncommon",
+			"weight": 2,
+			"age": "modern",
+			"entries": [
+				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
+				"One round after a stink grenade lands, it explodes and creates {@spell faerie fire}. "
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"attachedSpells": [
+				"faerie fire"
+			]
+		},
 		{
 			"name": "Entrancing Mirror",
 			"source": "DungeonChurch",
@@ -6590,6 +6699,75 @@
 			}
 		},
 		{
+			"name": "Glyph of Jump Pad",
+			"source": "DungeonChurch",
+			"rarity": "uncommon",
+			"type": "SC",
+			"tier": "minor",
+			"attachedSpells": [
+				"jump"
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This glyph creates a {@spell jump} pad where it is inscribed. The creature who triggers it is catapulted in the direction they were traveling.",
+				{
+					"type": "statblock",
+					"tag": "spell",
+					"source": "PHB",
+					"name": "Glyph of Warding"
+				}
+			]
+		},
+		{
+			"name": "Glyph of Teleportation Circle",
+			"source": "DungeonChurch",
+			"rarity": "uncommon",
+			"type": "SC",
+			"tier": "minor",
+			"attachedSpells": [
+				"teleportation circle"
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This glyph creates a {@spell teleportation circle} where it is inscribed. The creature who triggers it is teleported to the destination chosen.",
+				{
+					"type": "statblock",
+					"tag": "spell",
+					"source": "PHB",
+					"name": "Glyph of Warding"
+				}
+			]
+		},
+		{
+			"name": "Glyph of Longstrider",
+			"source": "DungeonChurch",
+			"rarity": "uncommon",
+			"type": "SC",
+			"tier": "minor",
+			"attachedSpells": [
+				"longstrider"
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This glyph creates a {@spell longstrider} effect where it is inscribed. The creature who triggers it gains the benefit for 1 hour.",
+				{
+					"type": "statblock",
+					"tag": "spell",
+					"source": "PHB",
+					"name": "Glyph of Warding"
+				}
+			]
+		},
+		{
 			"name": "Gnomish Tea Set",
 			"source": "DungeonChurch",
 			"tier": "minor",
@@ -6630,6 +6808,25 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Grease Grenade",
+			"source": "DungeonChurch",
+			"type": "EXP",
+			"rarity": "uncommon",
+			"weight": 2,
+			"age": "modern",
+			"entries": [
+				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
+				"One round after a grease grenade lands, it unleashes {@spell grease}."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"attachedSpells": [
+				"grease"
+			]
 		},
 		{
 			"name": "Guildmaster's Hunting Horn",
@@ -7147,6 +7344,28 @@
 			}
 		},
 		{
+			"name": "Nilbog's Scepter",
+			"source": "DungeonChurch",
+			"type": "RD",
+			"rarity": "rare",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"focus": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			],
+			"entries": [
+				"Nilbog's Scepter can be used as an arcane focus.",
+				"Whoever is attuned to Nilbog's Scepter can use it to cast {@spell Tasha's Hideous Laughter} once per long rest. However, the spell affects both the target and the caster."
+			],
+			"attachedSpells": [
+				"tasha's hideous laughter"
+			]
+		},
+		{
 			"name": "Oil of Immolation",
 			"type": "P",
 			"rarity": "uncommon",
@@ -7177,6 +7396,22 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Otto's Gong",
+			"type": "INS",
+			"source": "DungeonChurch",
+			"rarity": "rare",
+			"wondrous": true,
+			"weight": 4,
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries":[
+				"This golden gong can be rung with an action, causing all player characters within the {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} to fall under the effects of {@spell Otto's Irresistible Dance|PHB}.",
+				"Once rung, the effect cannot be used again until the next dawn."
+			]
 		},
 		{
 			"name": "Painting of Lamont Solmar",
@@ -7496,6 +7731,24 @@
 			}
 		},
 		{
+			"name": "Pumpkin of Unreliable Fireball",
+			"type": "EXP",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 10,
+			"lootTables":[
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"entries": [
+				"This ordinary looking jack-o-lantern pumpkin has been carved with a goblin face and contains a candle inside that burns with a magical light.",
+				"On an improvised attack roll of natural 1 or 20, the pumpkin erupts into a {@spell fireball} on the point of impact."
+			],
+			"attachedSpells": [
+				"fireball"
+			]
+		},
+		{
 			"name": "Pyrotov Cocktail",
 			"type": "P",
 			"rarity": "common",
@@ -7564,6 +7817,54 @@
 			}
 		},
 		{
+			"name": "Red Cape of Taunting",
+			"source": "DungeonChurch",
+			"rarity": "uncommon",
+			"type": "LA",
+			"recharge": "dawn",
+			"charges": 1,
+			"rechargeAmount": 1,
+			"entries": [
+				"While wearing this red cape, you gain one use of {@spell Command}. The cape recharges at dawn."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
+			"name": "Red Wizard Collectible Cup",
+			"type": "TG",
+			"tier": "minor",
+			"rarity": "very rare",
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				"This cup is made from red-tinted glass and has the image of the Red Wizard engraved on one side and the {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} on the other. Highly sought after by collectors across Pyora."
+			]
+		},
+		{
+			"name": "Red Wizard's Bong",
+			"type": "AT",
+			"tier": "major",
+			"rarity": "very rare",
+			"wondrous": true,
+			"source": "DungeonChurch",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"attachedSpells": [
+				"fog cloud"
+			],
+			"entries": [
+				"This glass smoking device is used by the Red Wizard to consume his own special herbal blend. Anyone who tokes on the bong exhales a {@spell Fog Cloud} that fills the {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A}.",
+				"If used outside the arena, it operates as an ordinary pipe, and the smoker must make a DC 10 Constitution save or become {@condition intoxicated|dungeonchurch}."
+			]
+		},
+		{
 			"name": "Ring of Prestidigitation",
 			"type": "RG",
 			"tier": "minor",
@@ -7599,6 +7900,23 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Ring of Summon Streaker",
+			"source": "DungeonChurch",
+			"type": "RG",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				"This ring has many lewd images etched into it's surface. While wearing this ring, you can speak its command word to summon a {@creature commoner|MM|streaker} to a point you can see.",
+				"Everyone who can see the streaker must make a DC 12 Wisdom saving throw or be compelled to chase and tackle.",
+				"Once the streaker has been captured, it turns into a puff of smoke and the person who tackled it gains the benefit of {@spell bless}.",
+				"After the streaker departs, it can't be summoned again for 24 hours." 
+			]
 		},
 		{
 			"name": "Ring of Water Breathing",
@@ -7805,6 +8123,44 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Silence Grenade",
+			"source": "DungeonChurch",
+			"type": "EXP",
+			"rarity": "uncommon",
+			"weight": 2,
+			"age": "modern",
+			"entries": [
+				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
+				"One round after a silence grenade lands, the blast creates a zone of {@spell silence}."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"attachedSpells": [
+				"silence"
+			]
+		},
+		{
+			"name": "Stink Grenade",
+			"source": "DungeonChurch",
+			"type": "EXP",
+			"rarity": "uncommon",
+			"weight": 2,
+			"age": "modern",
+			"entries": [
+				"As an action, a character can throw a grenade at a point up to 60 feet away. With a grenade launcher, the character can propel the grenade up to 120 feet away.",
+				"One round after a stink grenade lands, it emits a {@spell stink cloud}. A moderate wind (at least 10 miles per hour) disperses the smoke in 4 rounds; a strong wind (20 or more miles per hour) disperses it in 1 round."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"attachedSpells": [
+				"stink cloud"
+			]
 		},
 		{
 			"name": "Stone of Sargoth the Eternal",
@@ -8220,6 +8576,41 @@
 			}
 		},
 		{
+			"name": "Vial of Gladiator Blood",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				"A small, glass vial filled with the curdled blood of {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} combatants.",
+				"When the vial is opened or broken, a malevolent {blood ooze|GHMG} is unleashed."
+			]
+		},
+		{
+			"name": "Vial of Gladiator Sweat",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				"A small, glass vial filled with the sweat of {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} combatants.",
+				"When applied to a target, it has the same effect as {@spell Charm Person}"
+			],
+			"attachedSpells": [
+				"charm person"
+			]
+		},
+		{
 			"name": "Vial of the Last Harvest",
 			"type": "P",
 			"rarity": "uncommon",
@@ -8318,6 +8709,32 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Whip of Blinding Speed",
+			"source": "DungeonChurch",
+			"type": "M",
+			"rarity": "rare",
+			"weight": 3,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"weapon": true,
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			],
+			"attachedSpells": [
+				"haste"
+			],
+			"entries": [
+				"When a target is successfully attacked with the Whip of Blinding Speed, that target is {@condition blinded} and gains the effect of {@spell Haste} until the end of their next turn."
+			]
 		},
 		{
 			"name": "Whisperwine",
@@ -8571,7 +8988,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d49",
+				"1d77",
 				"Item"
 			],
 			"rows": [
@@ -8770,6 +9187,118 @@
 				[
 					"49",
 					"{@item Dream Vine|dungeonchurch} cigarette"
+				],
+				[
+					"50",
+					"Bottle with {@creature stirge} inside"
+				],
+				[
+					"51",
+					"{@item Dust of Disappearance|DMG}"
+				],
+				[
+					"52",
+					"{@item Eversmoking Bottle|DMG}"
+				],
+				[
+					"53",
+					"{@item Bag of Beans|DMG}"
+				],
+				[
+					"54",
+					"{@item Boots of Striding and Springing|DMG}"
+				],
+				[
+					"55",
+					"{@item Dust of Sneezing and Choking|DMG}"
+				],
+				[
+					"56",
+					"{@item Dust of Deliciousness|dungeonchurch}"
+				],
+				[
+					"57",
+					"{@item Nilbog's Scepter|dungeonchurch}"
+				],
+				[
+					"58",
+					"{@item Boots of Black Ice|dungeonchurch}"
+				],
+				[
+					"59",
+					"{@item Boot of Beer|dungeonchurch}"
+				],
+				[
+					"60",
+					"{@item Whip of Blinding Speed|dungeonchurch}"
+				],
+				[
+					"61",
+					"{@item Pumpkin of Unreliable Fireball|dungeonchurch}"
+				],
+				[
+					"62",
+					"{@item Otto's Gong|dungeonchurch}"
+				],
+				[
+					"63",
+					"{@item Red Wizard's Bong|dungeonchurch}"
+				],
+				[
+					"64",
+					"{@item Vial of Gladiator Sweat|dungeonchurch}"
+				],
+				[
+					"65",
+					"{@item Vial of Gladiator Blood|dungeonchurch}"
+				],
+				[
+					"66",
+					"{@item Animated Peanuts|dungeonchurch}"
+				],
+				[
+					"67",
+					"{@item Red Cape of Taunting|dungeonchurch}"
+				],
+				[
+					"68",
+					"{@item Ring of Summon Streaker|dungeonchurch}"
+				],
+				[
+					"69",
+					"{@item Bottled Sarlacc Pheromones|dungeonchurch}"
+				],
+				[
+					"70",
+					"Foam hand"
+				],
+				[
+					"71",
+					"{@item Grease Grenade|dungeonchurch}"
+				],
+				[
+					"72",
+					"{@item Stink Grenade|dungeonchurch}"
+				],
+				[
+					"73",
+					"{@item Silence Grenade|dungeonchurch}"
+				],
+				[
+					"74",
+					"{@item Faerie Fire Grenade|dungeonchurch}"
+				],
+				[
+					"75",
+					"{@item Glyph of Jump Pad|dungeonchurch}"	
+				],
+				[
+					"76",
+					"{@item Glyph of Longstrider|dungeonchurch}"
+				],
+				[
+					"77",
+					"{@item Glyph of Teleportation Circle|dungeonchurch}"
 				]
 			]
 		},
@@ -9342,7 +9871,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d73",
+				"d94",
 				"Item"
 			],
 			"rows": [
@@ -9637,6 +10166,90 @@
 				[
 					"73",
 					"{@item Pluvovitz Schnapps|dungeonchurch}"
+				],
+				[
+					"74",
+					"{@item Nilbog's Scepter|dungeonchurch}"
+				],
+				[
+					"75",
+					"{@item Boots of Black Ice|dungeonchurch}"
+				],
+				[
+					"76",
+					"{@item Boot of Beer|dungeonchurch}"
+				],
+				[
+					"77",
+					"{@item Whip of Blinding Speed|dungeonchurch}"
+				],
+				[
+					"78",
+					"{@item Pumpkin of Unreliable Fireball|dungeonchurch}"
+				],
+				[
+					"79",
+					"{@item Otto's Gong|dungeonchurch}"
+				],
+				[
+					"80",
+					"{@item Red Wizard's Bong|dungeonchurch}"
+				],
+				[
+					"81",
+					"{@item Dust of Deliciousness|dungeonchurch}"
+				],
+				[
+					"82",
+					"{@item Vial of Gladiator Sweat|dungeonchurch}"
+				],
+				[
+					"83",
+					"{@item Vial of Gladiator Blood|dungeonchurch}"
+				],
+				[
+					"84",
+					"{@item Animated Peanuts|dungeonchurch}"
+				],
+				[
+					"85",
+					"{@item Red Cape of Taunting|dungeonchurch}"
+				],
+				[
+					"86",
+					"{@item Ring of Summon Streaker|dungeonchurch}"
+				],
+				[
+					"87",
+					"{@item Bottled Sarlacc Pheromones|dungeonchurch}"
+				],
+				[
+					"88",
+					"{@item Grease Grenade|dungeonchurch}"
+				],
+				[
+					"89",
+					"{@item Stink Grenade|dungeonchurch}"
+				],
+				[
+					"90",
+					"{@item Silence Grenade|dungeonchurch}"
+				],
+				[
+					"91",
+					"{@item Faerie Fire Grenade|dungeonchurch}"
+				],
+				[
+					"92",
+					"{@item Glyph of Jump Pad|dungeonchurch}"	
+				],
+				[
+					"93",
+					"{@item Glyph of Longstrider|dungeonchurch}"
+				],
+				[
+					"94",
+					"{@item Glyph of Teleportation Circle|dungeonchurch}"
 				]
 			]
 			
@@ -9759,7 +10372,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d22",
+				"d23",
 				"Potion"
 			],
 			"rows": [
@@ -9850,6 +10463,14 @@
 				[
 					"22",
 					"{@item Pluvovitz Schnapps|dungeonchurch}"
+				],
+				[
+					"23",
+					"{@item Vial of Gladiator Sweat|dungeonchurch}"
+				],
+				[
+					"24",
+					"{@item Vial of Gladiator Blood|dungeonchurch}"
 				]
 			]
 		},
