@@ -82,6 +82,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Fist of Durradin](https://lore.dungeon.church/doc/fist-of-durradin-GrRsr84scL)
     * [Fiz's Flute](https://lore.dungeon.church/doc/fizs-flute-ANcBt7lLmj)
     * [Forge Mead](https://lore.dungeon.church/doc/forge-mead-wP6KD1RtSA)
+    * Garlic Fries
     * [Gloomroot Extract](https://lore.dungeon.church/doc/gloomroot-extract-q9dbCwX0TX)
     * Glyph of Longstrider
     * Glyph of Portal
