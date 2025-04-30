@@ -1658,6 +1658,85 @@
 			]
 		},
 		{
+			"name": "Boomerang Cat",
+			"source": "DungeonChurch",
+			"size": [
+				"T"
+			],
+			"type": "beast",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"ac": [
+				12
+			],
+			"hp": {
+				"average": 24,
+				"formula": "7d4 + 7"
+			},
+			"speed": {
+				"walk": 40,
+				"climb": 30
+			},
+			"str": 3,
+			"dex": 15,
+			"con": 12,
+			"int": 3,
+			"wis": 12,
+			"cha": 7,
+			"skill": {
+				"perception": "+3",
+				"stealth": "+4",
+				"acrobatics": "+6"
+			},
+			"passive": 13,
+			"cr": "1/2",
+			"trait": [
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"name": "Returning",
+					"entries": [
+						"A returning weapon allows you to hurl the weapon in such a way that it returns to you. When you attack with a returning weapon, if you roll an even number on the {@dice d20}, the weapon returns to you by the end of your turn. You can catch the weapon if you have a hand free to do so. If not, the weapon lands at a random point within 5 feet of you. If you roll an odd number on the {@dice d20} for the attack roll, the weapon fails to return to you."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Claws",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h} 5 ({@dice 1d6+2}) slashing damage."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"familiar": true,
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.dungeon.church/audio/bestiary/cat.mp3"
+			},
+			"traitTags": [
+				"Keen Senses"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"token": {
+				"name": "Cat",
+				"source": "MM"
+			},
+			"damageTags": [
+				"S"
+			]
+		},
+		{
 			"name": "Briar Tree",
 			"size": [
 				"H"
@@ -8595,7 +8674,7 @@
 			],
 			"entries": [
 				"A small, glass vial filled with the curdled blood of {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} combatants.",
-				"When the vial is opened or broken, a malevolent {blood ooze|GHMG} is unleashed."
+				"When the vial is opened or broken, a malevolent {@creature blood ooze|GHMG} is unleashed."
 			]
 		},
 		{
@@ -8995,7 +9074,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d77",
+				"1d78",
 				"Item"
 			],
 			"rows": [
@@ -9310,6 +9389,42 @@
 				[
 					"78",
 					"{@item Red Wizard Collectible Cup|dungeonchurch}"
+				],
+				[
+					"79",
+					"{@item Concussion Grenade|QFTIS}"
+				],
+				[
+					"80",
+					"{@item Fragmentation Grenade|DMG}"
+				],
+				[
+					"81",
+					"{@item Sleep Grenade|QFTIS}"
+				],
+				[
+					"82",
+					"{@item Smoke Grenade|DMG}"
+				],
+				[
+					"83",
+					"{@item Tangler Grenade|WDMM}"
+				],
+				[
+					"84",
+					"{@item Grenade of Remorse|GHMG}"
+				],
+				[
+					"85",
+					"{@creature Boomerang Cat|dungeonchurch}"
+				],
+				[
+					"86",
+					"{@item Returning Club|GHPG}"
+				],
+				[
+					"87",
+					"{@item Adjustable Stilts|WDH}"
 				]
 			]
 		},

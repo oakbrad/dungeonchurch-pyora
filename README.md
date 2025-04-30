@@ -147,6 +147,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Wooden Stake](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI)
 * Bestiary
     * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)
+    * [Boomerang Cat](https://lore.dungeon.church/doc/boomerang-cat-W3QY45gDvY)
     * [Briar Tree](https://lore.dungeon.church/doc/briar-tree-fRVWJq8gZQ)
     * [Briar Mound](https://lore.dungeon.church/doc/briar-mound-Jh4pKdDHHQ)
     * [Clockwork Shark](https://lore.dungeon.church/doc/clockwork-shark-PjyuNm1hE0)
