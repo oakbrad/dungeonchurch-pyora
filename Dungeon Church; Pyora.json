@@ -6804,7 +6804,7 @@
 			"value": 1000,
 			"entries": [
 				"This kit is a small, rigid box containing bandages, herbs, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check.",
-				"When used as part of a ritual that takes 30 minutes, it removes one level of {@condition exhaustion}."
+				"When used as part of a ritual that takes an hour, it removes one level of {@condition exhaustion}."
 			],
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
@@ -7911,6 +7911,40 @@
 						"href": {
 							"type": "external",
 							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-undeath.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Potion of Shouting",
+			"type": "P",
+			"rarity": "uncommon",
+			"source": "DungeonChurch",
+			"weight": 1,
+			"lootTables": [
+				"Pyoran Potions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"entries": [
+				    "When you drink this potion, your next spoken word or short phrase is magically amplified to a deafening volume. The sound travels up to 200 feet and all creatures within 10 feet of you must succeed on a DC 13 Constitution saving throw or be {@condition deafened} for 10 minutes.",
+    				"This effect can be used to communicate across long distances, disrupt concentration, or create a dramatic entrance.",
+ 				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Learn more about the {@link Potion of Shouting in the wiki|https://lore.dungeon.church/doc/potion-of-shouting-IMrthYELjv}."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-shouting.png"
 						}
 					}
 				]
@@ -9240,7 +9274,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d93",
+				"1d94",
 				"Item"
 			],
 			"rows": [
@@ -9615,6 +9649,10 @@
 				[
 					"93",
 					"{@item First Aid Kit|DungeonChurch}"
+				],
+				[
+					"94",
+					"{@item Potion of Shouting|dungeonchurch}"
 				]
 			]
 		},
@@ -10574,6 +10612,10 @@
 				[
 					"96",
 					"{@item Bag of Alligator Tongues|dungeonchurch}"
+				],
+				[
+					"97",
+					"{@item Potion of Shouting|dungeonchurch}"
 				]
 			]
 			
@@ -10700,7 +10742,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d23",
+				"d24",
 				"Potion"
 			],
 			"rows": [
@@ -10803,6 +10845,10 @@
 				[
 					"25",
 					"{@item Bottled Sarlacc Pheromones|dungeonchurch}"
+				],
+				[
+					"26",
+					"{@item Potion of Shouting|dungeonchurch}"
 				]
 			]
 		},

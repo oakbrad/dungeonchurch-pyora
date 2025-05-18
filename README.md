@@ -114,6 +114,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Potion of Midnight Oil](https://lore.dungeon.church/doc/potion-of-midnight-oil-4PiTnJSnnP)
     * [Potion of the Mossy Oak](https://lore.dungeon.church/doc/potion-of-the-mossy-oak-EUrhe6nCRs)
     * [Potion of Oblivion](https://lore.dungeon.church/doc/potion-of-oblivion-DBhlvDmtCl)
+    * [Potion of Shouting](https://lore.dungeon.church/doc/potion-of-shouting-IMrthYELjv)
     * [Potion of Vile Strength](https://lore.dungeon.church/doc/potion-of-vile-strength-v5oDyTkJ2B)
     * Pumpkin of Unreliable Fireball
     * [Pyrotov Cocktail](https://lore.dungeon.church/doc/pyrotov-cocktail-1AqaCK0mQh)
