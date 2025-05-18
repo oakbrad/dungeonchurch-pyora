@@ -5020,6 +5020,106 @@
 			]
 		},
 		{
+			"name": "Scorchcock",
+			"source": "DungeonChurch",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"alignment": [
+				"C"
+			],
+			"ac": [
+				{
+				"ac": 13
+				}
+			],
+			"hp": {
+				"average": 22,
+				"formula": "5d6 + 5"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 16,
+			"con": 12,
+			"int": 2,
+			"wis": 14,
+			"cha": 6,
+			"skill": {
+				"perception": "+4"
+			},
+			"passive": 14,
+			"cr": "1/2",
+			"trait": [
+				{
+				"name": "Keen Sight",
+				"entries": [
+					"The scorchcock has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+				]
+				}
+			],
+			"action": [
+				{
+					"name": "Peck",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 (1d6 + 2) piercing damage."
+					]
+				},
+				{
+					"name": "Fire Crow (Recharge 5-6)",
+					"entries": [
+						"The scorchcock exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 13 (3d8) fire damage on a failed save, or half as much on a successful one."
+					]
+				}
+			],
+			"traitTags": [
+				"Keen Sight"
+			],
+			"damageTags": [
+				"F",
+				"P"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+						"environment": [
+				"urban"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-scorchcock-token.png"
+			},
+			"hasToken": true,
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+								{
+									"type": "inset",
+									"name": "Dungeon Church Lore",
+									"entries": [
+										"Learn more about the {@link Scorchcock in the wiki|https://lore.dungeon.church/doc/scorchcock-s33IndCpN3}."
+									]
+								}
+								]
+							}
+						],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-scorchcock.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Vomit Ooze",
 			"source": "DungeonChurch",
 			"size": [
@@ -6754,7 +6854,7 @@
 				"CNS"
 			],
 			"entries": [
-				"Golden fried potatoes, tossed in a heady infusion of garlic oil. For 10 minutes after consuming, the smell on your breath causes is so strong it vampires within a 10-foot radius to become {@condition frightened}."
+				"Golden fried potatoes, tossed in a heady infusion of garlic oil. For 10 minutes after consuming, the smell on your breath is so strong it causes vampires within a 10-foot radius to become {@condition frightened}."
 			],
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
@@ -9091,7 +9191,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d88",
+				"1d89",
 				"Item"
 			],
 			"rows": [
@@ -9446,6 +9546,10 @@
 				[
 					"88",
 					"{@item Garlic Fries|dungeonchurch}"
+				],
+				[
+					"89",
+					"{@creature Scorchcock|dungeonchurch}"
 				]
 			]
 		},
@@ -10411,7 +10515,7 @@
 			"caption": "Monsters known to inhabit the realm of Pyora.",
 			
 			"colLabels": [
-				"d15",
+				"d16",
 				"Monster"
 			],
 			"rows": [
@@ -10474,6 +10578,10 @@
 				[
 					"15",
 					"{@creature Zombie Vulture|dungeonchurch}"
+				],
+				[
+					"16",
+					"{@creature Scorchcock|dungeonchurch}"
 				]
 			]
 		},

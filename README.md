@@ -168,6 +168,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Lamont Solmar, Knight of Night](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
     * [Mildred Magpie](https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi)
     * [Sap Ooze](https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh)
+    * [Scorchcock](https://lore.dungeon.church/doc/scorchcock-s33IndCpN3)
     * [Vomit Ooze](https://lore.dungeon.church/doc/vomit-ooze-DhW28eyxrK)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
     * [Zombie Vulture](https://lore.dungeon.church/doc/zombie-vulture-Uc0z6ODNRp)
