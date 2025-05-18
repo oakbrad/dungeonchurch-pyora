@@ -5637,7 +5637,7 @@
 					]
 				}
 			]
-		},	
+		},
 		{
 			"name": "Amulet of Betrayal",
 			"source": "DungeonChurch",
@@ -5826,6 +5826,23 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Bag of Alligator Tongues",
+			"source": "DungeonChurch",
+			"type": "FD",
+			"rarity": "none",
+			"value": 2000,
+			"miscTags": [
+				"CNS"
+			],
+			"entries": [
+				"This grubby bag of alligator tongues contains several dessicated reptile tongues that look like crawling worms. Consuming the tongues causes the eater to increase by {@table Size Categories|MM|two sizes}."
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch",
+				"Pyoran Magic Items|dungeonchurch"
+			]
 		},
 		{
 			"name": "Bag of Rust",
@@ -6779,6 +6796,22 @@
 			}
 		},
 		{
+			"name": "First Aid Kit",
+			"source": "DungeonChurch",
+			"type": "G",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1000,
+			"entries": [
+				"This kit is a small, rigid box containing bandages, herbs, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check.",
+				"When used as part of a ritual that takes 30 minutes, it removes one level of {@condition exhaustion}."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
 			"name": "Fiz's Flute",
 			"source": "DungeonChurch",
 			"type": "INS",
@@ -7060,6 +7093,22 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Hardtack",
+			"source": "DungeonChurch",
+			"type": "FD",
+			"rarity": "none",
+			"value": 2,
+			"miscTags": [
+				"CNS"
+			],
+			"entries": [
+				"An unappetizing, hard biscuit. When you eat it, roll {@dice 1d20}. On a natural 1, you choke on it and gain no benefit. Otherwise you gain 1 HP."
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
 		},
 		{
 			"name": "Ley Line Lens",
@@ -9191,7 +9240,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d89",
+				"1d93",
 				"Item"
 			],
 			"rows": [
@@ -9550,6 +9599,22 @@
 				[
 					"89",
 					"{@creature Scorchcock|dungeonchurch}"
+				],
+				[
+					"90",
+					"{@item Hardtack|dungeonchurch}"
+				],
+				[
+					"91",
+					"{@item Bag of Alligator Tongues|dungeonchurch}"
+				],
+				[
+					"92",
+					"{@item Propeller Helm|WDMM}"
+				],
+				[
+					"93",
+					"{@item First Aid Kit|DungeonChurch}"
 				]
 			]
 		},
@@ -10122,7 +10187,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d95",
+				"d97",
 				"Item"
 			],
 			"rows": [
@@ -10505,6 +10570,10 @@
 				[
 					"95",
 					"{@item Garlic Fries|dungeonchurch}"
+				],
+				[
+					"96",
+					"{@item Bag of Alligator Tongues|dungeonchurch}"
 				]
 			]
 			

@@ -90,6 +90,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Gnomish Tea Set](https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V)
     * Grease Grenade
     * [Guildmaster's Hunting Horn](https://lore.dungeon.church/doc/guildmasters-hunting-horn-PkmJIssiGT)
+    * Hardtack
     * [Hearthhoney Braggot](https://lore.dungeon.church/doc/hearthhoney-braggot-zL90z9tilm)
     * [Ley Line Lens](https://lore.dungeon.church/doc/ley-line-lens-A8oN3yTn4x)
     * [Longsword of the Dragon Empire](https://lore.dungeon.church/doc/longsword-of-the-dragon-empire-WNp5oBATI3)
