@@ -7647,6 +7647,23 @@
 			}
 		},
 		{
+			"name": "Orc's Arse",
+			"source": "DungeonChurch",
+			"type": "INS",
+			"rarity": "uncommon",
+			"weight": 2,
+			"value": 100,
+			"entries": [
+				"This small, inflatable pouch is made from the preserved bladder or stomach of wild game animals. When squeezed, air escapes the pouch and it makes an unflattering noise.",
+				"Used by orcs to teach their young to set effective traps from an early age, the pouches are used as kind of prank device meant to be sprung on an unsuspecting victim.",
+				"Any creature that unexpectedly triggers the orc's arse has disadvantage on Charisma checks for the next hour."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			]
+		},
+		{
 			"name": "Otto's Gong",
 			"type": "INS",
 			"source": "DungeonChurch",
@@ -9323,7 +9340,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d95",
+				"1d96",
 				"Item"
 			],
 			"rows": [
@@ -9706,6 +9723,10 @@
 				[
 					"95",
 					"{@item Rat on a stick|dungeonchurch}"
+				],
+				[
+					"96",
+					"{@item Orc's Arse|dungeonchurch}"
 				]
 			]
 		},
@@ -10278,7 +10299,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d97",
+				"d98",
 				"Item"
 			],
 			"rows": [
@@ -10669,6 +10690,10 @@
 				[
 					"97",
 					"{@item Potion of Shouting|dungeonchurch}"
+				],
+				[
+					"98",
+					"{@item Orc's Arse|dungeonchurch}"
 				]
 			]
 			
