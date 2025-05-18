@@ -118,6 +118,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Potion of Vile Strength](https://lore.dungeon.church/doc/potion-of-vile-strength-v5oDyTkJ2B)
     * Pumpkin of Unreliable Fireball
     * [Pyrotov Cocktail](https://lore.dungeon.church/doc/pyrotov-cocktail-1AqaCK0mQh)
+    * Rat on a stick
     * [Rationing Spice](https://lore.dungeon.church/doc/rationing-spice-iguPtdfdS2)
     * Red Cape of Taunting
     * [Red Talon](https://lore.dungeon.church/doc/the-red-talon-JmZrNqSkRX)
@@ -179,6 +180,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 * Optional Features
     * Witchsight
 * Tables
+    * Books of Pyora
     * Dungeon Dome Concessions
     * Durandian Draughts
     * Faction Reptuation Tracking

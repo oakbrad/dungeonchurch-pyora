@@ -8068,6 +8068,36 @@
 			}
 		},
 		{
+			"name": "Rat on a stick",
+			"source": "DungeonChurch",
+			"type": "FD",
+			"rarity": "common",
+			"value": 20,
+			"miscTags": [
+				"CNS"
+			],
+			"entries": [
+				"A roasted rat, skewered on a stick, unevenly roasted over a hot coal fire.",
+				"When consumed, it restores 1 HP and forces a DC 5 Constitution saving throw. On a fail, you're {@condition poisoned} and filled with regret."
+			],
+			"lootTables": [
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"fluff": {
+				"entries": [
+					{
+						"type": "quote",
+						"entries": [
+							"It's no squirrel."
+						],
+						"by": "Urgaud Gnasher",
+						"from": "Urgaud's Culinary Travels"
+					}
+				]
+				
+			}
+		},
+		{
 			"name": "Rationing Spice",
 			"type": "IDG",
 			"tier": "minor",
@@ -9270,11 +9300,30 @@
 	],
 	"table": [
 		{
+			"name": "Books of Pyora",
+			"source": "DungeonChurch",
+			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
+			"colLabels": [
+				"1d2",
+				"Book"
+			],
+			"rows": [
+				[
+					"1",
+					"{@link Urgaud's Culinary Travels|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}"
+				],
+				[
+					"2",
+					"{@link T'zeldarun's Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}"
+				]
+			]
+		},
+		{
 			"name": "Dungeon Dome Concessions",
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d94",
+				"1d95",
 				"Item"
 			],
 			"rows": [
@@ -9653,6 +9702,10 @@
 				[
 					"94",
 					"{@item Potion of Shouting|dungeonchurch}"
+				],
+				[
+					"95",
+					"{@item Rat on a stick|dungeonchurch}"
 				]
 			]
 		},
