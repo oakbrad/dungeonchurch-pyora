@@ -6616,6 +6616,35 @@
 			]
 		},
 		{
+			"name": "Eclipse Lantern",
+			"source": "DungeonChurch",
+			"type": "G",
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"rarity": "rare",
+			"wondrous": true,
+			"entries": [
+				"This elegant, elven {@item bullseye lantern|PHB} is masterfully crafted from metal and etched with delicate runes. A crystal shard is embedded in it's mechanism in place of a wick, which focuses and projects darkness comparable to that produced by a {@spell Darkness} spell.",
+				"The user can perform a ritual to charge the lantern by turning a clockwork key on it's side for at least 1 minute. Once charged, the lantern can be activated using an action to press a button creating a 30 foot cone of magical darkness The darkness persists for 10 minutes, or until the lanternet is closed. Once activated, the ritual cannot be repeated until the next dawn."
+			],
+			"fluff":
+			{
+				"name": "Avalonian Lantern",
+				"source": "DungeonChurch",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-eclipse-lantern.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Entrancing Mirror",
 			"source": "DungeonChurch",
 			"tier": "minor",
@@ -8807,7 +8836,7 @@
 			"type": "P",
 			"rarity": "common",
 			"entries": [
-				"This small, corked bottle contains a pungent, musky smelling oil to which many miraculous properties are calimed. But buyer beware!",
+				"This small, corked bottle contains a pungent, musky smelling oil to which many miraculous properties are claimed. But buyer beware!",
 				"As an action, you may apply the oil to yourself or another creature within reach. Then flip a coin:",
 				{
 					"type": "list",
@@ -9401,7 +9430,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d99",
+				"1d100",
 				"Item"
 			],
 			"rows": [
@@ -9800,6 +9829,10 @@
 				[
 					"99",
 					"{@item Snake Oil|dungeonchurch}"
+				],
+				[
+					"100",
+					"{@item Eclipse Lantern|dungeonchurch}"
 				]
 			]
 		},
@@ -10372,7 +10405,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d100",
+				"d101",
 				"Item"
 			],
 			"rows": [
@@ -10775,6 +10808,10 @@
 				[
 					"100",
 					"{@item Snake Oil|dungeonchurch}"
+				],
+				[
+					"101",
+					"{@item Eclipse Lantern|dungeonchurch}"
 				]
 			]
 			

@@ -68,6 +68,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Collector of Souls](https://lore.dungeon.church/doc/collector-of-souls-XA0hpJ7gfE)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
     * [Deepgarden Cider](https://lore.dungeon.church/doc/deepgarden-cider-5Q8snj1J61)
+    * Eclipse Lantern
     * [Entrancing Mirror](https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5)
     * [Essence of Submission](https://lore.dungeon.church/doc/essence-of-submission-U5IGAEmwpH)
     * [Dagger of Profuse Bleeding](https://lore.dungeon.church/doc/dagger-of-profuse-bleeding-uXUIGCXKkL)
