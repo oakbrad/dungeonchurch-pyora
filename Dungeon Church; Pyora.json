@@ -8774,6 +8774,67 @@
 			}
 		},
 		{
+			"name": "Slug Slime",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"type": "P",
+			"rarity": "common",
+			"entries": [
+				"This thick, viscous slime is harvested from {@creature giant slug|TTP|giant slugs} and is carefully bottled in small glass vials. Once exposed to air, it rapidly expands into a remarkably adhesive substance.", 
+				"As an action, you can throw this vial at a creature within 20 feet, shattering it upon impact. The target must succeed on a DC 13 Dexterity saving throw or become {@condition restrained} in place. A stuck creature may repeat the save at the beginning of their next turn."
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Potions|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-slug-slime.png"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Snake Oil",
+			"source": "DungeonChurch",
+			"tier": "minor",
+			"type": "P",
+			"rarity": "common",
+			"entries": [
+				"This small, corked bottle contains a pungent, musky smelling oil to which many miraculous properties are calimed. But buyer beware!",
+				"As an action, you may apply the oil to yourself or another creature within reach. Then flip a coin:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Heads - True Snake Oil} - The target gains advantage on their next ability check, attack roll, or saving throw.",
+						"{@b Tails - False Snake Oil} - The target suffers disadvantage instead."
+					]
+				}
+			],
+			"lootTables": [
+				"Pyoran Magic Items|dungeonchurch",
+				"Pyoran Potions|dungeonchurch",
+				"Dungeon Dome Concessions|dungeonchurch"
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-snake-oil.png"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Soulbound Skull",
 			"source": "DungeonChurch",
 			"tier": "major",
@@ -9340,7 +9401,7 @@
 			"source": "DungeonChurch",
 			"caption": "Animated skeletons wander the stone stands of the Dungeon Dome, cursed forever to hawk snacks, souvenirs, and items to the bloodthirsty audience.",
 			"colLabels": [
-				"1d96",
+				"1d99",
 				"Item"
 			],
 			"rows": [
@@ -9727,6 +9788,18 @@
 				[
 					"96",
 					"{@item Orc's Arse|dungeonchurch}"
+				],
+				[
+					"97",
+					"{@item Slug Slime|dungeonchurch}"
+				],
+				[
+					"98",
+					"Ice cream that doesn't melt"
+				],
+				[
+					"99",
+					"{@item Snake Oil|dungeonchurch}"
 				]
 			]
 		},
@@ -10299,7 +10372,7 @@
 			"source": "DungeonChurch",
 			"caption": "Items and relics uncovered in the world of Pyora.",
 			"colLabels": [
-				"d98",
+				"d100",
 				"Item"
 			],
 			"rows": [
@@ -10694,6 +10767,14 @@
 				[
 					"98",
 					"{@item Orc's Arse|dungeonchurch}"
+				],
+				[
+					"99",
+					"{@item Slug Slime|dungeonchurch}"
+				],
+				[
+					"100",
+					"{@item Snake Oil|dungeonchurch}"
 				]
 			]
 			
@@ -10820,7 +10901,7 @@
 			"source": "DungeonChurch",
 			"caption": "Potions from the realm of Pyora.",
 			"colLabels": [
-				"d24",
+				"d28",
 				"Potion"
 			],
 			"rows": [
@@ -10927,6 +11008,14 @@
 				[
 					"26",
 					"{@item Potion of Shouting|dungeonchurch}"
+				],
+				[
+					"27",
+					"{@item Slug Slime|dungeonchurch}"
+				],
+				[
+					"28",
+					"{@item Snake Oil|dungeonchurch}"
 				]
 			]
 		},
