@@ -1,17 +1,67 @@
-# DOESN'T WORK!!!
 name: Validate 5eTools Homebrew JSON
 
 on:
   push:
+    paths:
+      - '**.json'
+  pull_request:
+    paths:
+      - '**.json'
 
 jobs:
-  validate-config:
+  validate-json:
+    name: Validate JSON against 5etools schema
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: validate
-      run: |-
-        npx --package=5etools-utils -c "test-json-brew '/5etools-homebrew/Dungeon Church; Pyora.json'"
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Validate JSON files
+      id: validate
+      run: |
+        echo "Validating JSON files against 5etools schema..."
+        # Find all JSON files in the repository
+        JSON_FILES=$(find . -name "*.json" -type f | grep -v "node_modules" | sort)
+        
+        # Initialize error flag
+        HAS_ERRORS=0
+        
+        # Validate each JSON file
+        for file in $JSON_FILES; do
+          echo "Validating $file..."
+          npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
+        done
+        
+        # Exit with error if any validation failed
+        if [ $HAS_ERRORS -eq 1 ]; then
+          echo "::error::JSON validation failed!"
+          exit 1
+        else
+          echo "All JSON files validated successfully!"
+        fi
+
+    outputs:
+      validation_success: ${{ steps.validate.outcome == 'success' }}
+
+  update-brew:
+    name: Update Pyora Homebrew
+    needs: validate-json
+    if: ${{ needs.validate-json.outputs.validation_success == 'true' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: SSH to run script on remote server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        script: sudo /home/ubuntu/5etools-homebrew/getbrew.sh
+
