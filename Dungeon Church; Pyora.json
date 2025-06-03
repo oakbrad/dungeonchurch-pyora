@@ -19,283 +19,8 @@
 		"dateAdded": 1711973394,
 		"dateLastModified": 1721111951
 	},
-	"book": [
-		{
-			"name": "Dungeon Church Zine 1",
-			"id": "DC1",
-			"source": "DungeonChurch",
-			"group": "homebrew",
-			"published": "2021-07-21",
-			"author": "Brad Wenner",
-			"cover": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-cover.png"
-			},
-			"contents": [
-				{
-					"name": "About"
-				},
-				{
-					"name":	"History",
-					"headers": [
-						"Timeline",
-						"Maps"
-					]
-				},
-				{
-					"name": "Pyora"
-				},
-				{
-					"name": "Saltmarsh",
-					"headers": [
-						"Maps"
-					]
-				},
-				{
-					"name": "Players"
-				},
-				{
-					"name": "Species",
-					"headers": [
-						"Humans",
-						"Dwarves",
-						"Elves",
-						"Elfmarked",
-						"Dragonborn",
-						"Gnomes & Halflings"
-					]
-				}
-			]
-		}
-	],
-	"bookData": [
-		{
-			"id": "DC1",
-			"source": "DungeonChurch",
-			"data": [
-				{
-					"type": "section",
-					"name": "Dungeon Church 1",
-					"entries": [
-						{
-							"type": "image",
-							"href": {
-								"type": "external",
-								"url": "https://www.dungeon.church/content/images/size/w2000/2023/09/Screen-Shot-2023-09-25-at-18.52.47.png"
-							}
-						},
-						{
-							"type": "quote",
-							"entries": [
-								"Physical copies of this zine were sent as an invitation to players of Dungeon Church in 2021. This is the start of our homebrew setting, Pyora."
-							],
-							"by": "Dungeon Master Brad"
-						},
-						{
-							"type": "inset",
-							"name": "Original Zine",
-							"entries": [
-								"The original, printable form of this zine in PDF format is {@link available here|https://www.dungeon.church/zine-no1}."
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "History",
-					
-					"entries": [
-						{
-							"type": "entries",
-							"name": "Timeline",
-							"entries": [
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-timeline.png"
-									},
-									"title": "Pyora Timeline",
-									"credit": "From Session 0.1 on 6/11/21"
-								},
-								{
-									"type": "inset",
-									"name": "Current Timelines",
-									"entries": [
-										"Are available in {@link the lore wiki|https://lore.dungeon.church/s/zine-1}."
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Maps",
-							"entries": [
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-hex.png"
-									},
-									"title": "Pyora original hex map"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-pyora.png"
-									},
-									"title": "Pyora first draft map"
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Pyora",
-					
-					"entries": [
-						"Several centuries after the fall of the {@link Last Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}, civilization in the lands of Pyora has entered a new period of innovation & transition.",
-						"{@race Human (Pyoran)|dungeonchurch|Humans} have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about {@race Elfmarked|dungeonchurch} children born with unexplainable talents, echoes of long vanished Elven heroes.",
-						"The {@race Dwarf (Durandar)|dungeonchurch|Dwarven} Kingdom has nearly finished the long Great Migration - abandoning their old cities to follow their {@link Prophet-King|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} across the Azure Sea and into the mountains of the west. Their new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} rises as a center of technological innovation, as the dwarves reject magic in favor of molding the mountain's inner fire and rivers into great power.",
-						"The {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}, once the conscripted foot soldiers of the {@link Empire's|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm} army, have been instrumental in the reclaiming of the port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} into a {@link democratic city|https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao} with free elections in the east. Others seek out a simpler life among the {@race Tribeborn|dungeonchurch} in the vast wilderness - away from the wars & schemes of humanity.",
-						"Between the two new cities lies the older human stronghold, {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}, at a crucial trade point on the peninsula. With it's well funded naval control of the strait and ambitious aristocratic ruling class, the city's influence extends far beyond it's walls as the hoofsteps of the {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} echo down the newly safe roads throughout the land.",
-						"Beneath this veneer of progress & opportunity, the old threats still lurk, plotting for their moment to reemerge and propel the {@link endless cycle of fate & magic|https://lore.dungeon.church/doc/session-01-ouroboros-turns-MlX7v5L4dN} forward again."
-					]
-				},
-				{
-					"type": "section",
-					"name": "Saltmarsh",
-					
-					"entries": [
-						"Nestled on the eastern coast of the Azure Sea is {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}, a sleepy fishing village thats sits on the precipice of great change.",
-						"Smugglers guide their ships to hidden coves, willing to slit the throat of any who cross their path. Soldiers of a faraway power patrol the roads mounted on armored horses. Monsters gather beneath the waves & drowned sailors stir to unnatural life, animated by dark magic. The cult of a dead god silently grows it's reach. The nearby woods house mind-bending horrors. Mercenary groups seek abandoned treasures in the old dwarven mine.",
-						"As Saltmarsh sleeps each night, waves gently lapping against the docks, the forces that seek to plunder it grow stronger.",
-						{
-							"type": "entries",
-							"name": "Maps",
-							
-							"entries": [
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh.png"
-									},
-									"title": "Saltmarsh map"
-								},
-								{
-									"type": "image",
-									"href": {
-										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh-region.jpg"
-									},
-									"title": "Saltmarsh region map"
-								}
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Players",
-					
-					"entries": [
-						"You have been invited to join our in-person Dungeons & Dragons campaign.",
-						"We will play an ongoing, narrative-focused game in a world of our own creation.",
-						"The story of that world has already begun to be told, what role will you play?",
-						{
-							"type": "inset",
-							"name": "If you're reading this in the present...",
-							"entries": [
-								"...and you live in the SF Bay area, you can fill out this form to {@link join us|https://www.dungeon.church/join-us}."
-							]
-						}
-					]
-				},
-				{
-					"type": "section",
-					"name": "Species",
-					
-					"entries": [
-						{
-							"type": "inset",
-							"entries": [
-								"Playable character species were limited to these options at the inception of Pyora."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "{@race Human (Pyoran)|dungeonchurch|Humans}",
-							
-							"entries": [
-								"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
-								"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
-								"Most humans do not live in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Dwarves ({@race Dwarf (Durandar)|dungeonchurch|Durandar} or {@race Dwarf (Hearth)|dungeonchurch|Hearth})",
-							
-							"entries": [
-								"It's taken centuries for {@link King Olfgard Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
-								"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
-								"It is rumored that the pirates who plague {@link Striborg's merchant ships|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX} are dwarves who prefer the open sea."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Elves",
-							
-							"entries": [
-								"It is known that elves played a prominent role in fighting the Dragon Empires in the last age, but no one in living memory can remember seeing one in the flesh except for the oldest dwarves.",
-								"According to legends and the tall tales of lost hunters, they have built an advanced civilization in the deep forests, but no one has ever pinpointed the exact location of any settlement or ruin.",
-								{
-									"type": "inset",
-									"entries": [
-										"[Players will not play elves... for now]"
-									]
-								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "{@race Elfmarked|dungeonchurch}",
-							
-							"entries": [
-								"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called 'Children of the Travelers' a.k.a. the elfmarked.",
-								"Many stories, or convenient excuses, of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special.",
-								"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
-							
-							"entries": [
-								"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
-								"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
-								"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} and building a thriving free city where it is said, 'every man a king.' ",
-								"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness."
-							]
-						},
-						{
-							"type": "entries",
-							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling (Pyoran)|dungeonchurch|Halflings}",
-							
-							"entries": [
-								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed.",
-								"Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
-								"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans."
-							]
-						}
-					]
-				}
-			]
-		}
-	],
+	"book": [],
+	"bookData": [],
 	"condition": [
 		{
 			"name": "Intoxicated",
@@ -304,8 +29,7 @@
 			"entries": [
 				"An intoxicated creature has disadvantage on attack rolls and ability checks. To cast a spell, the creature must first succeed a DC 10 Constitution check. Otherwise, the spellcasting action is wasted, but the spell is not."
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Intoxicated",
 				"source": "DungeonChurch",
 				"images": [
@@ -324,7 +48,6 @@
 		{
 			"name": "Adalindian Whistling",
 			"source": "DungeonChurch",
-			
 			"entries": [
 				"A secret, whistled language used by the Gnomish resistance movement {@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}."
 			],
@@ -336,7 +59,6 @@
 		{
 			"name": "Tribal",
 			"source": "DungeonChurch",
-			
 			"entries": [
 				"Tribal is a harsh, grating language with hard consonants used mostly by the {@race Tribeborn|dungeonchurch} of the southwest. It has no script of its own but is written in the Dwarvish script."
 			],
@@ -445,7 +167,7 @@
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
-					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called “Children of the Travelers” a.k.a. the elfmarked.",
+					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called \u201cChildren of the Travelers\u201d a.k.a. the elfmarked.",
 					"Many stories - or convenient excuses - of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special. ",
 					"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time.",
 					{
@@ -532,7 +254,7 @@
 					"type": "entries",
 					"name": "Stone Tea",
 					"entries": [
-						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week\u2019s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
 					]
 				}
 			],
@@ -913,7 +635,7 @@
 					"type": "entries",
 					"name": "Stone Tea",
 					"entries": [
-						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week\u2019s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
 					]
 				},
 				{
@@ -940,10 +662,9 @@
 							"type": "entries",
 							"name": "Music Box",
 							"entries": [
-								"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed."
+								"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song\u2019s end or when it is closed."
 							]
 						}
-						
 					]
 				}
 			],
@@ -952,8 +673,8 @@
 			"fluff": {
 				"entries": [
 					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices. Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans.",
-					"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it’s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
-					"Gnomes of the Underdark are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this Stone Tea and it’s ceremony are a tightly guarded gnomish secret.",
+					"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it\u2019s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
+					"Gnomes of the Underdark are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this Stone Tea and it\u2019s ceremony are a tightly guarded gnomish secret.",
 					{
 						"type": "inset",
 						"name": "Dungeon Church Lore",
@@ -986,7 +707,7 @@
 					],
 					"data": {
 						"overwrite": "Speed"
-					}	
+					}
 				},
 				{
 					"type": "entries",
@@ -1066,8 +787,8 @@
 			],
 			"entries": [
 				{
-					"type":"entries",
-					"name":"Age",
+					"type": "entries",
+					"name": "Age",
 					"entries": [
 						"Dwarves mature at the same rate as humans, but they're considered apprentices in Durandar until they reach the age of 100. On average, they live about 350 years."
 					],
@@ -1083,7 +804,7 @@
 					],
 					"data": {
 						"overwrite": "Tool Proficiency"
-					}	
+					}
 				},
 				{
 					"type": "entries",
@@ -1142,7 +863,6 @@
 				"War",
 				"Oaths",
 				"Masculinity"
-				
 			],
 			"symbol": "Rooster whipping a dragon, Scale encircled by Whip",
 			"symbolImg": {
@@ -1179,7 +899,7 @@
 				"Celestial Bodies",
 				"Laughter"
 			],
-			"altNames":[
+			"altNames": [
 				"Precocious Son",
 				"The Traveler"
 			],
@@ -1219,7 +939,7 @@
 				"Coin Flips",
 				"Fate"
 			],
-			"altNames":[
+			"altNames": [
 				"The Pathfinder",
 				"The Hooded Menace",
 				"The Final Ferryman"
@@ -1263,7 +983,7 @@
 				"Luck",
 				"Dreams"
 			],
-			"altNames":[
+			"altNames": [
 				"The Traveler",
 				"The Trickster"
 			],
@@ -1279,7 +999,7 @@
 			},
 			"entries": [
 				"Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles.",
-				"As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it’s never clear if her attention is for favor or for ill. Possibly, it’s both.",
+				"As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it\u2019s never clear if her attention is for favor or for ill. Possibly, it\u2019s both.",
 				"It is said in legends when she appears as a human (always just before dawn), she takes the form of an ageless blonde with a gossamer dress made from frost, riding either a hare or a nightingale, disappearing at first light.",
 				"A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances.",
 				{
@@ -1305,7 +1025,7 @@
 				"Stability",
 				"Eternity"
 			],
-			"altNames":[
+			"altNames": [
 				"The Key Holder",
 				"Old Man Gloom"
 			],
@@ -1321,7 +1041,7 @@
 			},
 			"entries": [
 				"God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
-				"He is engaged in a never ending struggle with the cycle of the tides, as each night {@link Selune’s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+				"He is engaged in a never ending struggle with the cycle of the tides, as each night {@link Selune\u2019s|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -1346,7 +1066,7 @@
 				"Jealousy",
 				"Undead"
 			],
-			"altNames":[
+			"altNames": [
 				"The Jealous One",
 				"Queen of Death"
 			],
@@ -1362,7 +1082,7 @@
 			},
 			"entries": [
 				"A deity who rules in the ethereal fey magic of the far planes.",
-				"The Raven Queen, a deity shrouded in mystery, presides over the moment of transition between life and death. Her followers believe she is the guardian of the line between the living and the dead, watching over all those souls who cross it’s boundary. In Pyora, she is often associated with bad omens or bad luck.",
+				"The Raven Queen, a deity shrouded in mystery, presides over the moment of transition between life and death. Her followers believe she is the guardian of the line between the living and the dead, watching over all those souls who cross it\u2019s boundary. In Pyora, she is often associated with bad omens or bad luck.",
 				"The Raven Queen was once a powerful sorceress whose jealousy led her to a fateful act against her lover, {@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}. In a singular moment of possessive rage, she clipped Eve's wings, scattering the feathers across the planes where they transformed into the {@race Ravenfolk|dungeonchurch}.",
 				{
 					"type": "inset",
@@ -1374,7 +1094,7 @@
 			]
 		},
 		{
-			"name": "Selûne",
+			"name": "Sel\u00fbne",
 			"title": "Mother of Madness",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
@@ -1388,7 +1108,7 @@
 				"Lycanthropy",
 				"Entropy"
 			],
-			"altNames":[
+			"altNames": [
 				"Mother of Madness"
 			],
 			"symbol": "Moon, Ouroboros, Naked Female",
@@ -1422,7 +1142,9 @@
 				"G"
 			],
 			"domains": [
-				"Fermentation", "Transformation","Festivals"
+				"Fermentation",
+				"Transformation",
+				"Festivals"
 			],
 			"altNames": [
 				"Brother Malt",
@@ -1443,7 +1165,7 @@
 				"Siduri is often depicted as a dwarf with a warm, inviting demeanor and a flowing beard adorned with jewels and hop vines, which are sacred to her. Their attire is vibrant and ever-changing, reflecting her fluid identity and the transformative nature of their domain. ",
 				"In dwarven legends, Siduri was a crafty revolutionary who attempted a failed coup against the King. Imprisoned and waiting to be put to death, they escaped when the guards drank too much ale and fell asleep. Cursed to be on the run for eternity, Siduri grew a beard and changes identities to keep ahead of fate.",
 				"Siduri governs over fermentation, revelry, transformation, and joy. They are the patron of brewers, vintners, artists, thieves, and all who seek the joyful liberation found in festive gatherings or revolutions. Their name is invoked to ensure the success of crops used in brewing, the battle cries of rebels, and blessed as the host of many a joyful gathering.",
-				"Siduri’s most fervent followers are known to devote themselves to revolutionary causes of any and all types, no matter the grievance. A large part of their worship is organizing surreal parties, spontaneous parades, and theater troupes that transgress the taboo and occasionally veer into riots. For this reason, their temples and chapels are often persecuted or banned in large cities - widely seen as dangerous front groups for radical elements. "
+				"Siduri\u2019s most fervent followers are known to devote themselves to revolutionary causes of any and all types, no matter the grievance. A large part of their worship is organizing surreal parties, spontaneous parades, and theater troupes that transgress the taboo and occasionally veer into riots. For this reason, their temples and chapels are often persecuted or banned in large cities - widely seen as dangerous front groups for radical elements. "
 			]
 		}
 	],
@@ -2233,9 +1955,7 @@
 				"wisdom"
 			],
 			"fluff": {
-				"entries": [
-					
-				],
+				"entries": [],
 				"images": [
 					{
 						"type": "image",
@@ -2342,9 +2062,7 @@
 				"strength"
 			],
 			"fluff": {
-				"entries": [
-					
-				],
+				"entries": [],
 				"images": [
 					{
 						"type": "image",
@@ -2419,9 +2137,7 @@
 				"entries": [
 					{
 						"type": "entries",
-						"entries": [
-							
-						]
+						"entries": []
 					}
 				],
 				"images": [
@@ -2670,7 +2386,7 @@
 					{
 						"name": "Lust for Vengeance",
 						"entries": [
-							"His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father’s death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+							"His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father\u2019s death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
 						]
 					},
 					{
@@ -3225,7 +2941,6 @@
 				"Y"
 			]
 		},
-		
 		{
 			"name": "Iron Rider Hunter",
 			"source": "DungeonChurch",
@@ -4672,7 +4387,7 @@
 										"entries": [
 											"Green hags revel in the failings and tragedies of other creatures. They derive joy from bringing people low and seeing hope turn into despair, not just for individuals but also for whole nations."
 										]
-									},		
+									},
 									{
 										"type": "inset",
 										"name": "Dungeon Church Lore",
@@ -5031,7 +4746,7 @@
 			],
 			"ac": [
 				{
-				"ac": 13
+					"ac": 13
 				}
 			],
 			"hp": {
@@ -5054,10 +4769,10 @@
 			"cr": "1/2",
 			"trait": [
 				{
-				"name": "Keen Sight",
-				"entries": [
-					"The scorchcock has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
-				]
+					"name": "Keen Sight",
+					"entries": [
+						"The scorchcock has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+					]
 				}
 			],
 			"action": [
@@ -5085,7 +4800,7 @@
 				"MW",
 				"AOE"
 			],
-						"environment": [
+			"environment": [
 				"urban"
 			],
 			"tokenHref": {
@@ -5098,16 +4813,16 @@
 					{
 						"type": "entries",
 						"entries": [
-								{
-									"type": "inset",
-									"name": "Dungeon Church Lore",
-									"entries": [
-										"Learn more about the {@link Scorchcock in the wiki|https://lore.dungeon.church/doc/scorchcock-s33IndCpN3}."
-									]
-								}
+							{
+								"type": "inset",
+								"name": "Dungeon Church Lore",
+								"entries": [
+									"Learn more about the {@link Scorchcock in the wiki|https://lore.dungeon.church/doc/scorchcock-s33IndCpN3}."
 								]
 							}
-						],
+						]
+					}
+				],
 				"images": [
 					{
 						"type": "image",
@@ -5210,9 +4925,9 @@
 				{
 					"name": "Last Call",
 					"entries": [
-					  "When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be {@condition blinded} until the end of its next turn."
+						"When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be {@condition blinded} until the end of its next turn."
 					]
-				  }
+				}
 			],
 			"environment": [
 				"urban"
@@ -5239,11 +4954,11 @@
 									{
 										"type": "quote",
 										"entries": [
-											"You ever pound glög until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
+											"You ever pound gl\u00f6g until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
 										],
 										"by": "{@link Rorsh the Acolyte|https://lore.dungeon.church/doc/rorsh-the-mage-umxTjXQj7k}"
 									},
-									"Vomit oozes are spontaneous arcane accidents—born from a particularly potent mixture of booze, {@table Pyoran Substances|dungeonchurch|illicit magical intoxication}, and emotional instability. When a magically inclined individual overindulges and loses their stomach in a dingy alley, there's a small chance that the expelled mess keeps the party going... mindlessly seeking out more alcohol and the opportunity for a brawl.",
+									"Vomit oozes are spontaneous arcane accidents\u2014born from a particularly potent mixture of booze, {@table Pyoran Substances|dungeonchurch|illicit magical intoxication}, and emotional instability. When a magically inclined individual overindulges and loses their stomach in a dingy alley, there's a small chance that the expelled mess keeps the party going... mindlessly seeking out more alcohol and the opportunity for a brawl.",
 									{
 										"type": "entries",
 										"name": "Urban Hazard",
@@ -5353,7 +5068,6 @@
 					"entries": [
 						"The zombie raccoon has advantage on an attack roll against a creature if at least one of the raccoon's allies is within 5 feet of the creature and the ally isn't incapacitated."
 					]
-					
 				}
 			],
 			"action": [
@@ -5502,7 +5216,6 @@
 					"entries": [
 						"The zombie vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
 					]
-					
 				}
 			],
 			"action": [
@@ -5599,7 +5312,6 @@
 				"S"
 			]
 		}
-		
 	],
 	"item": [
 		{
@@ -5620,13 +5332,13 @@
 			],
 			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
-				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: “A mi, volpal” which translates from its indigenous tongue as “A blade for me.”",
+				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: \u201cA mi, volpal\u201d which translates from its indigenous tongue as \u201cA blade for me.\u201d",
 				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creatures heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides the creature is too big for its head to be cut off with this weapon. Such a creature takes an extra {@dice 6d8} slashing damage from the hit.",
 				{
 					"type": "entries",
 					"name": "Cursed",
 					"entries": [
-						"Whenever you deal damage with Abi-Teos's machete, you take {@dice 1d6} necrotic damage as the weapon drains your blood. If you roll a 1 on an attack roll made with the weapon, the leeches carved into the handle animate and crawl down your throat—infesting you with throat leeches (a disease). You must succeed on a DC 12 Constitution saving throw or gain 1 level of exhaustion that can only be removed by succeeding on a DC 12 Constitution saving throw upon completing a long rest. If the saving throw fails, you gain another level of exhaustion. If a successful saving throw reduces your exhaustion level below 1, you recover from the disease."
+						"Whenever you deal damage with Abi-Teos's machete, you take {@dice 1d6} necrotic damage as the weapon drains your blood. If you roll a 1 on an attack roll made with the weapon, the leeches carved into the handle animate and crawl down your throat\u2014infesting you with throat leeches (a disease). You must succeed on a DC 12 Constitution saving throw or gain 1 level of exhaustion that can only be removed by succeeding on a DC 12 Constitution saving throw upon completing a long rest. If the saving throw fails, you gain another level of exhaustion. If a successful saving throw reduces your exhaustion level below 1, you recover from the disease."
 					]
 				},
 				{
@@ -5665,8 +5377,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Amulet of Betrayal",
 				"source": "DungeonChurch",
 				"images": [
@@ -5704,8 +5415,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Amulet of False Life",
 				"source": "DungeonChurch",
 				"images": [
@@ -5772,8 +5482,7 @@
 				"mending",
 				"arcane lock"
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Avalon Engineer's Signet",
 				"source": "DungeonChurch",
 				"images": [
@@ -5812,8 +5521,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Avalonian Lantern",
 				"source": "DungeonChurch",
 				"images": [
@@ -5919,8 +5627,7 @@
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch"
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Bag of Rust",
 				"source": "DungeonChurch",
 				"images": [
@@ -5953,8 +5660,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Banshee Blight",
 				"source": "DungeonChurch",
 				"images": [
@@ -5978,7 +5684,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer’s mark, the glass is crudely etched by hand with the dwarven rune for “berserker”.",
+				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer\u2019s mark, the glass is crudely etched by hand with the dwarven rune for \u201cberserker\u201d.",
 				"When you drink this beer, you feel the heightened awareness and confidence of an experienced brawler flood through you for 5 minutes. When attacking with an unarmed strike or improvised weapon, you have advantage on the attack roll and can use your bonus action to make another attack of the same type. Your heightened battle focus gives you disadvantage on Wisdom and Intelligence checks and saving throws.",
 				{
 					"type": "inset",
@@ -5988,8 +5694,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Berserker's Draught",
 				"source": "DungeonChurch",
 				"images": [
@@ -6002,7 +5707,7 @@
 					}
 				],
 				"entries": [
-					"While not commercially available, the breweries of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} are known for producing all types of experimental concoctions off-label. Variations on the “berserker’s draught” recipe are unique to each brewer and a closely held secret."
+					"While not commercially available, the breweries of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} are known for producing all types of experimental concoctions off-label. Variations on the \u201cberserker\u2019s draught\u201d recipe are unique to each brewer and a closely held secret."
 				]
 			}
 		},
@@ -6025,8 +5730,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Black Diamond",
 				"source": "DungeonChurch",
 				"images": [
@@ -6087,12 +5791,12 @@
 				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
-				"This ornate brooch is crafted from a dark metal clutching its centerpiece gem - a mesmerizing sapphire that pulses with a spectral light. Inside the gem is a crystalized, unblinking human eyeball - about the size of a child’s.",
+				"This ornate brooch is crafted from a dark metal clutching its centerpiece gem - a mesmerizing sapphire that pulses with a spectral light. Inside the gem is a crystalized, unblinking human eyeball - about the size of a child\u2019s.",
 				{
 					"name": "Witchsight",
 					"type": "entries",
 					"entries": [
-						"While wearing and attuned to the brooch, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100’."
+						"While wearing and attuned to the brooch, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100\u2019."
 					]
 				},
 				{
@@ -6117,8 +5821,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Brooch of Witchsight",
 				"source": "DungeonChurch",
 				"images": [
@@ -6243,10 +5946,8 @@
 						"Learn more about the {@link Cloak of Rats in the wiki|https://lore.dungeon.church/doc/cloak-of-rats-iHIvQwaOt1}."
 					]
 				}
-				
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Cloak of Rats",
 				"source": "DungeonChurch",
 				"images": [
@@ -6379,7 +6080,7 @@
 					}
 				],
 				"entries": [
-					"This subtly glowing crimson liquid is a powerful and dangerous potion. Said to be brewed from adrenalized blood under a full moon, it reveals deep, hidden truths—but at a terrifying cost.",
+					"This subtly glowing crimson liquid is a powerful and dangerous potion. Said to be brewed from adrenalized blood under a full moon, it reveals deep, hidden truths\u2014but at a terrifying cost.",
 					"It is rumored that it is used to enhance interrogations or reveal dangerous knowledge quickly. Some are known to use it on themselves in pursuit of their own repressed secrets."
 				]
 			}
@@ -6519,7 +6220,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"A fragrant herb often smoked in pipes or hand rolled cigarettes, it has a mild stimulant effect said to encourage conversation and the free flow of ideas. It’s use varies widely by cultural norms. Strictly forbidden in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} as an illicit narcotic, it is commonly smoked as part of the cafe culture in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
+				"A fragrant herb often smoked in pipes or hand rolled cigarettes, it has a mild stimulant effect said to encourage conversation and the free flow of ideas. It\u2019s use varies widely by cultural norms. Strictly forbidden in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} as an illicit narcotic, it is commonly smoked as part of the cafe culture in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -6528,8 +6229,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Dream Vine",
 				"source": "DungeonChurch",
 				"images": [
@@ -6629,8 +6329,7 @@
 				"This elegant, elven {@item bullseye lantern|PHB} is masterfully crafted from metal and etched with delicate runes. A crystal shard is embedded in it's mechanism in place of a wick, which focuses and projects darkness comparable to that produced by a {@spell Darkness} spell.",
 				"The user can perform a ritual to charge the lantern by turning a clockwork key on it's side for at least 1 minute. Once charged, the lantern can be activated using an action to press a button creating a 30 foot cone of magical darkness The darkness persists for 10 minutes, or until the lanternet is closed. Once activated, the ritual cannot be repeated until the next dawn."
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Avalonian Lantern",
 				"source": "DungeonChurch",
 				"images": [
@@ -6653,13 +6352,13 @@
 			"reqAttune": false,
 			"wondrous": true,
 			"entries": [
-				"These small, handheld mirrors project an inviting, soft blue glow from their surface. When a creature gazes into the mirror, they are presented with a convincing, but distorted, view of themselves and their place in the world. Creatures who gaze habitually into the entrancing mirror come to be susceptible to internalizing it’s false reflection.",
+				"These small, handheld mirrors project an inviting, soft blue glow from their surface. When a creature gazes into the mirror, they are presented with a convincing, but distorted, view of themselves and their place in the world. Creatures who gaze habitually into the entrancing mirror come to be susceptible to internalizing it\u2019s false reflection.",
 				"For this reason, entrancing mirrors are usually created by unscrupulous warlocks or narcissistic artificers who put them out into the world to feed on the life force that the gazers put into the mirrors. With enough entrancing mirrors in circulation, some of these dark practitioners are able to influence entire populations and thus bend reality closer to the false reflections they conjure.",
 				{
 					"name": "Creeping Influence",
 					"type": "entries",
 					"entries": [
-						"Each time a creature gazes into the entrancing mirror, they learn something new, interesting, or delightful but must make a DC 10 Intelligence saving throw. After accumulating 3 fails, they start to identify with the desires of the entrancing mirror’s creator and come under the influence of a {@spell Suggestion} spell. This effect lasts 72 hours, and each subsequent use of the mirror extends this period another 72 hours."
+						"Each time a creature gazes into the entrancing mirror, they learn something new, interesting, or delightful but must make a DC 10 Intelligence saving throw. After accumulating 3 fails, they start to identify with the desires of the entrancing mirror\u2019s creator and come under the influence of a {@spell Suggestion} spell. This effect lasts 72 hours, and each subsequent use of the mirror extends this period another 72 hours."
 					]
 				},
 				{
@@ -6891,8 +6590,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Migrant Bitters",
 				"source": "DungeonChurch",
 				"images": [
@@ -6956,7 +6654,7 @@
 				],
 				"entries": [
 					"Gloomroot is a weed found in only the darkest parts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, where sunlight barely penetrates. It thrives in the rocky soil of ancient ruins, leading some to wonder if it feeds on the remnants of old magic or ground soaked in blood. Chewing the leaves gives a mild stimulant affect that enhances creatures natural darkvision, but the roots can be distilled into an extract with an effect many times stronger.",
-					"Locals and hunters in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} sometimes refer to it as “{@deity Ostara|pyora|dungeonchurch}'s Broom” - a gift from the trickster to help navigate the treacherous paths of the dark forest."
+					"Locals and hunters in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} sometimes refer to it as \u201c{@deity Ostara|pyora|dungeonchurch}'s Broom\u201d - a gift from the trickster to help navigate the treacherous paths of the dark forest."
 				]
 			}
 		},
@@ -7042,13 +6740,13 @@
 				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
-				"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it’s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
-				"{@race Gnome (Rock)|dungeonchurch|Gnomes} are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this {@item Stone Tea|dungeonchurch} and it’s ceremony are a tightly guarded gnomish secret.",
+				"The gnomes are masters of the tea ceremony, and it is rare to find even a halfling on the surface who does not travel with their tea set. While most are made of metal because of it\u2019s durability, each tea set is handcrafted and unique to the person. Some are highly polished works of art, others are more functional in nature and so modified over the years by their user they more resemble some type of clockwork.",
+				"{@race Gnome (Rock)|dungeonchurch|Gnomes} are known to use their tea sets in communal rituals that allow them to {@spell Stone Shape} en masse. If enough gnomes participate in this ritual, they can effectively tunnel and travel through solid stone. The exact nature of this {@item Stone Tea|dungeonchurch} and it\u2019s ceremony are a tightly guarded gnomish secret.",
 				{
 					"type": "entries",
 					"name": "Stone Tea",
 					"entries": [
-						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week\u2019s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
 					]
 				},
 				{
@@ -7154,7 +6852,7 @@
 					"name": "Witchsight",
 					"type": "entries",
 					"entries": [
-						"While looking through the lens, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100’."
+						"While looking through the lens, the wearer gains {@variantrule Witchsight|dungeonchurch} and can see magical ley lines as glowing paths or streams of energy that traverse the land within a range of 100\u2019."
 					]
 				},
 				{
@@ -7165,8 +6863,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Ley Line Lens",
 				"source": "DungeonChurch",
 				"images": [
@@ -7352,8 +7049,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Migrant Bitters",
 				"source": "DungeonChurch",
 				"images": [
@@ -7471,7 +7167,7 @@
 				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
-				"A set of magical cards from the {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} library that helps adventurers rapidly identify monsters that they are likely to happen upon during the course of their work. When using a card to identify a monster, the user reads the words ‘monstrum novi’ on the front of the card and holds the card so that the card has a view of the monster. On the face of the card will appear the name of the monster, it’s disposition, and a fact of the DM’s choosing. The card then dissolves after 30 minutes, hopefully allowing time for the user to share the information with their cohorts for an advantage in battle or for record keeping.",
+				"A set of magical cards from the {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} library that helps adventurers rapidly identify monsters that they are likely to happen upon during the course of their work. When using a card to identify a monster, the user reads the words \u2018monstrum novi\u2019 on the front of the card and holds the card so that the card has a view of the monster. On the face of the card will appear the name of the monster, it\u2019s disposition, and a fact of the DM\u2019s choosing. The card then dissolves after 30 minutes, hopefully allowing time for the user to share the information with their cohorts for an advantage in battle or for record keeping.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -7597,7 +7293,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"Made from {@item Sapphire Nightshade|dungeonchurch}. In diluted doses, it acts as other common poisons. In higher concentrations that have been properly distilled it is extremely lethal, and if ingested will kill anyone within minutes. It is the most common tool of the assassin’s trade. It is rumored that when prepared to a high degree of purity, it can cause it’s dead victims to return as undead, monstrously transformed. Many necromancers claim to know the secret of this brew.",
+				"Made from {@item Sapphire Nightshade|dungeonchurch}. In diluted doses, it acts as other common poisons. In higher concentrations that have been properly distilled it is extremely lethal, and if ingested will kill anyone within minutes. It is the most common tool of the assassin\u2019s trade. It is rumored that when prepared to a high degree of purity, it can cause it\u2019s dead victims to return as undead, monstrously transformed. Many necromancers claim to know the secret of this brew.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -7606,8 +7302,7 @@
 					]
 				}
 			],
-			"fluff":
-			{
+			"fluff": {
 				"name": "Nightshade Poison",
 				"source": "DungeonChurch",
 				"images": [
@@ -7703,7 +7398,7 @@
 				"Pyoran Magic Items|dungeonchurch",
 				"Dungeon Dome Concessions|dungeonchurch"
 			],
-			"entries":[
+			"entries": [
 				"This golden gong can be rung with an action, causing all player characters within the {@link Dungeon Dome|https://lore.dungeon.church/doc/dungeon-dome-fraQefjJ2A} to fall under the effects of {@spell Otto's Irresistible Dance|PHB}.",
 				"Once rung, the effect cannot be used again until the next dawn."
 			],
@@ -7786,7 +7481,7 @@
 					"Among the most cherished of libations in Durandar is a spiced schnapps distilled from the pits of the exceptionally dark purple plums grown in the underground orchards tended by the Arkwrights Guild. Often drunk as an aperitif or as a reward after a hard day's work, the sweetened drink is blended with cinnamon, clove, and a spicy, upland ginger that grows in the volcanic valleys that surround the city's mountain home."
 				]
 			}
-		},		
+		},
 		{
 			"name": "Potion of Incorporeal Passage",
 			"type": "P",
@@ -7974,9 +7669,9 @@
 				"Dungeon Dome Concessions|dungeonchurch"
 			],
 			"entries": [
-				    "When you drink this potion, your next spoken word or short phrase is magically amplified to a deafening volume. The sound travels up to 200 feet and all creatures within 10 feet of you must succeed on a DC 13 Constitution saving throw or be {@condition deafened} for 10 minutes.",
-    				"This effect can be used to communicate across long distances, disrupt concentration, or create a dramatic entrance.",
- 				{
+				"When you drink this potion, your next spoken word or short phrase is magically amplified to a deafening volume. The sound travels up to 200 feet and all creatures within 10 feet of you must succeed on a DC 13 Constitution saving throw or be {@condition deafened} for 10 minutes.",
+				"This effect can be used to communicate across long distances, disrupt concentration, or create a dramatic entrance.",
+				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
 					"entries": [
@@ -8067,7 +7762,7 @@
 			"rarity": "uncommon",
 			"source": "DungeonChurch",
 			"weight": 10,
-			"lootTables":[
+			"lootTables": [
 				"Dungeon Dome Concessions|dungeonchurch",
 				"Pyoran Magic Items|dungeonchurch"
 			],
@@ -8140,7 +7835,6 @@
 						"from": "Urgaud's Culinary Travels"
 					}
 				]
-				
 			}
 		},
 		{
@@ -8277,7 +7971,7 @@
 				"This ring has many lewd images etched into it's surface. While wearing this ring, you can speak its command word to summon a {@creature commoner|MM|streaker} to a point you can see.",
 				"Everyone who can see the streaker must make a DC 12 Wisdom saving throw or be compelled to chase and tackle.",
 				"Once the streaker has been captured, it turns into a puff of smoke and the person who tackled it gains the benefit of {@spell bless}.",
-				"After the streaker departs, it can't be summoned again for 24 hours." 
+				"After the streaker departs, it can't be summoned again for 24 hours."
 			]
 		},
 		{
@@ -8391,7 +8085,7 @@
 				"Pyoran Magic Items|dungeonchurch"
 			],
 			"entries": [
-				"A magical sphere of ice that’s cold to the touch but never melts. Just big enough to ice your beverage without it turning to ice itself.",
+				"A magical sphere of ice that\u2019s cold to the touch but never melts. Just big enough to ice your beverage without it turning to ice itself.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -8673,7 +8367,7 @@
 					"type": "entries",
 					"name": "Strange Brew",
 					"entries": [
-						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week’s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
+						"Gnomes and halflings who come from Underdark society know the secret of this brew, and an individual with a week\u2019s preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, {@item Stone Tea|dungeonchurch} is known to induce erratic behavior in individuals who are regularly exposed to sunlight."
 					]
 				},
 				{
@@ -8809,7 +8503,7 @@
 			"type": "P",
 			"rarity": "common",
 			"entries": [
-				"This thick, viscous slime is harvested from {@creature giant slug|TTP|giant slugs} and is carefully bottled in small glass vials. Once exposed to air, it rapidly expands into a remarkably adhesive substance.", 
+				"This thick, viscous slime is harvested from {@creature giant slug|TTP|giant slugs} and is carefully bottled in small glass vials. Once exposed to air, it rapidly expands into a remarkably adhesive substance.",
 				"As an action, you can throw this vial at a creature within 20 feet, shattering it upon impact. The target must succeed on a DC 13 Dexterity saving throw or become {@condition restrained} in place. A stuck creature may repeat the save at the beginning of their next turn."
 			],
 			"lootTables": [
@@ -8882,7 +8576,7 @@
 					"type": "entries",
 					"name": "Coerced Revelation",
 					"entries": [
-						"Once per long rest, the possessor of the skull can ask it one question (as if casting the {@spell Commune} spell) as a ritual with the only component needed being blood. The skull must respond with an answer it believes to be true, but the spirit’s unwillingness often means the answers take the form of riddles or other types of bitter evasions."
+						"Once per long rest, the possessor of the skull can ask it one question (as if casting the {@spell Commune} spell) as a ritual with the only component needed being blood. The skull must respond with an answer it believes to be true, but the spirit\u2019s unwillingness often means the answers take the form of riddles or other types of bitter evasions."
 					]
 				},
 				{
@@ -8935,14 +8629,14 @@
 					"type": "entries",
 					"name": "Ancestral Protection",
 					"entries": [
-						"Grants the bearer resistance to fire damage and advantage on saving throws against dragon’s breath weapons."
+						"Grants the bearer resistance to fire damage and advantage on saving throws against dragon\u2019s breath weapons."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rally the Resistance",
 					"entries": [
-						"Once per long rest, the bearer can rally allies within 30ft., granting them +1 to attack rolls and saving throws when fighting a dragon or the dragon’s minions for one hour.."
+						"Once per long rest, the bearer can rally allies within 30ft., granting them +1 to attack rolls and saving throws when fighting a dragon or the dragon\u2019s minions for one hour.."
 					]
 				},
 				{
@@ -9045,7 +8739,7 @@
 			],
 			"entries": [
 				"This small glass vial contains a single drop of dew from a healthy plant taken at dawn on the first true autumn morning. When ingested by a humanoid, it heals {@dice 2d4+2} hit points.",
-				"When used on a plant, it heals any conditions the plant may have and accelerates it’s growth by one good season - including any flowering or fruiting it would naturally do.",
+				"When used on a plant, it heals any conditions the plant may have and accelerates it\u2019s growth by one good season - including any flowering or fruiting it would naturally do.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -9341,7 +9035,7 @@
 			"source": "DungeonChurch",
 			"ruleType": "V",
 			"entries": [
-				"When the character casts a leveled spell, they roll 1D8. If the roll is equal to or less than the number of spells that have been cast that day, the PC triggers a Wild Magic Surge. When the PC has activated Tides of Chaos, they may surge when casting any subsequent leveled spell of their choosing. All wild magic surges are subject to override at the DM’s discretion.",
+				"When the character casts a leveled spell, they roll 1D8. If the roll is equal to or less than the number of spells that have been cast that day, the PC triggers a Wild Magic Surge. When the PC has activated Tides of Chaos, they may surge when casting any subsequent leveled spell of their choosing. All wild magic surges are subject to override at the DM\u2019s discretion.",
 				{
 					"type": "inset",
 					"name": "Dungeon Church Lore",
@@ -9732,7 +9426,7 @@
 				],
 				[
 					"75",
-					"{@item Glyph of Jump Pad|dungeonchurch}"	
+					"{@item Glyph of Jump Pad|dungeonchurch}"
 				],
 				[
 					"76",
@@ -10341,7 +10035,7 @@
 				],
 				[
 					"7",
-					"{@deity Selûne|pyora|dungeonchurch}"
+					"{@deity Sel\u00fbne|pyora|dungeonchurch}"
 				],
 				[
 					"8",
@@ -10775,7 +10469,7 @@
 				],
 				[
 					"92",
-					"{@item Glyph of Jump Pad|dungeonchurch}"	
+					"{@item Glyph of Jump Pad|dungeonchurch}"
 				],
 				[
 					"93",
@@ -10814,13 +10508,11 @@
 					"{@item Eclipse Lantern|dungeonchurch}"
 				]
 			]
-			
 		},
 		{
 			"name": "Pyoran Monsters",
 			"source": "DungeonChurch",
 			"caption": "Monsters known to inhabit the realm of Pyora.",
-			
 			"colLabels": [
 				"d16",
 				"Monster"
@@ -10896,7 +10588,6 @@
 			"name": "Pyoran NPCs",
 			"source": "DungeonChurch",
 			"caption": "People and acquaintances from the realm of Pyora.",
-			
 			"colLabels": [
 				"d7",
 				"Person"
@@ -10930,7 +10621,6 @@
 					"7",
 					"{@creature Commodore Daniel Warrington|dungeonchurch}"
 				]
-				
 			]
 		},
 		{
@@ -11060,7 +10750,6 @@
 			"name": "Pyoran Species",
 			"source": "DungeonChurch",
 			"caption": "The diversity of Pyoran humanoids.",
-			
 			"colLabels": [
 				"d9",
 				"Species",
@@ -11137,7 +10826,7 @@
 				],
 				[
 					"4",
-					"Dwarven Glög"
+					"Dwarven Gl\u00f6g"
 				],
 				[
 					"5",
@@ -11157,6 +10846,5 @@
 				]
 			]
 		}
-		
 	]
 }
