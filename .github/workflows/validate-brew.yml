@@ -32,11 +32,38 @@ jobs:
         # Initialize error flag
         HAS_ERRORS=0
         
-        # Validate each JSON file
+        # Create a temporary validation script
+        cat > validate_json.js << 'EOF'
+        const { execSync } = require('child_process');
+        const fs = require('fs');
+        
+        // Get the filename from command line argument
+        const filename = process.argv[2];
+        
+        if (!fs.existsSync(filename)) {
+          console.error(`Error: File does not exist: ${filename}`);
+          process.exit(1);
+        }
+        
+        try {
+          console.log(`Validating file: "${filename}"...`);
+          execSync(`npx --package=5etools-utils -- test-json-brew "${filename}"`, {
+            stdio: 'inherit'
+          });
+          console.log(`Successfully validated: ${filename}`);
+        } catch (error) {
+          console.error(`Error validating: ${filename}`);
+          process.exit(1);
+        }
+        EOF
+        
+        # Validate each JSON file using the Node.js script
         for file in $JSON_FILES; do
-          echo "Validating $file..."
-          npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
+          node validate_json.js "$file" || HAS_ERRORS=1
         done
+        
+        # Clean up
+        rm validate_json.js
         
         # Exit with error if any validation failed
         if [ $HAS_ERRORS -eq 1 ]; then
