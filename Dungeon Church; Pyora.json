@@ -9104,17 +9104,29 @@
 			"source": "DungeonChurch",
 			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
 			"colLabels": [
-				"1d2",
+				"1d5",
 				"Book"
 			],
 			"rows": [
 				[
 					"1",
-					"{@link Urgaud's Culinary Travels|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}"
+					"{@i Urgaud's Culinary Travels} by {@link Urgaud Gnasher|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}"
 				],
 				[
 					"2",
-					"{@link T'zeldarun's Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}"
+					"{@i {@link The Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}"
+				],
+				[
+					"3",
+					"{@i Dethroning Fire: The Rebel Diaries} by {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}"
+				],
+				[
+					"4",
+					"{@i Quartermaster's Log: The Dragon's Jubilee} by {@link Wexley|https://lore.dungeon.church/doc/wexley-the-wizard-6ah4bkHmdf}"
+				],
+				[
+					"5",
+					"{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}"
 				]
 			]
 		},
