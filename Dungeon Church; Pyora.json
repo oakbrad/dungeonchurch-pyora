@@ -509,7 +509,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"tribal": true
+					"tribal|DungeonChurch": true
 				}
 			],
 			"entries": [
