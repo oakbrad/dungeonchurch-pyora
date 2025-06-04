@@ -277,101 +277,6 @@
 			}
 		},
 		{
-			"name": "Human (Pyoran)",
-			"source": "DungeonChurch",
-			"size": [
-				"M"
-			],
-			"ability": [
-				{
-					"choose": {
-						"from": [
-							"str",
-							"dex",
-							"con",
-							"int",
-							"wis",
-							"cha"
-						],
-						"count": 2
-					}
-				}
-			],
-			"speed": 30,
-			"heightAndWeight": {
-				"baseHeight": 56,
-				"heightMod": "2d10",
-				"baseWeight": 110,
-				"weightMod": "2d4"
-			},
-			"age": {
-				"mature": 20,
-				"max": 100
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"Humans reach adulthood in their late teens and live less than a century."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Skills",
-					"entries": [
-						"You gain proficiency in one skill of your choice."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Feat",
-					"entries": [
-						"You gain one feat of your choice."
-					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
-					],
-					"type": "entries"
-				}
-			],
-			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
-			"soundClip": {
-				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
-			},
-			"fluff": {
-				"entries": [
-					"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
-					"Human ambition is embodied in the prosperous merchant city of {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
-					"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers.",
-					{
-						"type": "inset",
-						"name": "Dungeon Church Lore",
-						"entries": [
-							"Learn more about {@link Humans in the wiki|https://lore.dungeon.church/doc/human-pyoran-LMuc7qNrv4}."
-						]
-					}
-				]
-			}
-		},
-		{
 			"name": "Ravenfolk",
 			"source": "DungeonChurch",
 			"size": [
@@ -842,6 +747,31 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Pyoran",
+			"source": "DungeonChurch",
+			"raceName": "Human",
+			"raceSource": "PHB",
+			"soundClip": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
+			"fluff": {
+				"entries": [
+					"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
+					"Human ambition is embodied in the prosperous merchant city of {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
+					"Most humans do not live in Striborg though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about {@link Humans in the wiki|https://lore.dungeon.church/doc/human-pyoran-LMuc7qNrv4}."
+						]
+					}
+				]
+			}
 		}
 	],
 	"deity": [
@@ -1093,7 +1023,7 @@
 			]
 		},
 		{
-			"name": "Selûne",
+			"name": "Sel\u00fbne",
 			"title": "Mother of Madness",
 			"source": "DungeonChurch",
 			"pantheon": "Pyora",
@@ -4955,7 +4885,7 @@
 									{
 										"type": "quote",
 										"entries": [
-											"You ever pound glög until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
+											"You ever pound gl\u00f6g until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
 										],
 										"by": "{@link Rorsh the Acolyte|https://lore.dungeon.church/doc/rorsh-the-mage-umxTjXQj7k}"
 									},
@@ -10065,7 +9995,7 @@
 				],
 				[
 					"7",
-					"{@deity Selûne|pyora|dungeonchurch}"
+					"{@deity Sel\u00fbne|pyora|dungeonchurch}"
 				],
 				[
 					"8",
@@ -10856,7 +10786,7 @@
 				],
 				[
 					"4",
-					"Dwarven Glög"
+					"Dwarven Gl\u00f6g"
 				],
 				[
 					"5",
