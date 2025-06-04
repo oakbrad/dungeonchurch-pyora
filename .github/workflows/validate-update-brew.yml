@@ -30,6 +30,10 @@ jobs:
         # Initialize error flag
         HAS_ERRORS=0
         
+        # Create a temporary file to store the error state
+        ERROR_FILE=$(mktemp)
+        echo "0" > "$ERROR_FILE"
+        
         # Validate only JSON files that have "Dungeon Church" in their filename
         find . -name "*.json" -type f -print0 | grep -v -z "node_modules" | sort -z | while IFS= read -r -d '' file; do
           # Check if the filename starts with "Dungeon Church"
@@ -37,19 +41,24 @@ jobs:
           if [[ "$filename" == "Dungeon Church"* ]]; then
             echo "Validating \"$file\"..."
             # Use quotes around the filename to handle spaces and special characters
-            npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
-          #else
-            #echo "Skipping \"$file\" (filename doesn't start with \"Dungeon Church\")"
+            if ! npx --package=5etools-utils -- test-json-brew "$file"; then
+              echo "1" > "$ERROR_FILE"
+              echo "Validation failed for $file"
+            fi
           fi
         done
         
+        # Read the error state from the file
+        HAS_ERRORS=$(cat "$ERROR_FILE")
+        rm "$ERROR_FILE"
+        
         # Exit with error if any validation failed
-        if [ $HAS_ERRORS -eq 1 ]; then
+        if [ "$HAS_ERRORS" -eq 1 ]; then
           echo "::error::JSON validation failed for one or more files!"
           exit 1
         fi
         
-        echo "All JSON files validated successfully!"
+        echo "All JSON files validated successfully! (repo: dungeonchurch-pyora)"
 
     outputs:
       validation_success: ${{ steps.validate.outcome == 'success' }}
