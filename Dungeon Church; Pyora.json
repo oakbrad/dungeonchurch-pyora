@@ -509,7 +509,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"tribal": true
+					"tribal|DungeonChurch": true
 				}
 			],
 			"entries": [
@@ -4791,7 +4791,7 @@
 				}
 			],
 			"traitTags": [
-				"Keen Sight"
+				"Keen Senses"
 			],
 			"damageTags": [
 				"F",
@@ -5868,7 +5868,7 @@
 			"tier": "minor",
 			"type": "P",
 			"rarity": "rare",
-			"wondrous": "true",
+			"wondrous": true,
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
@@ -6126,11 +6126,6 @@
 		{
 			"name": "Delerium-Forged Dagger",
 			"source": "DungeonChurch",
-			"otherSources": [
-				{
-					"source": "DoDk"
-				}
-			],
 			"type": "M",
 			"rarity": "rare",
 			"weight": 3,
@@ -6146,14 +6141,8 @@
 			"range": "20/60",
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"weapon": true,
-			"dagger": true,
 			"bonusWeapon": "+1",
 			"hasFluffImages": true,
-			"genericVariant": {
-				"name": "Delerium-Forged Blade",
-				"source": "DoDk"
-			},
 			"entries": [
 				"This dagger has a small delerium sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with delerium dust, which causes it to softly glow with octarine light.",
 				"You gain a +1 bonus to attack and damage rolls made with this weapon.",
@@ -7074,7 +7063,9 @@
 				}
 			],
 			"type": "SCF",
-			"scftype": "druid",
+			"focus": [
+				"Druid"
+			],
 			"rarity": "rare",
 			"weight": 1,
 			"value": 250000,
@@ -8842,7 +8833,6 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
-			"weapon": true,
 			"lootTables": [
 				"Dungeon Dome Concessions|dungeonchurch",
 				"Pyoran Magic Items|dungeonchurch"
@@ -8904,7 +8894,7 @@
 			"name": "Wooden Stake",
 			"source": "dungeonchurch",
 			"type": "M",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -8914,7 +8904,6 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "P",
-			"weapon": true,
 			"entries": [
 				"An improvised weapon, crudely whittled from whatever wood was close at hand. Unreliable, but better than nothing.",
 				{
