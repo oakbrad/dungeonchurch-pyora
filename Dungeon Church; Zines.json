@@ -1,0 +1,288 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DungeonChurchZines",
+				"abbreviation": "CHURCHZ",
+				"full": "Dungeon Church; Zines",
+				"version": "0.1",
+				"url": "https://www.dungeon.church",
+				"authors": [
+					"Brad Wenner"
+				],
+				"convertedBy": [
+					"Brad Wenner"
+				],
+				"color": "a90001"
+			}
+		],
+		"dateAdded": 1721111951,
+		"dateLastModified": 1721111951,
+		"edition": "one"
+	},
+	"book": [
+		{
+			"name": "Dungeon Church Zine 1",
+			"id": "DC1",
+			"source": "DungeonChurchZines",
+			"group": "homebrew",
+			"published": "2021-07-21",
+			"author": "Brad Wenner",
+			"cover": {
+				"type": "external",
+				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-cover.png"
+			},
+			"contents": [
+				{
+					"name": "About"
+				},
+				{
+					"name": "History",
+					"headers": [
+						"Timeline",
+						"Maps"
+					]
+				},
+				{
+					"name": "Pyora"
+				},
+				{
+					"name": "Saltmarsh",
+					"headers": [
+						"Maps"
+					]
+				},
+				{
+					"name": "Players"
+				},
+				{
+					"name": "Species",
+					"headers": [
+						"Humans",
+						"Dwarves",
+						"Elves",
+						"Elfmarked",
+						"Dragonborn",
+						"Gnomes & Halflings"
+					]
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "DC1",
+			"source": "DungeonChurchZines",
+			"data": [
+				{
+					"type": "section",
+					"name": "Dungeon Church 1",
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://www.dungeon.church/content/images/size/w2000/2023/09/Screen-Shot-2023-09-25-at-18.52.47.png"
+							}
+						},
+						{
+							"type": "quote",
+							"entries": [
+								"Physical copies of this zine were sent as an invitation to players of Dungeon Church in 2021. This is the start of our homebrew setting, Pyora."
+							],
+							"by": "Dungeon Master Brad"
+						},
+						{
+							"type": "inset",
+							"name": "Original Zine",
+							"entries": [
+								"The original, printable form of this zine in PDF format is {@link available here|https://www.dungeon.church/zine-no1}."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "History",
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Timeline",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-timeline.png"
+									},
+									"title": "Pyora Timeline",
+									"credit": "From Session 0.1 on 6/11/21"
+								},
+								{
+									"type": "inset",
+									"name": "Current Timelines",
+									"entries": [
+										"Are available in {@link the lore wiki|https://lore.dungeon.church/s/zine-1}."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Maps",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-hex.png"
+									},
+									"title": "Pyora original hex map"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-pyora.png"
+									},
+									"title": "Pyora first draft map"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Pyora",
+					"entries": [
+						"Several centuries after the fall of the {@link Last Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}, civilization in the lands of Pyora has entered a new period of innovation & transition.",
+						"{@race Human (Pyoran)|dungeonchurch|Humans} have labored to carve out pockets of order among the wilderness & ruins of the last age, rebuilding cities, establishing trade routes, and mastering the wild lands into agriculture. In the villages on the edges of humanity's reach, rumors and superstitions percolate about {@race Elfmarked|dungeonchurch} children born with unexplainable talents, echoes of long vanished Elven heroes.",
+						"The {@race Dwarf (Durandar)|dungeonchurch|Dwarven} Kingdom has nearly finished the long Great Migration - abandoning their old cities to follow their {@link Prophet-King|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} across the Azure Sea and into the mountains of the west. Their new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} rises as a center of technological innovation, as the dwarves reject magic in favor of molding the mountain's inner fire and rivers into great power.",
+						"The {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}, once the conscripted foot soldiers of the {@link Empire's|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm} army, have been instrumental in the reclaiming of the port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} into a {@link democratic city|https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao} with free elections in the east. Others seek out a simpler life among the {@race Tribeborn|dungeonchurch} in the vast wilderness - away from the wars & schemes of humanity.",
+						"Between the two new cities lies the older human stronghold, {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}, at a crucial trade point on the peninsula. With it's well funded naval control of the strait and ambitious aristocratic ruling class, the city's influence extends far beyond it's walls as the hoofsteps of the {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} echo down the newly safe roads throughout the land.",
+						"Beneath this veneer of progress & opportunity, the old threats still lurk, plotting for their moment to reemerge and propel the {@link endless cycle of fate & magic|https://lore.dungeon.church/doc/session-01-ouroboros-turns-MlX7v5L4dN} forward again."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Saltmarsh",
+					"entries": [
+						"Nestled on the eastern coast of the Azure Sea is {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}, a sleepy fishing village thats sits on the precipice of great change.",
+						"Smugglers guide their ships to hidden coves, willing to slit the throat of any who cross their path. Soldiers of a faraway power patrol the roads mounted on armored horses. Monsters gather beneath the waves & drowned sailors stir to unnatural life, animated by dark magic. The cult of a dead god silently grows it's reach. The nearby woods house mind-bending horrors. Mercenary groups seek abandoned treasures in the old dwarven mine.",
+						"As Saltmarsh sleeps each night, waves gently lapping against the docks, the forces that seek to plunder it grow stronger.",
+						{
+							"type": "entries",
+							"name": "Maps",
+							"entries": [
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh.png"
+									},
+									"title": "Saltmarsh map"
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh-region.jpg"
+									},
+									"title": "Saltmarsh region map"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Players",
+					"entries": [
+						"You have been invited to join our in-person Dungeons & Dragons campaign.",
+						"We will play an ongoing, narrative-focused game in a world of our own creation.",
+						"The story of that world has already begun to be told, what role will you play?",
+						{
+							"type": "inset",
+							"name": "If you're reading this in the present...",
+							"entries": [
+								"...and you live in the SF Bay area, you can fill out this form to {@link join us|https://www.dungeon.church/join-us}."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Species",
+					"entries": [
+						{
+							"type": "inset",
+							"entries": [
+								"Playable character species were limited to these options at the inception of Pyora."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Human (Pyoran)|dungeonchurch|Humans}",
+							"entries": [
+								"The most common species by far, humans have built their cities, expanded their roads, and in general sought order in the world.",
+								"Human ambition is embodied in the prosperous merchant city of Striborg. Ruled by an aristocratic merchant class, with a rising religious-populous movement in the streets, Striborg has become a place increasingly unwelcome to those not committed to human partisanship in some form.",
+								"Most humans do not live in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV} though, but in simple settlements throughout the continent. These people are driven by more basic motivations: farmers, craftsmen, travelers, scholars, and adventurers."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Dwarves ({@race Dwarf (Durandar)|dungeonchurch|Durandar} or {@race Dwarf (Hearth)|dungeonchurch|Hearth})",
+							"entries": [
+								"It's taken centuries for {@link King Olfgard Wisebeard|https://lore.dungeon.church/doc/king-olfgard-wisebeard-S0YDu9xGHy} to convince the majority of the dwarven tribes to abandon their homes and build the new granite city of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} under the mountain. Opposed to the use of magic, the dwarves there dedicate themselves to alchemy & artificing, building great forges, damming the power of the rivers, and preparing for the apocalypse that's been foretold. ",
+								"But dwarves are stubborn & not everyone has gone along. Some have stayed behind, adapting to the flood of newcomers to the old cities, while others have sought fortune on the continent as independent merchants or hireswords.",
+								"It is rumored that the pirates who plague {@link Striborg's merchant ships|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX} are dwarves who prefer the open sea."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Elves",
+							"entries": [
+								"It is known that elves played a prominent role in fighting the Dragon Empires in the last age, but no one in living memory can remember seeing one in the flesh except for the oldest dwarves.",
+								"According to legends and the tall tales of lost hunters, they have built an advanced civilization in the deep forests, but no one has ever pinpointed the exact location of any settlement or ruin.",
+								{
+									"type": "inset",
+									"entries": [
+										"[Players will not play elves... for now]"
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Elfmarked|dungeonchurch}",
+							"entries": [
+								"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called 'Children of the Travelers' a.k.a. the elfmarked.",
+								"Many stories, or convenient excuses, of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special.",
+								"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
+							"entries": [
+								"Forged by the {@link First Dragon Emperor|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm#h-emperors} as an unholy magical corruption of humanity, the slaves that conquered and then built the First Empire.",
+								"Finally freed of their wyrm master, the former conscripts have since proven their resilience and independent nature despite lingering doubts about their true allegiances.",
+								"Many of the dispossessed dragonborn have been instrumental in reclaiming the abandoned dwarven port of {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t} and building a thriving free city where it is said, 'every man a king.' ",
+								"Others have sought to create a new history and culture that they were denied, living tribal lives in the wilderness."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "{@race Gnome (Rock)|dungeonchurch|Gnomes} & {@race Halfling (Pyoran)|dungeonchurch|Halflings}",
+							"entries": [
+								"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed.",
+								"Their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
+								"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans."
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
