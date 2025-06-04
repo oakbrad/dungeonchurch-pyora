@@ -768,6 +768,15 @@
 					}
 				}
 			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Jack of all Trades",
+					"entries": [
+						"You gain proficiency in one skill of your choice. You gain one feat of your choice."
+					]
+				}
+			],
 			"soundClip": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
