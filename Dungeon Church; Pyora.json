@@ -8894,7 +8894,7 @@
 			"name": "Wooden Stake",
 			"source": "dungeonchurch",
 			"type": "M",
-			"rarity": "none",
+			"rarity": "common",
 			"weight": 3,
 			"weaponCategory": "martial",
 			"property": [
@@ -8904,7 +8904,6 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "P",
-			"weapon": true,
 			"entries": [
 				"An improvised weapon, crudely whittled from whatever wood was close at hand. Unreliable, but better than nothing.",
 				{
