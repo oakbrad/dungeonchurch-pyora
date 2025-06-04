@@ -38,8 +38,8 @@ jobs:
             echo "Validating \"$file\"..."
             # Use quotes around the filename to handle spaces and special characters
             npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
-          else
-            echo "Skipping \"$file\" (filename doesn't start with \"Dungeon Church\")"
+          #else
+            #echo "Skipping \"$file\" (filename doesn't start with \"Dungeon Church\")"
           fi
         done
         
