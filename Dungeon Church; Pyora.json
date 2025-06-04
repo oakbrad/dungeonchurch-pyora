@@ -6126,15 +6126,10 @@
 		{
 			"name": "Delerium-Forged Dagger",
 			"source": "DungeonChurch",
-			"otherSources": [
-				{
-					"source": "DoDk"
-				}
-			],
 			"type": "M",
 			"rarity": "rare",
 			"weight": 3,
-			"weaponCategory": "advanced",
+			"weaponCategory": "simple",
 			"property": [
 				"F",
 				"L",
@@ -6148,10 +6143,6 @@
 			"dmgType": "P",
 			"bonusWeapon": "+1",
 			"hasFluffImages": true,
-			"genericVariant": {
-				"name": "Delerium-Forged Blade",
-				"source": "DoDk"
-			},
 			"entries": [
 				"This dagger has a small delerium sliver encased in glass and set in the hilt like a gemstone. The blade is made of meteoric iron infused with delerium dust, which causes it to softly glow with octarine light.",
 				"You gain a +1 bonus to attack and damage rolls made with this weapon.",
