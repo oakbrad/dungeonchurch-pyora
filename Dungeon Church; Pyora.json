@@ -6134,7 +6134,7 @@
 			"type": "M",
 			"rarity": "rare",
 			"weight": 3,
-			"weaponCategory": "simple",
+			"weaponCategory": "advanced",
 			"property": [
 				"F",
 				"L",
@@ -6146,8 +6146,6 @@
 			"range": "20/60",
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"weapon": true,
-			"dagger": true,
 			"bonusWeapon": "+1",
 			"hasFluffImages": true,
 			"genericVariant": {
