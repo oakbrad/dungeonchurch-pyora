@@ -17,7 +17,7 @@
 			}
 		],
 		"dateAdded": 1711973394,
-		"dateLastModified": 1721111951,
+		"dateLastModified": 1749072839,
 		"edition": "classic"
 	},
 	"condition": [
@@ -5205,6 +5205,49 @@
 		}
 	],
 	"item": [
+		{
+			"name": "Silver Stake",
+			"source": "DungeonChurch",
+			"type": "M",
+			"rarity": "uncommon",
+			"weight": 3,
+			"weaponCategory": "martial",
+			"property": [
+				"2H",
+				"F",
+				"S"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"entries": [
+				"A finely crafted stake made of pure silver. More reliable than its wooden counterpart, especially against certain creatures.",
+				{
+					"type": "inset",
+					"name": "Dungeon Church Lore",
+					"entries": [
+						"Silver has long been known to be effective against lycanthropes and other supernatural creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"You have advantage on attack rolls made with this weapon against lycanthropes and shapeshifters."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-silver-stake.png"
+						}
+					}
+				]
+			}
+		},
 		{
 			"name": "Abi-Tseos's Machete",
 			"source": "DungeonChurch",
