@@ -9106,7 +9106,7 @@
 			"source": "DungeonChurch",
 			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
 			"colLabels": [
-				"1d10",
+				"1d11",
 				"Book"
 			],
 			"rows": [
@@ -9149,6 +9149,14 @@
 				[
 					"10",
 					"{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}"
+				],
+				[
+					"11",
+					"{@i Grip of Glory: The {@link Britta|https://lore.dungeon.church/doc/britta-the-champion-oS3RKNXhqX} Story}"
+				],
+				[
+					"12",
+					"{@i Keel to Council: A Captain's Life} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}"
 				]
 			]
 		},
