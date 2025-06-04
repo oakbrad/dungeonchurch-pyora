@@ -753,6 +753,21 @@
 			"source": "DungeonChurch",
 			"raceName": "Human",
 			"raceSource": "PHB",
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
 			"soundClip": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
