@@ -27,24 +27,14 @@ jobs:
       run: |
         echo "Validating JSON files against 5etools schema..."
         # Find all JSON files in the repository
-        JSON_FILES=$(find . -name "*.json" -type f | grep -v "node_modules" | sort)
-        
-        # Initialize error flag
-        HAS_ERRORS=0
-        
-        # Validate each JSON file
-        for file in $JSON_FILES; do
+        # Use -print0 and read -d '' to handle filenames with spaces and special characters
+        find . -name "*.json" -type f -print0 | grep -v -z "node_modules" | sort -z | while IFS= read -r -d '' file; do
           echo "Validating $file..."
-          npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
+          # Use quotes around the filename to handle spaces and special characters
+          npx --package=5etools-utils -- test-json-brew "$file" || { echo "::error::JSON validation failed for $file!"; exit 1; }
         done
         
-        # Exit with error if any validation failed
-        if [ $HAS_ERRORS -eq 1 ]; then
-          echo "::error::JSON validation failed!"
-          exit 1
-        else
-          echo "All JSON files validated successfully!"
-        fi
+        echo "All JSON files validated successfully!"
 
     outputs:
       validation_success: ${{ steps.validate.outcome == 'success' }}
