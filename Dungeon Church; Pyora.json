@@ -9104,7 +9104,7 @@
 			"source": "DungeonChurch",
 			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
 			"colLabels": [
-				"1d5",
+				"1d10",
 				"Book"
 			],
 			"rows": [
@@ -9127,6 +9127,26 @@
 				[
 					"5",
 					"{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}"
+				],
+				[
+					"6",
+					"{@i Confessio Talonus} by {@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}"
+				],
+				[
+					"7",
+					"{@i Noctiflora: Lunar Mutagens in Solanaceae} by {@link Caelum the Druid|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}"
+				],
+				[
+					"8",
+					"{@i The Unfortunate Story of {@link Bob Dabbledob|https://lore.dungeon.church/doc/bob-dabbledob-h5DXNi32rE}} by Toblin Stonehill"
+				],
+				[
+					"9",
+					"{@i {@link Grim Mold's|https://lore.dungeon.church/doc/grim-mold-US6JMu5NLP} Price Guide for Priceless Antiques}"
+				],
+				[
+					"10",
+					"{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}"
 				]
 			]
 		},
