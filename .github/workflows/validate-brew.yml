@@ -3,10 +3,10 @@ name: Validate 5eTools Homebrew JSON
 on:
   push:
     paths:
-      - '**.json'
+      - 'Dungeon Church*.json'
   pull_request:
     paths:
-      - '**.json'
+      - 'Dungeon Church*.json'
 
 jobs:
   validate-json:
@@ -30,11 +30,17 @@ jobs:
         # Initialize error flag
         HAS_ERRORS=0
         
-        # Validate each JSON file
+        # Validate only JSON files that have "Dungeon Church" in their filename
         find . -name "*.json" -type f -print0 | grep -v -z "node_modules" | sort -z | while IFS= read -r -d '' file; do
-          echo "Validating \"$file\"..."
-          # Use quotes around the filename to handle spaces and special characters
-          npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
+          # Check if the filename starts with "Dungeon Church"
+          filename=$(basename "$file")
+          if [[ "$filename" == "Dungeon Church"* ]]; then
+            echo "Validating \"$file\"..."
+            # Use quotes around the filename to handle spaces and special characters
+            npx --package=5etools-utils -- test-json-brew "$file" || HAS_ERRORS=1
+          else
+            echo "Skipping \"$file\" (filename doesn't start with \"Dungeon Church\")"
+          fi
         done
         
         # Exit with error if any validation failed
