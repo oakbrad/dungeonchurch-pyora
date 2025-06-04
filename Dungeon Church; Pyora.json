@@ -8833,7 +8833,6 @@
 			],
 			"dmg1": "1d4",
 			"dmgType": "S",
-			"weapon": true,
 			"lootTables": [
 				"Dungeon Dome Concessions|dungeonchurch",
 				"Pyoran Magic Items|dungeonchurch"
