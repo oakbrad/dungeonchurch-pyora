@@ -3,10 +3,10 @@ name: Validate 5eTools Homebrew JSON
 on:
   push:
     paths:
-      - '**.json'
+      - 'Dungeon Church*.json'
   pull_request:
     paths:
-      - '**.json'
+      - 'Dungeon Church*.json'
 
 jobs:
   validate-json:
