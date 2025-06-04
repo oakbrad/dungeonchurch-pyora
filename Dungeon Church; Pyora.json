@@ -2383,12 +2383,14 @@
 			"fluff": {
 				"entries": [
 					{
+						"type": "entries",
 						"name": "Lust for Vengeance",
 						"entries": [
 							"His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
 						]
 					},
 					{
+						"type": "entries",
 						"name": "Curse of Lycanthropy",
 						"entries": [
 							"During a {@link brazen assault |https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by monsters directed by Lady Nightshade, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope."
