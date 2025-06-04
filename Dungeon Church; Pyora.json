@@ -4,24 +4,21 @@
 			{
 				"json": "DungeonChurch",
 				"abbreviation": "CHURCH",
-				"full": "Dungeon Church",
-				"version": "0.6",
+				"full": "Dungeon Church's Pyora",
+				"version": "1.0",
 				"url": "https://www.dungeon.church",
 				"authors": [
-					"Brad Wenner"
+					"DM Brad"
 				],
 				"convertedBy": [
-					"Brad Wenner"
+					"DM Brad"
 				],
-				"color": "a90001"
+				"color": "ff2600"
 			}
 		],
 		"dateAdded": 1711973394,
-		"dateLastModified": 1721111951,
-		"edition": "one"
+		"dateLastModified": 1721111951
 	},
-	"book": [],
-	"bookData": [],
 	"condition": [
 		{
 			"name": "Intoxicated",
@@ -168,7 +165,7 @@
 			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
 			"fluff": {
 				"entries": [
-					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called "Children of the Travelers" a.k.a. the elfmarked.",
+					"According to superstitions common in the villages, children who exhibit certain talents, deformities, or spurious lineage are called {@i Children of the Travelers} a.k.a. the elfmarked.",
 					"Many stories - or convenient excuses - of individuals being charmed into illicit encounters with elves have been reported over the centuries. Sometimes the rumors claim whole towns were bewitched into bacchanal acts, or driven mad in carnivals beyond comprehension, only to find themselves not only hungover - but bearing a generation of progeny that can only be called special. ",
 					"More skeptical minds consider these children to have been exposed to magic in the womb, or to be the resurgence of recessive traits from pre-human species lost to the cycle of time.",
 					{
@@ -5333,7 +5330,7 @@
 			],
 			"entries": [
 				"You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage and deals an extra {@dice 2d8} slashing damage to plants and Plant creatures.",
-				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: "A mi, volpal" which translates from its indigenous tongue as "A blade for me."",
+				"The 17-inch blade of this tool-weapon appears deceptively dull and chipped, its hilt is carved azabache (a mystical stone believed to ward off malevolent spirits), and its handle is carved with a disturbing depiction of writhing, bloated leeches. The bohika (shaman) after which the weapon is named used it to wantonly cut down selva and conduct excessive ritual sacrifice to their patron. A lock of unmarred blonde hair dangles from the pommel, its significance lost to time. If the blade is held at the right angle in light, a scrawled phrase appears on the hilt: {@i A mi, volpal} which translates from its indigenous tongue as {@i A blade for me.}",
 				"When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creatures heads. The creature dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or the DM decides the creature is too big for its head to be cut off with this weapon. Such a creature takes an extra {@dice 6d8} slashing damage from the hit.",
 				{
 					"type": "entries",
@@ -5685,7 +5682,7 @@
 			],
 			"rarity": "common",
 			"entries": [
-				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer's mark, the glass is crudely etched by hand with the dwarven rune for "berserker".",
+				"A carbonated and heavily hopped brew contained in a bottle crafted from thick, unpolished amber glass. Instead of a brewer's mark, the glass is crudely etched by hand with the dwarven rune for berserker.",
 				"When you drink this beer, you feel the heightened awareness and confidence of an experienced brawler flood through you for 5 minutes. When attacking with an unarmed strike or improvised weapon, you have advantage on the attack roll and can use your bonus action to make another attack of the same type. Your heightened battle focus gives you disadvantage on Wisdom and Intelligence checks and saving throws.",
 				{
 					"type": "inset",
@@ -5708,7 +5705,7 @@
 					}
 				],
 				"entries": [
-					"While not commercially available, the breweries of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} are known for producing all types of experimental concoctions off-label. Variations on the "berserker's draught" recipe are unique to each brewer and a closely held secret."
+					"While not commercially available, the breweries of {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC} are known for producing all types of experimental concoctions off-label. Variations on the berserker's draught recipe are unique to each brewer and a closely held secret."
 				]
 			}
 		},
@@ -6655,7 +6652,7 @@
 				],
 				"entries": [
 					"Gloomroot is a weed found in only the darkest parts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, where sunlight barely penetrates. It thrives in the rocky soil of ancient ruins, leading some to wonder if it feeds on the remnants of old magic or ground soaked in blood. Chewing the leaves gives a mild stimulant affect that enhances creatures natural darkvision, but the roots can be distilled into an extract with an effect many times stronger.",
-					"Locals and hunters in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} sometimes refer to it as "{@deity Ostara|pyora|dungeonchurch}'s Broom" - a gift from the trickster to help navigate the treacherous paths of the dark forest."
+					"Locals and hunters in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} sometimes refer to it as {@deity Ostara|pyora|dungeonchurch}'s Broom - a gift from the trickster to help navigate the treacherous paths of the dark forest."
 				]
 			}
 		},

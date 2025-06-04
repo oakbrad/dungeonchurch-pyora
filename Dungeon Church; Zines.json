@@ -3,22 +3,21 @@
 		"sources": [
 			{
 				"json": "DungeonChurchZines",
-				"abbreviation": "CHURCHZ",
-				"full": "Dungeon Church; Zines",
+				"abbreviation": "ZINE",
+				"full": "Dungeon Church Zines",
 				"version": "0.1",
 				"url": "https://www.dungeon.church",
 				"authors": [
-					"Brad Wenner"
+					"DM Brad"
 				],
 				"convertedBy": [
-					"Brad Wenner"
+					"DM Brad"
 				],
-				"color": "a90001"
+				"color": "ff2600"
 			}
 		],
 		"dateAdded": 1721111951,
-		"dateLastModified": 1721111951,
-		"edition": "one"
+		"dateLastModified": 1721111951
 	},
 	"book": [
 		{
@@ -27,7 +26,7 @@
 			"source": "DungeonChurchZines",
 			"group": "homebrew",
 			"published": "2021-07-21",
-			"author": "Brad Wenner",
+			"author": "DM Brad",
 			"cover": {
 				"type": "external",
 				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-cover.png"
