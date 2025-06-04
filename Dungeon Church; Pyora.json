@@ -5838,6 +5838,7 @@
 		},
 		{
 			"name": "Boot of Beer",
+			"source": "DungeonChurch",
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
