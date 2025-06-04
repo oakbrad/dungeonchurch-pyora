@@ -180,103 +180,6 @@
 			}
 		},
 		{
-			"name": "Halfling (Pyoran)",
-			"source": "DungeonChurch",
-			"size": [
-				"S"
-			],
-			"speed": 25,
-			"ability": [
-				{
-					"dex": 2
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 31,
-				"heightMod": "2d4",
-				"baseWeight": 35
-			},
-			"age": {
-				"mature": 20,
-				"max": 250
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"gnomish": true
-				}
-			],
-			"entries": [
-				{
-					"name": "Age",
-					"type": "entries",
-					"entries": [
-						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
-					]
-				},
-				{
-					"name": "Lucky",
-					"entries": [
-						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Brave",
-					"entries": [
-						"You have advantage on saving throws against being {@condition frightened}."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Halfling Nimbleness",
-					"entries": [
-						"You can move through the space of any creature that is of a size larger than yours."
-					],
-					"type": "entries"
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write Common and Gnomish. The Gnomish language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Stone Tea",
-					"entries": [
-						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week's preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
-					]
-				}
-			],
-			"soundClip": {
-				"type": "internal",
-				"path": "races/halfling.mp3"
-			},
-			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
-			"fluff": {
-				"entries": [
-					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
-					"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans. These people tend to be nomadic and independent, with an intrinsic wanderlust that led them out of the Underdark and away from their traditional culture and lifestyle underground.",
-					{
-						"type": "inset",
-						"name": "Dungeon Church Lore",
-						"entries": [
-							"Learn more about {@link Halflings in the wiki|https://lore.dungeon.church/doc/halfling-fFZiVbQDbC}."
-						]
-					}
-				]
-			}
-		},
-		{
 			"name": "Ravenfolk",
 			"source": "DungeonChurch",
 			"size": [
@@ -792,6 +695,39 @@
 						"name": "Dungeon Church Lore",
 						"entries": [
 							"Learn more about {@link Humans in the wiki|https://lore.dungeon.church/doc/human-pyoran-LMuc7qNrv4}."
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "Pyoran",
+			"source": "DungeonChurch",
+			"raceName": "Halfling",
+			"raceSource": "PHB",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Stone Tea",
+					"entries": [
+						"You have proficiency with {@item Gnomish Tea Set|dungeonchurch}. Gnomes and halflings who come from Underdark society know the secret of the Stone Tea brew, and an individual with a week's preparation time and the proper ingredients can summon enough magic to imbue a single tea ceremony ritual with {@spell Stone Shape}. However, Stone Tea is known to induce erratic behavior individuals who are regularly exposed to sunlight."
+					]
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/halfling.mp3"
+			},
+			"foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
+			"fluff": {
+				"entries": [
+					"The diminutive little people, gnomes live below ground and guard their homeland with a jealous secrecy that few have glimpsed. their dealings with the civilizations above ground is limited to trade, where they are known for intricate craftsmanship and ingenious devices.",
+					"Some gnomes have come to live on the surface and assimilate to human life - known as halflings - as in half-humans. These people tend to be nomadic and independent, with an intrinsic wanderlust that led them out of the Underdark and away from their traditional culture and lifestyle underground.",
+					{
+						"type": "inset",
+						"name": "Dungeon Church Lore",
+						"entries": [
+							"Learn more about {@link Halflings in the wiki|https://lore.dungeon.church/doc/halfling-fFZiVbQDbC}."
 						]
 					}
 				]
@@ -10767,7 +10703,7 @@
 				],
 				[
 					"6",
-					"{@race Halfling|dungeonchurch|Halfling}",
+					"{@race Halfling|PHB} ({@race Pyoran|dungeonchurch|Halfling})",
 					"Uncommon"
 				],
 				[
