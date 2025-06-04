@@ -5838,7 +5838,6 @@
 		},
 		{
 			"name": "Boot of Beer",
-			"source": "DungeonChurch",
 			"tier": "major",
 			"rarity": "rare",
 			"wondrous": true,
@@ -5868,7 +5867,7 @@
 			"tier": "minor",
 			"type": "P",
 			"rarity": "rare",
-			"wondrous": "true",
+			"wondrous": true,
 			"weight": 1,
 			"lootTables": [
 				"Pyoran Magic Items|dungeonchurch",
