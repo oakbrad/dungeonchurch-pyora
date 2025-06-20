@@ -8985,57 +8985,130 @@
 			"source": "DungeonChurch",
 			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
 			"colLabels": [
-				"1d11",
-				"Book"
+				"1d24",
+				"Book",
+				"Language"
 			],
 			"rows": [
 				[
 					"1",
-					"{@i Urgaud's Culinary Travels} by {@link Urgaud Gnasher|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}"
+					"{@i Urgaud's Culinary Travels} by {@link Urgaud Gnasher|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}",
+					"Common"
 				],
 				[
 					"2",
-					"{@i {@link The Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}"
+					"{@i {@link The Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}",
+					"Infernal"
 				],
 				[
 					"3",
-					"{@i Dethroning Fire: The Rebel Diaries} by {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}"
+					"{@i Dethroning Fire: The Rebel Diaries} by {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}",
+					"Common"
 				],
 				[
 					"4",
-					"{@i Quartermaster's Log: The Dragon's Jubilee} by {@link Wexley|https://lore.dungeon.church/doc/wexley-the-wizard-6ah4bkHmdf}"
+					"{@i Quartermaster's Log: The Dragon's Jubilee} by {@link Wexley|https://lore.dungeon.church/doc/wexley-the-wizard-6ah4bkHmdf}",
+					"Common"
 				],
 				[
 					"5",
-					"{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}"
+					"{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}",
+					"Common"
 				],
 				[
 					"6",
-					"{@i Confessio Talonus} by {@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}"
+					"{@i Confessio Talonus} by {@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}",
+					"Gnomish"
 				],
 				[
 					"7",
-					"{@i Noctiflora: Lunar Mutagens in Solanaceae} by {@link Caelum the Druid|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}"
+					"{@i Noctiflora: Lunar Mutagens in Solanaceae} by {@link Caelum the Druid|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}",
+					"Druidic"
 				],
 				[
 					"8",
-					"{@i The Unfortunate Story of {@link Bob Dabbledob|https://lore.dungeon.church/doc/bob-dabbledob-h5DXNi32rE}} by Toblin Stonehill"
+					"{@i The Unfortunate Story of {@link Bob Dabbledob|https://lore.dungeon.church/doc/bob-dabbledob-h5DXNi32rE}} by Toblin Stonehill",
+					"Common"
 				],
 				[
 					"9",
-					"{@i {@link Grim Mold's|https://lore.dungeon.church/doc/grim-mold-US6JMu5NLP} Price Guide for Priceless Antiques}"
+					"{@i {@link Grim Mold's|https://lore.dungeon.church/doc/grim-mold-US6JMu5NLP} Price Guide for Priceless Antiques}",
+					"Common"
 				],
 				[
 					"10",
-					"{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}"
+					"{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}",
+					"Common"
 				],
 				[
 					"11",
-					"{@i Grip of Glory: The {@link Britta|https://lore.dungeon.church/doc/britta-the-champion-oS3RKNXhqX} Story}"
+					"{@i Grip of Glory: The {@link Britta|https://lore.dungeon.church/doc/britta-the-champion-oS3RKNXhqX} Story}",
+					"Common"
 				],
 				[
 					"12",
-					"{@i Keel to Council: A Captain's Life} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}"
+					"{@i Keel to Council: A Captain's Life} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}",
+					"Common"
+				],
+				[
+					"13",
+					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Dire Beasts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}}",
+					"Dwarvish"
+				],
+				[
+					"14",
+					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Migratory Birds of the Azure Sea}",
+					"Dwarvish"
+				],
+				[
+					"15",
+					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Undermountain Monsters}",
+					"Dwarvish"
+				],
+				[
+					"16",
+					"{@i Articles of Agreement of the {@link Confederated Hearthships|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}}",
+					"Common"
+				],
+				[
+					"17",
+					"{@i Blood Diamond: The Rise of the {@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}}",
+					"Common"
+				],
+				[
+					"18",
+					"{@i Shadow Oath: Rituals of the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}} by {@link Talia Talindra|https://lore.dungeon.church/doc/talia-talindra-u3RJTStFtn}",
+					"Infernal"
+				],
+				[
+					"19",
+					"{@i Blood Concord: The Art of Sangromantic Binding} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}",
+					"Infernal"
+				],
+				[
+					"20",
+					"{@i Codex of Persuasion and Extraction} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}",
+					"Abyssal"
+				],
+				[
+					"21",
+					"{@i The {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} Field Manual}",
+					"Common"
+				],
+				[
+					"22",
+					"{@i Mandate of {@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}: The Industrialization of Draconic Slavery}",
+					"Common"
+				],
+				[
+					"23",
+					"{@i Gondola Engineering in Theory and Practice} by {@link Elarion Gearsong|https://lore.dungeon.church/doc/elarion-gearsong-5hUorix4Zk}",
+					"Elvish"
+				],
+				[
+					"24",
+					"{@i Construct Automation Protocols} by Avalon Engineer Union"	,
+					"Elvish"
 				]
 			]
 		},
