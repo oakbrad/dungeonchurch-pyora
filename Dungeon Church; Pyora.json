@@ -8985,7 +8985,7 @@
 			"source": "DungeonChurch",
 			"caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
 			"colLabels": [
-				"1d24",
+				"1d46",
 				"Book",
 				"Language"
 			],
@@ -9052,24 +9052,25 @@
 				],
 				[
 					"13",
+					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide to Pyora}",
+					"Common"
+				],
+				[
+					"14",
 					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Dire Beasts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}}",
 					"Dwarvish"
 				],
 				[
-					"14",
+					"15",
 					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Migratory Birds of the Azure Sea}",
 					"Dwarvish"
 				],
 				[
-					"15",
+					"16",
 					"{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Undermountain Monsters}",
 					"Dwarvish"
 				],
-				[
-					"16",
-					"{@i Articles of Agreement of the {@link Confederated Hearthships|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}}",
-					"Common"
-				],
+
 				[
 					"17",
 					"{@i Blood Diamond: The Rise of the {@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}}",
@@ -9107,13 +9108,118 @@
 				],
 				[
 					"24",
-					"{@i Construct Automation Protocols} by Avalon Engineer Union"	,
+					"{@i Construct Automation Protocols} by Avalon Engineer Union",
 					"Elvish"
 				],
 				[
 					"25",
 					"{@i Dwarves I Have Known} by Anonymous",
 					"Dwarvish"
+				],
+				[
+					"26",
+					"{@i The Heresy of {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}} by {@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}",
+					"Elvish"
+				],
+				[
+					"27",
+					"{@i {@link Mildred's|https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi} Black Book}",
+					"Draconic"
+				],
+				[
+					"28",
+					"{@i Memories of the Lost Spires} by {@link Lady Nysarra|https://lore.dungeon.church/doc/lady-nyssara-J5Xln2dPek}",
+					"Common"
+				],
+				[
+					"29",
+					"{@i Hidden Flame: Guerilla Tactics for the Faithful} by Cult of {@link Sarenrae|https://lore.dungeon.church/doc/sarenrae-W8XCSaoR45}",
+					"Common"
+				],
+				[
+					"30",
+					"{@i Articles of Agreement of the {@link Confederated Hearthships|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}}",
+					"Common"
+				],
+				[
+					"31",
+					"{@i The Hop Conspiracy: {@link Siduri's|https://lore.dungeon.church/doc/siduri-UpLIvKAUoH} Rebellion & Escape} by Brynja Ironbrew",
+					"Dwarvish"
+				],
+				[
+					"32",
+					"{@i Temporary Autonomous Zone} by {@link Hakim Bey|https://theanarchistlibrary.org/library/hakim-bey-t-a-z-the-temporary-autonomous-zone-ontological-anarchy-poetic-terrorism}",
+					"Common"
+				],
+				[
+					"33",
+					"{@i Pirate Utopia: A History of the {@link Confederacy|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}} by Evilra Bricktank",
+					"Dwarvish"
+				],
+				[
+					"34",
+					"{@i Ferment Resistance: A Field Manual} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}",
+					"Common"
+				],
+				[
+					"35",
+					"{@i Confetti & Confrontation: Direct Action in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}",
+					"Common"
+				],
+				[
+					"36",
+					"{@i The New City} by {@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}",
+					"Common"
+				],
+				[
+					"37",
+					"{@i The Birth of the {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}} by {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}",
+					"Elvish"
+				],
+				[
+					"38",
+					"{@i Embers Over {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}: Bearing Witness to {@link the Doom|https://lore.dungeon.church/doc/the-doom-of-avalon-wVeAiTDpDF}} by {@link Leshanna Starwhisper|https://lore.dungeon.church/doc/leshanna-starwhisper-hyyvxrFCai}",
+					"Elvish"
+				],
+				[
+					"39",
+					"{@i A {@race Halfling (Pyoran)|dungeonchurch|Halfling} History: Life Above Ground}",
+					"Gnomish"
+				],
+				[
+					"40",
+					"{@i Adventures on the Azure Sea}",
+					"Common"
+				],
+				[
+					"41",
+					"{@i The Little Black Book of Cocktails} by {@link The Black Chalice|https://lore.dungeon.church/doc/the-black-chalice-liXC2cnejj}",
+					"Common"
+				],
+				[
+					"42",
+					"{@i Member Ledger of the {@link Burle Hunter's Guild|https://lore.dungeon.church/doc/burle-hunters-guild-TFqCs3pSJy}}",
+					"Common"
+				],
+				[
+					"43",
+					"{@i Canticles of {@link The Pathfinder|https://lore.dungeon.church/doc/azrael-ENK1L9l9rm}}",
+					"Infernal"
+				],
+				[
+					"44",
+					"{@i The Enigma of the {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n}}",
+					"Druidic"
+				],
+				[
+					"45",
+					"{@i The Art of {@link Stone Tea|https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM}}",
+					"Gnomish"
+				],
+				[
+					"46",
+					"{@i Whistle While You Work: A {@race Gnome (Rock)|dungeonchurch|Gnomish} Tradition}",
+					"Gnomish"
 				]
 			]
 		},
