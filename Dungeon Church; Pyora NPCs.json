@@ -1,0 +1,4169 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DungeonChurchNPCs",
+        "abbreviation": "CHURCHNPC",
+        "full": "Dungeon Church; Pyora NPCs",
+        "version": "1.0",
+        "url": "https://www.dungeon.church",
+        "authors": [
+          "DM Brad"
+        ],
+        "convertedBy": [
+          "DM Brad"
+        ],
+        "color": "ff2600"
+      }
+    ],
+    "dateAdded": 1711973394,
+    "dateLastModified": 1751224284,
+    "edition": "classic"
+  },
+  "monster": [
+    {
+      "name": "Amelia, Knight of Twilight",
+      "isNpc": true,
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "mage armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 162,
+        "formula": "25d8 + 50"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 6,
+      "dex": 12,
+      "con": 14,
+      "int": 16,
+      "wis": 20,
+      "cha": 20,
+      "save": {
+        "int": "+8",
+        "wis": "+10",
+        "cha": "+10"
+      },
+      "skill": {
+        "history": "+8",
+        "insight": "+15",
+        "perception": "+15",
+        "arcana": "+7",
+        "survival": "+13"
+      },
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Amelia's spellcasting attribute is Charisma (save {@dc 19}, {@hit 12} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell faerie fire}",
+            "{@spell hex}",
+            "{@spell misty step}",
+            "{@spell silent image}",
+            "{@spell tongues}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell power word kill}",
+              "{@spell sleep} (9th level)",
+              "{@spell true polymorph}",
+              "{@spell time stop}"
+            ],
+            "2e": [
+              "{@spell bestow curse}",
+              "{@spell feeblemind}",
+              "{@spell mass suggestion}",
+              "{@spell flesh to stone}"
+            ],
+            "3e": [
+              "{@spell chain lightning}",
+              "{@spell counterspell}",
+              "{@spell dispel magic}",
+              "{@spell hypnotic pattern}",
+              "{@spell teleportation circle}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "senses": [
+        "truesight 60 ft."
+      ],
+      "passive": 25,
+      "immune": [
+        "fire",
+        "psychic"
+      ],
+      "languages": [
+        "Common",
+        "Infernal",
+        "telepathy (100 ft.)"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Bend Fate (3/Day)",
+          "entries": [
+            "If Amelia fails a saving throw, she may choose to succeed instead and reflect the effect of the failed saving throw onto one enemy within 30 feet. Amelia still suffers the effect of a successful saving throw, if any. The new target is entitled to a saving throw as if it were the original target of the attack, but with disadvantage."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Amelia has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Misty Step (At Will)",
+          "entries": [
+            "Amelia can step between places as a bonus action."
+          ]
+        },
+        {
+          "name": "Sealed Destiny (1/Day)",
+          "entries": [
+            "Amelia attunes herself to the threads of the PCs' fates. Ask each player to write down their prediction of how the PC to their left will die, and at what level. Collect the notes without revealing the answers. When one of those PCs dies, reveal the prediction. If the character died in the manner predicted, they fulfill their destiny and are immediately resurrected by the gods as a reward. If they died at or within one level of the prediction, they return to life with some useful insight into the destiny of someone important."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Amelia makes two Inexorable Thread attacks."
+          ]
+        },
+        {
+          "name": "Inexorable Threads",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 30 ft., one target. {@h}27 ({@damage 5d8 + 5}) radiant damage, and the target is \"one step closer to death.\" If the target is reduced to 0 hit points, it's treated as if it's already failed one death saving throw. This effect is cumulative; each inexorable threads hit adds one unsuccessful death saving throw. If a character who's been hit three or more times by inexorable threads is reduced to 0 hit points, he or she dies immediately. This effect lasts until the character completes a long rest."
+          ]
+        },
+        {
+          "name": "Bind Fates (1/Day)",
+          "entries": [
+            "One target within 60 feet of Amelia must make a {@dc 18} Wisdom saving throw. On a failed save, the target's fate is bound to one random ally of the target. Any damage or condition the target suffers is inflicted on the individual to which they are bound instead, and vice versa. A creature can be bound to only one other creature at a time. This effect lasts until either of the affected creatures gains a level, or until a heal or heroes' feast lifts this binding."
+          ]
+        },
+        {
+          "name": "Destiny Distortion Wave {@recharge 5}",
+          "entries": [
+            "Amelia projects a 60-foot cone of distortion that frays the strands of fate. All targets in the cone take 55 ({@damage 10d10}) force damage, or half damage with a successful {@dc 18} Wisdom saving throw. In addition, if more than one target that failed its saving throw is affected by a condition, those conditions are randomly redistributed among the targets with failed saving throws."
+          ]
+        }
+      ],
+      "environment": [
+        "any",
+        "forest",
+        "urban"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-amelia-token.png"
+      },
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I",
+        "TP"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "AOE"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Amelia in the wiki|https://lore.dungeon.church/doc/amelia-mAibH1T0Em}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-amelia.png"
+            }
+          }
+        ]
+      },
+      "shortName": "Amelia",
+      "resist": [
+        "radiant"
+      ],
+      "damageTags": [
+        "O",
+        "R"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Boomerang Cat",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "T"
+      ],
+      "type": "beast",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "average": 24,
+        "formula": "7d4 + 7"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 3,
+      "dex": 15,
+      "con": 12,
+      "int": 3,
+      "wis": 12,
+      "cha": 7,
+      "skill": {
+        "perception": "+3",
+        "stealth": "+4",
+        "acrobatics": "+6"
+      },
+      "passive": 13,
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The cat has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          ]
+        },
+        {
+          "name": "Returning",
+          "entries": [
+            "A returning weapon allows you to hurl the weapon in such a way that it returns to you. When you attack with a returning weapon, if you roll an even number on the {@dice d20}, the weapon returns to you by the end of your turn. You can catch the weapon if you have a hand free to do so. If not, the weapon lands at a random point within 5 feet of you. If you roll an odd number on the {@dice d20} for the attack roll, the weapon fails to return to you."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h} 5 ({@dice 1d6+2}) slashing damage."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "familiar": true,
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.dungeon.church/audio/bestiary/cat.mp3"
+      },
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "token": {
+        "name": "Cat",
+        "source": "MM"
+      },
+      "damageTags": [
+        "S"
+      ]
+    },
+    {
+      "name": "Briar Tree",
+      "size": [
+        "H"
+      ],
+      "type": "plant",
+      "source": "DungeonChurchNPCs",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "8d10 + 14",
+        "average": 58
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 19,
+      "dex": 6,
+      "con": 15,
+      "int": 10,
+      "wis": 10,
+      "cha": 7,
+      "passive": 10,
+      "cr": "2",
+      "senses": [
+        "blindsight 30 ft."
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "languages": [
+        "Sylvan"
+      ],
+      "languageTags": [
+        "S"
+      ],
+      "resist": [
+        "bludgeoning",
+        "piercing"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "poisoned"
+      ],
+      "trait": [
+        {
+          "name": "False Appearance",
+          "entries": [
+            "While the briar tree remains motionless, it is indistinguishable from a normal tree."
+          ]
+        },
+        {
+          "name": "Thorny Defense",
+          "entries": [
+            "A creature that touches the briar tree or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "False Appearance"
+      ],
+      "action": [
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage. "
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "vulnerable": [
+        "fire"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-tree-token.png"
+      },
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-tree.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Briar Mound",
+      "size": [
+        "L"
+      ],
+      "type": "plant",
+      "source": "DungeonChurchNPCs",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d10 + 48",
+        "average": 136
+      },
+      "speed": {
+        "walk": 20,
+        "swim": 20
+      },
+      "str": 18,
+      "dex": 8,
+      "con": 16,
+      "int": 5,
+      "wis": 10,
+      "cha": 5,
+      "passive": 10,
+      "cr": "5",
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "resist": [
+        "cold",
+        "fire"
+      ],
+      "immune": [
+        "lightning"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "deafened",
+        "exhaustion"
+      ],
+      "trait": [
+        {
+          "name": "Lightning Absoprtion",
+          "entries": [
+            "Whenever the briar mound would take lightning damage, it instead takes no damage and regains hit points equal to the damage dealt."
+          ]
+        },
+        {
+          "name": "Thorny Defense",
+          "entries": [
+            "A creature that touches the briar mound or hits it with a melee attack while within 5 feet of it takes 5 ({@dice 2d4}) piercing damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "False Appearance"
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The briar mound makes two attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}14 ({@damage 3d6 + 4}) bludgeoning damage. "
+          ]
+        },
+        {
+          "name": "Engulf",
+          "entries": [
+            "The briar mound engulfs a Medium or smaller creature {@condition grappled} by it. The engulfed target is {@condition blinded}, {@condition restrained}, and unable to breathe, and it must succeed on a {@dc 14} saving throw at the start of each of the briar mound's turns or take 13 ({@damage 2d8 + 4}) bludgeoning damage. If the briar mound moves, the engulfed target moves with it. The briar mound can have only one creature engulfed at a time."
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "skill": {
+        "stealth": "+2"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "restrained"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-mound-token.png"
+      },
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-mound.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clockwork Shark",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "L"
+      ],
+      "type": {
+        "type": "construct"
+      },
+      "alignment": [
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "8d10 + 8"
+      },
+      "speed": {
+        "swim": 50,
+        "walk": 5
+      },
+      "str": 18,
+      "dex": 13,
+      "con": 15,
+      "int": 1,
+      "wis": 10,
+      "cha": 4,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 11,
+      "resist": [
+        "bludgeoning",
+        "piercing",
+        "slashing"
+      ],
+      "immune": [
+        "fire",
+        "poison",
+        "psychic"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Blood Frenzy",
+          "entries": [
+            "The shark has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+          ]
+        },
+        {
+          "name": "Construct Nature",
+          "entries": [
+            "The clockwork shark doesn't require air, food, drink, or sleep."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The clockwork shark is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The clockwork shark has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 0 ft, one target. {@h}17 ({@damage 5d6}) piercing damage plus 3 ({@damage 1d6}) force damage."
+          ]
+        }
+      ],
+      "environment": [
+        "underwater"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-clockwork-shark-token.png"
+      },
+      "senseTags": [
+        "D"
+      ],
+      "damageTags": [
+        "I",
+        "P",
+        "F"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "traitTags": [
+        "Immutable Form",
+        "Magic Resistance"
+      ],
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-clockwork-shark.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coal Golem",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "MM",
+          "page": 170
+        },
+        {
+          "source": "Dire Compendium"
+        }
+      ],
+      "size": [
+        "L"
+      ],
+      "type": "construct",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 178,
+        "formula": "17d10 + 85"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 22,
+      "dex": 9,
+      "con": 20,
+      "int": 3,
+      "wis": 11,
+      "cha": 1,
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 10,
+      "immune": [
+        "poison",
+        "psychic",
+        "fire",
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't adamantine",
+          "cond": true
+        }
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "languages": [
+        "understands the languages of its creator but can't speak"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Ignite",
+          "entries": [
+            "When the Coal Golem would take fire damage from any source, it is lit aflame for 1 minute. While set aflame it casts a bright light 20ft and dim light another 20ft. In addition, whenever a creature hits (or is hit by) the golem with a melee attack, they suffer {@damage 1d6} fire damage."
+          ]
+        },
+        {
+          "name": "Immutable Form",
+          "entries": [
+            "The golem is immune to any spell or effect that would alter its form."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The golem has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Magic Weapons",
+          "entries": [
+            "The golem's weapon attacks are magical."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The golem makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 10} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Slow {@recharge 5}",
+          "entries": [
+            "The golem targets one or more creatures it can see within 10 feet of it. Each target must make a {@dc 17} Wisdom saving throw against this magic. On a failed save, a target can't use reactions, its speed is halved, and it can't make more than one attack on its turn. In addition, the target can take either an action or a bonus action on its turn, not both. These effects last for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Immutable Form",
+        "Magic Resistance",
+        "Magic Weapons"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "CS"
+      ],
+      "damageTags": [
+        "B"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-coal-golem.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-coal-golem-token.png"
+      }
+    },
+    {
+      "name": "Dire Boar",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 59,
+        "formula": "7d10 + 21"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 20,
+      "dex": 10,
+      "con": 17,
+      "int": 2,
+      "wis": 13,
+      "cha": 8,
+      "passive": 14,
+      "cr": "5",
+      "trait": [
+        {
+          "name": "Charge",
+          "entries": [
+            "If the dire boar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ({@damage 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Relentless (Recharges after a Short or Long Rest)",
+          "entries": [
+            "If the dire boar takes 10 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+          ]
+        },
+        {
+          "name": "Survival Instinct",
+          "entries": [
+            "The dire boar has advantage on Survival (Wisdom) checks."
+          ]
+        },
+        {
+          "name": "Blood Frenzy",
+          "entries": [
+            "The dire boar has advantage on melee attack rolls against any creature that doesn't have all its hit points"
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The dire boar makes two attacks with it's tusks."
+          ]
+        },
+        {
+          "name": "Tusk",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d6}) slashing damage."
+          ]
+        }
+      ],
+      "environment": [
+        "grassland",
+        "forest",
+        "hill"
+      ],
+      "traitTags": [
+        "Charge"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "fluff": {
+        "entries": [],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
+      }
+    },
+    {
+      "name": "Dire Hare",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "S"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "formula": "7d4 + 7",
+        "average": 24
+      },
+      "speed": {
+        "walk": 60
+      },
+      "str": 11,
+      "dex": 17,
+      "con": 13,
+      "int": 2,
+      "wis": 15,
+      "cha": 2,
+      "skill": {
+        "perception": "+6",
+        "stealth": "+7",
+        "acrobatics": "+7",
+        "survival": "+4"
+      },
+      "passive": 16,
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Escape",
+          "entries": [
+            "The dire hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+          ]
+        },
+        {
+          "name": "Keen Hearing",
+          "entries": [
+            "The dire hare has advantage on Wisdom ({@skill Perception}) checks that rely on hearing."
+          ]
+        },
+        {
+          "name": "Charge",
+          "entries": [
+            "If the dire hare moves at least 20 feet straight toward a target and then hits it with its bite on the same turn, the target takes an extra 7 ({@dice 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 13} Dexterity saving throw or be knocked {@condition prone}."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Dire Hare",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": []
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "conditionImmune": [
+        "exhaustion"
+      ],
+      "traitTags": [
+        "Charge",
+        "Keen Senses"
+      ],
+      "conditionInflict": [
+        "poisoned",
+        "prone"
+      ],
+      "reaction": [
+        {
+          "name": "Infestation",
+          "entries": [
+            "If the dire hare is hit with a melee attack, all creatures within 5 ft. of the hare must make a {@dc 13} Dexterity saving throw or they are covered with a {@creature Swarm of Insects|mm|Swarm of Fleas}."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "mountain",
+        "swamp",
+        "urban"
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit +2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 11} saving throw against disease or become {@condition poisoned}"
+          ]
+        }
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "savingThrowForced": [
+        "dexterity",
+        "strength"
+      ]
+    },
+    {
+      "name": "Commodore Daniel Warrington",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          {
+            "tag": "human",
+            "prefix": "Pyoran"
+          }
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|PHB|plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 48",
+        "average": 120
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 16,
+      "int": 12,
+      "wis": 14,
+      "cha": 17,
+      "skill": {
+        "insight": "+6",
+        "investigation": "+5",
+        "perception": "+6",
+        "religion": "+5",
+        "history": "+5",
+        "intimidation": "+7"
+      },
+      "passive": 16,
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Commodore Daniel is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}). The Commodore has the following pspells prepared:"
+          ],
+          "spells": {
+            "1": {
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell hunter's mark}",
+                "{@spell speak with animals}",
+                "{@spell wrathful smite}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell animal messenger}",
+                "{@spell detect thoughts}",
+                "{@spell lesser restoration}",
+                "{@spell moonbeam}",
+                "{@spell zone of truth}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell bestow curse}",
+                "{@spell dispel magic}"
+              ],
+              "slots": 3
+            }
+          },
+          "will": [
+            "{@spell beast sense}",
+            "{@spell green-flame blade|TCE}",
+            "{@spell holy word|GH}",
+            "{@spell sacred flame}"
+          ],
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Aura of Clarity (Human Form)",
+          "entries": [
+            "While within 10 feet of a conscious Commodore Daniel, creatures of the Commodore's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the commodore allows it."
+          ]
+        },
+        {
+          "name": "Brand Heretic (Recharges after a Short or Long Rest)",
+          "entries": [
+            "As a bonus action, the Commodore Daniel chooses one creature the Commodore can see within 30 feet of it. The Commodore marks the target as a heretic. For 1 minute, the Commodore's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the Commodore can use a reaction to make one weapon attack against the heretic."
+          ]
+        },
+        {
+          "name": "Smite",
+          "entries": [
+            "When Commodore Daniel hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1st level spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+          ]
+        },
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "As an action, Commodore Daniel can polymorph into one of his lycanthrope forms: a boar-humanoid hybrid or a {@creature Boar}. While in lycanthrope form, the wereboar gains resistance to bludgeoning, piercing, and slashing damage from non-silvered, non-magical sources. Any equipment he is wearing or carrying isn't transformed. He reverts to its true form if he dies."
+          ]
+        },
+        {
+          "name": "Charge (Lycanthrope Form)",
+          "entries": [
+            "If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Lust for the Hunt (Lycanthrope Form)",
+          "entries": [
+            "The savage nature of your curse causes you to lose control. When in hybrid form, make a {@dc 12} Wisdom saving throw at the beginning of each turn. On a fail, the wereboar is overcome with bloodlust and attacks the nearest creature, or dashes towards the nearest helpless or weak creature."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Commodore makes two attacks, only one of which can be with his tusks if in hybrid form."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage and 4 ({@damage 1d8}) radiant damage."
+          ]
+        },
+        {
+          "name": "Maul (Lycanthrope Form)",
+          "entries": [
+            "{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Tusks (Lycanthrope Form)",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach ft., one target. {@h}10 ({@damage 2d6+3}) slashing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with wereboar lycanthropy."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-commodore-daniel-token.png"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "spellcastingTags": [
+        "CP"
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Lust for Vengeance",
+            "entries": [
+              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Curse of Lycanthropy",
+            "entries": [
+              "During a {@link brazen assault |https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by monsters directed by Lady Nightshade, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope."
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about {@link Commodore Daniel Warrington in the wiki|https://lore.dungeon.church/doc/commodore-daniel-warrington-OHzOMkhMHS}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-commodore-daniel.png"
+            }
+          }
+        ]
+      },
+      "attachedItems": [
+        "greatsword|phb",
+        "maul|phb"
+      ],
+      "shortName": "Commodore Daniel",
+      "languages": [
+        "Common",
+        "Dwarvish",
+        "Infernal"
+      ],
+      "languageTags": [
+        "C",
+        "D",
+        "I"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "environment": [
+        "coastal",
+        "urban"
+      ],
+      "isNpc": true,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "traitTags": [
+        "Charge",
+        "Shapechanger"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "damageTags": [
+        "B",
+        "R",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "R",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "strength",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Giant Coal Ant",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "ToB1-2023",
+          "page": 22
+        }
+      ],
+      "page": 22,
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 52,
+        "formula": "7d10 + 14"
+      },
+      "speed": {
+        "walk": 40
+      },
+      "str": 15,
+      "dex": 13,
+      "con": 15,
+      "int": 1,
+      "wis": 9,
+      "cha": 2,
+      "senses": [
+        "blindsight 60 ft."
+      ],
+      "passive": 9,
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Ignite",
+          "entries": [
+            "When the Giant Coal Ant would take fire damage from any source, it is lit aflame for 1 minute. While set aflame it casts a bright light 20ft and dim light another 20ft. In addition, whenever a creature hits (or is hit by) the ant with a melee attack, they suffer {@damage 1d6} fire damage."
+          ]
+        },
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The giant ant has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The giant ant makes one Bite attack and one Sting attack."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 12}). Until this grapple ends, the target is {@condition restrained}, and the giant ant can't Bite a different target."
+          ]
+        },
+        {
+          "name": "Sting",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage. The target must make a {@dc 12} Constitution saving throw, taking 11 ({@damage 2d10}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "underdark"
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "P"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "restrained"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Giant Coal Ant in the wiki|https://lore.dungeon.church/doc/giant-coal-ant-M9repJEaQW}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-giant-coal-ant.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-giant-coal-ant-token.png"
+      }
+    },
+    {
+      "name": "Hellion Child",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "ToA"
+        },
+        {
+          "source": "MM"
+        },
+        {
+          "source": "WDH"
+        },
+        {
+          "source": "BGDIA"
+        },
+        {
+          "source": "KftGV"
+        },
+        {
+          "source": "PSI"
+        }
+      ],
+      "size": [
+        "S"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "devil"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "5d6 + 5"
+      },
+      "speed": {
+        "walk": 20,
+        "fly": 40
+      },
+      "str": 10,
+      "dex": 15,
+      "con": 12,
+      "int": 11,
+      "wis": 14,
+      "cha": 8,
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't silvered",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "psychic",
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned",
+        "frightened"
+      ],
+      "languages": [
+        "Infernal",
+        "Whatever it spoke in Life",
+        "telepathy 120 ft."
+      ],
+      "cr": "2",
+      "trait": [
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the hellion's darkvision."
+          ]
+        },
+        {
+          "name": "Flyby",
+          "entries": [
+            "The hellion doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The hellion has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The hellion makes two attacks: one with its bite and one with its fork"
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}5 ({@damage 2d4}) slashing damage."
+          ]
+        },
+        {
+          "name": "Fork",
+          "entries": [
+            "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) piercing damage."
+          ]
+        },
+        {
+          "name": "Rebellious Tongue",
+          "entries": [
+            "If the hellion did not Bite this turn, it may use {@spell Vicious Mockery}."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Devil's Sight",
+        "Flyby",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "I",
+        "TP"
+      ],
+      "damageTags": [
+        "F",
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Tormented Souls",
+            "entries": [
+              "Hellions are the souls of children who died in torment or agony and are unable to move on from this plane. Bound by a seething, confused hatred to the places where they perished they spend their days looking for humans to endlessly torture with their vicious mockery."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Easily Influenced",
+            "entries": [
+              "Due to their undeveloped personalities, their childlike tantrums lead them to lash out at the world without rhyme or reason. This same temperament makes them easily susceptible to the influence of any figure presenting themselves as a parental figure - especially sorcerers, warlocks, and wizards who channel the rage of these fickle fiends."
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Hellion Children in the wiki|https://lore.dungeon.church/doc/hellion-child-cmTM1BgZSd}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-hellion-child.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-hellion-child-token.png"
+      }
+    },
+    {
+      "name": "Iron Rider Deputy",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Any species but Dragonborn"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "3d8 + 6",
+        "average": 18
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 13,
+      "con": 14,
+      "int": 12,
+      "wis": 12,
+      "cha": 10,
+      "skill": {
+        "religion": "+3",
+        "survival": "+3",
+        "intimidation": "+1",
+        "deception": "+1"
+      },
+      "passive": 11,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "1/4",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The Iron Rider Deputy is a 1st-level spellcaster. Its spellcasting ability is Charisma. The deputy knows the following spell:"
+          ],
+          "spells": {
+            "1": {
+              "spells": [
+                "{@spell detect magic}"
+              ],
+              "slots": 2
+            }
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Iron Rider's Authority",
+          "entries": [
+            "The Iron Rider Deputy can expend a 1st-level ranger spell slot to imbue themselves with the authority of their station for 1 minute. They gain advantage on any check related to leadership, persuasion, or intimidation."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Iron Rider Deputy makes two shortsword attacks, provided it has a {@item shortsword|PHB} in each hand."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, or 2 ({@damage 1d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}3 ({@damage 1d4 + 1}) piercing damage, or 2 ({@damage 1d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-deputy-token.png"
+      },
+      "attachedItems": [
+        "longbow|phb",
+        "shortsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "miscTags": [
+        "MW",
+        "MLW",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-deputy-S9G0VKvtRB}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-deputy.png"
+            }
+          }
+        ]
+      },
+      "damageTags": [
+        "P",
+        "Y"
+      ]
+    },
+    {
+      "name": "Iron Rider Hunter",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "GHMG"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Any species but Dragonborn"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "{@item chain shirt|phb}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 26,
+        "formula": "4d8 + 8"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 13,
+      "dex": 15,
+      "con": 14,
+      "int": 12,
+      "wis": 13,
+      "cha": 10,
+      "skill": {
+        "investigation": "+3",
+        "perception": "+3",
+        "religion": "+3",
+        "survival": "+3"
+      },
+      "passive": 13,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "1",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Iron Rider hunter is a 3rd-level spellcaster. Its spellcasting ability is Wisdom. The hunter knows the following ranger spells:"
+          ],
+          "spells": {
+            "1": {
+              "slots": 3,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell hunter's mark}",
+                "{@spell protection from evil and good}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Iron Rider's Awareness",
+          "entries": [
+            "The Iron Rider hunter can expend a 1st-level ranger spell slot to sense for 1 minute whether arcane or innate spellcasters, aberrations, fey, and fiends are within 1 mile. This trait doesn't reveal the creatures' locations or numbers."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Iron Rider hunter makes two shortsword attacks, provided it has a {@item shortsword|PHB} in each hand."
+          ]
+        },
+        {
+          "name": "Shortsword",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) piercing damage and 2 ({@damage 1d4}) psychic damage, or 5 ({@damage 2d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        },
+        {
+          "name": "Longbow",
+          "entries": [
+            "{@atk rw} {@hit 4} to hit, ranged 150/600 ft., one target. {@h}6 ({@damage 1d8 + 2}) piercing damage and 2 ({@damage 1d4}) psychic damage, or 5 ({@damage 2d4}) psychic damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-hunter-token.png"
+      },
+      "attachedItems": [
+        "longbow|phb",
+        "shortsword|phb"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "Y"
+      ],
+      "spellcastingTags": [
+        "CR"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RNG",
+        "RW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Hunter in the wiki|https://lore.dungeon.church/doc/iron-rider-hunter-kPxugCHSLi}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-hunter.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iron Rider Commodore",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "GHMG"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Any species but Dragonborn"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|PHB|plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 112,
+        "formula": "15d8 + 45"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 10,
+      "con": 16,
+      "int": 12,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "insight": "+6",
+        "investigation": "+5",
+        "perception": "+6",
+        "religion": "+5"
+      },
+      "passive": 16,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Iron Rider Commodore is a 12th-level spellcaster. Its spellcasting ability is Charisma (spell save {@dc 14}). The commodore has the following paladin spells prepared:"
+          ],
+          "spells": {
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell hunter's mark}",
+                "{@spell protection from evil and good}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell detect thoughts}",
+                "{@spell lesser restoration}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell remove curse}"
+              ]
+            }
+          },
+          "ability": "cha"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Aura of Clarity",
+          "entries": [
+            "While within 10 feet of a conscious Iron Rider commodore, creatures of the commodore's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the commodore allows it."
+          ]
+        },
+        {
+          "name": "Brand Heretic (Recharges after a Short or Long Rest)",
+          "entries": [
+            "As a bonus action, the Iron Rider commodore chooses one creature the commodore can see within 30 feet of it. The commodore marks the target as a heretic. For 1 minute, the commodore's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the commodore can use a reaction to make one weapon attack against the heretic."
+          ]
+        },
+        {
+          "name": "Smite",
+          "entries": [
+            "When the Iron Rider commodore hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1stlevel spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The commodore makes two greatsword attacks."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage and 4 ({@damage 1d8}) radiant damage."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-commodore-token.png"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "R",
+        "S"
+      ],
+      "spellcastingTags": [
+        "CP"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "savingThrowForcedSpell": [
+        "wisdom"
+      ],
+      "fluff": {
+        "entries": [
+          ""
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-commodore.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iron Rider Knight",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "GHMB"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Any species but Dragonborn"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item chain mail|PHB}",
+            "{@item shield|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "10d8 + 20"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 11,
+      "con": 14,
+      "int": 12,
+      "wis": 15,
+      "cha": 13,
+      "skill": {
+        "insight": "+4",
+        "investigation": "+3",
+        "perception": "+4"
+      },
+      "passive": 14,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Brave",
+          "entries": [
+            "The Iron Rider knight has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Discerning",
+          "entries": [
+            "The Iron Rider knight has advantage on saving throws against illusions."
+          ]
+        },
+        {
+          "name": "Mark",
+          "entries": [
+            "When the Iron Rider knight hits a creature with a melee weapon attack, the knight marks that creature until the end of the knight's next turn. The mark ends early if the knight becomes {@condition incapacitated} or dies, or someone else marks the same creature. While the marked creature is within the knight's reach, it has disadvantage on attack rolls against creatures other than the knight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Iron Rider knight makes two attacks."
+          ]
+        },
+        {
+          "name": "Longsword",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) slashing damage, or 8 ({@damage 1d10 + 3}) slashing damage if used with two hands to make a melee attack, and Mark."
+          ]
+        },
+        {
+          "name": "Javelin",
+          "entries": [
+            "{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 30/120 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage and, if used to make a melee attack, and Mark."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Marked Control",
+          "entries": [
+            "If a creature subjected to the Iron Rider knight's Mark moves while within 5 feet of the knight, the knight can make a melee attack against that creature. On a hit, the creature's speed drops to 0 until the end of their current turn."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-knight-token.png"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW",
+        "RW",
+        "THW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-knight.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iron Rider Priest",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "GHMB"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid except Dragonborn",
+        "tags": [
+          "any race"
+        ]
+      },
+      "alignment": [
+        "L"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "{@item ring mail|PHB}",
+            "{@item shield|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 39,
+        "formula": "6d8 + 12"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 11,
+      "con": 14,
+      "int": 13,
+      "wis": 16,
+      "cha": 12,
+      "skill": {
+        "insight": "+5",
+        "investigation": "+3",
+        "perception": "+5",
+        "religion": "+3"
+      },
+      "passive": 15,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "2",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Iron Rider priest is a 6th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 13}, {@hit 5} to hit with spell attacks). It has the following cleric spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell detect magic}",
+                "{@spell guiding bolt}",
+                "{@spell healing word}",
+                "{@spell protection from evil and good}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell lesser restoration}",
+                "{@spell see invisibility}",
+                "{@spell silence}",
+                "{@spell spiritual weapon}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell remove curse}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ward",
+          "entries": [
+            "If the Iron Rider priest casts a spell that causes creatures to regain hit points, the priest can also end the effects of one spell affecting one creature that regained hit points. The ended effects must be from a spell of a level equal to or lower than the spell slot the priest used to cast the healing spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Warhammer",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) bludgeoning damage and 4 ({@damage 1d8}) force damage, or 9 ({@damage 2d8}) force damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-priest-token.png"
+      },
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "O"
+      ],
+      "damageTagsSpell": [
+        "O",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "deafened"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Priest in the wiki|https://lore.dungeon.church/doc/iron-rider-priest-rqFdIU3jmX}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-priest.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Iron Rider Warder",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "GHMB"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "Any species but Dragonborn"
+        ]
+      },
+      "alignment": [
+        "A"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item chain mail|PHB}",
+            "{@item shield|PHB}"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 78,
+        "formula": "12d8 + 24"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 14,
+      "int": 12,
+      "wis": 18,
+      "cha": 13,
+      "skill": {
+        "insight": "+7",
+        "investigation": "+4",
+        "religion": "+4",
+        "perception": "+7"
+      },
+      "passive": 17,
+      "languages": [
+        "any two languages"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "The Iron Rider warder is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It has the following cleric spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell light}",
+                "{@spell sacred flame}",
+                "{@spell spare the dying}",
+                "{@spell thaumaturgy}"
+              ]
+            },
+            "1": {
+              "slots": 4,
+              "spells": [
+                "{@spell cure wounds}",
+                "{@spell detect magic}",
+                "{@spell guiding bolt}",
+                "{@spell healing word}",
+                "{@spell identify}",
+                "{@spell protection from evil and good}"
+              ]
+            },
+            "2": {
+              "slots": 3,
+              "spells": [
+                "{@spell lesser restoration}",
+                "{@spell see invisibility}",
+                "{@spell silence}",
+                "{@spell spiritual weapon}",
+                "{@spell zone of truth}"
+              ]
+            },
+            "3": {
+              "slots": 3,
+              "spells": [
+                "{@spell dispel magic}",
+                "{@spell remove curse}"
+              ]
+            },
+            "4": {
+              "slots": 3,
+              "spells": [
+                "{@spell arcane eye}",
+                "{@spell locate creature}"
+              ]
+            },
+            "5": {
+              "slots": 2,
+              "spells": [
+                "{@spell greater restoration}",
+                "{@spell mass cure wounds}"
+              ]
+            },
+            "6": {
+              "slots": 1,
+              "spells": [
+                "{@spell true seeing}"
+              ]
+            }
+          },
+          "ability": "wis"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Ward",
+          "entries": [
+            "If the Iron Rider warder casts a spell that causes creatures to regain hit points, the warder can also end the effects of one spell affecting one creature that regained hit points. The ended effects must be from a spell of a level equal to or lower than the spell slot the warder used to cast the healing spell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Iron Rider warder makes two warhammer attacks."
+          ]
+        },
+        {
+          "name": "Warhammer",
+          "entries": [
+            "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage and 9 ({@damage 2d8}) force damage, or 13 ({@damage 3d8}) force damage if the target is {@status concentration||concentrating} on a spell."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-warder-token.png"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "X"
+      ],
+      "damageTags": [
+        "B",
+        "O"
+      ],
+      "damageTagsSpell": [
+        "O",
+        "R"
+      ],
+      "spellcastingTags": [
+        "CC"
+      ],
+      "miscTags": [
+        "MLW",
+        "MW"
+      ],
+      "conditionInflictSpell": [
+        "deafened"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "dexterity"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Warder in the wiki|https://lore.dungeon.church/doc/iron-rider-warder-TQ0pXTDXj0}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-warder.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "King Thistletongue",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "S"
+      ],
+      "type": "plant",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d10 + 30",
+        "average": 112
+      },
+      "speed": {
+        "walk": 25,
+        "climb": 10
+      },
+      "str": 9,
+      "dex": 21,
+      "con": 15,
+      "int": 13,
+      "wis": 10,
+      "cha": 15,
+      "skill": {
+        "stealth": "+13",
+        "deception": "+6",
+        "perception": "+4",
+        "intimidation": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "vulnerable": [
+        "fire"
+      ],
+      "languages": [
+        "Briarclick",
+        "Common",
+        "Sylvan"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Fey Blood",
+          "entries": [
+            "King Thistletongue counts as both plant and fey for any effect related to type."
+          ]
+        },
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "King Thistletongue can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "King Thistletongue makes two claw attacks. If both attacks hit the same target, the target is {@condition grappled} (escape {@dc 16}) and the King uses its Thorny Grapple on it."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}36 ({@damage 9d6 + 5}) piercing damage."
+          ]
+        },
+        {
+          "name": "Spitdart Tongue {@recharge 4}",
+          "entries": [
+            "{@atk rw} {@hit 9} to hit, range 20/60 ft., one target. {@h}36 ({@damage 9d6 + 5}) piercing damage.King Thistletongue can shoot thorns from its mouth."
+          ]
+        },
+        {
+          "name": "Entangle",
+          "entries": [
+            "Two children of the briar working together can cast a version of the entangle spell with no components, at will. Both creatures must be within 10 feet of each other, and both must use their action to cast the spell. The entangled area must include at least one of the casters but doesn't need to be centered on either caster. Creatures in the area must make a {@dc 16} Strength saving throw or be {@condition restrained}. All children of the briar are immune to the spell's effects."
+          ]
+        },
+        {
+          "name": "Thorny Grapple",
+          "entries": [
+            "King Thistletongue's long thorny limbs help it grapple creatures up to Medium size. A {@condition grappled} creature takes 12 ({@damage 5d4}) piercing damage at the end of the child's turn for as long as it remains {@condition grappled}."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "restrained"
+      ],
+      "resist": [
+        "piercing",
+        "poison"
+      ],
+      "conditionImmune": [
+        "restrained"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "King Thistletongue's spellcasting ability is Charisma (spell save {@dc 14}). He can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell entangle}",
+            "{@spell minor illusion}",
+            "{@spell plant growth}",
+            "{@spell thorn whip}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell major image}",
+              "{@spell transport via plants}",
+              "{@spell wall of thorns}",
+              "{@spell pass without trace}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "P",
+        "S",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "strength",
+        "wisdom"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-king-thistletongue-token.png"
+      },
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Born of Magic",
+            "entries": [
+              "Children of the briar are a frequent nuisance to fey and mortal alike. They grow in deep briar patches in forest clearings or along sunny hillsides and riverbanks. More rarely, they spawn when a sorcerer or magical creature's blood is spilled on the forest floor, or when summoned into being by obscure druidic items of power."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Thorn Fortresses",
+            "entries": [
+              "Despite their size, children of the briar gather in great numbers, cultivating ancient forest thickets into veritable fortresses. Wise men flee when they hear their clicking language in the underbrush, for the children have all the capricious wickedness of spiteful children and a taste for blood."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Spies and Scouts",
+            "entries": [
+              "From their lairs, the children of the briar creep far and wide to spy on the forest's inhabitants, sometimes using spiders, monstrous centipedes, and giant dragonflies as mounts. They converse with travelers bearing interesting news, but their words are thorned with gleeful malice, jealous bile, and lies. They are not above murder. They trade news and gossip for trinkets, favors, and drops of spilled blood.",
+              "The fey have long used the children of the briar as spies and informants, and the power of the Otherworld now courses through their veins, allowing them to work simple magical tricks and slip between the mortal and faerie realms with relative ease."
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about {@link King Thistletongue in the wiki|https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-king-thistletongue.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lamont Solmar, Knight of Night",
+      "isNpc": true,
+      "source": "DungeonChurchNPCs",
+      "shortName": "Lamont Solmar",
+      "otherSources": [
+        {
+          "source": "MM"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "tags": [
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 144,
+        "formula": "17d8 + 68"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 17,
+      "wis": 15,
+      "cha": 18,
+      "save": {
+        "dex": "+9",
+        "wis": "+7",
+        "cha": "+9"
+      },
+      "skill": {
+        "perception": "+7",
+        "stealth": "+9"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        "necrotic",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Common, Dwarvish"
+      ],
+      "cr": "13",
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or into their true form.",
+            "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+            "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+          ]
+        },
+        {
+          "name": "Saltmarsh Spy",
+          "entries": [
+            "Lamont keeps an eye on the town he knew and loved in life, including his living son {@link Anders|https://lore.dungeon.church/doc/anders-solmor-njTKn6ITMV}. Whenever Lamont visits {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} after dark, he is able to shapechange into the form of any of his vampire thralls."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the vampire fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Misty Escape",
+          "entries": [
+            "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+            "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Vampire Weaknesses",
+          "entries": [
+            "The vampire has the following flaws:",
+            "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants.",
+            "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+            "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+            "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack (Vampire Form Only)",
+          "entries": [
+            "The vampire makes two attacks, only one of which can be a bite attack."
+          ]
+        },
+        {
+          "name": "Unarmed Strike (Vampire Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+          ]
+        },
+        {
+          "name": "Bite (Bat or Vampire Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+          ]
+        },
+        {
+          "name": "Charm",
+          "entries": [
+            "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+            "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+          ]
+        },
+        {
+          "name": "Children of the Night (1/Day)",
+          "entries": [
+            "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "entries": [
+            "The vampire moves up to its speed without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Unarmed Strike",
+          "entries": [
+            "The vampire makes one unarmed strike."
+          ]
+        },
+        {
+          "name": "Bite (Costs 2 Actions)",
+          "entries": [
+            "The vampire makes one bite attack."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "Vampire",
+        "source": "MM"
+      },
+      "environment": [
+        "urban"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-lamont-solmar.mp3"
+      },
+      "traitTags": [
+        "Legendary Resistances",
+        "Regeneration",
+        "Shapechanger",
+        "Spider Climb",
+        "Sunlight Sensitivity"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "LF"
+      ],
+      "damageTags": [
+        "B",
+        "N",
+        "P"
+      ],
+      "miscTags": [
+        "HPR",
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-lamont-solmar-token.png"
+      },
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Lamont Solmar in the wiki|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-lamont-solmar.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mildred Magpie",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "MM"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": "fey",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 114,
+        "formula": "12d8 + 60"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 18,
+      "con": 20,
+      "int": 13,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "arcana": "+4",
+        "deception": "+5",
+        "perception": "+5",
+        "stealth": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Sylvan",
+        "Thieves' cant"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The hag's innate spellcasting ability is Charisma (spell save {@dc 14}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell intaglio|GH}",
+            "{@spell minor illusion}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell bestow curse}",
+              "{@spell plane shift}",
+              "{@spell zone of truth}",
+              "{@spell scrying}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The hag can breathe air and water."
+          ]
+        },
+        {
+          "name": "Mimicry",
+          "entries": [
+            "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 16} Wisdom ({@skill Insight}) check."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Illusory Appearance",
+          "entries": [
+            "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+            "The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 22} Intelligence ({@skill Investigation}) check to discern that the hag is disguised."
+          ]
+        },
+        {
+          "name": "Invisible Passage",
+          "entries": [
+            "The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends (as if {@status concentration||concentrating} on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "Green Hag",
+        "source": "MM"
+      },
+      "environment": [
+        "forest",
+        "swamp"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-mildred-magpie.mp3"
+      },
+      "traitTags": [
+        "Amphibious"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "S",
+        "TC"
+      ],
+      "spellcastingTags": [
+        "I",
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "invisible"
+      ],
+      "conditionInflictSpell": [
+        "frightened",
+        "paralyzed",
+        "poisoned",
+        "unconscious"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "token": {
+        "name": "Green Hag",
+        "source": "MM"
+      },
+      "fluff": {
+        "name": "Green Hag",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The wretched and hateful green hags dwell in dying forests, lonely swamps, and misty moors, making their homes in caves. Green hags love to manipulate other creatures into doing their bidding, masking their intentions behind layers of deception. They lure victims to them by mimicking voices calling out for help, or drive unwanted visitors away by imitating the cries of fierce beasts.",
+                  {
+                    "type": "entries",
+                    "name": "Obsession with Tragedy",
+                    "entries": [
+                      "Green hags revel in the failings and tragedies of other creatures. They derive joy from bringing people low and seeing hope turn into despair, not just for individuals but also for whole nations."
+                    ]
+                  },
+                  {
+                    "type": "inset",
+                    "name": "Dungeon Church Lore",
+                    "entries": [
+                      "Learn more about {@link Mildred Magpie in the wiki|https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "name": "Hags",
+            "entries": [
+              "Hags represent all that is evil and cruel. Though they resemble withered crones, there is nothing mortal about these monstrous creatures, whose forms reflect only the wickedness in their hearts.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Faces of Evil",
+                        "entries": [
+                          "Ancient beings with origins in the Feywild, hags are cankers on the mortal world. Their withered faces are framed by long, frayed hair, horrid moles and warts dot their blotchy skin, and their long, skinny fingers are tipped by claws that can slice open flesh with a touch. Their simple clothes are always tattered and filthy.",
+                          "All hags possess magical powers, and some have an affinity for spellcasting. They can alter their forms or curse their foes, and their arrogance inspires them to view their magic as a challenge to the magic of the gods, whom they blaspheme at every opportunity.",
+                          "Hags name themselves in darkly whimsical ways, claiming monikers such as Black Morwen, Peggy Pigknuckle, Grandmother Titchwillow, Nanna Shug, Rotten Ethel, or Auntie Wormtooth."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Monstrous Motherhood",
+                        "entries": [
+                          "Hags propagate by snatching and devouring human infants. After stealing a baby from its cradle or its mother's womb, the hag consumes the poor child. A week later, the hag gives birth to a daughter who looks human until her thirteenth birthday, whereupon the child transforms into the spitting image of her hag mother.",
+                          "Hags sometimes raise the daughters they spawn, creating covens. A hag might also return the child to its grieving parents, only to watch from the shadows as the child grows up to become a horror."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Bargains",
+                        "entries": [
+                          "Arrogant to a fault, hags believe themselves to be the most cunning of creatures, and they treat all others as inferior. Even so, a hag is open to dealing with mortals as long as those mortals show the proper respect and deference. Over their long lives, hags accumulate much knowledge of local lore, dark creatures, and magic, which they are pleased to sell.",
+                          "Hags enjoy watching mortals bring about their own downfall, and a bargain with a hag is always dangerous. The terms of such bargains typically involve demands to compromise principles or give up something dear-especially if the thing lost diminishes or negates the knowledge gained through the bargain."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "A Foul Nature",
+                        "entries": [
+                          "Hags love the macabre and festoon their garb with dead things and accentuate their appearance with bones, bits of flesh, and filth. They nurture blemishes and pick at wounds to produce weeping, suppurating flesh. Attractive creatures evoke disgust in a hag, which might \"help\" such creatures by disfiguring or transforming them.",
+                          "This embrace of the disturbing and unpleasant extends to all aspects of a hag's life. A hag might fly in a magical giant's skull, landing it on a tree shaped to resemble an enormous headless body. Another might travel with a menagerie of monsters and slaves kept in cages, and disguised by illusions to lure unwary creatures close. Hags sharpen their teeth on millstones and spin cloth from the intestines of their victims, reacting with glee to the horror their actions invoke."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Sorority",
+                        "entries": [
+                          "Hags maintain contact with each other and share knowledge. Through such contacts, it is likely that any given hag knows of every other hag in existence. Hags don't like each other, but they abide by an ageless code of conduct. Hags announce their presence before crossing into another hag's territory, bring gifts when entering another hag's dwelling, and break no oaths given to other hags-as long as the oath isn't given with the fingers crossed.",
+                          "Some humanoids make the mistake of thinking that the hags' rules of conduct apply to all creatures. When confronted by such an individual, a hag might find it amusing to string the fool along for a while before teaching it a permanent lesson."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Lairs",
+                        "entries": [
+                          "Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and gloomy swamps. In time, the landscape around a hag's lair reflects the creature's noxiousness, such that the land itself can attack and kill trespassers. Trees twisted by darkness attack passersby, while vines snake through the undergrowth to snare and drag off creatures one at a time. Foul stinking fogs turn the air to poison, and conceal pools of quicksand and sinkholes that consume unwary wanderers."
+                        ]
+                      },
+                      {
+                        "type": "inset",
+                        "name": "Hag Covens",
+                        "entries": [
+                          "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+                          "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+                          {
+                            "type": "entries",
+                            "name": "Shared Spellcasting",
+                            "entries": [
+                              "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
+                              {
+                                "type": "list",
+                                "style": "list-no-bullets",
+                                "items": [
+                                  "1st level (4 slots): {@spell identify}, {@spell ray of sickness}",
+                                  "2nd level (3 slots): {@spell hold person}, {@spell locate object}",
+                                  "3rd level (3 slots): {@spell bestow curse}, {@spell counterspell}, {@spell lightning bolt}",
+                                  "4th level (3 slots): {@spell phantasmal killer}, {@spell polymorph}",
+                                  "5th level (2 slots): {@spell contact other plane}, {@spell scrying}",
+                                  "6th level (1 slot): {@spell eyebite}"
+                                ]
+                              },
+                              "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+                            ]
+                          },
+                          {
+                            "type": "entries",
+                            "name": "Hag Eye",
+                            "entries": [
+                              "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+                              "A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Lair Actions",
+                "entries": [
+                  "The following lair actions are options for grandmothers and powerful aunties. Grandmothers usually have three to five lair actions, aunties usually only one (if they have any at all). Unless otherwise noted, any lair action that requires a creature to make a saving throw uses the save DC of the hag's most powerful ability.",
+                  "On initiative count 20 (losing initiative ties), the hag can take a lair action to cause one of the following effects, but can't use the same effect two rounds in a row:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Until initiative count 20 on the next round, the hag can pass through solid walls, doors, ceilings, and floors as if the surfaces weren't there.",
+                      "The hag targets any number of doors and windows that she can see, causing each one to either open or close as she wishes. Closed doors can be magically locked (requiring a successful {@dc 20} Strength check to force open) until she chooses to make them unlocked, or until she uses this lair action again to open them."
+                    ]
+                  },
+                  "A powerful green hag might have the following additional lair action:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The hag creates an illusory duplicate of herself, which appears in its own space. As long as she can see her duplicate, the hag can move it a distance equal to her walking speed as well as make the illusion speak on her turn (no action required). The illusion has the same statistics as the hag but can't take actions or reactions. It can interact with its environment and even pick up and hold real objects. The illusion seems real in every way but disappears if it takes any amount of damage. Otherwise, it lasts until the hag dismisses it (no action required) or can no longer see it. If the hag uses this lair action to create a new duplicate, the previous one vanishes, dropping any real objects in its possession."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-mildred-magpie.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-mildred-magpie-token.png"
+      },
+      "conditionImmune": [
+        "charmed"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "S"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "Y"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Sap Ooze",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "S"
+      ],
+      "type": "ooze",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 67,
+        "formula": "15d6 + 15"
+      },
+      "speed": {
+        "walk": 20,
+        "climb": 20
+      },
+      "str": 14,
+      "dex": 6,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 10,
+      "senses": [
+        "blindsight 90 ft. (blind beyond this radius)"
+      ],
+      "passive": 12,
+      "resist": [
+        {
+          "resist": [
+            "piercing"
+          ],
+          "note": "and slashing from nonmagical weapons"
+        }
+      ],
+      "immune": [
+        "bludgeoning",
+        "acid",
+        "lightning"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "prone"
+      ],
+      "languages": [
+        "none in its natural form; knows the same languages as a creature it dominates"
+      ],
+      "cr": "4",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The sap ooze can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Season's Change",
+          "entries": [
+            "If a sap ooze (or its host) takes at least 10 fire damage, it also gains the effect of a {@spell haste} spell until the end of its next turn. If it takes at least 10 cold damage, it gains the effect of a {@spell slow} spell until the end of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The sap ooze makes two slam attacks."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d8 + 2}) bludgeoning damage. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 12}), and the sap ooze uses Soul Sap on it as a bonus action."
+          ]
+        },
+        {
+          "name": "Soul Sap",
+          "entries": [
+            "The sap ooze slides down the throat of a sleeping, helpless, or {@condition grappled} living creature of Medium size or smaller. Once inside, the sap ooze takes control of its host, as per the dominate monster spell (Wisdom {@dc 12} negates). While dominated, the host gains {@sense blindsight} 90 feet. The host drips blood from its ears, nose, eyes, or from a wound that resembles the injury done to the sap demon's tree (1 damage/Hour). Damage inflicted on the host has no effect on the sap demon. If the host dies or is reduced to 0 hit points, the sap ooze must leave the body within one hour."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/token/Sap%20Demon.png"
+      },
+      "traitTags": [
+        "Amorphous"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "grappled"
+      ],
+      "fluff": {
+        "entries": [
+          "{@i When a sap ooze leaves a tree, its milky amber fluid oozes from an axe wound on a stout maple's trunk and shapes itself into a small, vaguely humanoid form on the forest floor beside the tree. This languid creature half walks and half flows forward, implacably following the axe wielder's path to certain revenge.}",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Tree Oozes",
+                    "entries": [
+                      "Sap oozes are intelligent oozes that form when an enchanted tree is cut or injured. Though typically Small, the larger the sap source is, the larger the resulting creature can be. Over a few hours, they pool into a shape that vaguely resembles their tree's attacker: for instance, if the tree cutter wore a hat, then a hat may be incorporated into the sap ooze's overall shape. The similarity is faint at best; no one would ever confuse a sap ooze for the creature it hunts, because its shape has no sharp features or color other than amber."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Called to Vengeance",
+                    "entries": [
+                      "Sap oozes can pummel their prey with partially-crystallized fists, but they especially enjoy claiming the weapon that wounded their tree and wielding it to deliver a final blow. Once their prey is destroyed, most sap oozes return to their tree, but not all do. Some are curious or malevolent enough to explore the world further."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Reckless Possessors",
+                    "entries": [
+                      "A sap ooze can possess another creature by grappling it and oozing down its throat. Once inside, the sap ooze dominates its host and makes it bleed as the tree bled. Since the sap ooze takes no damage when its host is wounded, it's free to be as reckless as it likes. It might wander into a town to cause trouble. However, no matter how its new body is bandaged or cured, it never stops bleeding slowly. If the host body is killed, the sap oozes out during the next hour and either returns to its tree or seeks another host."
+                    ]
+                  },
+                  {
+                    "type": "inset",
+                    "name": "Dungeon Church Lore",
+                    "entries": [
+                      "Learn more about the {@link Sap Ooze in the wiki|https://lore.dungeon.church/doc/sap-ooze-eGVX8QPLEh}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/ToB/Sap%20Demon.webp"
+            }
+          }
+        ]
+      },
+      "damageTags": [
+        "B",
+        "C",
+        "F"
+      ]
+    },
+    {
+      "name": "Scorchcock",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "S"
+      ],
+      "type": "beast",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 13
+        }
+      ],
+      "hp": {
+        "average": 22,
+        "formula": "5d6 + 5"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 8,
+      "dex": 16,
+      "con": 12,
+      "int": 2,
+      "wis": 14,
+      "cha": 6,
+      "skill": {
+        "perception": "+4"
+      },
+      "passive": 14,
+      "cr": "1/2",
+      "trait": [
+        {
+          "name": "Keen Sight",
+          "entries": [
+            "The scorchcock has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Peck",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}5 (1d6 + 2) piercing damage."
+          ]
+        },
+        {
+          "name": "Fire Crow (Recharge 5-6)",
+          "entries": [
+            "The scorchcock exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 13 (3d8) fire damage on a failed save, or half as much on a successful one."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "damageTags": [
+        "F",
+        "P"
+      ],
+      "miscTags": [
+        "MW",
+        "AOE"
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-scorchcock-token.png"
+      },
+      "hasToken": true,
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "inset",
+                "name": "Dungeon Church Lore",
+                "entries": [
+                  "Learn more about the {@link Scorchcock in the wiki|https://lore.dungeon.church/doc/scorchcock-s33IndCpN3}."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-scorchcock.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vomit Ooze",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "L"
+      ],
+      "type": "ooze",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        7
+      ],
+      "hp": {
+        "average": 120,
+        "formula": "16d10 + 32"
+      },
+      "speed": {
+        "climb": 10,
+        "walk": 10
+      },
+      "str": 14,
+      "dex": 4,
+      "con": 14,
+      "int": 1,
+      "wis": 6,
+      "cha": 8,
+      "senses": [
+        "blindsight 60 ft. (blind beyond this radius)"
+      ],
+      "passive": 8,
+      "immune": [
+        "acid",
+        "necrotic",
+        "poison",
+        "slashing"
+      ],
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "prone"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Amorphous",
+          "entries": [
+            "The vomit ooze can move through a space as narrow as 1 inch wide without squeezing."
+          ]
+        },
+        {
+          "name": "Drunken Miasma",
+          "entries": [
+            "Creatures that start their turn within 10 feet of the ooze that can smell it must make a {@dc 12} Constitution saving throw. If the creature fails, it takes 3 ({@damage 1d6}) psychic damage and is {@condition intoxicated|dungeonchurch} for {@dice 1d4} rounds."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The vomit ooze can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Pseudopod",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Alcohol-Infused Pseudopod {@recharge 5}",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) bludgeoning damage plus 3 ({@damage 1d6}) psychic damage and the target must succeed on a {@dc 12} Wisdom saving throw or its Intelligence score is reduced by {@dice 1d4}. The target dies if this reduces its Intelligence to 0. Otherwise, the reduction lasts until the target finishes a short or long rest."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Split",
+          "entries": [
+            "When a vomit ooze is subject to slashing damage, it splits into two new oozes if it has at least 10 HP. Each new ooze has HP equal to half the original ooze's, rounded down. New oozes are one size smaller than the original ooze."
+          ]
+        },
+        {
+          "name": "Last Call",
+          "entries": [
+            "When the vomit ooze is reduced to 0 hit points, it releases a final, noxious belch of reflux at the creature that dealt the killing blow. That creature must succeed on a {@dc 12} Constitution saving throw or take 7 ({@damage 2d6}) poison damage and be {@condition blinded} until the end of its next turn."
+          ]
+        }
+      ],
+      "environment": [
+        "urban"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-vomit-ooze-token.png"
+      },
+      "traitTags": [
+        "Amorphous",
+        "Spider Climb"
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "quote",
+                    "entries": [
+                      "You ever pound glög until you puke your brains out? Then you've never partied at the {@link Skull & Sword|https://lore.dungeon.church/doc/skull-sword-tavern-iojXWZVPWD}."
+                    ],
+                    "by": "{@link Rorsh the Acolyte|https://lore.dungeon.church/doc/rorsh-the-mage-umxTjXQj7k}"
+                  },
+                  "Vomit oozes are spontaneous arcane accidents--born from a particularly potent mixture of booze, {@table Pyoran Substances|dungeonchurch|illicit magical intoxication}, and emotional instability. When a magically inclined individual overindulges and loses their stomach in a dingy alley, there's a small chance that the expelled mess keeps the party going... mindlessly seeking out more alcohol and the opportunity for a brawl.",
+                  {
+                    "type": "entries",
+                    "name": "Urban Hazard",
+                    "entries": [
+                      "Often mistaken for spilled chamber pots or rotting garbage, vomit oozes lurk in alleys, sewers, or near taverns of ill repute. While slow moving and unintelligent, when provoked they respond with drunken rage."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Ooze Nature",
+                    "entries": [
+                      "A vomit ooze doesn't require sleep, air, or food but consuming more alcohol makes it grow larger in size and more chaotic in temperament. It will seek out anything that smells of booze, including recent imbibers."
+                    ]
+                  },
+                  {
+                    "type": "inset",
+                    "name": "Dungeon Church Lore",
+                    "entries": [
+                      "Learn more about the {@link Vomit Ooze in the wiki|https://lore.dungeon.church/doc/vomit-ooze-DhW28eyxrK}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-vomit-ooze.png"
+            }
+          }
+        ]
+      },
+      "conditionInflict": [
+        "intoxicated|dungeonchurch"
+      ],
+      "damageTags": [
+        "B",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Zombie Raccoon",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "T"
+      ],
+      "type": "undead",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 5,
+        "formula": "2d4"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "str": 3,
+      "dex": 15,
+      "con": 12,
+      "int": 5,
+      "wis": 12,
+      "cha": 7,
+      "skill": {
+        "perception": "+5",
+        "stealth": "+5",
+        "survival": "+4"
+      },
+      "passive": 15,
+      "cr": "1/8",
+      "trait": [
+        {
+          "name": "Keen Smell and Touch",
+          "entries": [
+            "The zombie raccoon has advantage on Wisdom ({@skill Perception}) checks that rely on smell or touch."
+          ]
+        },
+        {
+          "name": "Undead Fortitude",
+          "entries": [
+            "If damage reduces the zombie raccoon to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie raccoon drops to 1 hit point instead."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The zombie raccoon has advantage on an attack roll against a creature if at least one of the raccoon's allies is within 5 feet of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 ({@damage 1d4}) piercing damage."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}1 ({@damage 1d4}) slashing damage."
+          ]
+        }
+      ],
+      "familiar": true,
+      "traitTags": [
+        "Keen Senses"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "Once ordinary raccoons known for their curiosity and social behavior, these creatures have fallen victim to the scourge of undeath. Most Zombie Raccoons are transformed after scavenging on the remains of other undead creatures, consuming flesh that taints them. This transformation twists their natural instincts and chaotic nature into a more malevolent form.",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Social Scavengers",
+                    "entries": [
+                      "Zombie raccoons often roam in packs, which makes them especially dangerous to livestock and humans alike. Their relentless hunger for flesh drives them to work together on ever more clever escapades, coordinating attacks with chilling cunning. Being one of the few animals other than primates to possess opposable thumbs, they have been known to work locks, doors, and set traps that belies their humble origins."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "Undead Warning",
+                    "entries": [
+                      "The presence of Zombie Raccoons is often a herald of greater undead activity in the area. As they scavenge what is available, they unwittingly become spreaders of the corruption and quickly throw natural ecosystems out of balance."
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "inset",
+                "name": "Dungeon Church Lore",
+                "entries": [
+                  "Learn more about the {@link Zombie Raccoon in the wiki|https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9}."
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-raccoon.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-raccoon-token.png"
+      }
+    },
+    {
+      "name": "Zombie Vulture",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        13
+      ],
+      "hp": {
+        "average": 82,
+        "formula": "11d10 + 22"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 60
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 15,
+      "int": 2,
+      "wis": 10,
+      "cha": 4,
+      "save": {
+        "str": "+5",
+        "dex": "+2"
+      },
+      "skill": {
+        "perception": "+4",
+        "stealth": "+2"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 12,
+      "resist": [
+        "necrotic"
+      ],
+      "immune": [
+        "poison"
+      ],
+      "conditionImmune": [
+        "charmed",
+        "exhaustion",
+        "frightened",
+        "poisoned"
+      ],
+      "cr": "3",
+      "trait": [
+        {
+          "name": "Flyby",
+          "entries": [
+            "The zombie vulture doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+          ]
+        },
+        {
+          "name": "Keen Sight and Smell",
+          "entries": [
+            "The zombie vulture has advantage on Wisdom ({@skill Perception}) checks that rely on sight or smell."
+          ]
+        },
+        {
+          "name": "Pack Tactics",
+          "entries": [
+            "The zombie vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't incapacitated."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The zombie vulture makes two attacks: one with its beak and one with its talons."
+          ]
+        },
+        {
+          "name": "Beak",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d10 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Talons",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) slashing damage. The target must make a {@dc 12} Constitution save. On a failed save, the target takes poison damage and is {@condition poisoned} for 1 minute. The afflicted can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Flyby",
+        "Keen Senses"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      "The once majestic vulture now lurches through the air with a grotesque, jerking motion. Ragged feathers cling to its rotting wings and the putrid stench of decay follows in its wake. It's natural appetite has betrayed it, becoming twisted and consumed by the things it once devoured. These undead birds congregate in sickening flocks, circling hungrily over the dead and living alike."
+                    ]
+                  },
+                  {
+                    "type": "inset",
+                    "name": "Dungeon Church Lore",
+                    "entries": [
+                      "Learn more about the {@link Zombie Vulture in the wiki|https://lore.dungeon.church/doc/zombie-vulture-Uc0z6ODNRp}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-vulture.png"
+            }
+          }
+        ]
+      },
+      "conditionInflict": [
+        "poisoned"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-vulture-token.png"
+      },
+      "environment": [
+        "desert",
+        "forest",
+        "grassland",
+        "hill",
+        "mountain",
+        "swamp"
+      ],
+      "damageTags": [
+        "P",
+        "S"
+      ]
+    }
+  ]
+}
