@@ -1,0 +1,1349 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "DungeonChurchNPCs",
+        "abbreviation": "CHURCH",
+        "full": "Dungeon Church; Pyora NPCs",
+        "version": "1.0",
+        "url": "https://www.dungeon.church",
+        "authors": [
+          "DM Brad"
+        ],
+        "convertedBy": [
+          "DM Brad"
+        ],
+        "color": "ff2600"
+      }
+    ],
+    "dateAdded": 1711973394,
+    "dateLastModified": 1751238225,
+    "edition": "classic"
+  },
+  "monster": [
+    {
+      "name": "Amelia, Knight of Twilight",
+      "isNpc": true,
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": "undead",
+      "alignment": [
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "mage armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 162,
+        "formula": "25d8 + 50"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": 30
+      },
+      "str": 6,
+      "dex": 12,
+      "con": 14,
+      "int": 16,
+      "wis": 20,
+      "cha": 20,
+      "save": {
+        "int": "+8",
+        "wis": "+10",
+        "cha": "+10"
+      },
+      "skill": {
+        "history": "+8",
+        "insight": "+15",
+        "perception": "+15",
+        "arcana": "+7",
+        "survival": "+13"
+      },
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "type": "spellcasting",
+          "headerEntries": [
+            "Amelia's spellcasting attribute is Charisma (save {@dc 19}, {@hit 12} to hit with spell attacks). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell faerie fire}",
+            "{@spell hex}",
+            "{@spell misty step}",
+            "{@spell silent image}",
+            "{@spell tongues}"
+          ],
+          "daily": {
+            "1e": [
+              "{@spell power word kill}",
+              "{@spell sleep} (9th level)",
+              "{@spell true polymorph}",
+              "{@spell time stop}"
+            ],
+            "2e": [
+              "{@spell bestow curse}",
+              "{@spell feeblemind}",
+              "{@spell mass suggestion}",
+              "{@spell flesh to stone}"
+            ],
+            "3e": [
+              "{@spell chain lightning}",
+              "{@spell counterspell}",
+              "{@spell dispel magic}",
+              "{@spell hypnotic pattern}",
+              "{@spell teleportation circle}"
+            ]
+          },
+          "ability": "cha"
+        }
+      ],
+      "senses": [
+        "truesight 60 ft."
+      ],
+      "passive": 25,
+      "immune": [
+        "fire",
+        "psychic"
+      ],
+      "languages": [
+        "Common",
+        "Infernal",
+        "telepathy (100 ft.)"
+      ],
+      "cr": "12",
+      "trait": [
+        {
+          "name": "Bend Fate (3/Day)",
+          "entries": [
+            "If Amelia fails a saving throw, she may choose to succeed instead and reflect the effect of the failed saving throw onto one enemy within 30 feet. Amelia still suffers the effect of a successful saving throw, if any. The new target is entitled to a saving throw as if it were the original target of the attack, but with disadvantage."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "Amelia has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Misty Step (At Will)",
+          "entries": [
+            "Amelia can step between places as a bonus action."
+          ]
+        },
+        {
+          "name": "Sealed Destiny (1/Day)",
+          "entries": [
+            "Amelia attunes herself to the threads of the PCs' fates. Ask each player to write down their prediction of how the PC to their left will die, and at what level. Collect the notes without revealing the answers. When one of those PCs dies, reveal the prediction. If the character died in the manner predicted, they fulfill their destiny and are immediately resurrected by the gods as a reward. If they died at or within one level of the prediction, they return to life with some useful insight into the destiny of someone important."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "Amelia makes two Inexorable Thread attacks."
+          ]
+        },
+        {
+          "name": "Inexorable Threads",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 30 ft., one target. {@h}27 ({@damage 5d8 + 5}) radiant damage, and the target is \"one step closer to death.\" If the target is reduced to 0 hit points, it's treated as if it's already failed one death saving throw. This effect is cumulative; each inexorable threads hit adds one unsuccessful death saving throw. If a character who's been hit three or more times by inexorable threads is reduced to 0 hit points, he or she dies immediately. This effect lasts until the character completes a long rest."
+          ]
+        },
+        {
+          "name": "Bind Fates (1/Day)",
+          "entries": [
+            "One target within 60 feet of Amelia must make a {@dc 18} Wisdom saving throw. On a failed save, the target's fate is bound to one random ally of the target. Any damage or condition the target suffers is inflicted on the individual to which they are bound instead, and vice versa. A creature can be bound to only one other creature at a time. This effect lasts until either of the affected creatures gains a level, or until a heal or heroes' feast lifts this binding."
+          ]
+        },
+        {
+          "name": "Destiny Distortion Wave {@recharge 5}",
+          "entries": [
+            "Amelia projects a 60-foot cone of distortion that frays the strands of fate. All targets in the cone take 55 ({@damage 10d10}) force damage, or half damage with a successful {@dc 18} Wisdom saving throw. In addition, if more than one target that failed its saving throw is affected by a condition, those conditions are randomly redistributed among the targets with failed saving throws."
+          ]
+        }
+      ],
+      "environment": [
+        "any",
+        "forest",
+        "urban"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-amelia-token.png"
+      },
+      "traitTags": [
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "U"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I",
+        "TP"
+      ],
+      "miscTags": [
+        "MW",
+        "RCH",
+        "AOE"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Amelia in the wiki|https://lore.dungeon.church/doc/amelia-mAibH1T0Em}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-amelia.png"
+            }
+          }
+        ]
+      },
+      "shortName": "Amelia",
+      "resist": [
+        "radiant"
+      ],
+      "damageTags": [
+        "O",
+        "R"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ]
+    },
+    {
+      "name": "Commodore Daniel Warrington",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          {
+            "tag": "human",
+            "prefix": "Pyoran"
+          }
+        ]
+      },
+      "alignment": [
+        "L",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 18,
+          "from": [
+            "{@item plate armor|PHB|plate}"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "16d8 + 48",
+        "average": 120
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 19,
+      "dex": 10,
+      "con": 16,
+      "int": 12,
+      "wis": 14,
+      "cha": 17,
+      "skill": {
+        "insight": "+6",
+        "investigation": "+5",
+        "perception": "+6",
+        "religion": "+5",
+        "history": "+5",
+        "intimidation": "+7"
+      },
+      "passive": 16,
+      "cr": "9",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "Commodore Daniel is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save {@dc 15}). The Commodore has the following pspells prepared:"
+          ],
+          "spells": {
+            "1": {
+              "spells": [
+                "{@spell detect magic}",
+                "{@spell hunter's mark}",
+                "{@spell speak with animals}",
+                "{@spell wrathful smite}"
+              ],
+              "slots": 4
+            },
+            "2": {
+              "spells": [
+                "{@spell animal messenger}",
+                "{@spell detect thoughts}",
+                "{@spell lesser restoration}",
+                "{@spell moonbeam}",
+                "{@spell zone of truth}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell bestow curse}",
+                "{@spell dispel magic}"
+              ],
+              "slots": 3
+            }
+          },
+          "will": [
+            "{@spell beast sense}",
+            "{@spell green-flame blade|TCE}",
+            "{@spell holy word|GH}",
+            "{@spell sacred flame}"
+          ],
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Aura of Clarity (Human Form)",
+          "entries": [
+            "While within 10 feet of a conscious Commodore Daniel, creatures of the Commodore's choice can't be {@condition blinded} or {@condition frightened}, and creatures and objects can be {@condition invisible} only if the commodore allows it."
+          ]
+        },
+        {
+          "name": "Brand Heretic (Recharges after a Short or Long Rest)",
+          "entries": [
+            "As a bonus action, the Commodore Daniel chooses one creature the Commodore can see within 30 feet of it. The Commodore marks the target as a heretic. For 1 minute, the Commodore's weapon attack rolls against the heretic score a critical hit on a roll of 19 or 20. At the start of each of the heretic's turns, the Commodore can use a reaction to make one weapon attack against the heretic."
+          ]
+        },
+        {
+          "name": "Smite",
+          "entries": [
+            "When Commodore Daniel hits with a melee weapon attack, it can expend one spell slot to deal extra radiant damage. The extra damage is 9 ({@dice 2d8}) for a 1st level spell slot, 13 ({@dice 3d8}) for a 2nd-level one, and 18 ({@dice 4d8}) for a 3rd level slot."
+          ]
+        },
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "As an action, Commodore Daniel can polymorph into one of his lycanthrope forms: a boar-humanoid hybrid or a {@creature Boar}. While in lycanthrope form, the wereboar gains resistance to bludgeoning, piercing, and slashing damage from non-silvered, non-magical sources. Any equipment he is wearing or carrying isn't transformed. He reverts to its true form if he dies."
+          ]
+        },
+        {
+          "name": "Charge (Lycanthrope Form)",
+          "entries": [
+            "If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@dice 2d6}) slashing damage. If the target is a creature, it must succeed on a {@dc 13} Strength saving throw or be knocked {@condition prone}."
+          ]
+        },
+        {
+          "name": "Lust for the Hunt (Lycanthrope Form)",
+          "entries": [
+            "The savage nature of your curse causes you to lose control. When in hybrid form, make a {@dc 12} Wisdom saving throw at the beginning of each turn. On a fail, the wereboar is overcome with bloodlust and attacks the nearest creature, or dashes towards the nearest helpless or weak creature."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The Commodore makes two attacks, only one of which can be with his tusks if in hybrid form."
+          ]
+        },
+        {
+          "name": "Greatsword",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) slashing damage and 4 ({@damage 1d8}) radiant damage."
+          ]
+        },
+        {
+          "name": "Maul (Lycanthrope Form)",
+          "entries": [
+            "{@atk mw} {@hit +8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Tusks (Lycanthrope Form)",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach ft., one target. {@h}10 ({@damage 2d6+3}) slashing damage. If the target is a humanoid, it must succeed on a {@dc 12} Constitution saving throw or be cursed with wereboar lycanthropy."
+          ]
+        }
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-commodore-daniel-token.png"
+      },
+      "actionTags": [
+        "Multiattack"
+      ],
+      "spellcastingTags": [
+        "CP"
+      ],
+      "miscTags": [
+        "MW",
+        "MLW"
+      ],
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Lust for Vengeance",
+            "entries": [
+              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Curse of Lycanthropy",
+            "entries": [
+              "During a {@link brazen assault |https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by monsters directed by Lady Nightshade, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope."
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about {@link Commodore Daniel Warrington in the wiki|https://lore.dungeon.church/doc/commodore-daniel-warrington-OHzOMkhMHS}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-commodore-daniel.png"
+            }
+          }
+        ]
+      },
+      "attachedItems": [
+        "greatsword|phb",
+        "maul|phb"
+      ],
+      "shortName": "Commodore Daniel",
+      "languages": [
+        "Common",
+        "Dwarvish",
+        "Infernal"
+      ],
+      "languageTags": [
+        "C",
+        "D",
+        "I"
+      ],
+      "conditionImmune": [
+        "frightened"
+      ],
+      "environment": [
+        "coastal",
+        "urban"
+      ],
+      "isNpc": true,
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "traitTags": [
+        "Charge",
+        "Shapechanger"
+      ],
+      "conditionInflict": [
+        "prone"
+      ],
+      "damageTags": [
+        "B",
+        "R",
+        "S"
+      ],
+      "damageTagsSpell": [
+        "F",
+        "N",
+        "R",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "constitution",
+        "strength",
+        "wisdom"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "constitution",
+        "dexterity",
+        "wisdom"
+      ]
+    },
+    {
+      "name": "King Thistletongue",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "S"
+      ],
+      "type": "plant",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 17,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "15d10 + 30",
+        "average": 112
+      },
+      "speed": {
+        "walk": 25,
+        "climb": 10
+      },
+      "str": 9,
+      "dex": 21,
+      "con": 15,
+      "int": 13,
+      "wis": 10,
+      "cha": 15,
+      "skill": {
+        "stealth": "+13",
+        "deception": "+6",
+        "perception": "+4",
+        "intimidation": "+6"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "vulnerable": [
+        "fire"
+      ],
+      "languages": [
+        "Briarclick",
+        "Common",
+        "Sylvan"
+      ],
+      "cr": "10",
+      "trait": [
+        {
+          "name": "Fey Blood",
+          "entries": [
+            "King Thistletongue counts as both plant and fey for any effect related to type."
+          ]
+        },
+        {
+          "name": "Nimble Escape",
+          "entries": [
+            "King Thistletongue can take the {@action Disengage} or {@action Hide} action as a bonus action on each of its turns."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "King Thistletongue makes two claw attacks. If both attacks hit the same target, the target is {@condition grappled} (escape {@dc 16}) and the King uses its Thorny Grapple on it."
+          ]
+        },
+        {
+          "name": "Claw",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one target. {@h}36 ({@damage 9d6 + 5}) piercing damage."
+          ]
+        },
+        {
+          "name": "Spitdart Tongue {@recharge 4}",
+          "entries": [
+            "{@atk rw} {@hit 9} to hit, range 20/60 ft., one target. {@h}36 ({@damage 9d6 + 5}) piercing damage.King Thistletongue can shoot thorns from its mouth."
+          ]
+        },
+        {
+          "name": "Entangle",
+          "entries": [
+            "Two children of the briar working together can cast a version of the entangle spell with no components, at will. Both creatures must be within 10 feet of each other, and both must use their action to cast the spell. The entangled area must include at least one of the casters but doesn't need to be centered on either caster. Creatures in the area must make a {@dc 16} Strength saving throw or be {@condition restrained}. All children of the briar are immune to the spell's effects."
+          ]
+        },
+        {
+          "name": "Thorny Grapple",
+          "entries": [
+            "King Thistletongue's long thorny limbs help it grapple creatures up to Medium size. A {@condition grappled} creature takes 12 ({@damage 5d4}) piercing damage at the end of the child's turn for as long as it remains {@condition grappled}."
+          ]
+        }
+      ],
+      "environment": [
+        "forest"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "S"
+      ],
+      "miscTags": [
+        "MW",
+        "RW"
+      ],
+      "conditionInflict": [
+        "grappled",
+        "restrained"
+      ],
+      "resist": [
+        "piercing",
+        "poison"
+      ],
+      "conditionImmune": [
+        "restrained"
+      ],
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "King Thistletongue's spellcasting ability is Charisma (spell save {@dc 14}). He can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell entangle}",
+            "{@spell minor illusion}",
+            "{@spell plant growth}",
+            "{@spell thorn whip}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell major image}",
+              "{@spell transport via plants}",
+              "{@spell wall of thorns}",
+              "{@spell pass without trace}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "spellcastingTags": [
+        "O"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "P"
+      ],
+      "damageTagsSpell": [
+        "P",
+        "S",
+        "Y"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "savingThrowForcedSpell": [
+        "dexterity",
+        "strength",
+        "wisdom"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-king-thistletongue-token.png"
+      },
+      "fluff": {
+        "entries": [
+          {
+            "type": "entries",
+            "name": "Born of Magic",
+            "entries": [
+              "Children of the briar are a frequent nuisance to fey and mortal alike. They grow in deep briar patches in forest clearings or along sunny hillsides and riverbanks. More rarely, they spawn when a sorcerer or magical creature's blood is spilled on the forest floor, or when summoned into being by obscure druidic items of power."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Thorn Fortresses",
+            "entries": [
+              "Despite their size, children of the briar gather in great numbers, cultivating ancient forest thickets into veritable fortresses. Wise men flee when they hear their clicking language in the underbrush, for the children have all the capricious wickedness of spiteful children and a taste for blood."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Spies and Scouts",
+            "entries": [
+              "From their lairs, the children of the briar creep far and wide to spy on the forest's inhabitants, sometimes using spiders, monstrous centipedes, and giant dragonflies as mounts. They converse with travelers bearing interesting news, but their words are thorned with gleeful malice, jealous bile, and lies. They are not above murder. They trade news and gossip for trinkets, favors, and drops of spilled blood.",
+              "The fey have long used the children of the briar as spies and informants, and the power of the Otherworld now courses through their veins, allowing them to work simple magical tricks and slip between the mortal and faerie realms with relative ease."
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about {@link King Thistletongue in the wiki|https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-king-thistletongue.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Lamont Solmar, Knight of Night",
+      "isNpc": true,
+      "source": "DungeonChurchNPCs",
+      "shortName": "Lamont Solmar",
+      "otherSources": [
+        {
+          "source": "MM"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "undead",
+        "tags": [
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "L",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 16,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 144,
+        "formula": "17d8 + 68"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 17,
+      "wis": 15,
+      "cha": 18,
+      "save": {
+        "dex": "+9",
+        "wis": "+7",
+        "cha": "+9"
+      },
+      "skill": {
+        "perception": "+7",
+        "stealth": "+9"
+      },
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 17,
+      "resist": [
+        "necrotic",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks",
+          "cond": true
+        }
+      ],
+      "languages": [
+        "Common, Dwarvish"
+      ],
+      "cr": "13",
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "If the vampire isn't in sunlight or running water, it can use its action to polymorph into a Tiny bat or a Medium cloud of mist, or into their true form.",
+            "While in bat form, the vampire can't speak, its walking speed is 5 feet, and it has a flying speed of 30 feet. Its statistics, other than its size and speed, are unchanged. Anything it is wearing transforms with it, but nothing it is carrying does. It reverts to its true form if it dies.",
+            "While in mist form, the vampire can't take any actions, speak, or manipulate objects. It is weightless, has a flying speed of 20 feet, can hover, and can enter a hostile creature's space and stop there. In addition, if air can pass through a space, the mist can do so without squeezing, and it can't pass through water. It has advantage on Strength, Dexterity, and Constitution saving throws, and it is immune to all nonmagical damage, except the damage it takes from sunlight."
+          ]
+        },
+        {
+          "name": "Saltmarsh Spy",
+          "entries": [
+            "Lamont keeps an eye on the town he knew and loved in life, including his living son {@link Anders|https://lore.dungeon.church/doc/anders-solmor-njTKn6ITMV}. Whenever Lamont visits {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} after dark, he is able to shapechange into the form of any of his vampire thralls."
+          ]
+        },
+        {
+          "name": "Legendary Resistance (3/Day)",
+          "entries": [
+            "If the vampire fails a saving throw, it can choose to succeed instead."
+          ]
+        },
+        {
+          "name": "Misty Escape",
+          "entries": [
+            "When it drops to 0 hit points outside its resting place, the vampire transforms into a cloud of mist (as in the Shapechanger trait) instead of falling {@condition unconscious}, provided that it isn't in sunlight or running water. If it can't transform, it is destroyed.",
+            "While it has 0 hit points in mist form, it can't revert to its vampire form, and it must reach its resting place within 2 hours or be destroyed. Once in its resting place, it reverts to its vampire form. It is then {@condition paralyzed} until it regains at least 1 hit point. After spending 1 hour in its resting place with 0 hit points, it regains 1 hit point."
+          ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "The vampire regains 20 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+          ]
+        },
+        {
+          "name": "Spider Climb",
+          "entries": [
+            "The vampire can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Vampire Weaknesses",
+          "entries": [
+            "The vampire has the following flaws:",
+            "{@i Forbiddance.} The vampire can't enter a residence without an invitation from one of the occupants.",
+            "{@i Harmed by Running Water.} The vampire takes 20 acid damage if it ends its turn in running water.",
+            "{@i Stake to the Heart.} If a piercing weapon made of wood is driven into the vampire's heart while the vampire is {@condition incapacitated} in its resting place, the vampire is {@condition paralyzed} until the stake is removed.",
+            "{@i Sunlight Hypersensitivity.} The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack (Vampire Form Only)",
+          "entries": [
+            "The vampire makes two attacks, only one of which can be a bite attack."
+          ]
+        },
+        {
+          "name": "Unarmed Strike (Vampire Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one creature. {@h}8 ({@damage 1d8 + 4}) bludgeoning damage. Instead of dealing damage, the vampire can grapple the target (escape {@dc 18})."
+          ]
+        },
+        {
+          "name": "Bite (Bat or Vampire Form Only)",
+          "entries": [
+            "{@atk mw} {@hit 9} to hit, reach 5 ft., one willing creature, or a creature that is {@condition grappled} by the vampire, {@condition incapacitated}, or {@condition restrained}. {@h}7 ({@damage 1d6 + 4}) piercing damage plus 10 ({@damage 3d6}) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. A humanoid slain in this way and then buried in the ground rises the following night as a {@creature vampire spawn} under the vampire's control."
+          ]
+        },
+        {
+          "name": "Charm",
+          "entries": [
+            "The vampire targets one humanoid it can see within 30 feet of it. If the target can see the vampire, the target must succeed on a {@dc 17} Wisdom saving throw against this magic or be {@condition charmed} by the vampire. The {@condition charmed} target regards the vampire as a trusted friend to be heeded and protected. Although the target isn't under the vampire's control, it takes the vampire's requests or actions in the most favorable way it can, and it is a willing target for the vampire's bite attack.",
+            "Each time the vampire or the vampire's companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the vampire is destroyed, is on a different plane of existence than the target, or takes a bonus action to end the effect."
+          ]
+        },
+        {
+          "name": "Children of the Night (1/Day)",
+          "entries": [
+            "The vampire magically calls {@dice 2d4} swarms of {@creature swarm of bats||bats} or {@creature swarm of rats||rats}, provided that the sun isn't up. While outdoors, the vampire can call {@dice 3d6} {@creature wolf||wolves} instead. The called creatures arrive in {@dice 1d4} rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action."
+          ]
+        }
+      ],
+      "legendary": [
+        {
+          "name": "Move",
+          "entries": [
+            "The vampire moves up to its speed without provoking opportunity attacks."
+          ]
+        },
+        {
+          "name": "Unarmed Strike",
+          "entries": [
+            "The vampire makes one unarmed strike."
+          ]
+        },
+        {
+          "name": "Bite (Costs 2 Actions)",
+          "entries": [
+            "The vampire makes one bite attack."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "Vampire",
+        "source": "MM"
+      },
+      "environment": [
+        "urban"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-lamont-solmar.mp3"
+      },
+      "traitTags": [
+        "Legendary Resistances",
+        "Regeneration",
+        "Shapechanger",
+        "Spider Climb",
+        "Sunlight Sensitivity"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "LF"
+      ],
+      "damageTags": [
+        "B",
+        "N",
+        "P"
+      ],
+      "miscTags": [
+        "HPR",
+        "MW"
+      ],
+      "conditionInflict": [
+        "charmed"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-lamont-solmar-token.png"
+      },
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Lamont Solmar in the wiki|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-lamont-solmar.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mildred Magpie",
+      "source": "DungeonChurchNPCs",
+      "otherSources": [
+        {
+          "source": "MM"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": "fey",
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 20,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 114,
+        "formula": "12d8 + 60"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 20,
+      "dex": 18,
+      "con": 20,
+      "int": 13,
+      "wis": 14,
+      "cha": 16,
+      "skill": {
+        "arcana": "+4",
+        "deception": "+5",
+        "perception": "+5",
+        "stealth": "+7"
+      },
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 15,
+      "languages": [
+        "Common",
+        "Draconic",
+        "Sylvan",
+        "Thieves' cant"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Innate Spellcasting",
+          "headerEntries": [
+            "The hag's innate spellcasting ability is Charisma (spell save {@dc 14}). She can innately cast the following spells, requiring no material components:"
+          ],
+          "will": [
+            "{@spell dancing lights}",
+            "{@spell intaglio|GH}",
+            "{@spell minor illusion}",
+            "{@spell vicious mockery}"
+          ],
+          "daily": {
+            "1": [
+              "{@spell bestow curse}",
+              "{@spell plane shift}",
+              "{@spell zone of truth}",
+              "{@spell scrying}"
+            ]
+          },
+          "ability": "cha",
+          "type": "spellcasting"
+        }
+      ],
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The hag can breathe air and water."
+          ]
+        },
+        {
+          "name": "Mimicry",
+          "entries": [
+            "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 16} Wisdom ({@skill Insight}) check."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Claws",
+          "entries": [
+            "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}23 ({@damage 4d8 + 5}) slashing damage."
+          ]
+        },
+        {
+          "name": "Illusory Appearance",
+          "entries": [
+            "The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.",
+            "The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a {@dc 22} Intelligence ({@skill Investigation}) check to discern that the hag is disguised."
+          ]
+        },
+        {
+          "name": "Invisible Passage",
+          "entries": [
+            "The hag magically turns {@condition invisible} until she attacks or casts a spell, or until her {@status concentration} ends (as if {@status concentration||concentrating} on a spell). While {@condition invisible}, she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is {@condition invisible} with her."
+          ]
+        }
+      ],
+      "legendaryGroup": {
+        "name": "Green Hag",
+        "source": "MM"
+      },
+      "environment": [
+        "forest",
+        "swamp"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-mildred-magpie.mp3"
+      },
+      "traitTags": [
+        "Amphibious"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "DR",
+        "S",
+        "TC"
+      ],
+      "spellcastingTags": [
+        "I",
+        "O"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "invisible"
+      ],
+      "conditionInflictSpell": [
+        "frightened",
+        "paralyzed",
+        "poisoned",
+        "unconscious"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "token": {
+        "name": "Green Hag",
+        "source": "MM"
+      },
+      "fluff": {
+        "name": "Green Hag",
+        "source": "MM",
+        "entries": [
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  "The wretched and hateful green hags dwell in dying forests, lonely swamps, and misty moors, making their homes in caves. Green hags love to manipulate other creatures into doing their bidding, masking their intentions behind layers of deception. They lure victims to them by mimicking voices calling out for help, or drive unwanted visitors away by imitating the cries of fierce beasts.",
+                  {
+                    "type": "entries",
+                    "name": "Obsession with Tragedy",
+                    "entries": [
+                      "Green hags revel in the failings and tragedies of other creatures. They derive joy from bringing people low and seeing hope turn into despair, not just for individuals but also for whole nations."
+                    ]
+                  },
+                  {
+                    "type": "inset",
+                    "name": "Dungeon Church Lore",
+                    "entries": [
+                      "Learn more about {@link Mildred Magpie in the wiki|https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "section",
+            "name": "Hags",
+            "entries": [
+              "Hags represent all that is evil and cruel. Though they resemble withered crones, there is nothing mortal about these monstrous creatures, whose forms reflect only the wickedness in their hearts.",
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "entries": [
+                      {
+                        "type": "entries",
+                        "name": "Faces of Evil",
+                        "entries": [
+                          "Ancient beings with origins in the Feywild, hags are cankers on the mortal world. Their withered faces are framed by long, frayed hair, horrid moles and warts dot their blotchy skin, and their long, skinny fingers are tipped by claws that can slice open flesh with a touch. Their simple clothes are always tattered and filthy.",
+                          "All hags possess magical powers, and some have an affinity for spellcasting. They can alter their forms or curse their foes, and their arrogance inspires them to view their magic as a challenge to the magic of the gods, whom they blaspheme at every opportunity.",
+                          "Hags name themselves in darkly whimsical ways, claiming monikers such as Black Morwen, Peggy Pigknuckle, Grandmother Titchwillow, Nanna Shug, Rotten Ethel, or Auntie Wormtooth."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Monstrous Motherhood",
+                        "entries": [
+                          "Hags propagate by snatching and devouring human infants. After stealing a baby from its cradle or its mother's womb, the hag consumes the poor child. A week later, the hag gives birth to a daughter who looks human until her thirteenth birthday, whereupon the child transforms into the spitting image of her hag mother.",
+                          "Hags sometimes raise the daughters they spawn, creating covens. A hag might also return the child to its grieving parents, only to watch from the shadows as the child grows up to become a horror."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Bargains",
+                        "entries": [
+                          "Arrogant to a fault, hags believe themselves to be the most cunning of creatures, and they treat all others as inferior. Even so, a hag is open to dealing with mortals as long as those mortals show the proper respect and deference. Over their long lives, hags accumulate much knowledge of local lore, dark creatures, and magic, which they are pleased to sell.",
+                          "Hags enjoy watching mortals bring about their own downfall, and a bargain with a hag is always dangerous. The terms of such bargains typically involve demands to compromise principles or give up something dear-especially if the thing lost diminishes or negates the knowledge gained through the bargain."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "A Foul Nature",
+                        "entries": [
+                          "Hags love the macabre and festoon their garb with dead things and accentuate their appearance with bones, bits of flesh, and filth. They nurture blemishes and pick at wounds to produce weeping, suppurating flesh. Attractive creatures evoke disgust in a hag, which might \"help\" such creatures by disfiguring or transforming them.",
+                          "This embrace of the disturbing and unpleasant extends to all aspects of a hag's life. A hag might fly in a magical giant's skull, landing it on a tree shaped to resemble an enormous headless body. Another might travel with a menagerie of monsters and slaves kept in cages, and disguised by illusions to lure unwary creatures close. Hags sharpen their teeth on millstones and spin cloth from the intestines of their victims, reacting with glee to the horror their actions invoke."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Sorority",
+                        "entries": [
+                          "Hags maintain contact with each other and share knowledge. Through such contacts, it is likely that any given hag knows of every other hag in existence. Hags don't like each other, but they abide by an ageless code of conduct. Hags announce their presence before crossing into another hag's territory, bring gifts when entering another hag's dwelling, and break no oaths given to other hags-as long as the oath isn't given with the fingers crossed.",
+                          "Some humanoids make the mistake of thinking that the hags' rules of conduct apply to all creatures. When confronted by such an individual, a hag might find it amusing to string the fool along for a while before teaching it a permanent lesson."
+                        ]
+                      },
+                      {
+                        "type": "entries",
+                        "name": "Dark Lairs",
+                        "entries": [
+                          "Hags dwell in dark and twisted woods, bleak moors, storm-lashed seacoasts, and gloomy swamps. In time, the landscape around a hag's lair reflects the creature's noxiousness, such that the land itself can attack and kill trespassers. Trees twisted by darkness attack passersby, while vines snake through the undergrowth to snare and drag off creatures one at a time. Foul stinking fogs turn the air to poison, and conceal pools of quicksand and sinkholes that consume unwary wanderers."
+                        ]
+                      },
+                      {
+                        "type": "inset",
+                        "name": "Hag Covens",
+                        "entries": [
+                          "When hags must work together, they form covens, in spite of their selfish natures. A coven is made up of hags of any type, all of whom are equals within the group. However, each of the hags continues to desire more personal power.",
+                          "A coven consists of three hags so that any arguments between two hags can be settled by the third. If more than three hags ever come together, as might happen if two covens come into conflict, the result is usually chaos.",
+                          {
+                            "type": "entries",
+                            "name": "Shared Spellcasting",
+                            "entries": [
+                              "While all three members of a hag coven are within 30 feet of one another, they can each cast the following spells from the wizard's spell list but must share the spell slots among themselves:",
+                              {
+                                "type": "list",
+                                "style": "list-no-bullets",
+                                "items": [
+                                  "1st level (4 slots): {@spell identify}, {@spell ray of sickness}",
+                                  "2nd level (3 slots): {@spell hold person}, {@spell locate object}",
+                                  "3rd level (3 slots): {@spell bestow curse}, {@spell counterspell}, {@spell lightning bolt}",
+                                  "4th level (3 slots): {@spell phantasmal killer}, {@spell polymorph}",
+                                  "5th level (2 slots): {@spell contact other plane}, {@spell scrying}",
+                                  "6th level (1 slot): {@spell eyebite}"
+                                ]
+                              },
+                              "For casting these spells, each hag is a 12th-level spellcaster that uses Intelligence as her spellcasting ability. The spell save DC is 12 + the hag's Intelligence modifier, and the spell attack bonus is 4 + the hag's Intelligence modifier."
+                            ]
+                          },
+                          {
+                            "type": "entries",
+                            "name": "Hag Eye",
+                            "entries": [
+                              "A hag coven can craft a magic item called a hag eye, which is made from a real eye coated in varnish and often fitted to a pendant or other wearable item. The hag eye is usually entrusted to a minion for safekeeping and transport. A hag in the coven can take an action to see what the hag eye sees if the hag eye is on the same plane of existence. A hag eye has AC 10, 1 hit point, and {@sense darkvision} with a radius of 60 feet. If it is destroyed, each coven member takes {@damage 3d10} psychic damage and is {@condition blinded} for 24 hours.",
+                              "A hag coven can have only one hag eye at a time, and creating a new one requires all three members of the coven to perform a ritual. The ritual takes 1 hour, and the hags can't perform it while {@condition blinded}. During the ritual, if the hags take any action other than performing the ritual, they must start over."
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "name": "Lair Actions",
+                "entries": [
+                  "The following lair actions are options for grandmothers and powerful aunties. Grandmothers usually have three to five lair actions, aunties usually only one (if they have any at all). Unless otherwise noted, any lair action that requires a creature to make a saving throw uses the save DC of the hag's most powerful ability.",
+                  "On initiative count 20 (losing initiative ties), the hag can take a lair action to cause one of the following effects, but can't use the same effect two rounds in a row:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "Until initiative count 20 on the next round, the hag can pass through solid walls, doors, ceilings, and floors as if the surfaces weren't there.",
+                      "The hag targets any number of doors and windows that she can see, causing each one to either open or close as she wishes. Closed doors can be magically locked (requiring a successful {@dc 20} Strength check to force open) until she chooses to make them unlocked, or until she uses this lair action again to open them."
+                    ]
+                  },
+                  "A powerful green hag might have the following additional lair action:",
+                  {
+                    "type": "list",
+                    "items": [
+                      "The hag creates an illusory duplicate of herself, which appears in its own space. As long as she can see her duplicate, the hag can move it a distance equal to her walking speed as well as make the illusion speak on her turn (no action required). The illusion has the same statistics as the hag but can't take actions or reactions. It can interact with its environment and even pick up and hold real objects. The illusion seems real in every way but disappears if it takes any amount of damage. Otherwise, it lasts until the hag dismisses it (no action required) or can no longer see it. If the hag uses this lair action to create a new duplicate, the previous one vanishes, dropping any real objects in its possession."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-mildred-magpie.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-mildred-magpie-token.png"
+      },
+      "conditionImmune": [
+        "charmed"
+      ],
+      "isNpc": true,
+      "damageTags": [
+        "S"
+      ],
+      "damageTagsSpell": [
+        "N",
+        "Y"
+      ],
+      "savingThrowForcedSpell": [
+        "charisma",
+        "wisdom"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "name": "Pyoran NPCs",
+      "source": "DungeonChurchNPCs",
+      "caption": "People and acquaintances from the realm of Pyora.",
+      "colLabels": [
+        "d7",
+        "Person"
+      ],
+      "rows": [
+        [
+          "1",
+          "Lady Nightshade"
+        ],
+        [
+          "2",
+          "{@creature Amelia, Knight of Twilight|DungeonChurchNPCs}"
+        ],
+        [
+          "3",
+          "{@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs}"
+        ],
+        [
+          "4",
+          "Knight of Day"
+        ],
+        [
+          "5",
+          "{@creature Mildred Magpie|DungeonChurchNPCs}"
+        ],
+        [
+          "6",
+          "{@creature King Thistletongue|DungeonChurchNPCs}"
+        ],
+        [
+          "7",
+          "{@creature Commodore Daniel Warrington|DungeonChurchNPCs}"
+        ]
+      ]
+    }
+  ]
+}
