@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1711973394,
-    "dateLastModified": 1751230206,
+    "dateLastModified": 1751238221,
     "edition": "classic"
   },
   "condition": [
@@ -5680,7 +5680,7 @@
         "Pyoran Magic Items|dungeonchurch"
       ],
       "entries": [
-        "A dark gem mounted in an iron brooch, the hag {@creature Mildred Magpie|dungeonchurch} has imbued it with magic that allows the bearer to reach her across the planes to speak or ask her favor. Whenever the amulet is used, its power must be revived by Mildred's coven.",
+        "A dark gem mounted in an iron brooch, the hag {@creature Mildred Magpie|DungeonChurchNPCs} has imbued it with magic that allows the bearer to reach her across the planes to speak or ask her favor. Whenever the amulet is used, its power must be revived by Mildred's coven.",
         {
           "type": "inset",
           "name": "Dungeon Church Lore",
@@ -9401,45 +9401,6 @@
         [
           "16",
           "{@creature Scorchcock|dungeonchurch}"
-        ]
-      ]
-    },
-    {
-      "name": "Pyoran NPCs",
-      "source": "DungeonChurch",
-      "caption": "People and acquaintances from the realm of Pyora.",
-      "colLabels": [
-        "d7",
-        "Person"
-      ],
-      "rows": [
-        [
-          "1",
-          "Lady Nightshade"
-        ],
-        [
-          "2",
-          "{@creature Amelia, Knight of Twilight|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@creature Lamont Solmar, Knight of Night|dungeonchurch}"
-        ],
-        [
-          "4",
-          "Knight of Day"
-        ],
-        [
-          "5",
-          "{@creature Mildred Magpie|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@creature King Thistletongue|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@creature Commodore Daniel Warrington|dungeonchurch}"
         ]
       ]
     },

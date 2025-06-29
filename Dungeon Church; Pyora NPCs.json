@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1711973394,
-    "dateLastModified": 1751230163,
+    "dateLastModified": 1751238225,
     "edition": "classic"
   },
   "monster": [
@@ -408,7 +408,7 @@
             "type": "entries",
             "name": "Lust for Vengeance",
             "entries": [
-              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|dungeonchurch|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
             ]
           },
           {
@@ -1302,6 +1302,47 @@
       "savingThrowForcedSpell": [
         "charisma",
         "wisdom"
+      ]
+    }
+  ],
+  "table": [
+    {
+      "name": "Pyoran NPCs",
+      "source": "DungeonChurchNPCs",
+      "caption": "People and acquaintances from the realm of Pyora.",
+      "colLabels": [
+        "d7",
+        "Person"
+      ],
+      "rows": [
+        [
+          "1",
+          "Lady Nightshade"
+        ],
+        [
+          "2",
+          "{@creature Amelia, Knight of Twilight|DungeonChurchNPCs}"
+        ],
+        [
+          "3",
+          "{@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs}"
+        ],
+        [
+          "4",
+          "Knight of Day"
+        ],
+        [
+          "5",
+          "{@creature Mildred Magpie|DungeonChurchNPCs}"
+        ],
+        [
+          "6",
+          "{@creature King Thistletongue|DungeonChurchNPCs}"
+        ],
+        [
+          "7",
+          "{@creature Commodore Daniel Warrington|DungeonChurchNPCs}"
+        ]
       ]
     }
   ]
