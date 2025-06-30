@@ -13,6 +13,7 @@
 # Pyora
 [Dungeon Church](https://www.dungeon.church)'s [5eTools](https://5e.tools) compatible homebrew source files.
 * `Dungeon Church; Pyora.json` - Our homebrew setting of Pyora
+* `Dungeon Church; Pyora NPCs.json` - NPCs
 * `Dungeon Church; Zines.json` - Zines and publications
 * `Dungeon Church; Rider-Waite Tarot.json` - Classic, public domain tarot deck
 

@@ -7,6 +7,7 @@
     ],
     "toImport": [
         "Dungeon Church; Pyora.json",
+        "Dungeon Church; Pyora NPCs.json",
         "Dungeon Church; Zines.json",
         "Dungeon Church; Rider-Waite Tarot.json",
         "thirdparty/Ghostfire Gaming; Grim Hollow Player's Guide",
