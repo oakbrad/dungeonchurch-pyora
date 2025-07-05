@@ -7824,7 +7824,7 @@
         ],
         [
           "24",
-          "{@i Construct Automation Protocols} by Avalon Engineer Union",
+          "{@i Construct Automation Protocols} by Avalon Engineer's Union",
           "Elvish"
         ],
         [
@@ -7936,6 +7936,95 @@
           "46",
           "{@i Whistle While You Work: A {@race Gnome (Rock)|dungeonchurch|Gnomish} Tradition}",
           "Gnomish"
+        ],
+        [
+          "47",
+          "{@i Practical {@link Soulbinding|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ} for Beginners} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}",
+          "Abyssal"
+        ],
+        [
+          "48",
+          "{@i The Traveling Brewer: Exploring {@table Durandian Draughts|dungeonchurch|Durandian Ales}}",
+          "Common"
+        ],
+        [
+          "49",
+          "{@i Alecraft: The History & Methods of {@link the Kingdom's Brewers|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}} by {@link Brotherhood of Alesmiths|https://lore.dungeon.church/doc/brotherhood-of-alesmiths-i9FLDW85Hu}",
+          "Dwarvish"
+        ],
+        [
+          "50",
+          "{@i Under the Big Top: A Rogue's Guide to {@link Revalia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K}} by Ole Slipfinger",
+          "Thieves Cant"
+        ],
+        [
+          "51",
+          "{@i Mischief & Fate: An Ethnographic Study of {@link Heckna's|https://lore.dungeon.church/doc/heckna-gzwkkurYSc} Spectacles} by Dr. Armin Mystral",
+          "Common"
+        ],
+        [
+          "52",
+          "{@iThe Landed Families of the {@link Third Ward|https://lore.dungeon.church/doc/third-ward-noble-circle-988JqUPxSX}}",
+          "Common"
+        ],
+        [
+          "53",
+          "{@i The Pilgrimage to {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}}",
+          "Dwarvish"
+        ],
+        [
+          "54",
+          "{@i Ledger of {@link Blood Tithes|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}}",
+          "Infernal"
+        ],
+        [
+          "55",
+          "{@i The Journals of {@link Thrain Stoneflower|https://lore.dungeon.church/doc/thrain-stoneflower-mjPtuvzNNT}}",
+          "Dwarvish"
+        ],
+        [
+          "56",
+          "{@i Whimsical Desserts from the {@link Moonlight Mirth Inn|https://lore.dungeon.church/doc/moonlight-mirth-inn-zzuK7i676b}} by {@link Daisy Dewpetal|https://lore.dungeon.church/doc/daisy-dewpetal-lqt3e7DgIg#d-zzuK7i676b}",
+          "Common"
+        ],
+        [
+          "57",
+          "{@i Crown of Decay: The Witch Hunts of {@link King Belgareth|https://lore.dungeon.church/doc/king-belgarath-hpkJUwx8bj}}",
+          "Common"
+        ],
+        [
+          "58",
+          "{@i Lab Notes of {@link Oscar Yoren|https://lore.dungeon.church/doc/oscar-yoren-RFyn9kEyvc}}",
+          "Infernal"
+        ],
+        [
+          "59",
+          "{@i Ledger of House {@link Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}} by {@link Skerrin Wavechaser|https://lore.dungeon.church/doc/skerrin-wavechaser-sCnR3QOnff}",
+          "Common"
+        ],
+        [
+          "60",
+          "{@i The Architecture of {@link Ebonveil Estates|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV}}",
+          "Common"
+        ],
+        [
+          "61",
+          "{@i The Wrath of {@link Proteushttps://lore.dungeon.church/doc/proteus-Apiz4CreFn}}",
+          "Dwarvish"
+        ],
+        [
+          "62",
+          "{@i The Way of the {@link Abraxian|https://lore.dungeon.church/doc/abraxas-uKXAkU30vX} Warrior} by {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}",
+          "Common"
+        ],
+        [
+          "63",
+          "{@i Roster of Members in Good Standing} by {@link Longshoreman's Union of New Galmaarden|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}"
+        ],
+        [
+          "64",
+          "{@i Druidic Paths to Animal Liberation} by {@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}",
+          "Druidic"
         ]
       ]
     },
