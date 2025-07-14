@@ -7702,7 +7702,7 @@
       "source": "DungeonChurch",
       "caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
       "colLabels": [
-        "1d46",
+        "1d67",
         "Book",
         "Language"
       ],
@@ -7964,7 +7964,7 @@
         ],
         [
           "52",
-          "{@iThe Landed Families of the {@link Third Ward|https://lore.dungeon.church/doc/third-ward-noble-circle-988JqUPxSX}}",
+          "{@i The Landed Families of the {@link Third Ward|https://lore.dungeon.church/doc/third-ward-noble-circle-988JqUPxSX}}",
           "Common"
         ],
         [
@@ -8009,7 +8009,7 @@
         ],
         [
           "61",
-          "{@i The Wrath of {@link Proteushttps://lore.dungeon.church/doc/proteus-Apiz4CreFn}}",
+          "{@i The Wrath of {@link Proteus|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}}",
           "Dwarvish"
         ],
         [
@@ -8019,12 +8019,28 @@
         ],
         [
           "63",
-          "{@i Roster of Members in Good Standing} by {@link Longshoreman's Union of New Galmaarden|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}"
+          "{@i Roster of Members in Good Standing} by {@link Longshoreman's Union of New Galmaarden|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}",
+          "Common"
         ],
         [
           "64",
           "{@i Druidic Paths to Animal Liberation} by {@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}",
           "Druidic"
+        ],
+        [
+          "65",
+          "{@i Register of the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0} Vol. CMLXIV}",
+          "Common"
+        ],
+        [
+          "66",
+          "{@i The Mage's Code of Ethics} by {@link Amethyst Academy|https://lore.dungeon.church/doc/amethyst-academy-XCMbg6pJnf}",
+          "Common"
+        ],
+        [
+          "67",
+          "{@i {@link Diary of Amelia|https://lore.dungeon.church/doc/amelias-nightmare-AS8ml1y1ea}}",
+          "Common"
         ]
       ]
     },
