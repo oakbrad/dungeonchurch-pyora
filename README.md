@@ -187,8 +187,8 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 * Optional Features
     * Witchsight
 * Tables
-    * Books of Pyora
-    * Dungeon Dome Concessions
+    * [D100 Books of Pyora](https://www.dungeon.church/table/d100-books-in-a-pyoran-library)
+    * [D100 Dungeon Dome Concessions](https://www.dungeon.church/table/d100-dungeon-dome-arena-concessions/)
     * Durandian Draughts
     * Faction Reptuation Tracking
     * I Know a Guy... in Pyora

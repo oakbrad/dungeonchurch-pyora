@@ -7700,9 +7700,9 @@
     {
       "name": "Books of Pyora",
       "source": "DungeonChurch",
-      "caption": "From the bedside tables of commoners to the dangerous tomes locked away in secret dungeons, all the peoples of Pyora have labored to publish the written word.",
+      "caption": "From tattered chapbooks tucked beside a commoner's bed to rune-warded grimoires sealed deep within hidden vaults, every species in Pyora has toiled to commit their tales, knowledge, and forbidden magics to the written page.",
       "colLabels": [
-        "1d67",
+        "1d100",
         "Book",
         "Language"
       ],
@@ -8040,6 +8040,171 @@
         [
           "67",
           "{@i {@link Diary of Amelia|https://lore.dungeon.church/doc/amelias-nightmare-AS8ml1y1ea}}",
+          "Common"
+        ],
+        [
+          "68",
+          "{@i {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg} Public Library Registered Patrons}",
+          "Elvish"
+        ],
+        [
+          "69",
+          "{@i The {@creature Scorchcock|dungeonchurch} Breeder's Almanac}",
+          "Common"
+        ],
+        [
+          "70",
+          "{@i Flora of {@link Valachan|https://lore.dungeon.church/doc/valachan-7P9W5MpjXH}}",
+          "Common"
+        ],
+        [
+          "71",
+          "{@i Practical Manual of Subterranean Fruit Gardening}",
+          "Dwarvish"
+        ],
+        [
+          "72",
+          "{@i On Hypnotism & {@link Enchanted Mirrors|https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5}}",
+          "Elvish"
+        ],
+        [
+          "73",
+          "{@i Whispers in the Jungle: Translated Origin Stories of the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}}",
+          "Common"
+        ],
+        [
+          "74",
+          "{@i Crafting Your {@link Gnomish Tea Set|https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V}: A Clockwork Artisan's Guide}",
+          "Gnomish"
+        ],
+        [
+          "75",
+          "{@i {@link Monster Card|https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ} Collector's Guide}",
+          "Common"
+        ],
+        [
+          "76",
+          "{@i Seeing the Sites in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}} by Striborg Tourism Council",
+          "Common"
+        ],
+        [
+          "77",
+          "{@i Legends of the {@link Shimmering Tower|https://lore.dungeon.church/doc/the-shimmering-tower-d9T6YPo2En}} by Captain Anonymous",
+          "Common"
+        ],
+        [
+          "78",
+          "{@i Echoes of Chaos: The {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n} in Comparative Mythology}",
+          "Elvish"
+        ],
+        [
+          "79",
+          "{@i Sojourn Among the Nomads: My Season with the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}} by {@link Warden|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Dran",
+          "Dwarvish"
+        ],
+        [
+          "80",
+          "{@i {@link Whisperwine|https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS} Vinification: {@link Ebonveil Estate|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV} Recipes}",
+          "Infernal"
+        ],
+        [
+          "81",
+          "{@i {@link Valona|https://lore.dungeon.church/doc/valona-trCwKMhnVy}: The Fallen Houses of {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}}",
+          "Common"
+        ],
+        [
+          "82",
+          "{@i Forged in Flame: Dwarven Craft after the {@link Dragon Empire|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}} by Masterhammer Derin",
+          "Dwarvish"
+        ],
+        [
+          "83",
+          "{@i Whistling in the Wyrm's Wake: {@race Halfling (Pyoran)|dungeonchurch|Halfling} Memoirs of Resistance}",
+          "Common"
+        ],
+        [
+          "84",
+          "{@i Veins of Power: The {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z} Cabal Exposed} by Anonymous",
+          "Common"
+        ],
+        [
+          "85",
+          "{@i The Artistry of the {@link Jhaampe|https://lore.dungeon.church/doc/jhaampe-mCxU5WAN7q} Basketweavers} by {@link Khaneye Jun Fan|https://lore.dungeon.church/doc/the-khaneye-jun-fan-6tqXbPVyii} Library",
+          "Common"
+        ],
+        [
+          "86",
+          "{@i Oaths and Codes of the {@link Dawn Watch|https://lore.dungeon.church/doc/the-dawn-watch-TgzcAPStlH}}",
+          "Elvish"
+        ],
+        [
+          "87",
+          "{@i Hollows and Highlands: Tribeborn Oral Traditions}",
+          "Common"
+        ],
+        [
+          "88",
+          "{@i The Polar Bear and the Pint: Big Mike's Childrens Tales} by {@link Gregorio|https://lore.dungeon.church/doc/gregorio-XvYkj4xTZI}",
+          "Common"
+        ],
+        [
+          "89",
+          "{@i {@link Account|https://lore.dungeon.church/doc/session-5-town-business-XEOYTUfeOT#h-just-rewards} of the Saltmarsh Public Auction Concerning the {@link Alchemist House|https://lore.dungeon.church/doc/alchemists-house-D0Oo2ziTIj}} by {@link Herschel|https://lore.dungeon.church/doc/herschel-lgSYbAyEFz}",
+          "Common"
+        ],
+        [
+          "90",
+          "{@i The Big Book of {@link Dragonchess|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4#h-dragonchess} Drinking Games}",
+          "Common"
+        ],
+        [
+          "91",
+          "{@i The Jester's Grimoire} by {@link Heckna|https://lore.dungeon.church/doc/heckna-gzwkkurYSc}",
+          "Thieves Cant"
+        ],
+        [
+          "92",
+          "{@i Under Fire: The Secret Letters of {@link Cirilla|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP} & {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}}",
+          "Common"
+        ],
+        [
+          "93",
+          "{@i Sworn to the Waves: The Fall of Captain {@link Ruhrin Starhelm|https://lore.dungeon.church/doc/ruhrin-starhelm-w8g2zPDAO5}}",
+          "Dwarvish"
+        ],
+        [
+          "94",
+          "{@i Investigation File on the {@link Wraithwoven Coven|https://lore.dungeon.church/doc/wraithwoven-coven-9LLv5L3Ka8}} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}",
+          "Common"
+        ],
+        [
+          "95",
+          "{@i Finding Your {@spell Find Familiar|PHB|Familiar}: Timeless & Proven Rituals}",
+          "Druidic"
+        ],
+        [
+          "96",
+          "{@i Moon's Mirror: {@link Selunian|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} Telescope Craft} by {@link Sister Deidre|https://lore.dungeon.church/doc/deidre-of-the-moon-DfcUiaihGw}",
+          "Common"
+        ],
+        [
+          "97",
+          "{@i Children of the Travelers: Folklore of the {@race Elfmarked|dungeonchurch}}",
+          "Common"
+        ],
+        [
+          "98",
+          "{@i The Art of Persuasion: Practical Cantrips for Negotiatiors}",
+          "Common"
+        ],
+        [
+          "99",
+          "{@i The Cat Lover's Guide to the {@creature Boomerang Cat|dungeonchurch|Boomerang} Breed}",
+          "Common"
+        ],
+        [
+          "100",
+          "{@i The Saga of the {@link Thistletongue|https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE} Gang}",
           "Common"
         ]
       ]
