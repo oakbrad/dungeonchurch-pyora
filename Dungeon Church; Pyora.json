@@ -3160,11 +3160,102 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-warder.png"
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-warder-token.png"
             }
           }
         ]
       }
+    },
+    {
+      "name": "One-Eyed Purple Breasted Warbler",
+      "source": "DungeonChurch",
+      "size": [
+        "T"
+      ],
+      "type": "beast",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        12
+      ],
+      "hp": {
+        "formula": "2d4",
+        "average": 5
+      },
+      "speed": {
+        "walk": 10,
+        "fly": 80
+      },
+      "str": 2,
+      "dex": 15,
+      "con": 11,
+      "int": 2,
+      "wis": 12,
+      "cha": 6,
+      "skill": {
+        "perception": "+3",
+        "survival": "+5"
+      },
+      "passive": 13,
+      "cr": "1/4",
+      "action": [
+        {
+          "name": "Beak",
+          "entries": [
+            "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 piercing damage."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "grassland",
+        "hill",
+        "mountain"
+      ],
+      "familiar": true,
+      "miscTags": [
+        "MW"
+      ],
+      "fluff": {
+        "entries": [
+          "{@i Each fall, hunters all over the realm strike out into the forests and hills to pursue this brightly plumed upland game bird. Prized as exceptional tablefare, it often graces the menus of many a tavern}",
+          {
+            "type": "entries",
+            "entries": [
+              {
+                "type": "entries",
+                "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Timothy's Warbler",
+                    "entries": [
+                      "Named for the {@race Dwarf (Hearth)|dungeonchurch|hearth dwarf} conservationist who spread the bird throughout the lands of Pyora in his travels, the full name is technically {@i Timothy's One-Eyed Purple Breasted Warbler}."
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-one-eyed-purple-breasted-warbler.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-one-eyed-purple-breasted-warbler-token.png"
+      },
+      "shortName": "Purple Warbler",
+      "damageTags": [
+        "P"
+      ]
     },
     {
       "name": "Sap Ooze",
@@ -7626,7 +7717,7 @@
           ]
         }
       ]
-    },
+   },
     {
       "name": "Sorcerer: Wild Magic Surge",
       "source": "DungeonChurch",
@@ -9604,7 +9695,7 @@
       "source": "DungeonChurch",
       "caption": "Monsters known to inhabit the realm of Pyora.",
       "colLabels": [
-        "d16",
+        "d17",
         "Monster"
       ],
       "rows": [
@@ -9671,6 +9762,10 @@
         [
           "16",
           "{@creature Scorchcock|dungeonchurch}"
+        ],
+        [
+          "17",
+          "{@creature One-Eyed Purple Breasted Warbler|dungeonchurch}"
         ]
       ]
     },
