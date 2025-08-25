@@ -3453,7 +3453,8 @@
         "formula": "5d6 + 5"
       },
       "speed": {
-        "walk": 30
+        "walk": 30,
+        "fly": 10
       },
       "str": 8,
       "dex": 16,
