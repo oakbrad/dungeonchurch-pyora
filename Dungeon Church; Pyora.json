@@ -6164,7 +6164,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/5etools-homebrew/static/item-pluvovitz-schnapps.png"
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-pluvovitz-schnapps.png"
             }
           }
         ],
