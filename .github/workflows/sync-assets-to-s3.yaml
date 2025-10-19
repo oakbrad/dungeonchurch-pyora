@@ -39,8 +39,14 @@ jobs:
   sync-assets:
     name: Sync static assets to OCI bucket
     # Only run on main branch to avoid unintended syncs from feature branches
-    if: github.ref == 'refs/heads/main'
+    #if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    env:
+      OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
+      OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}
+      OCI_CLI_FINGERPRINT: ${{ secrets.OCI_CLI_FINGERPRINT }}
+      OCI_CLI_KEY_CONTENT: ${{ secrets.OCI_CLI_KEY_CONTENT }}
+      OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
     
     steps:
     - name: Checkout repository
@@ -49,12 +55,8 @@ jobs:
     - name: Sync static assets to OCI Object Storage
       uses: oracle-actions/run-oci-cli-command@v1.1
       with:
-        # Authentication is handled via GitHub secrets
-        auth: ${{ secrets.OCI_CLI_USER }}:${{ secrets.OCI_CLI_TENANCY }}:${{ secrets.OCI_CLI_FINGERPRINT }}:${{ secrets.OCI_CLI_KEY_CONTENT }}:${{ secrets.OCI_CLI_REGION }}
-        
+        # DEBUGGING ONLY!!! false CAN LEAK CREDENTIALS
+        #silent: false 
         # The command to sync the static folder to the OCI bucket
-        # --delete: Remove files in the bucket that no longer exist locally
-        # --src static: Source directory is the 'static' folder in the repository
-        # --dest-dir 5e: Destination directory in the bucket is '5e'
-        command: os object sync -bn dungeonchurch-public --delete --src static --dest-dir 5e
+        command: os object sync --src-dir static --bucket-name dungeonchurch-content --prefix 5e/ --delete
 
