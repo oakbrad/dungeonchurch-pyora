@@ -1,0 +1,60 @@
+name: Sync Static Assets to OCI Object Storage
+
+# This workflow syncs the contents of the 'static' folder to an OCI Object Storage bucket
+# whenever changes are made to files in the static folder or when manually triggered.
+#
+# REQUIRED GITHUB SECRETS:
+# - OCI_CLI_USER: OCID of the user (found in OCI Console > Profile > User Settings)
+# - OCI_CLI_TENANCY: OCID of the tenancy (found in OCI Console > Administration > Tenancy Details)
+# - OCI_CLI_FINGERPRINT: Fingerprint of the API key (generated when creating API key)
+# - OCI_CLI_KEY_CONTENT: Private key content (the private key file content, including BEGIN/END lines)
+# - OCI_CLI_REGION: OCI region (e.g., us-ashburn-1)
+#
+# To configure these secrets:
+# 1. Go to your repository on GitHub
+# 2. Navigate to Settings > Secrets and variables > Actions
+# 3. Click "New repository secret" and add each of the required secrets
+#
+# For more information on obtaining these values, see:
+# https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm
+#
+# MANUAL TRIGGER INSTRUCTIONS:
+# To manually trigger this workflow:
+# 1. Go to the Actions tab in your repository
+# 2. Select "Sync Static Assets to OCI Object Storage" from the workflows list
+# 3. Click "Run workflow" and then "Run workflow" again to confirm
+
+on:
+  # Trigger on changes to files in the static folder
+  push:
+    branches:
+      - main
+    paths:
+      - 'static/**'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  sync-assets:
+    name: Sync static assets to OCI bucket
+    # Only run on main branch to avoid unintended syncs from feature branches
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Sync static assets to OCI Object Storage
+      uses: oracle-actions/run-oci-cli-command@v1.1
+      with:
+        # Authentication is handled via GitHub secrets
+        auth: ${{ secrets.OCI_CLI_USER }}:${{ secrets.OCI_CLI_TENANCY }}:${{ secrets.OCI_CLI_FINGERPRINT }}:${{ secrets.OCI_CLI_KEY_CONTENT }}:${{ secrets.OCI_CLI_REGION }}
+        
+        # The command to sync the static folder to the OCI bucket
+        # --delete: Remove files in the bucket that no longer exist locally
+        # --src static: Source directory is the 'static' folder in the repository
+        # --dest-dir 5e: Destination directory in the bucket is '5e'
+        command: os object sync -bn dungeonchurch-public --delete --src static --dest-dir 5e
+
