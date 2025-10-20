@@ -231,6 +231,215 @@
       ]
     },
     {
+      "name": "Caelum the Druid",
+      "source": "DungeonChurchNPCs",
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": {
+          "choose": []
+        },
+        "tags": [
+          "Human"
+        ]
+      },
+      "alignment": [
+        "C",
+        "G"
+      ],
+      "ac": [
+        13,
+        {
+          "ac": 18,
+          "condition": "with {@spell barkskin}",
+          "braces": true
+        }
+      ],
+      "hp": {
+        "formula": "5d8 + 20",
+        "average": 42
+      },
+      "speed": {
+        "walk": 30,
+        "burrow": 5
+      },
+      "str": 13,
+      "dex": 16,
+      "con": 18,
+      "int": 12,
+      "wis": 17,
+      "cha": 11,
+      "skill": {
+        "medicine": "+6",
+        "nature": "+4",
+        "perception": "+6",
+        "survival": "+6"
+      },
+      "passive": 16,
+      "languages": [
+        "Common",
+        "Deep Crow",
+        "Druidic",
+        "Primordial"
+      ],
+      "cr": "6",
+      "spellcasting": [
+        {
+          "name": "Spellcasting",
+          "headerEntries": [
+            "The druid is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 14}, {@hit 7} to hit with spell attacks). It has the following druid spells prepared:"
+          ],
+          "spells": {
+            "0": {
+              "spells": [
+                "{@spell druidcraft}",
+                "{@spell mending}",
+                "{@spell minor illusion}",
+                "{@spell shillelagh}"
+              ]
+            },
+            "1": {
+              "spells": [
+                "{@spell creeping touch|GHPG}",
+                "{@spell entangle}",
+                "{@spell speak with animals}",
+                "{@spell witch bolt}"
+              ],
+              "slots": 4,
+              "lower": 1
+            },
+            "2": {
+              "spells": [
+                "{@spell animal messenger}",
+                "{@spell barkskin}",
+                "{@spell invisibility}",
+                "{@spell moonbeam}",
+                "{@spell spider climb}"
+              ],
+              "slots": 3
+            },
+            "3": {
+              "spells": [
+                "{@spell conjure animals}",
+                "{@spell daylight}",
+                "{@spell serpent tongue|GHPG}",
+                "{@spell sleet storm}"
+              ],
+              "slots": 3
+            },
+            "4": {
+              "spells": [
+                "{@spell consume mind|GHPG}",
+                "{@spell hallucinatory terrain}",
+                "{@spell sickening radiance|XGE}"
+              ],
+              "slots": 3
+            },
+            "5": {
+              "spells": [
+                "{@spell antilife shell}",
+                "{@spell contagion}",
+                "{@spell reincarnate}"
+              ],
+              "slots": 1
+            }
+          },
+          "ability": "wis",
+          "type": "spellcasting"
+        }
+      ],
+      "action": [
+        {
+          "name": "Quarterstaff",
+          "entries": [
+            "{@atk mw} {@hit 5} to hit ({@hit 7} to hit with shillelagh), reach 5 ft., one target. {@h}7 ({@damage 2d6}) bludgeoning damage, 9 ({@damage 2d8}) bludgeoning damage if wielded with two hands, or 12 ({@damage 2d8 + 3}) bludgeoning damage with {@spell shillelagh}."
+          ]
+        }
+      ],
+      "environment": [
+        "coastal",
+        "forest",
+        "swamp"
+      ],
+      "attachedItems": [
+        "staff of withering|DMG"
+      ],
+      "languageTags": [
+        "C",
+        "DU",
+        "P"
+      ],
+      "spellcastingTags": [
+        "CD"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "hasFluff": true,
+      "hasFluffImages": true,
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-caelum-token.png"
+      },
+      "soundClip": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-caelum-the-druid.mp3"
+      },
+      "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Caelum in the wiki|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}."
+            ]
+          }
+        ],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-caelum.png"
+            }
+          }
+        ]
+      },
+      "shortName": "Caelum",
+      "senses": [
+        "darkvision 30 ft."
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "resist": [
+        "poison"
+      ],
+      "vulnerable": [
+        "psychic"
+      ],
+      "conditionImmune": [
+        "frightened",
+        "poisoned"
+      ],
+      "isNamedCreature": true,
+      "isNpc": true,
+      "damageTags": [
+        "B"
+      ],
+      "damageTagsSpell": [
+        "L",
+        "P",
+        "R"
+      ],
+      "savingThrowForcedSpell": [
+        "constitution",
+        "dexterity",
+        "strength"
+      ]
+    },
+    {
       "name": "Commodore Daniel Warrington",
       "source": "DungeonChurchNPCs",
       "size": [
@@ -1112,10 +1321,6 @@
       ],
       "hasFluff": true,
       "hasFluffImages": true,
-      "token": {
-        "name": "Green Hag",
-        "source": "MM"
-      },
       "fluff": {
         "name": "Green Hag",
         "source": "MM",
