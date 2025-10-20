@@ -49,14 +49,31 @@ jobs:
       OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
     
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-    
-    - name: Sync static assets to OCI Object Storage
-      uses: oracle-actions/run-oci-cli-command@v1.1
-      with:
-        # DEBUGGING ONLY!!! false CAN LEAK CREDENTIALS
-        #silent: false 
-        # The command to sync the static folder to the OCI bucket
-        command: os object sync --src-dir static --bucket-name dungeonchurch-content --prefix 5e/ --delete
+      # Run for each filetype so we can set the content-type appropriately, then run again to delete
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Sync JPG files
+        uses: oracle-actions/run-oci-cli-command@v1.1
+        with:
+          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.jpg" --content-type image/jpeg
 
+      - name: Sync PNG files
+        uses: oracle-actions/run-oci-cli-command@v1.1
+        with:
+          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.png" --content-type image/png
+
+      - name: Sync MP3 files
+        uses: oracle-actions/run-oci-cli-command@v1.1
+        with:
+          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp3" --content-type audio/mpeg
+
+      - name: Sync MP4 files
+        uses: oracle-actions/run-oci-cli-command@v1.1
+        with:
+          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp4" --content-type video/mp4
+
+      - name: Delete removed files
+        uses: oracle-actions/run-oci-cli-command@v1.1
+        with:
+          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --delete
