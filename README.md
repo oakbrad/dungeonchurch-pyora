@@ -176,8 +176,9 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Vomit Ooze](https://lore.dungeon.church/doc/vomit-ooze-DhW28eyxrK)
     * [Zombie Raccoon](https://lore.dungeon.church/doc/zombie-raccoon-kRMzfO1jg9)
     * [Zombie Vulture](https://lore.dungeon.church/doc/zombie-vulture-Uc0z6ODNRp)
-* Bestiary NPCs
+* NPCs
     * [Amelia, Knight of Twilight](https://lore.dungeon.church/doc/amelia-mAibH1T0Em)
+    * [Caelum the Druid](https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF)
     * [Commodore Daniel Warrington](https://lore.dungeon.church/doc/commodore-daniel-warrington-OHzOMkhMHS)
     * [King Thistletongue](https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE)
     * [Lamont Solmar, Knight of Night](https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h)
