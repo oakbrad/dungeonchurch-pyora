@@ -1748,14 +1748,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-boar.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-boar-token.png"
       }
     },
     {
