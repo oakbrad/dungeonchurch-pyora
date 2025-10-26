@@ -7294,54 +7294,6 @@
       }
     },
     {
-      "name": "Swordstick",
-      "source": "DungeonChurch",
-      "baseItem": "rapier|PHB",
-      "type": "M",
-      "rarity": "uncommon",
-      "weight": 3,
-      "value": 5000,
-      "weaponCategory": "martial",
-      "property": [
-        "F"
-      ],
-      "dmg1": "1d8",
-      "dmgType": "P",
-      "sword": true,
-      "weapon": true,
-      "lootTables": [
-        "Pyoran Magic Items|dungeonchurch"
-      ],
-      "entries": [
-        "For those who wish to go armed discreetly, a concealed blade is hidden within an ordinary looking walking cane.",
-        {
-          "type": "entries",
-          "name": "Reveal",
-          "entries": [
-            "Unsheathing the blade requires an action."
-          ]
-        },
-        {
-          "type": "inset",
-          "name": "Dungeon Church Lore",
-          "entries": [
-            "Learn more about the {@link Swordstick in the wiki|https://lore.dungeon.church/doc/swordstick-kpTBLHI1Ty}."
-          ]
-        }
-      ],
-      "fluff": {
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-swordstick.png"
-            }
-          }
-        ]
-      }
-    },
-    {
       "name": "The Red Talon",
       "rarity": "rare",
       "wondrous": true,
