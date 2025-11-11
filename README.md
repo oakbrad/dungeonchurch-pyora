@@ -155,6 +155,9 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * Whip of Blinding Speed
     * [Whisperwine](https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS)
     * [Wooden Stake](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI)
+* Magic Variants
+    * Durandian-Crafted Bow
+    * Durandian-Forged Blade
 * Bestiary
     * [Boomerang Cat](https://lore.dungeon.church/doc/boomerang-cat-W3QY45gDvY)
     * [Briar Tree](https://lore.dungeon.church/doc/briar-tree-fRVWJq8gZQ)

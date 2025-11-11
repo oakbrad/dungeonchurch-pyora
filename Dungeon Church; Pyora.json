@@ -1058,6 +1058,61 @@
       ]
     }
   ],
+  "magicvariant": [
+    {
+      "name": "Durandian-Crafted Bow",
+      "source": "DungeonChurch",
+      "rarity": "rare",
+      "type": "GV|DMG",
+      "requires": [
+          {
+              "bow": true
+          },
+          {
+              "crossbow": true
+          }
+      ],
+      "entries": [
+          "The forgemasters of Durandar are known for the quality of their craft.",
+          "You gain a +1 bonus to attack and damage rolls made with this magic weapon."
+      ],
+      "inherits": {
+          "namePrefix": "Durandian-Crafted ",
+          "source": "DungeonChurch",
+          "rarity": "rare",
+          "bonusWeapon": "+1",
+          "entries": [
+              "The forgemasters of Durandar are known for the quality of their craft.",
+              "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+          ]
+      }
+    },
+    {
+      "name": "Durandian-Forged Blade",
+      "source": "DungeonChurch",
+      "rarity": "rare",
+      "type": "GV|DMG",
+      "requires": [
+          {
+              "sword": true
+          }
+      ],
+      "entries": [
+          "The forgemasters of Durandar are known for the quality of their craft.",
+          "You gain a +1 bonus to attack and damage rolls made with this magic weapon."
+      ],
+      "inherits": {
+          "namePrefix": "Durandian-Forged ",
+          "source": "DungeonChurch",
+          "rarity": "rare",
+          "bonusWeapon": "+1",
+          "entries": [
+              "The forgemasters of Durandar are known for the quality of their craft.",
+              "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+          ]
+      }
+    }
+  ],
   "monster": [
     {
       "name": "Boomerang Cat",
