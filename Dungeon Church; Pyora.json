@@ -1061,8 +1061,6 @@
   "magicvariant": [
     {
       "name": "Durandian-Crafted Bow",
-      "source": "DungeonChurch",
-      "rarity": "rare",
       "type": "GV|DMG",
       "requires": [
           {
@@ -1089,8 +1087,6 @@
     },
     {
       "name": "Durandian-Forged Blade",
-      "source": "DungeonChurch",
-      "rarity": "rare",
       "type": "GV|DMG",
       "requires": [
           {
