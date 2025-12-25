@@ -4229,6 +4229,17 @@
       ]
     }
   ],
+	"itemType": [
+		{
+			"name": "Illegal Drug",
+			"abbreviation": "IDG",
+			"source": "DungeonChurch",
+      "page": 420,
+			"entriesTemplate": [
+				"{@note This item is an {@table Pyoran Substances|DungeonChurch|illegal drug} - be careful! }"
+			]
+		}
+	],
   "item": [
     {
       "name": "Abi-Tseos's Machete",
