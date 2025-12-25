@@ -194,6 +194,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [D100 Books of Pyora](https://www.dungeon.church/table/d100-books-in-a-pyoran-library)
     * [D100 Dungeon Dome Concessions](https://www.dungeon.church/table/d100-dungeon-dome-arena-concessions/)
     * Durandian Draughts
+    * Durandar Forged and Crafted
     * Faction Reptuation Tracking
     * I Know a Guy... in Pyora
     * [New Galmaarden Guilds](https://lore.dungeon.church/doc/new-galmaarden-civil-society-AjPbwTWHao)

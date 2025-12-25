@@ -1063,12 +1063,8 @@
       "name": "Durandian-Crafted Bow",
       "type": "GV|DMG",
       "requires": [
-          {
-              "bow": true
-          },
-          {
-              "crossbow": true
-          }
+          {"bow": true},
+          {"crossbow": true}
       ],
       "entries": [
           "The forgemasters of Durandar are known for the quality of their craft.",
@@ -1089,9 +1085,7 @@
       "name": "Durandian-Forged Blade",
       "type": "GV|DMG",
       "requires": [
-          {
-              "sword": true
-          }
+          {"sword": true}
       ],
       "entries": [
           "The forgemasters of Durandar are known for the quality of their craft.",
@@ -1106,6 +1100,34 @@
               "The forgemasters of Durandar are known for the quality of their craft.",
               "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
           ]
+      }
+    },
+    {
+      "name": "Takedown Weapon",
+      "type": "GV|DMG",
+      "requires": [
+        {"name": "Longbow"},
+        {"name": "Oversized Longbow"},
+        {"name": "Composite Longbow"},
+        {"name": "Heavy Crossbow"},
+        {"name": "Repeater Crossbow, Heavy"},
+        {"name": "Blackpowder Rifle"},
+        {"name": "Dragon Rifle"},
+        {"name": "Hunting Rifle"},
+        {"name": "Laser Rifle"},
+        {"name": "Automatic Rifle"},
+        {"name": "Antimatter Rifle"},
+        {"name": "Arc Rifle"}
+      ],
+      "inherits": {
+        "namePrefix": "Takedown ",
+        "source": "DungeonChurch",
+        "rarity": "rare",
+        "bonusWeapon": "+1",
+        "entries": [
+            "This weapon breaks down for easier packing or concealment. A favored tool of hunters and assasins alike.",
+            "You gain a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon."
+        ]
       }
     }
   ],
@@ -1808,6 +1830,149 @@
         "type": "external",
         "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-boar-token.png"
       }
+    },
+    {
+      "name": "Dire Bullfrog",
+      "source": "DungeonChurch",
+      "size": [
+        "L"
+      ],
+      "type": "beast",
+      "alignment": [
+        "C"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "formula": "5d10 + 5",
+        "average": 32
+      },
+      "speed": {
+        "walk": 30,
+        "swim": 40
+      },
+      "str": 15,
+      "dex": 13,
+      "con": 13,
+      "int": 3,
+      "wis": 12,
+      "cha": 3,
+      "skill": {
+        "perception": "+5",
+        "stealth": "+5",
+        "survival": "+2",
+        "intimidation": "+2"
+      },
+      "senses": [
+        "darkvision 30 ft."
+      ],
+      "passive": 15,
+      "cr": "1",
+      "trait": [
+        {
+          "name": "Amphibious",
+          "entries": [
+            "The dire bullfrog can breathe air and water."
+          ]
+        },
+        {
+          "name": "Standing Leap",
+          "entries": [
+            "The dire bullfrog's long jump is up to 20 feet and its high jump is up to 10 feet, with or without a running start."
+          ]
+        },
+        {
+          "name": "Swamp Camouflage",
+          "entries": [
+            "The dire bullfrog has advantage on Dexterity (Stealth) checks made to hide in swampy terrain or underwater."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Slap Shot",
+          "entries": [
+            "{@atk mw} {@hit 3} to hit, reach 15 ft., one target. {@h}4 ({@damage 2d6 + 1}) bludgeoning damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained}, and the dire bullfrog can't bite another target."
+          ]
+        },
+        {
+          "name": "Swallow",
+          "entries": [
+            "The dire bullfrog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is {@condition blinded} and {@condition restrained}, it has {@quickref Cover||3||total cover} against attacks and other effects outside the frog, and it takes 5 ({@damage 2d4}) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse using 5 feet of movement, exiting {@condition prone}."
+          ]
+        }
+      ],
+      "environment": [
+        "forest",
+        "swamp"
+      ],
+      "soundClip": {
+        "type": "external",
+        "url": "https://5e.dungeon.church/audio/bestiary/giant-frog.mp3"
+      },
+      "traitTags": [
+        "Amphibious",
+        "Camouflage"
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "actionTags": [
+        "Swallow"
+      ],
+      "miscTags": [
+        "MW"
+      ],
+      "conditionInflict": [
+        "blinded",
+        "grappled",
+        "restrained"
+      ],
+      "hasFluffImages": true,
+      "token": {
+        "name": "Giant Frog",
+        "source": "MM"
+      },
+      "fluff": {
+        "name": "Giant Frog",
+        "source": "MM",
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "internal",
+              "path": "bestiary/MM/Giant Frog.webp"
+            }
+          }
+        ]
+      },
+      "resist": [
+        "necrotic"
+      ],
+      "conditionImmune": [
+        "frightened",
+        "grappled"
+      ],
+      "immune": [
+        "acid",
+        "thunder"
+      ],
+      "languages": [
+        "Primordial"
+      ],
+      "languageTags": [
+        "P"
+      ],
+      "damageTags": [
+        "A",
+        "B"
+      ]
     },
     {
       "name": "Dire Hare",
@@ -8763,6 +8928,417 @@
         ]
       ]
     },
+  {
+    "name": "Durandar Forged and Crafted",
+    "source": "DungeonChurch",
+    "caption": "The Kingdom of Durandar brings exotic materials, attention to detail, and other elements that put their products above and beyond others. These properties represent the pinnacle of dwarven artisan craftsmanship.",
+    "colLabels": [
+      "d100",
+      "Property"
+    ],
+    "rows": [
+      [
+        "1",
+        "Heirloom quality"
+      ],
+      [
+        "2",
+        "Kiln hardened"
+      ],
+      [
+        "3",
+        "Clan stamped"
+      ],
+      [
+        "4",
+        "Luminous inlay"
+      ],
+      [
+        "5",
+        "Tailored balance"
+      ],
+      [
+        "6",
+        "Crystalline core"
+      ],
+      [
+        "7",
+        "Ergonomic grip"
+      ],
+      [
+        "8",
+        "Sound dampened"
+      ],
+      [
+        "9",
+        "Artfully whittled"
+      ],
+      [
+        "10",
+        "Spring-loaded"
+      ],
+      [
+        "11",
+        "Mirror polish"
+      ],
+      [
+        "12",
+        "Brass filigree"
+      ],
+      [
+        "13",
+        "Bejeweled"
+      ],
+      [
+        "14",
+        "Ivory inset"
+      ],
+      [
+        "15",
+        "Fluted"
+      ],
+      [
+        "16",
+        "Ultra-light"
+      ],
+      [
+        "17",
+        "Braided leather"
+      ],
+      [
+        "18",
+        "Gilded edge"
+      ],
+      [
+        "19",
+        "{@item Delerium-forged blade|DungeonChurch|Delerium forged}"
+      ],
+      [
+        "20",
+        "Underdark shroomwood"
+      ],
+      [
+        "21",
+        "Fungal resin grip"
+      ],
+      [
+        "22",
+        "Polished bone"
+      ],
+      [
+        "23",
+        "Weather sealed"
+      ],
+      [
+        "24",
+        "Tin plated"
+      ],
+      [
+        "25",
+        "Blackened silver"
+      ],
+      [
+        "26",
+        "Dragonscale leather"
+      ],
+      [
+        "27",
+        "Moon-bathed"
+      ],
+      [
+        "28",
+        "Fireproof"
+      ],
+      [
+        "29",
+        "Elemental etched"
+      ],
+      [
+        "30",
+        "Bronzed"
+      ],
+      [
+        "31",
+        "Feychromed"
+      ],
+      [
+        "32",
+        "Jade component"
+      ],
+      [
+        "33",
+        "Rose gold finish"
+      ],
+      [
+        "34",
+        "Blood sealed"
+      ],
+      [
+        "35",
+        "Spectral glow"
+      ],
+      [
+        "36",
+        "Prismatic coating"
+      ],
+      [
+        "37",
+        "Black pearl inlay"
+      ],
+      [
+        "38",
+        "Smoke imbued"
+      ],
+      [
+        "39",
+        "Cold forged"
+      ],
+      [
+        "40",
+        "Blessed"
+      ],
+      [
+        "41",
+        "Hand hammered"
+      ],
+      [
+        "42",
+        "Forge tempered"
+      ],
+      [
+        "43",
+        "Acid etched"
+      ],
+      [
+        "44",
+        "Blued metal"
+      ],
+      [
+        "45",
+        "Marquetry"
+      ],
+      [
+        "46",
+        "Fire-brand embossed"
+      ],
+      [
+        "47",
+        "Burnished mithral"
+      ],
+      [
+        "48",
+        "High gloss obsidian"
+      ],
+      [
+        "49",
+        "{@item Oil of Taggit|DMG|Taggit oiled}"
+      ],
+      [
+        "50",
+        "Shadow forged"
+      ],
+      [
+        "51",
+        "Blaze hardened"
+      ],
+      [
+        "52",
+        "Briarwood"
+      ],
+      [
+        "53",
+        "Treant wood"
+      ],
+      [
+        "54",
+        "Incense rubbed"
+      ],
+      [
+        "55",
+        "Twin-handed"
+      ],
+      [
+        "56",
+        "Swift draw"
+      ],
+      [
+        "57",
+        "Full-grain leather"
+      ],
+      [
+        "58",
+        "Packable"
+      ],
+      [
+        "59",
+        "Hollow construction"
+      ],
+      [
+        "60",
+        "Corrosion resistant"
+      ],
+      [
+        "61",
+        "Shock absorbing"
+      ],
+      [
+        "62",
+        "Camouflaged"
+      ],
+      [
+        "63",
+        "Fillet brazed"
+      ],
+      [
+        "64",
+        "Lightning touched"
+      ],
+      [
+        "65",
+        "Thrice tempered"
+      ],
+      [
+        "66",
+        "Silvered"
+      ],
+      [
+        "67",
+        "Platinum molded"
+      ],
+      [
+        "68",
+        "Carved elk horn"
+      ],
+      [
+        "69",
+        "Iron riveted"
+      ],
+      [
+        "70",
+        "Brass nailed"
+      ],
+      [
+        "71",
+        "Claw tipped"
+      ],
+      [
+        "72",
+        "Amber veined"
+      ],
+      [
+        "73",
+        "Burlewood"
+      ],
+      [
+        "74",
+        "Crystal studded"
+      ],
+      [
+        "75",
+        "Tiger striped"
+      ],
+      [
+        "76",
+        "Waxed leather"
+      ],
+      [
+        "77",
+        "Hex resistant"
+      ],
+      [
+        "78",
+        "Soulbound"
+      ],
+      [
+        "79",
+        "Rune inscribed"
+      ],
+      [
+        "80",
+        "Magnetized"
+      ],
+      [
+        "81",
+        "Harmonic tuned"
+      ],
+      [
+        "82",
+        "Owlbear fur lined"
+      ],
+      [
+        "83",
+        "Faerie dusted"
+      ],
+      [
+        "84",
+        "Hand carved"
+      ],
+      [
+        "85",
+        "Lattice patterned"
+      ],
+      [
+        "86",
+        "Rust proof"
+      ],
+      [
+        "87",
+        "Self-cleaning"
+      ],
+      [
+        "88",
+        "Iridescent finish"
+      ],
+      [
+        "89",
+        "Dire alligator leather"
+      ],
+      [
+        "90",
+        "Tortoiseshell veneer"
+      ],
+      [
+        "91",
+        "Copper banded"
+      ],
+      [
+        "92",
+        "Brass collared"
+      ],
+      [
+        "93",
+        "Diamond tipped"
+      ],
+      [
+        "94",
+        "Gemstone adorned"
+      ],
+      [
+        "95",
+        "Steel cored"
+      ],
+      [
+        "96",
+        "Rosewood"
+      ],
+      [
+        "97",
+        "Snakeskin"
+      ],
+      [
+        "98",
+        "Dreamvine smoked"
+      ],
+      [
+        "99",
+        "Rune branded"
+      ],
+      [
+        "100",
+        "Ichor stained"
+      ]
+    ]
+  },
     {
       "name": "Durandian Draughts",
       "source": "DungeonChurch",
