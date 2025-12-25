@@ -60,22 +60,3 @@ jobs:
         
         echo "All JSON files validated successfully! (repo: dungeonchurch-pyora)"
 
-    outputs:
-      validation_success: ${{ steps.validate.outcome == 'success' }}
-
-  update-brew:
-    name: Update Pyora Homebrew
-    needs: validate-json
-    if: ${{ needs.validate-json.outputs.validation_success == 'true' && github.ref == 'refs/heads/main' }}
-    runs-on: ubuntu-latest
-    
-    steps:
-    - name: SSH to run script on remote server
-      uses: appleboy/ssh-action@v1.0.3
-      with:
-        host: ${{ secrets.SSH_HOST }}
-        username: ${{ secrets.SSH_USER }}
-        key: ${{ secrets.SSH_KEY }}
-        port: 22
-        script: sudo /home/ubuntu/5etools-homebrew/getbrew.sh
-
