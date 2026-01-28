@@ -645,7 +645,7 @@
             "type": "inset",
             "name": "Dungeon Church Lore",
             "entries": [
-              "Learn more about {@link Dwarves in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
+              "Learn more about the {@link Dwarves of Durandar in the wiki|https://lore.dungeon.church/doc/dwarf-durandian-UOdggQRi6Y}."
             ]
           }
         ]
@@ -784,7 +784,8 @@
         "N"
       ],
       "domains": [
-        "Sun",
+        "Daylight",
+        "Summer",
         "Celestial Bodies",
         "Laughter"
       ],
@@ -888,7 +889,7 @@
       },
       "entries": [
         "Goddess of the changing seasons who represents uncontrollable wild places, hedonistic pleasure, the weather, and the domain between reality and illusion. Ostara is predictably unreliable, a force for both good & evil that often comes too early or too late, and usually in the form of tricks or riddles.",
-        "As opposed to the orderly chaotic good of {@link Selune|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it's never clear if her attention is for favor or for ill. Possibly, it's both.",
+        "As opposed to the orderly chaotic good of {@deity Selûne|pyora|dungeonchurch} who controls the rhythm of the moon and tides in the night, Ostara is true chaos that straddles the line between dreams and the light of dawn - it's never clear if her attention is for favor or for ill. Possibly, it's both.",
         "It is said in legends when she appears as a human (always just before dawn), she takes the form of an ageless blonde with a gossamer dress made from frost, riding either a hare or a nightingale, disappearing at first light.",
         "A common superstition is: Seeing a hare or a nightingale on a journey is considered either a good or bad omen, depending on the circumstances.",
         {
@@ -930,7 +931,8 @@
       },
       "entries": [
         "God of the seas who is said to hold the key to the ocean and thus power over all living things. His domain is the eternal, the ancient unknown, and stability - the rock lost sailors cling to. His beard is longer than time and changes shapes as often as the waves.",
-        "He is engaged in a never ending struggle with the cycle of the tides, as each night {@link Selune's|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} waves pull the oceans apart and and spread madness and change throughout the world.",
+        "He is engaged in a never ending struggle with the cycle of the tides, as each night {@deity Selûne|pyora|dungeonchurch}'s waves pull the oceans apart and spread madness and change throughout the world.", 
+        "Proteus sets the world back in order, locking away the most destructive and chaotic impulses beneath the waves.",
         {
           "type": "inset",
           "name": "Dungeon Church Lore",
@@ -1054,7 +1056,88 @@
         "Siduri is often depicted as a dwarf with a warm, inviting demeanor and a flowing beard adorned with jewels and hop vines, which are sacred to her. Their attire is vibrant and ever-changing, reflecting her fluid identity and the transformative nature of their domain. ",
         "In dwarven legends, Siduri was a crafty revolutionary who attempted a failed coup against the King. Imprisoned and waiting to be put to death, they escaped when the guards drank too much ale and fell asleep. Cursed to be on the run for eternity, Siduri grew a beard and changes identities to keep ahead of fate.",
         "Siduri governs over fermentation, revelry, transformation, and joy. They are the patron of brewers, vintners, artists, thieves, and all who seek the joyful liberation found in festive gatherings or revolutions. Their name is invoked to ensure the success of crops used in brewing, the battle cries of rebels, and blessed as the host of many a joyful gathering.",
-        "Siduri's most fervent followers are known to devote themselves to revolutionary causes of any and all types, no matter the grievance. A large part of their worship is organizing surreal parties, spontaneous parades, and theater troupes that transgress the taboo and occasionally veer into riots. For this reason, their temples and chapels are often persecuted or banned in large cities - widely seen as dangerous front groups for radical elements. "
+        "Siduri's most fervent followers are known to devote themselves to revolutionary causes of any and all types, no matter the grievance. A large part of their worship is organizing surreal parties, spontaneous parades, and theater troupes that transgress the taboo and occasionally veer into riots. For this reason, their temples and chapels are often persecuted or banned in large cities - widely seen as dangerous front groups for radical elements.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link Siduri in the wiki|https://lore.dungeon.church/doc/siduri-UpLIvKAUoH}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Traveler",
+      "title": "The Divine Mystery",
+      "source": "DungeonChurch",
+      "pantheon": "Pyora",
+      "alignment": [
+        "N"
+      ],
+      "domains": [
+        "Divinity",
+        "Mystery"
+      ],
+      "symbol": "White Mask",
+      "symbolImg": {
+        "type": "image",
+        "href": {
+          "type": "external",
+          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-traveler.png"
+        },
+        "style": "deity-symbol",
+        "title": ""
+      },
+      "entries": [
+        "Nearly every creed and culture in Pyora claims The Traveler as their own. Some say they are obviously {@deity Anhon|pyora|dungeonchurch}, the compass bearer. Others pledge their souls to the belief that they are the {@deity Raven Queen|pyora|dungeonchurch} - the one who oversees the journey to death. Some believe that The Traveler is one of the long lost elves, sprinkling their chosen {@race Elfmarked|dungeonchurch} among humanity to keep their old gods alive.",
+        "Every god is The Traveler, and none of the gods are. Pure chaos, the void incarnate, the kernel of truth at the center of all divinity.",
+        "The Traveler wears a white mask.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link The Traveler in the wiki|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n}."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sarenrae",
+      "title": "Goddess of Light",
+      "source": "DungeonChurch",
+      "pantheon": "Pyora",
+      "alignment": [
+        "N",
+        "G"
+      ],
+      "altNames": [
+        "Dawnflower",
+        "Dawnbringer"
+      ],
+      "domains": [
+        "Light",
+        "Morning",
+        "Beginnings"
+      ],
+      "symbol": "Dove",
+      "symbolImg": {
+        "type": "image",
+        "href": {
+          "type": "external",
+          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-sarenrae.png"
+        },
+        "style": "deity-symbol",
+        "title": ""
+      },
+      "entries": [
+        "Goddess of holy light, the dawn, and new beginnings.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link Sarenrae in the wiki|https://lore.dungeon.church/doc/sarenrae-W8XCSaoR45}."
+          ]
+        }
       ]
     }
   ],
@@ -3007,7 +3090,7 @@
             "type": "inset",
             "name": "Dungeon Church Lore",
             "entries": [
-              "Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-knight-JIpk2Tegm7}."
+              "Learn more about the {@link Iron Rider Deputy in the wiki|https://lore.dungeon.church/doc/iron-rider-deputy-S9G0VKvtRB}."
             ]
           }
         ],
@@ -3034,9 +3117,9 @@
         "M"
       ],
       "type": {
-        "type": "humanoid except Dragonborn",
+        "type": "humanoid",
         "tags": [
-          "any race"
+          "Any species but Dragonborn"
         ]
       },
       "alignment": [
@@ -4992,7 +5075,7 @@
           "type": "inset",
           "name": "Dungeon Church Lore",
           "entries": [
-            "Learn more about the {@link Dark Truth Serum in the wiki|https://lore.dungeon.church/doc/serum-of-dark-truth-XpjnKHYKML}."
+            "Learn more about the {@link Dark Truth Serum in the wiki|https://lore.dungeon.church/doc/dark-truth-serum-XpjnKHYKML}."
           ]
         }
       ],
@@ -7501,7 +7584,7 @@
           "type": "inset",
           "name": "Dungeon Church Lore",
           "entries": [
-            "Learn more about the {@link Souldbound Skull in the wiki|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ}."
+            "Learn more about the {@link Soulbound Skull in the wiki|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ}."
           ]
         }
       ],
@@ -9825,7 +9908,7 @@
       "source": "DungeonChurch",
       "caption": "Gods within the realm of Pyora.",
       "colLabels": [
-        "d8",
+        "d10",
         "Deity"
       ],
       "rows": [
@@ -9855,11 +9938,19 @@
         ],
         [
           "7",
-          "{@deity Selûne|pyora|dungeonchurch}"
+          "{@deity Sarenrae|pyora|dungeonchurch}"
         ],
         [
           "8",
+          "{@deity Selûne|pyora|dungeonchurch}"
+        ],
+        [
+          "9",
           "{@deity Siduri|pyora|dungeonchurch}"
+        ],
+        [
+          "10",
+          "{@deity The Traveler|pyora|dungeonchurch}"
         ]
       ]
     },

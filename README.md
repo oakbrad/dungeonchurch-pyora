@@ -47,8 +47,10 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
     * [Ostara](https://lore.dungeon.church/doc/ostara-pPhCdlIg9G)
     * [Proteus](https://lore.dungeon.church/doc/proteus-Apiz4CreFn)
     * [Raven Queen](https://lore.dungeon.church/doc/raven-queen-95zkXkC4gg)
+    * [Sarenrae](https://lore.dungeon.church/doc/sarenrae-W8XCSaoR45)
     * [Selûne](https://lore.dungeon.church/doc/selune-wFfmk6l5Ba)
     * [Siduri](https://lore.dungeon.church/doc/siduri-UpLIvKAUoH)
+    * [The Traveler](https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n)
 * Items
     * [Abi Teos's Machete](https://lore.dungeon.church/doc/abi-teoss-machete-ZrSq7FcMTj)
     * [Amulet of Betrayal](https://lore.dungeon.church/doc/amulet-of-betrayal-vY1rCwAwHh)

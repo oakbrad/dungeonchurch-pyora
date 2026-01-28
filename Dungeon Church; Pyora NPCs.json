@@ -201,10 +201,18 @@
       "fluff": {
         "entries": [
           {
+            "type": "entries",
+            "name": "A Dark Bargain",
+            "entries": [
+              "An orphan in early {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} who showed a natural affinity for magic, Amelia was driven out of town by a mob after killing the young {@link Oweland|https://lore.dungeon.church/doc/oweland-estate-pW6osn13sD} twin boys. {@link Sir Thomas Oweland|https://lore.dungeon.church/doc/sir-thomas-oweland-A6kJDPu7SS} and {@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs|Lamont Solmar} stepped in to save her life. As punishment, she was sent to assist the old and sickly alchemist on the outskirts of Saltmarsh.",
+              "Not safe to show her face in town, she took to exploring the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} at night, where she met {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}. The Lady promised her great power and eternal life if she would bring her the heart of someone pure. Amelia betrayed Lamont Solmar, and they were both turned into the Lady's vampire knights."
+            ]
+          },
+          {
             "type": "inset",
             "name": "Dungeon Church Lore",
             "entries": [
-              "Learn more about the {@link Amelia in the wiki|https://lore.dungeon.church/doc/amelia-mAibH1T0Em}."
+              "Learn more about {@link Amelia in the wiki|https://lore.dungeon.church/doc/amelia-mAibH1T0Em}."
             ]
           }
         ],
@@ -389,10 +397,25 @@
       "fluff": {
         "entries": [
           {
+            "type": "entries",
+            "name": "Duskmire Refugee",
+            "entries": [
+              "A druid who lives in a crooked and dilapidated hut in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}. He escaped from {@link Duskmire|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}, one of the human cattle who was preyed on for blood by the {@creature vampire|MM|vampires}. Although he physically made it out of the dark city, his mind was irreparably broken.",
+              "He spends his time alone in the woods experimenting on strange new potions and tending after the undead animals who are turned from feeding on the carrion outside the gates of the vampire city. His closest friends are a one-eyed crow named Murder and a mischievous band of {@creature zombie raccoon|dungeonchurch|zombie raccoons} who love fingers."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Noctiflora",
+            "entries": [
+              "After experimenting on {@item Nightshade Poison|dungeonchurch}, a concentrated form of {@link Sapphire Nightshade|https://lore.dungeon.church/doc/sapphire-nightshade-Qvbjiqksvy}, Caelum discovered it causes profound transformations under the light of a full moon. His findings were published as a book: {@i {@table Books of Pyora|dungeonchurch|Noctiflora: Lunar Mutagens in Solanaceae}}."
+            ]
+          },
+          {
             "type": "inset",
             "name": "Dungeon Church Lore",
             "entries": [
-              "Learn more about the {@link Caelum in the wiki|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}."
+              "Learn more about {@link Caelum in the wiki|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}."
             ]
           }
         ],
@@ -615,16 +638,24 @@
         "entries": [
           {
             "type": "entries",
+            "name": "Iron Rider",
+            "entries": [
+              "A {@creature Iron Rider Commodore|dungeonchurch|Commodore} in the {@link Iron Riders of Abraxas|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}, Daniel first arrived in {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} at the {@link Feast of the Seven Fishes|https://lore.dungeon.church/doc/session-14-festivals-eve-VAcA8ZfizE} festival, where he fought adventurers in the carnival arena before they disrupted the event and caused chaos."
+            ]
+          },
+          {
+            "type": "entries",
             "name": "Lust for Vengeance",
             "entries": [
-              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs|Lamont Solmar}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He has consolidated control of security forces after the {@creature sahuagin} attack, and taken over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
+              "His {@link father|https://lore.dungeon.church/doc/commodore-wardell-warrington-JVLIYKxGXE} the former Commodore was {@link killed aboard|https://lore.dungeon.church/doc/session-15-16-murder-on-the-jubilee-b5dYJiJkGZ} the Dragon's Jubilee by the vampire {@creature Lamont Solmar, Knight of Night|DungeonChurchNPCs|Lamont Solmar}, who was shapechanged as {@link Skerrin Wavechaser|https://lore.dungeon.church/doc/skerrin-wavechaser-sCnR3QOnff}. The young Lieutenant became the new Commodore, bent on avenging his father's death. He consolidated control of security forces after the {@link sahuagin attack|https://lore.dungeon.church/doc/session-17-the-fate-of-saltmarsh-mBiDgChv72}, taking over what was left of the {@link Saltmarsh Town Guard|https://lore.dungeon.church/doc/saltmarsh-town-guard-v63eLpRU1Q} and thus gaining himself a seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}."
             ]
           },
           {
             "type": "entries",
             "name": "Curse of Lycanthropy",
             "entries": [
-              "During a {@link brazen assault |https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by monsters directed by Lady Nightshade, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope."
+              "During a {@link brazen assault|https://lore.dungeon.church/doc/the-ladys-price-9GqAM1W0Pw} on his mansion by an assassin squad sent by {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}, Daniel was dosed with {@item Nightshade Poison|dungeonchurch}, transforming him into a {@creature wereboar} lycanthrope. His baby boy was stolen from his wife's arms during the attack.",
+              "Adventurers from the {@link Gold Scale Company|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP} later tracked his wereboar form down in the forest, discovering that he was the murderous beast that had been terrorizing the town."
             ]
           },
           {
@@ -881,6 +912,13 @@
       },
       "fluff": {
         "entries": [
+          {
+            "type": "entries",
+            "name": "The King of Thieves",
+            "entries": [
+              "A bandit {@creature child of the briar|tob1-2023} and self-described \"King,\" Thistletongue is mostly known for robbing travelers in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT} for shiny objects with his merry band of entanglers."
+            ]
+          },
           {
             "type": "entries",
             "name": "Born of Magic",
@@ -1148,10 +1186,33 @@
       "fluff": {
         "entries": [
           {
+            "type": "entries",
+            "name": "Life",
+            "entries": [
+              "Known in life as Lamont Solmar, the wealthy owner of a shipbuilding company and patriarch of a founding family of {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}. A tall, blonde man known for his fairness, good character, and generosity. He mysteriously disappeared on a hunting trip in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}, leaving behind his son {@link Anders|https://lore.dungeon.church/doc/anders-solmor-njTKn6ITMV} to carry on the family business and take his seat on the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}.",
+              "His disappearance was actually the result of a betrayal by the witch {@creature Amelia, Knight of Twilight|DungeonChurchNPCs|Amelia}, and he was turned into one of {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}'s {@creature vampire|MM} knights."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Undeath",
+            "entries": [
+              "In undeath he was known and feared by many names: {@i The Antlered One, The Dark Druid, The Knight of Night.} He used his shapechanging nature to infiltrate Saltmarsh, {@link Skerrin Wavechaser|https://lore.dungeon.church/doc/skerrin-wavechaser-sCnR3QOnff} was one such identity, and undoubtedly there were others.",
+              "Turned into a {@creature vampire|MM} by the {@link Lady Nightshade|https://lore.dungeon.church/doc/lady-nightshade-3kjLNj2Zbs}, he ran an underground plantation in the perpetual twilight beneath {@link the Sunless Temple|https://lore.dungeon.church/doc/sunless-temple-yS5i3gqWiO}. Using the souls of the dragonborn who died in the temple as slave labor, he produced large amounts of {@item Sapphire Nightshade|dungeonchurch} to aid the witch-lich's plans."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Death",
+            "entries": [
+              "A party of adventurers from the {@link Gold Scale Company|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP}, accompanied by a brave {@creature kobold|MM} named {@link Meepo|https://lore.dungeon.church/doc/meepo-UMrKyHk53I}, tracked Solmar into his lair and killed him."
+            ]
+          },
+          {
             "type": "inset",
             "name": "Dungeon Church Lore",
             "entries": [
-              "Learn more about the {@link Lamont Solmar in the wiki|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
+              "Learn more about {@link Lamont Solmar in the wiki|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}."
             ]
           }
         ],
@@ -1331,6 +1392,21 @@
               {
                 "type": "entries",
                 "entries": [
+                  {
+                    "type": "entries",
+                    "name": "Dark Arbiter",
+                    "entries": [
+                      "Mildred Magpie is one of the most ancient {@creature hag|MM|hags} living in the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}. Among all factions both fell and fey in this dark forest, she is respected as an arbiter of contracts, a negotiator of disputes, and a fair judge of matters brought before her.",
+                      "But like most hags, she demands a high price: in the fine print of all of the contracts within her {@i {@table Books of Pyora|dungeonchurch|Black Book}}, at least one soul must be wagered for her to take interest. It is rumored Mildred is so old that she learned this type of soul binding sorcery from the dragon emperor herself."
+                    ]
+                  },
+                  {
+                    "type": "entries",
+                    "name": "The Wraithwoven",
+                    "entries": [
+                      "What she and her coven, the {@link Wraithwoven|https://lore.dungeon.church/doc/wraithwoven-9LLv5L3Ka8}, do with these souls is unclear, a closely guarded secret by its members. It is known that one of Mildred's personal apprentices, {@link Sakabatha|https://lore.dungeon.church/doc/sakabatha-Jw9m5UyWoA}, stole some of these secrets and fled to join the carnival of {@link Revelia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K}."
+                    ]
+                  },
                   "The wretched and hateful green hags dwell in dying forests, lonely swamps, and misty moors, making their homes in caves. Green hags love to manipulate other creatures into doing their bidding, masking their intentions behind layers of deception. They lure victims to them by mimicking voices calling out for help, or drive unwanted visitors away by imitating the cries of fierce beasts.",
                   {
                     "type": "entries",
