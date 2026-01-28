@@ -40,7 +40,7 @@ jobs:
     name: Sync static assets to OCI bucket
     # Only run on main branch to avoid unintended syncs from feature branches
     #if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: docker
     env:
       OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
       OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}

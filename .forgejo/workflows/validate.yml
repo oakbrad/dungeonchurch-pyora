@@ -11,7 +11,7 @@ on:
 jobs:
   validate-json:
     name: Validate JSON against 5etools schema
-    runs-on: ubuntu-latest
+    runs-on: docker
     
     steps:
     - name: Checkout repository
