@@ -7,6 +7,8 @@ on:
   pull_request:
     paths:
       - 'Dungeon Church*.json'
+  # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   validate-json:
