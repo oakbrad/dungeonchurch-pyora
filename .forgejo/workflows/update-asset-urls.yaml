@@ -170,3 +170,9 @@ jobs:
           # Push using token for authentication
           git remote set-url origin "https://oauth2:${GITHUB_TOKEN}@${GITHUB_SERVER_URL#https://}/${GITHUB_REPOSITORY}.git"
           git push origin main
+
+      - name: Trigger downstream update
+        uses: https://git.michaelsasser.org/actions/workflow-dispatch@main
+        with:
+          workflowname: update-downstream.yaml
+          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
