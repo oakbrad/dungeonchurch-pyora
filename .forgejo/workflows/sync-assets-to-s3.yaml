@@ -38,42 +38,55 @@ on:
 jobs:
   sync-assets:
     name: Sync static assets to OCI bucket
-    # Only run on main branch to avoid unintended syncs from feature branches
-    #if: github.ref == 'refs/heads/main'
     runs-on: docker
-    env:
-      OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
-      OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}
-      OCI_CLI_FINGERPRINT: ${{ secrets.OCI_CLI_FINGERPRINT }}
-      OCI_CLI_KEY_CONTENT: ${{ secrets.OCI_CLI_KEY_CONTENT }}
-      OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
-    
+    container:
+      image: python:3.12-slim
+
     steps:
-      # Run for each filetype so we can set the content-type appropriately, then run again to delete
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
+      # Install OCI CLI and configure authentication
+      - name: Install and configure OCI CLI
+        env:
+          OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
+          OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}
+          OCI_CLI_FINGERPRINT: ${{ secrets.OCI_CLI_FINGERPRINT }}
+          OCI_CLI_KEY_CONTENT: ${{ secrets.OCI_CLI_KEY_CONTENT }}
+          OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
+        run: |
+          pip install oci-cli --quiet
+
+          # Create OCI config directory and files
+          mkdir -p ~/.oci
+
+          # Write the private key
+          echo "$OCI_CLI_KEY_CONTENT" > ~/.oci/oci_api_key.pem
+          chmod 600 ~/.oci/oci_api_key.pem
+
+          # Write the config file
+          cat > ~/.oci/config << EOF
+          [DEFAULT]
+          user=$OCI_CLI_USER
+          fingerprint=$OCI_CLI_FINGERPRINT
+          tenancy=$OCI_CLI_TENANCY
+          region=$OCI_CLI_REGION
+          key_file=~/.oci/oci_api_key.pem
+          EOF
+          chmod 600 ~/.oci/config
+
+      # Run for each filetype so we can set the content-type appropriately
       - name: Sync JPG files
-        uses: oracle-actions/run-oci-cli-command@v1.1
-        with:
-          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.jpg" --content-type image/jpeg
+        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.jpg" --content-type image/jpeg
 
       - name: Sync PNG files
-        uses: oracle-actions/run-oci-cli-command@v1.1
-        with:
-          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.png" --content-type image/png
+        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.png" --content-type image/png
 
       - name: Sync MP3 files
-        uses: oracle-actions/run-oci-cli-command@v1.1
-        with:
-          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp3" --content-type audio/mpeg
+        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp3" --content-type audio/mpeg
 
       - name: Sync MP4 files
-        uses: oracle-actions/run-oci-cli-command@v1.1
-        with:
-          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp4" --content-type video/mp4
+        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp4" --content-type video/mp4
 
-      - name: Delete removed files
-        uses: oracle-actions/run-oci-cli-command@v1.1
-        with:
-          command: os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --delete
+      - name: Delete removed files from bucket
+        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --delete
