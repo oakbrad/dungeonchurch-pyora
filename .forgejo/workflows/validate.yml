@@ -15,11 +15,11 @@ jobs:
     name: Validate JSON against 5etools schema
     runs-on: docker
     container:
-      image: node:18-alpine
+      image: node:20-bookworm
 
     steps:
-    - name: Install dependencies
-      run: apk add --no-cache git curl
+    - name: Install git
+      run: apt-get update && apt-get install -y git
 
     - name: Checkout repository
       uses: actions/checkout@v4
