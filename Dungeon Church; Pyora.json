@@ -1276,23 +1276,30 @@
         "urban"
       ],
       "familiar": true,
-      "soundClip": {
-        "type": "external",
-        "url": "https://5e.dungeon.church/audio/bestiary/cat.mp3"
-      },
       "traitTags": [
         "Keen Senses"
       ],
       "miscTags": [
         "MW"
       ],
-      "token": {
-        "name": "Cat",
-        "source": "MM"
-      },
       "damageTags": [
         "S"
-      ]
+      ],
+      "tokenHref": {
+        "type": "external",
+        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-boomerang-cat-token.png"
+      },
+      "fluff": {
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-boomerang-cat.png"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Briar Tree",
