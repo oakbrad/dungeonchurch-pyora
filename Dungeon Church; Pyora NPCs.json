@@ -245,11 +245,9 @@
         "M"
       ],
       "type": {
-        "type": {
-          "choose": []
-        },
+        "type": "humanoid",
         "tags": [
-          "Human"
+            "pyoran"
         ]
       },
       "alignment": [
@@ -471,10 +469,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-          {
-            "tag": "human",
-            "prefix": "Pyoran"
-          }
+            "pyoran"
         ]
       },
       "alignment": [
