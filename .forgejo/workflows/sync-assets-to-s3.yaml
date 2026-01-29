@@ -47,7 +47,16 @@ jobs:
           RCLONE_CONFIG_OCI_ACCESS_KEY_ID: ${{ secrets.OCI_S3_ACCESS_KEY }}
           RCLONE_CONFIG_OCI_SECRET_ACCESS_KEY: ${{ secrets.OCI_S3_SECRET_KEY }}
           RCLONE_CONFIG_OCI_ENDPOINT: https://${{ secrets.OCI_NAMESPACE }}.compat.objectstorage.${{ secrets.OCI_REGION }}.oraclecloud.com
+          RCLONE_CONFIG_OCI_REGION: ${{ secrets.OCI_REGION }}
         run: |
+          set -eo pipefail
           rclone sync static/ oci:dungeonchurch-content/5e/ \
             --checksum \
-            --verbose
+            --verbose \
+            2>&1 | tee /tmp/rclone.log
+
+          # Fail if any errors occurred
+          if grep -q "^.*ERROR" /tmp/rclone.log; then
+            echo "Errors detected during sync"
+            exit 1
+          fi
