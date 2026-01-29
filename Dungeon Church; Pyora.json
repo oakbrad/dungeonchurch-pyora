@@ -2024,24 +2024,6 @@
         "grappled",
         "restrained"
       ],
-      "hasFluffImages": true,
-      "token": {
-        "name": "Giant Frog",
-        "source": "MM"
-      },
-      "fluff": {
-        "name": "Giant Frog",
-        "source": "MM",
-        "images": [
-          {
-            "type": "image",
-            "href": {
-              "type": "internal",
-              "path": "bestiary/MM/Giant Frog.webp"
-            }
-          }
-        ]
-      },
       "resist": [
         "necrotic"
       ],
@@ -2062,7 +2044,23 @@
       "damageTags": [
         "A",
         "B"
-      ]
+      ],
+      "fluff": {
+        "entries": [],
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-dire-bullfrog.png"
+            }
+          }
+        ]
+      },
+      "tokenHref": {
+        "type": "external",
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-dire-bullfrog-token.png"
+      }
     },
     {
       "name": "Dire Hare",
