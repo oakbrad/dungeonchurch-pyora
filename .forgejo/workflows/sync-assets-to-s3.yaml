@@ -7,7 +7,7 @@ name: Sync Static Assets to OCI Object Storage
 # - OCI_S3_ACCESS_KEY: Access Key from Customer Secret Keys
 # - OCI_S3_SECRET_KEY: Secret Key from Customer Secret Keys
 # - OCI_NAMESPACE: Your tenancy's Object Storage namespace
-# - OCI_REGION: OCI region (e.g., us-ashburn-1)
+# - OCI_CLI_REGION: OCI region (e.g., us-ashburn-1)
 #
 # To generate Customer Secret Keys:
 # 1. OCI Console → Profile → User Settings
@@ -46,8 +46,8 @@ jobs:
           RCLONE_CONFIG_OCI_PROVIDER: Other
           RCLONE_CONFIG_OCI_ACCESS_KEY_ID: ${{ secrets.OCI_S3_ACCESS_KEY }}
           RCLONE_CONFIG_OCI_SECRET_ACCESS_KEY: ${{ secrets.OCI_S3_SECRET_KEY }}
-          RCLONE_CONFIG_OCI_ENDPOINT: https://${{ secrets.OCI_NAMESPACE }}.compat.objectstorage.${{ secrets.OCI_REGION }}.oraclecloud.com
-          RCLONE_CONFIG_OCI_REGION: ${{ secrets.OCI_REGION }}
+          RCLONE_CONFIG_OCI_ENDPOINT: https://${{ secrets.OCI_NAMESPACE }}.compat.objectstorage.${{ secrets.OCI_CLI_REGION }}.oraclecloud.com
+          RCLONE_CONFIG_OCI_REGION: ${{ secrets.OCI_CLI_REGION }}
         run: |
           set -eo pipefail
           rclone sync static/ oci:dungeonchurch-content/5e/ \
