@@ -44,7 +44,9 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        run: |
+          apt-get update && apt-get install -y git
+          git clone --depth 1 $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git .
 
       # Install OCI CLI and configure authentication
       - name: Install and configure OCI CLI
