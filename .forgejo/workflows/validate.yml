@@ -18,8 +18,8 @@ jobs:
       image: node:18-alpine
 
     steps:
-    - name: Install git
-      run: apk add --no-cache git
+    - name: Install dependencies
+      run: apk add --no-cache git curl
 
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -47,4 +47,11 @@ jobs:
         fi
 
         echo "All JSON files validated successfully!"
+
+    - name: Trigger downstream update
+      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+      uses: https://git.michaelsasser.org/actions/workflow-dispatch@main
+      with:
+        workflowname: update-downstream.yaml
+        token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
 

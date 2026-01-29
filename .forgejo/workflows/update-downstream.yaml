@@ -1,20 +1,13 @@
 name: Trigger Downstream Repos
 
 # This workflow triggers dungeonchurch/homebrew when JSON files change.
-# It handles two scenarios:
-# 1. Manual JSON edits: triggered via push event
-# 2. Automated URL updates: triggered via workflow_dispatch (since those commits use [skip ci])
+# Triggered by:
+# 1. validate.yml after successful validation on push to main
+# 2. update-asset-urls.yaml after URL replacement (which uses [skip ci])
+# 3. Manual dispatch for testing
 
 on:
-  # Triggered by update-asset-urls after [skip ci] commit
   workflow_dispatch:
-
-  # Triggered by manual JSON edits (not [skip ci] commits)
-  push:
-    paths:
-      - '*.json'
-    branches:
-      - main
 
 jobs:
   trigger-homebrew:
