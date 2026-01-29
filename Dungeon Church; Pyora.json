@@ -36,7 +36,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/condition-intoxicated.jpg"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/condition-intoxicated.jpg"
             }
           }
         ]
@@ -264,7 +264,7 @@
       ],
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-ravenfolk.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-ravenfolk.mp3"
       },
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "fluff": {
@@ -374,7 +374,7 @@
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-tribeborn.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-tribeborn.mp3"
       },
       "fluff": {
         "entries": [
@@ -401,7 +401,7 @@
       "raceSource": "PHB",
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-pyoran.mp3"
       },
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "fluff": {
@@ -633,7 +633,7 @@
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-durandar.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-durandar.mp3"
       },
       "hasFluff": true,
       "fluff": {
@@ -682,7 +682,7 @@
       ],
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-pyoran.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-pyoran.mp3"
       },
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "fluff": {
@@ -758,7 +758,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-abraxas.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-abraxas.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -798,7 +798,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-anhon.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-anhon.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -839,7 +839,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-azrael.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-azrael.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -882,7 +882,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-ostara.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-ostara.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -924,7 +924,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-proteus.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-proteus.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -966,7 +966,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-ravenqueen.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-ravenqueen.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -1007,7 +1007,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-selune.jpg"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-selune.jpg"
         },
         "style": "deity-symbol",
         "title": ""
@@ -1047,7 +1047,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-siduri.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-siduri.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -1083,7 +1083,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-traveler.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-traveler.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -1124,7 +1124,7 @@
         "type": "image",
         "href": {
           "type": "external",
-          "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/deity-sarenrae.png"
+          "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/deity-sarenrae.png"
         },
         "style": "deity-symbol",
         "title": ""
@@ -1387,7 +1387,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-tree-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-briar-tree-token.png"
       },
       "fluff": {
         "images": [
@@ -1395,7 +1395,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-tree.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-briar-tree.png"
             }
           }
         ]
@@ -1509,7 +1509,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-briar-mound-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-briar-mound-token.png"
       },
       "fluff": {
         "images": [
@@ -1517,7 +1517,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-briar-mound.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-briar-mound.png"
             }
           }
         ]
@@ -1619,7 +1619,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-clockwork-shark-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-clockwork-shark-token.png"
       },
       "senseTags": [
         "D"
@@ -1642,7 +1642,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-clockwork-shark.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-clockwork-shark.png"
             }
           }
         ]
@@ -1797,14 +1797,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-coal-golem.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-coal-golem.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-coal-golem-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-coal-golem-token.png"
       }
     },
     {
@@ -1904,14 +1904,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-boar.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-dire-boar.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-boar-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-dire-boar-token.png"
       }
     },
     {
@@ -2124,14 +2124,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-dire-hare.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-dire-hare.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-dire-hare-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-dire-hare-token.png"
       },
       "senses": [
         "darkvision 120 ft."
@@ -2311,14 +2311,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-giant-coal-ant.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-giant-coal-ant.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-giant-coal-ant-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-giant-coal-ant-token.png"
       }
     },
     {
@@ -2507,14 +2507,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-hellion-child.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-hellion-child.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-hellion-child-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-hellion-child-token.png"
       }
     },
     {
@@ -2612,7 +2612,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-deputy-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-deputy-token.png"
       },
       "attachedItems": [
         "longbow|phb",
@@ -2647,7 +2647,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-deputy.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-iron-rider-deputy.png"
             }
           }
         ]
@@ -2759,7 +2759,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-hunter-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-hunter-token.png"
       },
       "attachedItems": [
         "longbow|phb",
@@ -2799,7 +2799,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-hunter.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-iron-rider-hunter.png"
             }
           }
         ]
@@ -2927,7 +2927,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-commodore-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-commodore-token.png"
       },
       "actionTags": [
         "Multiattack"
@@ -2958,7 +2958,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-commodore.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-iron-rider-commodore.png"
             }
           }
         ]
@@ -3066,7 +3066,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-knight-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-knight-token.png"
       },
       "actionTags": [
         "Multiattack"
@@ -3099,7 +3099,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-knight.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-iron-rider-knight.png"
             }
           }
         ]
@@ -3222,7 +3222,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-priest-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-priest-token.png"
       },
       "languageTags": [
         "X"
@@ -3263,7 +3263,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-iron-rider-priest.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-iron-rider-priest.png"
             }
           }
         ]
@@ -3414,7 +3414,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-warder-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-warder-token.png"
       },
       "actionTags": [
         "Multiattack"
@@ -3459,7 +3459,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-iron-rider-warder-token.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-iron-rider-warder-token.png"
             }
           }
         ]
@@ -3542,14 +3542,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-one-eyed-purple-breasted-warbler.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-one-eyed-purple-breasted-warbler.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-one-eyed-purple-breasted-warbler-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-one-eyed-purple-breasted-warbler-token.png"
       },
       "shortName": "Purple Warbler",
       "damageTags": [
@@ -3804,7 +3804,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-scorchcock-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-scorchcock-token.png"
       },
       "hasToken": true,
       "fluff": {
@@ -3827,7 +3827,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-scorchcock.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-scorchcock.png"
             }
           }
         ]
@@ -3933,7 +3933,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-vomit-ooze-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-vomit-ooze-token.png"
       },
       "traitTags": [
         "Amorphous",
@@ -3989,7 +3989,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-vomit-ooze.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-vomit-ooze.png"
             }
           }
         ]
@@ -4134,14 +4134,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-raccoon.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-zombie-raccoon.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-raccoon-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-zombie-raccoon-token.png"
       }
     },
     {
@@ -4286,7 +4286,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-zombie-vulture.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-zombie-vulture.png"
             }
           }
         ]
@@ -4296,7 +4296,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-zombie-vulture-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-zombie-vulture-token.png"
       },
       "environment": [
         "desert",
@@ -4395,7 +4395,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-amulet-of-betrayal.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-amulet-of-betrayal.png"
             }
           }
         ]
@@ -4433,7 +4433,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-amulet-of-false-life.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-amulet-of-false-life.png"
             }
           }
         ],
@@ -4500,7 +4500,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-avalon-engineers-signet.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-avalon-engineers-signet.png"
             }
           }
         ]
@@ -4539,7 +4539,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-avalonian-lantern.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-avalonian-lantern.png"
             }
           }
         ]
@@ -4645,7 +4645,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-bag-of-rust.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-bag-of-rust.png"
             }
           }
         ]
@@ -4678,7 +4678,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-banshee-blight.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-banshee-blight.png"
             }
           }
         ]
@@ -4712,7 +4712,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-berserkers-draught.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-berserkers-draught.png"
             }
           }
         ],
@@ -4748,7 +4748,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-black-diamond.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-black-diamond.png"
             }
           }
         ]
@@ -4782,7 +4782,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-blacklung-brew.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-blacklung-brew.png"
             }
           }
         ],
@@ -4839,7 +4839,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-brooch-of-witchsight.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-brooch-of-witchsight.png"
             }
           }
         ]
@@ -4965,7 +4965,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-cloak-of-rats.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-cloak-of-rats.png"
             }
           }
         ]
@@ -4998,7 +4998,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-collector-of-souls.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-collector-of-souls.png"
             }
           }
         ],
@@ -5051,7 +5051,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dagger-of-profuse-bleeding.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dagger-of-profuse-bleeding.png"
             }
           }
         ]
@@ -5085,7 +5085,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dark-truth-serum.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dark-truth-serum.png"
             }
           }
         ],
@@ -5123,7 +5123,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-deepgarden-cider.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-deepgarden-cider.png"
             }
           }
         ],
@@ -5171,7 +5171,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-delerium-forged-dagger.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-delerium-forged-dagger.png"
             }
           }
         ]
@@ -5202,7 +5202,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dimensional-glasses.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dimensional-glasses.png"
             }
           }
         ]
@@ -5236,7 +5236,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dream-vine.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dream-vine.png"
             }
           }
         ]
@@ -5271,7 +5271,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-dubbelheart-ale.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dubbelheart-ale.png"
             }
           }
         ],
@@ -5336,7 +5336,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-eclipse-lantern.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-eclipse-lantern.png"
             }
           }
         ]
@@ -5380,7 +5380,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-entrancing-mirror.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-entrancing-mirror.png"
             }
           }
         ]
@@ -5414,7 +5414,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-essence-of-submission.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-essence-of-submission.png"
             }
           }
         ],
@@ -5465,7 +5465,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fedora-of-disguise.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-fedora-of-disguise.png"
             }
           }
         ]
@@ -5516,7 +5516,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fist-of-durradin.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-fist-of-durradin.png"
             }
           }
         ]
@@ -5563,7 +5563,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-fizs-flute.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-fizs-flute.png"
             }
           }
         ]
@@ -5597,7 +5597,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-forge-mead.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-forge-mead.png"
             }
           }
         ]
@@ -5647,7 +5647,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-gloomroot-extract.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-gloomroot-extract.png"
             }
           }
         ],
@@ -5762,7 +5762,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-gnomish-tea-set.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-gnomish-tea-set.png"
             }
           }
         ]
@@ -5814,7 +5814,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-guildmasters-hunting-horn.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-guildmasters-hunting-horn.png"
             }
           }
         ]
@@ -5870,7 +5870,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ley-line-lens.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-ley-line-lens.png"
             }
           }
         ]
@@ -5904,7 +5904,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-hearthhoney-braggot.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-hearthhoney-braggot.png"
             }
           }
         ],
@@ -5962,7 +5962,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-longsword-of-dragon-empire.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-longsword-of-dragon-empire.png"
             }
           }
         ]
@@ -5996,7 +5996,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-lumengrove-tincture.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-lumengrove-tincture.png"
             }
           }
         ],
@@ -6056,7 +6056,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-migrant-bitters.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-migrant-bitters.png"
             }
           }
         ]
@@ -6097,7 +6097,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-mildreds-amulet.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-mildreds-amulet.png"
             }
           }
         ]
@@ -6153,7 +6153,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-minor-belt-of-dwarvenkind.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-minor-belt-of-dwarvenkind.png"
             }
           }
         ]
@@ -6183,7 +6183,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-monster-id-cards.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-monster-id-cards.png"
             }
           }
         ]
@@ -6246,7 +6246,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-night-messenger-cloak.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-night-messenger-cloak.png"
             }
           }
         ]
@@ -6278,7 +6278,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-nightshades-ring.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-nightshades-ring.png"
             }
           }
         ]
@@ -6311,7 +6311,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-nightshade-poison.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-nightshade-poison.png"
             }
           }
         ]
@@ -6365,7 +6365,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-oil-of-immolation.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-oil-of-immolation.png"
             }
           }
         ]
@@ -6439,7 +6439,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-painting-lamont-solmar.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-painting-lamont-solmar.png"
             }
           }
         ]
@@ -6474,7 +6474,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-pluvovitz-schnapps.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-pluvovitz-schnapps.png"
             }
           }
         ],
@@ -6510,7 +6510,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-incorporeal-passage.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-incorporeal-passage.png"
             }
           }
         ]
@@ -6543,7 +6543,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-midnight-oil.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-midnight-oil.png"
             }
           }
         ]
@@ -6581,7 +6581,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-oblivion.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-oblivion.png"
             }
           }
         ]
@@ -6613,7 +6613,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-unbridled-potential.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-unbridled-potential.png"
             }
           }
         ]
@@ -6652,7 +6652,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-undeath.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-undeath.png"
             }
           }
         ]
@@ -6686,7 +6686,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-shouting.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-shouting.png"
             }
           }
         ]
@@ -6718,7 +6718,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-mossy-oak.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-mossy-oak.png"
             }
           }
         ]
@@ -6751,7 +6751,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-potion-of-vile-strength.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-potion-of-vile-strength.png"
             }
           }
         ]
@@ -6803,7 +6803,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-pyrotov-cocktail.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-pyrotov-cocktail.png"
             }
           }
         ]
@@ -6866,7 +6866,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-rationing-spice.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-rationing-spice.png"
             }
           }
         ]
@@ -6952,7 +6952,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ring-of-prestidigitation.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-ring-of-prestidigitation.png"
             }
           }
         ]
@@ -7001,7 +7001,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-ring-of-water-breathing.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-ring-of-water-breathing.png"
             }
           }
         ]
@@ -7032,7 +7032,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sapphire-nightshade.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-sapphire-nightshade.png"
             }
           }
         ]
@@ -7064,14 +7064,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-siduris-token_front.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-siduris-token_front.png"
             }
           },
           {
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-siduris-token_back.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-siduris-token_back.png"
             }
           }
         ]
@@ -7101,7 +7101,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sphere-of-everlasting-ice.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-sphere-of-everlasting-ice.png"
             }
           }
         ]
@@ -7143,7 +7143,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-sporebane.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-sporebane.png"
             }
           }
         ]
@@ -7175,7 +7175,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-spores-of-delirium.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-spores-of-delirium.png"
             }
           }
         ]
@@ -7302,7 +7302,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stone-of-sargoth-the-eternal.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-stone-of-sargoth-the-eternal.png"
             }
           }
         ]
@@ -7339,7 +7339,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stoneflower-ale.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-stoneflower-ale.png"
             }
           }
         ],
@@ -7385,7 +7385,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-stone-tea.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-stone-tea.png"
             }
           }
         ]
@@ -7419,7 +7419,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-shield-of-duskmire.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-shield-of-duskmire.png"
             }
           }
         ]
@@ -7460,7 +7460,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-shield-of-missile-deflection.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-shield-of-missile-deflection.png"
             }
           }
         ]
@@ -7491,7 +7491,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-skeleton-key.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-skeleton-key.png"
             }
           }
         ]
@@ -7518,7 +7518,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-slug-slime.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-slug-slime.png"
             }
           }
         ]
@@ -7552,7 +7552,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-snake-oil.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-snake-oil.png"
             }
           }
         ]
@@ -7594,7 +7594,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-soulbound-skull.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-soulbound-skull.png"
             }
           }
         ],
@@ -7654,7 +7654,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-red-talon.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-red-talon.png"
             }
           }
         ]
@@ -7687,7 +7687,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-dark-resolve.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-vial-of-dark-resolve.png"
             }
           }
         ]
@@ -7755,7 +7755,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-last-harvest.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-vial-of-last-harvest.png"
             }
           }
         ]
@@ -7789,7 +7789,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-vial-of-veilblood.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-vial-of-veilblood.png"
             }
           }
         ]
@@ -7822,7 +7822,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-void-essence.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-void-essence.png"
             }
           }
         ]
@@ -7893,7 +7893,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-whisperwine.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-whisperwine.png"
             }
           }
         ]
@@ -7936,7 +7936,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/item-wooden-stake.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-wooden-stake.png"
             }
           }
         ]

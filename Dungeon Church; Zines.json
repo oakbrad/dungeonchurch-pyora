@@ -30,7 +30,7 @@
 			"author": "DM Brad",
 			"cover": {
 				"type": "external",
-				"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-cover.png"
+				"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-cover.png"
 			},
 			"contents": [
 				{
@@ -113,7 +113,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-timeline.png"
+										"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-timeline.png"
 									},
 									"title": "Pyora Timeline",
 									"credit": "From Session 0.1 on 6/11/21"
@@ -135,7 +135,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-hex.png"
+										"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-map-hex.png"
 									},
 									"title": "Pyora original hex map"
 								},
@@ -143,7 +143,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-pyora.png"
+										"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-map-pyora.png"
 									},
 									"title": "Pyora first draft map"
 								}
@@ -178,7 +178,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh.png"
+										"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-map-saltmarsh.png"
 									},
 									"title": "Saltmarsh map"
 								},
@@ -186,7 +186,7 @@
 									"type": "image",
 									"href": {
 										"type": "external",
-										"url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/dc1-map-saltmarsh-region.jpg"
+										"url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/dc1-map-saltmarsh-region.jpg"
 									},
 									"title": "Saltmarsh region map"
 								}

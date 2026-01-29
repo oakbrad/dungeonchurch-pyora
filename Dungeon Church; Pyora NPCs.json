@@ -177,7 +177,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-amelia-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-amelia-token.png"
       },
       "traitTags": [
         "Magic Resistance"
@@ -221,7 +221,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-amelia.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-amelia.png"
             }
           }
         ]
@@ -388,11 +388,11 @@
       "hasFluffImages": true,
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-caelum-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-caelum-token.png"
       },
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-caelum-the-druid.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-caelum-the-druid.mp3"
       },
       "fluff": {
         "entries": [
@@ -424,7 +424,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-caelum.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-caelum.png"
             }
           }
         ]
@@ -622,7 +622,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-commodore-daniel-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-commodore-daniel-token.png"
       },
       "actionTags": [
         "Multiattack"
@@ -671,7 +671,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-commodore-daniel.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-commodore-daniel.png"
             }
           }
         ]
@@ -908,7 +908,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-king-thistletongue-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-king-thistletongue-token.png"
       },
       "fluff": {
         "entries": [
@@ -954,7 +954,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-king-thistletongue.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-king-thistletongue.png"
             }
           }
         ]
@@ -1146,7 +1146,7 @@
       ],
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-lamont-solmar.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-lamont-solmar.mp3"
       },
       "traitTags": [
         "Legendary Resistances",
@@ -1181,7 +1181,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-lamont-solmar-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-lamont-solmar-token.png"
       },
       "fluff": {
         "entries": [
@@ -1221,7 +1221,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-lamont-solmar.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-lamont-solmar.png"
             }
           }
         ]
@@ -1350,7 +1350,7 @@
       ],
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/sounds/pron-mildred-magpie.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-mildred-magpie.mp3"
       },
       "traitTags": [
         "Amphibious"
@@ -1560,14 +1560,14 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-mildred-magpie.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-mildred-magpie.png"
             }
           }
         ]
       },
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-mildred-magpie-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-mildred-magpie-token.png"
       },
       "conditionImmune": [
         "charmed"
