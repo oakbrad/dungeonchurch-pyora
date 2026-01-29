@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          apt-get update && apt-get install -y git jq
+          apt-get update && apt-get install -y git jq curl
 
       - name: Checkout repository
         run: |

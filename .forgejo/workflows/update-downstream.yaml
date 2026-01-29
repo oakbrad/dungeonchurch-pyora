@@ -20,6 +20,8 @@ jobs:
   trigger-homebrew:
     name: Trigger dungeonchurch/homebrew
     runs-on: docker
+    container:
+      image: node:20-bookworm
     steps:
       - name: Trigger downstream workflow
         uses: https://git.michaelsasser.org/actions/workflow-dispatch@main
