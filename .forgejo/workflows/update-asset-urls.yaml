@@ -1,0 +1,172 @@
+name: Update Asset URLs to OCI Object Storage
+
+# This workflow replaces GitHub raw URLs in JSON files with OCI Object Storage URLs.
+# It only replaces URLs for files that exist in the S3 bucket.
+#
+# Triggered by: sync-assets-to-s3.yaml after successful sync
+# Can also be run manually for testing
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-urls:
+    name: Replace GitHub URLs with OCI URLs
+    runs-on: docker
+    container:
+      image: python:3.12-slim
+
+    steps:
+      - name: Install dependencies
+        run: |
+          apt-get update && apt-get install -y git jq
+
+      - name: Checkout repository
+        run: |
+          git clone --depth 1 $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git .
+          git config user.name "Forgejo Actions"
+          git config user.email "actions@dungeon.church"
+
+      - name: Install and configure OCI CLI
+        env:
+          OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
+          OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}
+          OCI_CLI_FINGERPRINT: ${{ secrets.OCI_CLI_FINGERPRINT }}
+          OCI_CLI_KEY_CONTENT: ${{ secrets.OCI_CLI_KEY_CONTENT }}
+          OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
+        run: |
+          pip install oci-cli --quiet
+
+          mkdir -p ~/.oci
+
+          echo "$OCI_CLI_KEY_CONTENT" > ~/.oci/oci_api_key.pem
+          chmod 600 ~/.oci/oci_api_key.pem
+
+          cat > ~/.oci/config << EOF
+          [DEFAULT]
+          user=$OCI_CLI_USER
+          fingerprint=$OCI_CLI_FINGERPRINT
+          tenancy=$OCI_CLI_TENANCY
+          region=$OCI_CLI_REGION
+          key_file=~/.oci/oci_api_key.pem
+          EOF
+          chmod 600 ~/.oci/config
+
+      - name: Get list of files in S3 bucket
+        run: |
+          # List all objects in the bucket using OCI CLI
+          oci os object list \
+            -bn dungeonchurch-content \
+            --prefix 5e/ \
+            --all \
+            --query 'data[].name' \
+            --raw-output | \
+            jq -r '.[]' | \
+            sed 's|^5e/||' > /tmp/s3_files.txt
+
+          echo "Found $(wc -l < /tmp/s3_files.txt) files in S3 bucket"
+          cat /tmp/s3_files.txt
+
+      - name: Replace URLs in JSON files
+        env:
+          OCI_NAMESPACE: ${{ secrets.OCI_NAMESPACE }}
+          OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import json
+          import os
+          import re
+          from pathlib import Path
+          from urllib.parse import quote
+
+          # Configuration
+          GITHUB_BASE = "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/"
+          OCI_NAMESPACE = os.environ["OCI_NAMESPACE"]
+          OCI_REGION = os.environ["OCI_CLI_REGION"]
+          OCI_BASE = f"https://objectstorage.{OCI_REGION}.oraclecloud.com/n/{OCI_NAMESPACE}/b/dungeonchurch-content/o/5e/"
+
+          # Load list of files that exist in S3
+          s3_files = set()
+          with open("/tmp/s3_files.txt", "r") as f:
+              for line in f:
+                  s3_files.add(line.strip())
+
+          print(f"Loaded {len(s3_files)} files from S3 listing")
+
+          # JSON files to process
+          json_files = [
+              "Dungeon Church; Pyora.json",
+              "Dungeon Church; Pyora NPCs.json",
+              "Dungeon Church; Rider-Waite Tarot.json",
+              "Dungeon Church; Zines.json"
+          ]
+
+          total_replacements = 0
+          total_skipped = 0
+
+          for filename in json_files:
+              filepath = Path(filename)
+              if not filepath.exists():
+                  print(f"Skipping {filename}: not found")
+                  continue
+
+              content = filepath.read_text(encoding="utf-8")
+
+              def replace_url(match):
+                  global total_skipped
+                  full_url = match.group(0)
+                  path = match.group(1)
+
+                  # Check if file exists in S3
+                  if path not in s3_files:
+                      print(f"  SKIP: {path} (not in S3)")
+                      total_skipped += 1
+                      return full_url  # Return unchanged
+
+                  # URL-encode path components (spaces, special chars)
+                  encoded_path = quote(path, safe="/")
+                  new_url = f'"{OCI_BASE}{encoded_path}"'
+                  return new_url
+
+              pattern = rf'"{re.escape(GITHUB_BASE)}([^"]+)"'
+              content_new, count = re.subn(pattern, replace_url, content)
+
+              if count > 0:
+                  # Validate JSON before writing
+                  try:
+                      json.loads(content_new)
+                      filepath.write_text(content_new, encoding="utf-8")
+                      replacements = count - total_skipped
+                      print(f"{filename}: {replacements} URLs replaced, {total_skipped} skipped")
+                      total_replacements += replacements
+                      total_skipped = 0  # Reset for next file
+                  except json.JSONDecodeError as e:
+                      print(f"ERROR: {filename} would have invalid JSON: {e}")
+                      continue
+
+          print(f"\nTotal replacements: {total_replacements}")
+          PYTHON_SCRIPT
+
+      - name: Check for changes and commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          # Show what changed
+          git diff --stat
+
+          git add "*.json"
+          git commit -m "chore: update asset URLs to OCI Object Storage
+
+          Replaced GitHub raw URLs with OCI Object Storage URLs
+          for files that exist in the S3 bucket.
+
+          [skip ci]"
+
+          # Push using token for authentication
+          git remote set-url origin "https://oauth2:${GITHUB_TOKEN}@${GITHUB_SERVER_URL#https://}/${GITHUB_REPOSITORY}.git"
+          git push origin main

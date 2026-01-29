@@ -8,6 +8,7 @@ name: Sync Static Assets to OCI Object Storage
 # - OCI_S3_SECRET_KEY: Secret Key from Customer Secret Keys
 # - OCI_NAMESPACE: Your tenancy's Object Storage namespace
 # - OCI_CLI_REGION: OCI region (e.g., us-ashburn-1)
+# - WORKFLOW_DISPATCH_TOKEN: PAT with write:repository scope (for triggering URL update workflow)
 #
 # To generate Customer Secret Keys:
 # 1. OCI Console → Profile → User Settings
@@ -33,6 +34,8 @@ jobs:
     runs-on: docker
     container:
       image: rclone/rclone:latest
+    outputs:
+      files_synced: ${{ steps.sync.outputs.files_synced }}
 
     steps:
       - name: Checkout repository
@@ -41,6 +44,7 @@ jobs:
           git clone --depth 1 $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git .
 
       - name: Sync to OCI Object Storage
+        id: sync
         env:
           RCLONE_CONFIG_OCI_TYPE: s3
           RCLONE_CONFIG_OCI_PROVIDER: Other
@@ -60,3 +64,35 @@ jobs:
             echo "Errors detected during sync"
             exit 1
           fi
+
+          # Check if any files were actually transferred
+          if grep -q "Copied (new)\|Copied (replaced)\|Deleted" /tmp/rclone.log; then
+            echo "files_synced=true" >> $GITHUB_OUTPUT
+            echo "Files were synced to bucket"
+          else
+            echo "files_synced=false" >> $GITHUB_OUTPUT
+            echo "No files needed syncing"
+          fi
+
+  trigger-url-update:
+    name: Trigger URL replacement workflow
+    needs: sync-assets
+    if: needs.sync-assets.outputs.files_synced == 'true'
+    runs-on: docker
+    container:
+      image: alpine:latest
+    steps:
+      - name: Trigger URL update workflow
+        env:
+          TOKEN: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          apk add --no-cache curl
+
+          # Trigger workflow dispatch via Forgejo API
+          # Uses current branch so it works from feature branches and main
+          curl -X POST \
+            -H "Authorization: token ${TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d "{\"ref\": \"${GITHUB_REF_NAME}\"}" \
+            "${GITHUB_SERVER_URL}/api/v1/repos/${GITHUB_REPOSITORY}/actions/workflows/update-asset-urls.yaml/dispatches" \
+            -v
