@@ -1,38 +1,30 @@
 name: Sync Static Assets to OCI Object Storage
 
 # This workflow syncs the contents of the 'static' folder to an OCI Object Storage bucket
-# whenever changes are made to files in the static folder or when manually triggered.
+# using rclone with OCI's S3-compatible API.
 #
-# REQUIRED GITHUB SECRETS:
-# - OCI_CLI_USER: OCID of the user (found in OCI Console > Profile > User Settings)
-# - OCI_CLI_TENANCY: OCID of the tenancy (found in OCI Console > Administration > Tenancy Details)
-# - OCI_CLI_FINGERPRINT: Fingerprint of the API key (generated when creating API key)
-# - OCI_CLI_KEY_CONTENT: Private key content (the private key file content, including BEGIN/END lines)
-# - OCI_CLI_REGION: OCI region (e.g., us-ashburn-1)
+# REQUIRED SECRETS (using OCI Customer Secret Keys, not API keys):
+# - OCI_S3_ACCESS_KEY: Access Key from Customer Secret Keys
+# - OCI_S3_SECRET_KEY: Secret Key from Customer Secret Keys
+# - OCI_NAMESPACE: Your tenancy's Object Storage namespace
+# - OCI_REGION: OCI region (e.g., us-ashburn-1)
 #
-# To configure these secrets:
-# 1. Go to your repository on GitHub
-# 2. Navigate to Settings > Secrets and variables > Actions
-# 3. Click "New repository secret" and add each of the required secrets
+# To generate Customer Secret Keys:
+# 1. OCI Console → Profile → User Settings
+# 2. Scroll to "Customer Secret Keys" → "Generate Secret Key"
+# 3. Save both the Access Key and Secret Key (secret only shown once)
 #
-# For more information on obtaining these values, see:
-# https://docs.oracle.com/en-us/iaas/Content/API/Concepts/apisigningkey.htm
-#
-# MANUAL TRIGGER INSTRUCTIONS:
-# To manually trigger this workflow:
-# 1. Go to the Actions tab in your repository
-# 2. Select "Sync Static Assets to OCI Object Storage" from the workflows list
-# 3. Click "Run workflow" and then "Run workflow" again to confirm
+# To find your namespace:
+# 1. OCI Console → Object Storage → Buckets
+# 2. The namespace is shown in the bucket details
 
 on:
-  # Trigger on changes to files in the static folder
   push:
     branches:
       - main
     paths:
       - 'static/**'
-  
-  # Allow manual triggering
+
   workflow_dispatch:
 
 jobs:
@@ -40,55 +32,22 @@ jobs:
     name: Sync static assets to OCI bucket
     runs-on: docker
     container:
-      image: python:3.12-slim
+      image: rclone/rclone:latest
 
     steps:
       - name: Checkout repository
         run: |
-          apt-get update && apt-get install -y git
+          apk add --no-cache git
           git clone --depth 1 $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git .
 
-      # Install OCI CLI and configure authentication
-      - name: Install and configure OCI CLI
+      - name: Sync to OCI Object Storage
         env:
-          OCI_CLI_USER: ${{ secrets.OCI_CLI_USER }}
-          OCI_CLI_TENANCY: ${{ secrets.OCI_CLI_TENANCY }}
-          OCI_CLI_FINGERPRINT: ${{ secrets.OCI_CLI_FINGERPRINT }}
-          OCI_CLI_KEY_CONTENT: ${{ secrets.OCI_CLI_KEY_CONTENT }}
-          OCI_CLI_REGION: ${{ secrets.OCI_CLI_REGION }}
+          RCLONE_CONFIG_OCI_TYPE: s3
+          RCLONE_CONFIG_OCI_PROVIDER: Other
+          RCLONE_CONFIG_OCI_ACCESS_KEY_ID: ${{ secrets.OCI_S3_ACCESS_KEY }}
+          RCLONE_CONFIG_OCI_SECRET_ACCESS_KEY: ${{ secrets.OCI_S3_SECRET_KEY }}
+          RCLONE_CONFIG_OCI_ENDPOINT: https://${{ secrets.OCI_NAMESPACE }}.compat.objectstorage.${{ secrets.OCI_REGION }}.oraclecloud.com
         run: |
-          pip install oci-cli
-
-          # Create OCI config directory and files
-          mkdir -p ~/.oci
-
-          # Write the private key
-          echo "$OCI_CLI_KEY_CONTENT" > ~/.oci/oci_api_key.pem
-          chmod 600 ~/.oci/oci_api_key.pem
-
-          # Write the config file
-          cat > ~/.oci/config << EOF
-          [DEFAULT]
-          user=$OCI_CLI_USER
-          fingerprint=$OCI_CLI_FINGERPRINT
-          tenancy=$OCI_CLI_TENANCY
-          region=$OCI_CLI_REGION
-          key_file=~/.oci/oci_api_key.pem
-          EOF
-          chmod 600 ~/.oci/config
-
-      # Run for each filetype so we can set the content-type appropriately
-      - name: Sync JPG files
-        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.jpg" --content-type image/jpeg
-
-      - name: Sync PNG files
-        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.png" --content-type image/png
-
-      - name: Sync MP3 files
-        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp3" --content-type audio/mpeg
-
-      - name: Sync MP4 files
-        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --include "*.mp4" --content-type video/mp4
-
-      - name: Delete removed files from bucket
-        run: oci os object sync -bn dungeonchurch-content --src-dir static --prefix 5e/ --delete
+          rclone sync static/ oci:dungeonchurch-content/5e/ \
+            --checksum \
+            --verbose
