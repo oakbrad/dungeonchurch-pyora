@@ -14,7 +14,9 @@ jobs:
   validate-json:
     name: Validate JSON against 5etools schema
     runs-on: docker
-    
+    container:
+      image: node:18
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
@@ -23,11 +25,6 @@ jobs:
           /*
           !static
         sparse-checkout-cone-mode: false
-
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
 
     - name: Validate JSON files
       id: validate
