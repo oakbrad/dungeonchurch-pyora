@@ -8116,506 +8116,106 @@
         "Language"
       ],
       "rows": [
-        [
-          "1",
-          "{@i Urgaud's Culinary Travels} by {@link Urgaud Gnasher|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}",
-          "Common"
-        ],
-        [
-          "2",
-          "{@i {@link The Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}",
-          "Infernal"
-        ],
-        [
-          "3",
-          "{@i Dethroning Fire: The Rebel Diaries} by {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}",
-          "Common"
-        ],
-        [
-          "4",
-          "{@i Quartermaster's Log: The Dragon's Jubilee} by {@link Wexley|https://lore.dungeon.church/doc/wexley-the-wizard-6ah4bkHmdf}",
-          "Common"
-        ],
-        [
-          "5",
-          "{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}",
-          "Common"
-        ],
-        [
-          "6",
-          "{@i Confessio Talonus} by {@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}",
-          "Gnomish"
-        ],
-        [
-          "7",
-          "{@i Noctiflora: Lunar Mutagens in Solanaceae} by {@link Caelum the Druid|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}",
-          "Druidic"
-        ],
-        [
-          "8",
-          "{@i The Unfortunate Story of {@link Bob Dabbledob|https://lore.dungeon.church/doc/bob-dabbledob-h5DXNi32rE}} by Toblin Stonehill",
-          "Common"
-        ],
-        [
-          "9",
-          "{@i {@link Grim Mold's|https://lore.dungeon.church/doc/grim-mold-US6JMu5NLP} Price Guide for Priceless Antiques}",
-          "Common"
-        ],
-        [
-          "10",
-          "{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}",
-          "Common"
-        ],
-        [
-          "11",
-          "{@i Grip of Glory: The {@link Britta|https://lore.dungeon.church/doc/britta-the-champion-oS3RKNXhqX} Story}",
-          "Common"
-        ],
-        [
-          "12",
-          "{@i Keel to Council: A Captain's Life} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}",
-          "Common"
-        ],
-        [
-          "13",
-          "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide to Pyora}",
-          "Common"
-        ],
-        [
-          "14",
-          "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Dire Beasts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}}",
-          "Dwarvish"
-        ],
-        [
-          "15",
-          "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Migratory Birds of the Azure Sea}",
-          "Dwarvish"
-        ],
-        [
-          "16",
-          "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Undermountain Monsters}",
-          "Dwarvish"
-        ],
-        [
-          "17",
-          "{@i Blood Diamond: The Rise of the {@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}}",
-          "Common"
-        ],
-        [
-          "18",
-          "{@i Shadow Oath: Rituals of the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}} by {@link Talia Talindra|https://lore.dungeon.church/doc/talia-talindra-u3RJTStFtn}",
-          "Infernal"
-        ],
-        [
-          "19",
-          "{@i Blood Concord: The Art of Sangromantic Binding} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}",
-          "Infernal"
-        ],
-        [
-          "20",
-          "{@i Codex of Persuasion and Extraction} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}",
-          "Abyssal"
-        ],
-        [
-          "21",
-          "{@i The {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} Field Manual}",
-          "Common"
-        ],
-        [
-          "22",
-          "{@i Mandate of {@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}: The Industrialization of Draconic Slavery}",
-          "Common"
-        ],
-        [
-          "23",
-          "{@i Gondola Engineering in Theory and Practice} by {@link Elarion Gearsong|https://lore.dungeon.church/doc/elarion-gearsong-5hUorix4Zk}",
-          "Elvish"
-        ],
-        [
-          "24",
-          "{@i Construct Automation Protocols} by Avalon Engineer's Union",
-          "Elvish"
-        ],
-        [
-          "25",
-          "{@i Dwarves I Have Known} by Anonymous",
-          "Dwarvish"
-        ],
-        [
-          "26",
-          "{@i The Heresy of {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}} by {@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}",
-          "Elvish"
-        ],
-        [
-          "27",
-          "{@i {@link Mildred's|https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi} Black Book}",
-          "Draconic"
-        ],
-        [
-          "28",
-          "{@i Memories of the Lost Spires} by {@link Lady Nysarra|https://lore.dungeon.church/doc/lady-nyssara-J5Xln2dPek}",
-          "Common"
-        ],
-        [
-          "29",
-          "{@i Hidden Flame: Guerilla Tactics for the Faithful} by Cult of {@link Sarenrae|https://lore.dungeon.church/doc/sarenrae-W8XCSaoR45}",
-          "Common"
-        ],
-        [
-          "30",
-          "{@i Articles of Agreement of the {@link Confederated Hearthships|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}}",
-          "Common"
-        ],
-        [
-          "31",
-          "{@i The Hop Conspiracy: {@link Siduri's|https://lore.dungeon.church/doc/siduri-UpLIvKAUoH} Rebellion & Escape} by Brynja Ironbrew",
-          "Dwarvish"
-        ],
-        [
-          "32",
-          "{@i Temporary Autonomous Zone} by {@link Hakim Bey|https://theanarchistlibrary.org/library/hakim-bey-t-a-z-the-temporary-autonomous-zone-ontological-anarchy-poetic-terrorism}",
-          "Common"
-        ],
-        [
-          "33",
-          "{@i Pirate Utopia: A History of the {@link Confederacy|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}} by Evilra Bricktank",
-          "Dwarvish"
-        ],
-        [
-          "34",
-          "{@i Ferment Resistance: A Field Manual} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}",
-          "Common"
-        ],
-        [
-          "35",
-          "{@i Confetti & Confrontation: Direct Action in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}",
-          "Common"
-        ],
-        [
-          "36",
-          "{@i The New City} by {@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}",
-          "Common"
-        ],
-        [
-          "37",
-          "{@i The Birth of the {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}} by {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}",
-          "Elvish"
-        ],
-        [
-          "38",
-          "{@i Embers Over {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}: Bearing Witness to {@link the Doom|https://lore.dungeon.church/doc/the-doom-of-avalon-wVeAiTDpDF}} by {@link Leshanna Starwhisper|https://lore.dungeon.church/doc/leshanna-starwhisper-hyyvxrFCai}",
-          "Elvish"
-        ],
-        [
-          "39",
-          "{@i A {@race Halfling (Pyoran)|dungeonchurch|Halfling} History: Life Above Ground}",
-          "Gnomish"
-        ],
-        [
-          "40",
-          "{@i Adventures on the Azure Sea}",
-          "Common"
-        ],
-        [
-          "41",
-          "{@i The Little Black Book of Cocktails} by {@link The Black Chalice|https://lore.dungeon.church/doc/the-black-chalice-liXC2cnejj}",
-          "Common"
-        ],
-        [
-          "42",
-          "{@i Member Ledger of the {@link Burle Hunter's Guild|https://lore.dungeon.church/doc/burle-hunters-guild-TFqCs3pSJy}}",
-          "Common"
-        ],
-        [
-          "43",
-          "{@i Canticles of {@link The Pathfinder|https://lore.dungeon.church/doc/azrael-ENK1L9l9rm}}",
-          "Infernal"
-        ],
-        [
-          "44",
-          "{@i The Enigma of the {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n}}",
-          "Druidic"
-        ],
-        [
-          "45",
-          "{@i The Art of {@link Stone Tea|https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM}}",
-          "Gnomish"
-        ],
-        [
-          "46",
-          "{@i Whistle While You Work: A {@race Gnome (Rock)|dungeonchurch|Gnomish} Tradition}",
-          "Gnomish"
-        ],
-        [
-          "47",
-          "{@i Practical {@link Soulbinding|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ} for Beginners} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}",
-          "Abyssal"
-        ],
-        [
-          "48",
-          "{@i The Traveling Brewer: Exploring {@table Durandian Draughts|dungeonchurch|Durandian Ales}}",
-          "Common"
-        ],
-        [
-          "49",
-          "{@i Alecraft: The History & Methods of {@link the Kingdom's Brewers|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}} by {@link Brotherhood of Alesmiths|https://lore.dungeon.church/doc/brotherhood-of-alesmiths-i9FLDW85Hu}",
-          "Dwarvish"
-        ],
-        [
-          "50",
-          "{@i Under the Big Top: A Rogue's Guide to {@link Revalia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K}} by Ole Slipfinger",
-          "Thieves Cant"
-        ],
-        [
-          "51",
-          "{@i Mischief & Fate: An Ethnographic Study of {@link Heckna's|https://lore.dungeon.church/doc/heckna-gzwkkurYSc} Spectacles} by Dr. Armin Mystral",
-          "Common"
-        ],
-        [
-          "52",
-          "{@i The Landed Families of the {@link Third Ward|https://lore.dungeon.church/doc/third-ward-noble-circle-988JqUPxSX}}",
-          "Common"
-        ],
-        [
-          "53",
-          "{@i The Pilgrimage to {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}}",
-          "Dwarvish"
-        ],
-        [
-          "54",
-          "{@i Ledger of {@link Blood Tithes|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}}",
-          "Infernal"
-        ],
-        [
-          "55",
-          "{@i The Journals of {@link Thrain Stoneflower|https://lore.dungeon.church/doc/thrain-stoneflower-mjPtuvzNNT}}",
-          "Dwarvish"
-        ],
-        [
-          "56",
-          "{@i Whimsical Desserts from the {@link Moonlight Mirth Inn|https://lore.dungeon.church/doc/moonlight-mirth-inn-zzuK7i676b}} by {@link Daisy Dewpetal|https://lore.dungeon.church/doc/daisy-dewpetal-lqt3e7DgIg#d-zzuK7i676b}",
-          "Common"
-        ],
-        [
-          "57",
-          "{@i Crown of Decay: The Witch Hunts of {@link King Belgareth|https://lore.dungeon.church/doc/king-belgarath-hpkJUwx8bj}}",
-          "Common"
-        ],
-        [
-          "58",
-          "{@i Lab Notes of {@link Oscar Yoren|https://lore.dungeon.church/doc/oscar-yoren-RFyn9kEyvc}}",
-          "Infernal"
-        ],
-        [
-          "59",
-          "{@i Ledger of House {@link Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}} by {@link Skerrin Wavechaser|https://lore.dungeon.church/doc/skerrin-wavechaser-sCnR3QOnff}",
-          "Common"
-        ],
-        [
-          "60",
-          "{@i The Architecture of {@link Ebonveil Estates|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV}}",
-          "Common"
-        ],
-        [
-          "61",
-          "{@i The Wrath of {@link Proteus|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}}",
-          "Dwarvish"
-        ],
-        [
-          "62",
-          "{@i The Way of the {@link Abraxian|https://lore.dungeon.church/doc/abraxas-uKXAkU30vX} Warrior} by {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}",
-          "Common"
-        ],
-        [
-          "63",
-          "{@i Roster of Members in Good Standing} by {@link Longshoreman's Union of New Galmaarden|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}",
-          "Common"
-        ],
-        [
-          "64",
-          "{@i Druidic Paths to Animal Liberation} by {@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}",
-          "Druidic"
-        ],
-        [
-          "65",
-          "{@i Register of the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0} Vol. CMLXIV}",
-          "Common"
-        ],
-        [
-          "66",
-          "{@i The Mage's Code of Ethics} by {@link Amethyst Academy|https://lore.dungeon.church/doc/amethyst-academy-XCMbg6pJnf}",
-          "Common"
-        ],
-        [
-          "67",
-          "{@i {@link Diary of Amelia|https://lore.dungeon.church/doc/amelias-nightmare-AS8ml1y1ea}}",
-          "Common"
-        ],
-        [
-          "68",
-          "{@i {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg} Public Library Registered Patrons}",
-          "Elvish"
-        ],
-        [
-          "69",
-          "{@i The {@creature Scorchcock|dungeonchurch} Breeder's Almanac}",
-          "Common"
-        ],
-        [
-          "70",
-          "{@i Flora of {@link Valachan|https://lore.dungeon.church/doc/valachan-7P9W5MpjXH}}",
-          "Common"
-        ],
-        [
-          "71",
-          "{@i Practical Manual of Subterranean Fruit Gardening}",
-          "Dwarvish"
-        ],
-        [
-          "72",
-          "{@i On Hypnotism & {@link Enchanted Mirrors|https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5}}",
-          "Elvish"
-        ],
-        [
-          "73",
-          "{@i Whispers in the Jungle: Translated Origin Stories of the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}}",
-          "Common"
-        ],
-        [
-          "74",
-          "{@i Crafting Your {@link Gnomish Tea Set|https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V}: A Clockwork Artisan's Guide}",
-          "Gnomish"
-        ],
-        [
-          "75",
-          "{@i {@link Monster Card|https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ} Collector's Guide}",
-          "Common"
-        ],
-        [
-          "76",
-          "{@i Seeing the Sites in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}} by Striborg Tourism Council",
-          "Common"
-        ],
-        [
-          "77",
-          "{@i Legends of the {@link Shimmering Tower|https://lore.dungeon.church/doc/the-shimmering-tower-d9T6YPo2En}} by Captain Anonymous",
-          "Common"
-        ],
-        [
-          "78",
-          "{@i Echoes of Chaos: The {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n} in Comparative Mythology}",
-          "Elvish"
-        ],
-        [
-          "79",
-          "{@i Sojourn Among the Nomads: My Season with the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}} by {@link Warden|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Dran",
-          "Dwarvish"
-        ],
-        [
-          "80",
-          "{@i {@link Whisperwine|https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS} Vinification: {@link Ebonveil Estate|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV} Recipes}",
-          "Infernal"
-        ],
-        [
-          "81",
-          "{@i {@link Valona|https://lore.dungeon.church/doc/valona-trCwKMhnVy}: The Fallen Houses of {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}}",
-          "Common"
-        ],
-        [
-          "82",
-          "{@i Forged in Flame: Dwarven Craft after the {@link Dragon Empire|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}} by Masterhammer Derin",
-          "Dwarvish"
-        ],
-        [
-          "83",
-          "{@i Whistling in the Wyrm's Wake: {@race Halfling (Pyoran)|dungeonchurch|Halfling} Memoirs of Resistance}",
-          "Common"
-        ],
-        [
-          "84",
-          "{@i Veins of Power: The {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z} Cabal Exposed} by Anonymous",
-          "Common"
-        ],
-        [
-          "85",
-          "{@i The Artistry of the {@link Jhaampe|https://lore.dungeon.church/doc/jhaampe-mCxU5WAN7q} Basketweavers} by {@link Khaneye Jun Fan|https://lore.dungeon.church/doc/the-khaneye-jun-fan-6tqXbPVyii} Library",
-          "Common"
-        ],
-        [
-          "86",
-          "{@i Oaths and Codes of the {@link Dawn Watch|https://lore.dungeon.church/doc/the-dawn-watch-TgzcAPStlH}}",
-          "Elvish"
-        ],
-        [
-          "87",
-          "{@i Hollows and Highlands: Tribeborn Oral Traditions}",
-          "Common"
-        ],
-        [
-          "88",
-          "{@i The Polar Bear and the Pint: Big Mike's Childrens Tales} by {@link Gregorio|https://lore.dungeon.church/doc/gregorio-XvYkj4xTZI}",
-          "Common"
-        ],
-        [
-          "89",
-          "{@i {@link Account|https://lore.dungeon.church/doc/session-5-town-business-XEOYTUfeOT#h-just-rewards} of the Saltmarsh Public Auction Concerning the {@link Alchemist House|https://lore.dungeon.church/doc/alchemists-house-D0Oo2ziTIj}} by {@link Herschel|https://lore.dungeon.church/doc/herschel-lgSYbAyEFz}",
-          "Common"
-        ],
-        [
-          "90",
-          "{@i The Big Book of {@link Dragonchess|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4#h-dragonchess} Drinking Games}",
-          "Common"
-        ],
-        [
-          "91",
-          "{@i The Jester's Grimoire} by {@link Heckna|https://lore.dungeon.church/doc/heckna-gzwkkurYSc}",
-          "Thieves Cant"
-        ],
-        [
-          "92",
-          "{@i Under Fire: The Secret Letters of {@link Cirilla|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP} & {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}}",
-          "Common"
-        ],
-        [
-          "93",
-          "{@i Sworn to the Waves: The Fall of Captain {@link Ruhrin Starhelm|https://lore.dungeon.church/doc/ruhrin-starhelm-w8g2zPDAO5}}",
-          "Dwarvish"
-        ],
-        [
-          "94",
-          "{@i Investigation File on the {@link Wraithwoven Coven|https://lore.dungeon.church/doc/wraithwoven-coven-9LLv5L3Ka8}} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}",
-          "Common"
-        ],
-        [
-          "95",
-          "{@i Finding Your {@spell Find Familiar|PHB|Familiar}: Timeless & Proven Rituals}",
-          "Druidic"
-        ],
-        [
-          "96",
-          "{@i Moon's Mirror: {@link Selunian|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} Telescope Craft} by {@link Sister Deidre|https://lore.dungeon.church/doc/deidre-of-the-moon-DfcUiaihGw}",
-          "Common"
-        ],
-        [
-          "97",
-          "{@i Children of the Travelers: Folklore of the {@race Elfmarked|dungeonchurch}}",
-          "Common"
-        ],
-        [
-          "98",
-          "{@i The Art of Persuasion: Practical Cantrips for Negotiatiors}",
-          "Common"
-        ],
-        [
-          "99",
-          "{@i The Cat Lover's Guide to the {@creature Boomerang Cat|dungeonchurch|Boomerang} Breed}",
-          "Common"
-        ],
-        [
-          "100",
-          "{@i The Saga of the {@link Thistletongue|https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE} Gang}",
-          "Common"
-        ]
+        ["1", "{@i Urgaud's Culinary Travels} by {@link Urgaud Gnasher|https://lore.dungeon.church/doc/urgaud-gnasher-h87tyDOnpi}", "Common"],
+        ["2", "{@i {@link The Book of the Dead|https://lore.dungeon.church/doc/tzeldaruns-book-of-the-dead-m51c2yg3sw}} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}", "Infernal"],
+        ["3", "{@i Dethroning Fire: The Rebel Diaries} by {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}", "Common"],
+        ["4", "{@i Quartermaster's Log: The Dragon's Jubilee} by {@link Wexley|https://lore.dungeon.church/doc/wexley-the-wizard-6ah4bkHmdf}", "Common"],
+        ["5", "{@i Salt & Stone: A Genealogy of the Owelands} by {@link Eda Oweland|https://lore.dungeon.church/doc/eda-oweland-HEslJp2L08}", "Common"],
+        ["6", "{@i Confessio Talonus} by {@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}", "Gnomish"],
+        ["7", "{@i Noctiflora: Lunar Mutagens in Solanaceae} by {@link Caelum the Druid|https://lore.dungeon.church/doc/caelum-the-druid-SHH5bzkRpF}", "Druidic"],
+        ["8", "{@i The Unfortunate Story of {@link Bob Dabbledob|https://lore.dungeon.church/doc/bob-dabbledob-h5DXNi32rE}} by Toblin Stonehill", "Common"],
+        ["9", "{@i {@link Grim Mold's|https://lore.dungeon.church/doc/grim-mold-US6JMu5NLP} Price Guide for Priceless Antiques}", "Common"],
+        ["10", "{@i The Dawn is Rising} by {@link Mother Yara|https://lore.dungeon.church/doc/mother-yara-dawnbringer-4dR2aoAXG6}", "Common"],
+        ["11", "{@i Grip of Glory: The {@link Britta|https://lore.dungeon.church/doc/britta-the-champion-oS3RKNXhqX} Story}", "Common"],
+        ["12", "{@i Keel to Council: A Captain's Life} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}", "Common"],
+        ["13", "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide to Pyora}", "Common"],
+        ["14", "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Dire Beasts of the {@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}}", "Dwarvish"],
+        ["15", "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Migratory Birds of the Azure Sea}", "Dwarvish"],
+        ["16", "{@i {@link Arkwright|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Field Guide: Undermountain Monsters}", "Dwarvish"],
+        ["17", "{@i Blood Diamond: The Rise of the {@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}}", "Common"],
+        ["18", "{@i Shadow Oath: Rituals of the {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z}} by {@link Talia Talindra|https://lore.dungeon.church/doc/talia-talindra-u3RJTStFtn}", "Infernal"],
+        ["19", "{@i Blood Concord: The Art of Sangromantic Binding} by {@link T'zeldarun|https://lore.dungeon.church/doc/tzeldarun-KPxtUdVVmS}", "Infernal"],
+        ["20", "{@i Codex of Persuasion and Extraction} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}", "Abyssal"],
+        ["21", "{@i The {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou} Field Manual}", "Common"],
+        ["22", "{@i Mandate of {@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}: The Industrialization of Draconic Slavery}", "Common"],
+        ["23", "{@i Gondola Engineering in Theory and Practice} by {@link Elarion Gearsong|https://lore.dungeon.church/doc/elarion-gearsong-5hUorix4Zk}", "Elvish"],
+        ["24", "{@i Construct Automation Protocols} by Avalon Engineer's Union", "Elvish"],
+        ["25", "{@i Dwarves I Have Known} by Anonymous", "Dwarvish"],
+        ["26", "{@i The Heresy of {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}} by {@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}", "Elvish"],
+        ["27", "{@i {@link Mildred's|https://lore.dungeon.church/doc/mildred-magpie-y6vemFK5Bi} Black Book}", "Draconic"],
+        ["28", "{@i Memories of the Lost Spires} by {@link Lady Nysarra|https://lore.dungeon.church/doc/lady-nyssara-J5Xln2dPek}", "Common"],
+        ["29", "{@i Hidden Flame: Guerilla Tactics for the Faithful} by Cult of {@link Sarenrae|https://lore.dungeon.church/doc/sarenrae-W8XCSaoR45}", "Common"],
+        ["30", "{@i Articles of Agreement of the {@link Confederated Hearthships|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}}", "Common"],
+        ["31", "{@i The Hop Conspiracy: {@link Siduri's|https://lore.dungeon.church/doc/siduri-UpLIvKAUoH} Rebellion & Escape} by Brynja Ironbrew", "Dwarvish"],
+        ["32", "{@i Temporary Autonomous Zone} by {@link Hakim Bey|https://theanarchistlibrary.org/library/hakim-bey-t-a-z-the-temporary-autonomous-zone-ontological-anarchy-poetic-terrorism}", "Common"],
+        ["33", "{@i Pirate Utopia: A History of the {@link Confederacy|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}} by Evilra Bricktank", "Dwarvish"],
+        ["34", "{@i Ferment Resistance: A Field Manual} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}", "Common"],
+        ["35", "{@i Confetti & Confrontation: Direct Action in {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}} by {@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}", "Common"],
+        ["36", "{@i The New City} by {@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}", "Common"],
+        ["37", "{@i The Birth of the {@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}} by {@link Estelar|https://lore.dungeon.church/doc/estelar-the-heretic-OtEcj9hL0Z}", "Elvish"],
+        ["38", "{@i Embers Over {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}: Bearing Witness to {@link the Doom|https://lore.dungeon.church/doc/the-doom-of-avalon-wVeAiTDpDF}} by {@link Leshanna Starwhisper|https://lore.dungeon.church/doc/leshanna-starwhisper-hyyvxrFCai}", "Elvish"],
+        ["39", "{@i A {@race Halfling (Pyoran)|dungeonchurch|Halfling} History: Life Above Ground}", "Gnomish"],
+        ["40", "{@i Adventures on the Azure Sea}", "Common"],
+        ["41", "{@i The Little Black Book of Cocktails} by {@link The Black Chalice|https://lore.dungeon.church/doc/the-black-chalice-liXC2cnejj}", "Common"],
+        ["42", "{@i Member Ledger of the {@link Burle Hunter's Guild|https://lore.dungeon.church/doc/burle-hunters-guild-TFqCs3pSJy}}", "Common"],
+        ["43", "{@i Canticles of {@link The Pathfinder|https://lore.dungeon.church/doc/azrael-ENK1L9l9rm}}", "Infernal"],
+        ["44", "{@i The Enigma of the {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n}}", "Druidic"],
+        ["45", "{@i The Art of {@link Stone Tea|https://lore.dungeon.church/doc/stone-tea-ik79CS5iIM}}", "Gnomish"],
+        ["46", "{@i Whistle While You Work: A {@race Gnome (Rock)|dungeonchurch|Gnomish} Tradition}", "Gnomish"],
+        ["47", "{@i Practical {@link Soulbinding|https://lore.dungeon.church/doc/soulbound-skull-DNlBi2UMIZ} for Beginners} by {@link Velryn Blackthorn|https://lore.dungeon.church/doc/velryn-blackthorn-bgx7zYW1b0}", "Abyssal"],
+        ["48", "{@i The Traveling Brewer: Exploring {@table Durandian Draughts|dungeonchurch|Durandian Ales}}", "Common"],
+        ["49", "{@i Alecraft: The History & Methods of {@link the Kingdom's Brewers|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}} by {@link Brotherhood of Alesmiths|https://lore.dungeon.church/doc/brotherhood-of-alesmiths-i9FLDW85Hu}", "Dwarvish"],
+        ["50", "{@i Under the Big Top: A Rogue's Guide to {@link Revalia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K}} by Ole Slipfinger", "Thieves Cant"],
+        ["51", "{@i Mischief & Fate: An Ethnographic Study of {@link Heckna's|https://lore.dungeon.church/doc/heckna-gzwkkurYSc} Spectacles} by Dr. Armin Mystral", "Common"],
+        ["52", "{@i The Landed Families of the {@link Third Ward|https://lore.dungeon.church/doc/third-ward-noble-circle-988JqUPxSX}}", "Common"],
+        ["53", "{@i The Pilgrimage to {@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}}", "Dwarvish"],
+        ["54", "{@i Ledger of {@link Blood Tithes|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}}", "Infernal"],
+        ["55", "{@i The Journals of {@link Thrain Stoneflower|https://lore.dungeon.church/doc/thrain-stoneflower-mjPtuvzNNT}}", "Dwarvish"],
+        ["56", "{@i Whimsical Desserts from the {@link Moonlight Mirth Inn|https://lore.dungeon.church/doc/moonlight-mirth-inn-zzuK7i676b}} by {@link Daisy Dewpetal|https://lore.dungeon.church/doc/daisy-dewpetal-lqt3e7DgIg#d-zzuK7i676b}", "Common"],
+        ["57", "{@i Crown of Decay: The Witch Hunts of {@link King Belgareth|https://lore.dungeon.church/doc/king-belgarath-hpkJUwx8bj}}", "Common"],
+        ["58", "{@i Lab Notes of {@link Oscar Yoren|https://lore.dungeon.church/doc/oscar-yoren-RFyn9kEyvc}}", "Infernal"],
+        ["59", "{@i Ledger of House {@link Solmar|https://lore.dungeon.church/doc/lamont-solmar-GLrWBoIX5h}} by {@link Skerrin Wavechaser|https://lore.dungeon.church/doc/skerrin-wavechaser-sCnR3QOnff}", "Common"],
+        ["60", "{@i The Architecture of {@link Ebonveil Estates|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV}}", "Common"],
+        ["61", "{@i The Wrath of {@link Proteus|https://lore.dungeon.church/doc/proteus-Apiz4CreFn}}", "Dwarvish"],
+        ["62", "{@i The Way of the {@link Abraxian|https://lore.dungeon.church/doc/abraxas-uKXAkU30vX} Warrior} by {@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}", "Common"],
+        ["63", "{@i Roster of Members in Good Standing} by {@link Longshoreman's Union of New Galmaarden|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}", "Common"],
+        ["64", "{@i Druidic Paths to Animal Liberation} by {@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}", "Druidic"],
+        ["65", "{@i Register of the {@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0} Vol. CMLXIV}", "Common"],
+        ["66", "{@i The Mage's Code of Ethics} by {@link Amethyst Academy|https://lore.dungeon.church/doc/amethyst-academy-XCMbg6pJnf}", "Common"],
+        ["67", "{@i {@link Diary of Amelia|https://lore.dungeon.church/doc/amelias-nightmare-AS8ml1y1ea}}", "Common"],
+        ["68", "{@i {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg} Public Library Registered Patrons}", "Elvish"],
+        ["69", "{@i The {@creature Scorchcock|dungeonchurch} Breeder's Almanac}", "Common"],
+        ["70", "{@i Flora of {@link Valachan|https://lore.dungeon.church/doc/valachan-7P9W5MpjXH}}", "Common"],
+        ["71", "{@i Practical Manual of Subterranean Fruit Gardening}", "Dwarvish"],
+        ["72", "{@i On Hypnotism & {@link Enchanted Mirrors|https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5}}", "Elvish"],
+        ["73", "{@i Whispers in the Jungle: Translated Origin Stories of the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}}", "Common"],
+        ["74", "{@i Crafting Your {@link Gnomish Tea Set|https://lore.dungeon.church/doc/gnomish-tea-set-HrqDVlit6V}: A Clockwork Artisan's Guide}", "Gnomish"],
+        ["75", "{@i {@link Monster Card|https://lore.dungeon.church/doc/monster-identification-cards-gfyYKrdZLJ} Collector's Guide}", "Common"],
+        ["76", "{@i Seeing the Sites in {@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}} by Striborg Tourism Council", "Common"],
+        ["77", "{@i Legends of the {@link Shimmering Tower|https://lore.dungeon.church/doc/the-shimmering-tower-d9T6YPo2En}} by Captain Anonymous", "Common"],
+        ["78", "{@i Echoes of Chaos: The {@link Traveler|https://lore.dungeon.church/doc/the-traveler-MWo3w8e64n} in Comparative Mythology}", "Elvish"],
+        ["79", "{@i Sojourn Among the Nomads: My Season with the {@link Tribeborn|https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f}} by {@link Warden|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm} Dran", "Dwarvish"],
+        ["80", "{@i {@link Whisperwine|https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS} Vinification: {@link Ebonveil Estate|https://lore.dungeon.church/doc/ebonveil-estates-3Z3KWu7OBV} Recipes}", "Infernal"],
+        ["81", "{@i {@link Valona|https://lore.dungeon.church/doc/valona-trCwKMhnVy}: The Fallen Houses of {@link Avalon|https://lore.dungeon.church/doc/avalon-7amKaC2AMg}}", "Common"],
+        ["82", "{@i Forged in Flame: Dwarven Craft after the {@link Dragon Empire|https://lore.dungeon.church/doc/dragon-empire-odzVqtQPbm}} by Masterhammer Derin", "Dwarvish"],
+        ["83", "{@i Whistling in the Wyrm's Wake: {@race Halfling (Pyoran)|dungeonchurch|Halfling} Memoirs of Resistance}", "Common"],
+        ["84", "{@i Veins of Power: The {@link Crimson Court|https://lore.dungeon.church/doc/crimson-court-cofX8ha90z} Cabal Exposed} by Anonymous", "Common"],
+        ["85", "{@i The Artistry of the {@link Jhaampe|https://lore.dungeon.church/doc/jhaampe-mCxU5WAN7q} Basketweavers} by {@link Khaneye Jun Fan|https://lore.dungeon.church/doc/the-khaneye-jun-fan-6tqXbPVyii} Library", "Common"],
+        ["86", "{@i Oaths and Codes of the {@link Dawn Watch|https://lore.dungeon.church/doc/the-dawn-watch-TgzcAPStlH}}", "Elvish"],
+        ["87", "{@i Hollows and Highlands: Tribeborn Oral Traditions}", "Common"],
+        ["88", "{@i The Polar Bear and the Pint: Big Mike's Childrens Tales} by {@link Gregorio|https://lore.dungeon.church/doc/gregorio-XvYkj4xTZI}", "Common"],
+        ["89", "{@i {@link Account|https://lore.dungeon.church/doc/session-5-town-business-XEOYTUfeOT#h-just-rewards} of the Saltmarsh Public Auction Concerning the {@link Alchemist House|https://lore.dungeon.church/doc/alchemists-house-D0Oo2ziTIj}} by {@link Herschel|https://lore.dungeon.church/doc/herschel-lgSYbAyEFz}", "Common"],
+        ["90", "{@i The Big Book of {@link Dragonchess|https://lore.dungeon.church/doc/house-rules-OhKbZs6UV4#h-dragonchess} Drinking Games}", "Common"],
+        ["91", "{@i The Jester's Grimoire} by {@link Heckna|https://lore.dungeon.church/doc/heckna-gzwkkurYSc}", "Thieves Cant"],
+        ["92", "{@i Under Fire: The Secret Letters of {@link Cirilla|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP} & {@link Razorback|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}}", "Common"],
+        ["93", "{@i Sworn to the Waves: The Fall of Captain {@link Ruhrin Starhelm|https://lore.dungeon.church/doc/ruhrin-starhelm-w8g2zPDAO5}}", "Dwarvish"],
+        ["94", "{@i Investigation File on the {@link Wraithwoven Coven|https://lore.dungeon.church/doc/wraithwoven-coven-9LLv5L3Ka8}} by {@link Eliander Fireborn|https://lore.dungeon.church/doc/eliander-fireborn-GSljW693Ga}", "Common"],
+        ["95", "{@i Finding Your {@spell Find Familiar|PHB|Familiar}: Timeless & Proven Rituals}", "Druidic"],
+        ["96", "{@i Moon's Mirror: {@link Selunian|https://lore.dungeon.church/doc/selune-wFfmk6l5Ba} Telescope Craft} by {@link Sister Deidre|https://lore.dungeon.church/doc/deidre-of-the-moon-DfcUiaihGw}", "Common"],
+        ["97", "{@i Children of the Travelers: Folklore of the {@race Elfmarked|dungeonchurch}}", "Common"],
+        ["98", "{@i The Art of Persuasion: Practical Cantrips for Negotiatiors}", "Common"],
+        ["99", "{@i The Cat Lover's Guide to the {@creature Boomerang Cat|dungeonchurch|Boomerang} Breed}", "Common"],
+        ["100", "{@i The Saga of the {@link Thistletongue|https://lore.dungeon.church/doc/king-thistletongue-byqTEswqZE} Gang}", "Common"]
       ]
     },
     {
@@ -8627,406 +8227,106 @@
         "Item"
       ],
       "rows": [
-        [
-          "1",
-          "{@item Acid (Vial)|PHB}"
-        ],
-        [
-          "2",
-          "{@item Ball bearings (bag of 1,000)|PHB}"
-        ],
-        [
-          "3",
-          "{@item Alchemist's fire (flask)|PHB}"
-        ],
-        [
-          "4",
-          "{@item Grappling Hook|PHB}"
-        ],
-        [
-          "5",
-          "{@item Holy water (flask)|PHB}"
-        ],
-        [
-          "6",
-          "{@item Oil (flask)|PHB}"
-        ],
-        [
-          "7",
-          "{@item Basic poison (vial)|PHB}"
-        ],
-        [
-          "8",
-          "{@item Pole (10-foot)|PHB}"
-        ],
-        [
-          "9",
-          "{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}"
-        ],
-        [
-          "10",
-          "{@item Potion of Healing|DMG}"
-        ],
-        [
-          "11",
-          "{@item Caltrops (bag of 20)|PHB}"
-        ],
-        [
-          "12",
-          "{@item iron spikes (10)|PHB|Spikes, iron (10)}"
-        ],
-        [
-          "13",
-          "{@item Torch|PHB}"
-        ],
-        [
-          "14",
-          "{@item Spyglass|PHB}"
-        ],
-        [
-          "15",
-          "{@item Hunting trap|PHB}"
-        ],
-        [
-          "16",
-          "{@item Sling|PHB} and {@item Sling bullets (20)|PHB|bullets}"
-        ],
-        [
-          "17",
-          "{@item Potion of Climbing|DMG}"
-        ],
-        [
-          "18",
-          "{@item Potion of Diminution|DMG}"
-        ],
-        [
-          "19",
-          "{@item Potion of Water Breathing|DMG}"
-        ],
-        [
-          "20",
-          "{@item Potion of Animal Friendship|DMG}"
-        ],
-        [
-          "21",
-          "{@item Potion of Invisibility|DMG}"
-        ],
-        [
-          "22",
-          "{@item Potion of Heroism|DMG}"
-        ],
-        [
-          "23",
-          "{@item Potion of Speed|DMG}"
-        ],
-        [
-          "24",
-          "{@item Potion of Fire Breath|DMG}"
-        ],
-        [
-          "25",
-          "{@item Bag of Rust|dungeonchurch}"
-        ],
-        [
-          "26",
-          "{@item Monster Identification Cards|dungeonchurch}"
-        ],
-        [
-          "27",
-          "{@item Potion of Undeath|dungeonchurch}"
-        ],
-        [
-          "28",
-          "{@item Potion of Unbridled Potential|dungeonchurch}"
-        ],
-        [
-          "29",
-          "{@item Vial of the Last Harvest|dungeonchurch}"
-        ],
-        [
-          "30",
-          "{@item Oil of Immolation|dungeonchurch}"
-        ],
-        [
-          "31",
-          "{@item Potion of Vile Strength|dungeonchurch}"
-        ],
-        [
-          "32",
-          "{@item Gloomroot Extract|dungeonchurch}"
-        ],
-        [
-          "33",
-          "{@item Void Essence|dungeonchurch}"
-        ],
-        [
-          "34",
-          "{@item Berserker's Draught|dungeonchurch}"
-        ],
-        [
-          "35",
-          "{@item Potion of Incorporeal Passage|dungeonchurch}"
-        ],
-        [
-          "36",
-          "{@item Vial of Veilblood|dungeonchurch}"
-        ],
-        [
-          "37",
-          "{@item Wooden Stake|dungeonchurch}"
-        ],
-        [
-          "38",
-          "{@item Pyrotov Cocktail|dungeonchurch}"
-        ],
-        [
-          "39",
-          "{@item Forge Mead|dungeonchurch}"
-        ],
-        [
-          "40",
-          "{@item Vial of Dark Resolve|dungeonchurch}"
-        ],
-        [
-          "41",
-          "{@item Soulbound Skull|dungeonchurch}"
-        ],
-        [
-          "42",
-          "{@item Blacklung Brew|dungeonchurch}"
-        ],
-        [
-          "43",
-          "{@item Dubbelheart Ale|dungeonchurch}"
-        ],
-        [
-          "44",
-          "{@item Stoneflower Ale|dungeonchurch}"
-        ],
-        [
-          "45",
-          "{@item Lumengrove Tincture|dungeonchurch}"
-        ],
-        [
-          "46",
-          "Angry {@creature Cat|MM}"
-        ],
-        [
-          "47",
-          "Popcorn"
-        ],
-        [
-          "48",
-          "Beating human heart"
-        ],
-        [
-          "49",
-          "{@item Dream Vine|dungeonchurch} cigarette"
-        ],
-        [
-          "50",
-          "Bottle with {@creature stirge} inside"
-        ],
-        [
-          "51",
-          "{@item Dust of Disappearance|DMG}"
-        ],
-        [
-          "52",
-          "{@item Eversmoking Bottle|DMG}"
-        ],
-        [
-          "53",
-          "{@item Bag of Beans|DMG}"
-        ],
-        [
-          "54",
-          "{@item Boots of Striding and Springing|DMG}"
-        ],
-        [
-          "55",
-          "{@item Dust of Sneezing and Choking|DMG}"
-        ],
-        [
-          "56",
-          "{@item Dust of Deliciousness|dungeonchurch}"
-        ],
-        [
-          "57",
-          "{@item Nilbog's Scepter|dungeonchurch}"
-        ],
-        [
-          "58",
-          "{@item Boots of Black Ice|dungeonchurch}"
-        ],
-        [
-          "59",
-          "{@item Boot of Beer|dungeonchurch}"
-        ],
-        [
-          "60",
-          "{@item Whip of Blinding Speed|dungeonchurch}"
-        ],
-        [
-          "61",
-          "{@item Pumpkin of Unreliable Fireball|dungeonchurch}"
-        ],
-        [
-          "62",
-          "{@item Otto's Gong|dungeonchurch}"
-        ],
-        [
-          "63",
-          "{@item Red Wizard's Bong|dungeonchurch}"
-        ],
-        [
-          "64",
-          "{@item Vial of Gladiator Sweat|dungeonchurch}"
-        ],
-        [
-          "65",
-          "{@item Vial of Gladiator Blood|dungeonchurch}"
-        ],
-        [
-          "66",
-          "{@item Animated Peanuts|dungeonchurch}"
-        ],
-        [
-          "67",
-          "{@item Red Cape of Taunting|dungeonchurch}"
-        ],
-        [
-          "68",
-          "{@item Ring of Summon Streaker|dungeonchurch}"
-        ],
-        [
-          "69",
-          "{@item Bottled Sarlacc Pheromones|dungeonchurch}"
-        ],
-        [
-          "70",
-          "Foam hand"
-        ],
-        [
-          "71",
-          "{@item Grease Grenade|dungeonchurch}"
-        ],
-        [
-          "72",
-          "{@item Stink Grenade|dungeonchurch}"
-        ],
-        [
-          "73",
-          "{@item Silence Grenade|dungeonchurch}"
-        ],
-        [
-          "74",
-          "{@item Faerie Fire Grenade|dungeonchurch}"
-        ],
-        [
-          "75",
-          "{@item Glyph of Jump Pad|dungeonchurch}"
-        ],
-        [
-          "76",
-          "{@item Glyph of Longstrider|dungeonchurch}"
-        ],
-        [
-          "77",
-          "{@item Glyph of Teleportation Circle|dungeonchurch}"
-        ],
-        [
-          "78",
-          "{@item Red Wizard Collectible Cup|dungeonchurch}"
-        ],
-        [
-          "79",
-          "{@item Concussion Grenade|QFTIS}"
-        ],
-        [
-          "80",
-          "{@item Fragmentation Grenade|DMG}"
-        ],
-        [
-          "81",
-          "{@item Sleep Grenade|QFTIS}"
-        ],
-        [
-          "82",
-          "{@item Smoke Grenade|DMG}"
-        ],
-        [
-          "83",
-          "{@item Tangler Grenade|WDMM}"
-        ],
-        [
-          "84",
-          "{@item Grenade of Remorse|GHMG}"
-        ],
-        [
-          "85",
-          "{@creature Boomerang Cat|dungeonchurch}"
-        ],
-        [
-          "86",
-          "{@item Returning Club|GHPG}"
-        ],
-        [
-          "87",
-          "{@item Adjustable Stilts|WDH}"
-        ],
-        [
-          "88",
-          "{@item Garlic Fries|dungeonchurch}"
-        ],
-        [
-          "89",
-          "{@creature Scorchcock|dungeonchurch}"
-        ],
-        [
-          "90",
-          "{@item Hardtack|dungeonchurch}"
-        ],
-        [
-          "91",
-          "{@item Bag of Alligator Tongues|dungeonchurch}"
-        ],
-        [
-          "92",
-          "{@item Propeller Helm|WDMM}"
-        ],
-        [
-          "93",
-          "{@item First Aid Kit|DungeonChurch}"
-        ],
-        [
-          "94",
-          "{@item Potion of Shouting|dungeonchurch}"
-        ],
-        [
-          "95",
-          "{@item Rat on a stick|dungeonchurch}"
-        ],
-        [
-          "96",
-          "{@item Orc's Arse|dungeonchurch}"
-        ],
-        [
-          "97",
-          "{@item Slug Slime|dungeonchurch}"
-        ],
-        [
-          "98",
-          "Ice cream that doesn't melt"
-        ],
-        [
-          "99",
-          "{@item Snake Oil|dungeonchurch}"
-        ],
-        [
-          "100",
-          "{@item Eclipse Lantern|dungeonchurch}"
-        ]
+        ["1", "{@item Acid (Vial)|PHB}"],
+        ["2", "{@item Ball bearings (bag of 1,000)|PHB}"],
+        ["3", "{@item Alchemist's fire (flask)|PHB}"],
+        ["4", "{@item Grappling Hook|PHB}"],
+        ["5", "{@item Holy water (flask)|PHB}"],
+        ["6", "{@item Oil (flask)|PHB}"],
+        ["7", "{@item Basic poison (vial)|PHB}"],
+        ["8", "{@item Pole (10-foot)|PHB}"],
+        ["9", "{@item hempen rope (50 feet)|PHB|Rope, hempen (50 feet)}"],
+        ["10", "{@item Potion of Healing|DMG}"],
+        ["11", "{@item Caltrops (bag of 20)|PHB}"],
+        ["12", "{@item iron spikes (10)|PHB|Spikes, iron (10)}"],
+        ["13", "{@item Torch|PHB}"],
+        ["14", "{@item Spyglass|PHB}"],
+        ["15", "{@item Hunting trap|PHB}"],
+        ["16", "{@item Sling|PHB} and {@item Sling bullets (20)|PHB|bullets}"],
+        ["17", "{@item Potion of Climbing|DMG}"],
+        ["18", "{@item Potion of Diminution|DMG}"],
+        ["19", "{@item Potion of Water Breathing|DMG}"],
+        ["20", "{@item Potion of Animal Friendship|DMG}"],
+        ["21", "{@item Potion of Invisibility|DMG}"],
+        ["22", "{@item Potion of Heroism|DMG}"],
+        ["23", "{@item Potion of Speed|DMG}"],
+        ["24", "{@item Potion of Fire Breath|DMG}"],
+        ["25", "{@item Bag of Rust|dungeonchurch}"],
+        ["26", "{@item Monster Identification Cards|dungeonchurch}"],
+        ["27", "{@item Potion of Undeath|dungeonchurch}"],
+        ["28", "{@item Potion of Unbridled Potential|dungeonchurch}"],
+        ["29", "{@item Vial of the Last Harvest|dungeonchurch}"],
+        ["30", "{@item Oil of Immolation|dungeonchurch}"],
+        ["31", "{@item Potion of Vile Strength|dungeonchurch}"],
+        ["32", "{@item Gloomroot Extract|dungeonchurch}"],
+        ["33", "{@item Void Essence|dungeonchurch}"],
+        ["34", "{@item Berserker's Draught|dungeonchurch}"],
+        ["35", "{@item Potion of Incorporeal Passage|dungeonchurch}"],
+        ["36", "{@item Vial of Veilblood|dungeonchurch}"],
+        ["37", "{@item Wooden Stake|dungeonchurch}"],
+        ["38", "{@item Pyrotov Cocktail|dungeonchurch}"],
+        ["39", "{@item Forge Mead|dungeonchurch}"],
+        ["40", "{@item Vial of Dark Resolve|dungeonchurch}"],
+        ["41", "{@item Soulbound Skull|dungeonchurch}"],
+        ["42", "{@item Blacklung Brew|dungeonchurch}"],
+        ["43", "{@item Dubbelheart Ale|dungeonchurch}"],
+        ["44", "{@item Stoneflower Ale|dungeonchurch}"],
+        ["45", "{@item Lumengrove Tincture|dungeonchurch}"],
+        ["46", "Angry {@creature Cat|MM}"],
+        ["47", "Popcorn"],
+        ["48", "Beating human heart"],
+        ["49", "{@item Dream Vine|dungeonchurch} cigarette"],
+        ["50", "Bottle with {@creature stirge} inside"],
+        ["51", "{@item Dust of Disappearance|DMG}"],
+        ["52", "{@item Eversmoking Bottle|DMG}"],
+        ["53", "{@item Bag of Beans|DMG}"],
+        ["54", "{@item Boots of Striding and Springing|DMG}"],
+        ["55", "{@item Dust of Sneezing and Choking|DMG}"],
+        ["56", "{@item Dust of Deliciousness|dungeonchurch}"],
+        ["57", "{@item Nilbog's Scepter|dungeonchurch}"],
+        ["58", "{@item Boots of Black Ice|dungeonchurch}"],
+        ["59", "{@item Boot of Beer|dungeonchurch}"],
+        ["60", "{@item Whip of Blinding Speed|dungeonchurch}"],
+        ["61", "{@item Pumpkin of Unreliable Fireball|dungeonchurch}"],
+        ["62", "{@item Otto's Gong|dungeonchurch}"],
+        ["63", "{@item Red Wizard's Bong|dungeonchurch}"],
+        ["64", "{@item Vial of Gladiator Sweat|dungeonchurch}"],
+        ["65", "{@item Vial of Gladiator Blood|dungeonchurch}"],
+        ["66", "{@item Animated Peanuts|dungeonchurch}"],
+        ["67", "{@item Red Cape of Taunting|dungeonchurch}"],
+        ["68", "{@item Ring of Summon Streaker|dungeonchurch}"],
+        ["69", "{@item Bottled Sarlacc Pheromones|dungeonchurch}"],
+        ["70", "Foam hand"],
+        ["71", "{@item Grease Grenade|dungeonchurch}"],
+        ["72", "{@item Stink Grenade|dungeonchurch}"],
+        ["73", "{@item Silence Grenade|dungeonchurch}"],
+        ["74", "{@item Faerie Fire Grenade|dungeonchurch}"],
+        ["75", "{@item Glyph of Jump Pad|dungeonchurch}"],
+        ["76", "{@item Glyph of Longstrider|dungeonchurch}"],
+        ["77", "{@item Glyph of Teleportation Circle|dungeonchurch}"],
+        ["78", "{@item Red Wizard Collectible Cup|dungeonchurch}"],
+        ["79", "{@item Concussion Grenade|QFTIS}"],
+        ["80", "{@item Fragmentation Grenade|DMG}"],
+        ["81", "{@item Sleep Grenade|QFTIS}"],
+        ["82", "{@item Smoke Grenade|DMG}"],
+        ["83", "{@item Tangler Grenade|WDMM}"],
+        ["84", "{@item Grenade of Remorse|GHMG}"],
+        ["85", "{@creature Boomerang Cat|dungeonchurch}"],
+        ["86", "{@item Returning Club|GHPG}"],
+        ["87", "{@item Adjustable Stilts|WDH}"],
+        ["88", "{@item Garlic Fries|dungeonchurch}"],
+        ["89", "{@creature Scorchcock|dungeonchurch}"],
+        ["90", "{@item Hardtack|dungeonchurch}"],
+        ["91", "{@item Bag of Alligator Tongues|dungeonchurch}"],
+        ["92", "{@item Propeller Helm|WDMM}"],
+        ["93", "{@item First Aid Kit|DungeonChurch}"],
+        ["94", "{@item Potion of Shouting|dungeonchurch}"],
+        ["95", "{@item Rat on a stick|dungeonchurch}"],
+        ["96", "{@item Orc's Arse|dungeonchurch}"],
+        ["97", "{@item Slug Slime|dungeonchurch}"],
+        ["98", "Ice cream that doesn't melt"],
+        ["99", "{@item Snake Oil|dungeonchurch}"],
+        ["100", "{@item Eclipse Lantern|dungeonchurch}"]
       ]
     },
   {
@@ -9038,406 +8338,106 @@
       "Property"
     ],
     "rows": [
-      [
-        "1",
-        "Heirloom quality"
-      ],
-      [
-        "2",
-        "Kiln hardened"
-      ],
-      [
-        "3",
-        "Clan stamped"
-      ],
-      [
-        "4",
-        "Luminous inlay"
-      ],
-      [
-        "5",
-        "Tailored balance"
-      ],
-      [
-        "6",
-        "Crystalline core"
-      ],
-      [
-        "7",
-        "Ergonomic grip"
-      ],
-      [
-        "8",
-        "Sound dampened"
-      ],
-      [
-        "9",
-        "Artfully whittled"
-      ],
-      [
-        "10",
-        "Spring-loaded"
-      ],
-      [
-        "11",
-        "Mirror polish"
-      ],
-      [
-        "12",
-        "Brass filigree"
-      ],
-      [
-        "13",
-        "Bejeweled"
-      ],
-      [
-        "14",
-        "Ivory inset"
-      ],
-      [
-        "15",
-        "Fluted"
-      ],
-      [
-        "16",
-        "Ultra-light"
-      ],
-      [
-        "17",
-        "Braided leather"
-      ],
-      [
-        "18",
-        "Gilded edge"
-      ],
-      [
-        "19",
-        "{@item Delerium-forged blade|DungeonChurch|Delerium forged}"
-      ],
-      [
-        "20",
-        "Underdark shroomwood"
-      ],
-      [
-        "21",
-        "Fungal resin grip"
-      ],
-      [
-        "22",
-        "Polished bone"
-      ],
-      [
-        "23",
-        "Weather sealed"
-      ],
-      [
-        "24",
-        "Tin plated"
-      ],
-      [
-        "25",
-        "Blackened silver"
-      ],
-      [
-        "26",
-        "Dragonscale leather"
-      ],
-      [
-        "27",
-        "Moon-bathed"
-      ],
-      [
-        "28",
-        "Fireproof"
-      ],
-      [
-        "29",
-        "Elemental etched"
-      ],
-      [
-        "30",
-        "Bronzed"
-      ],
-      [
-        "31",
-        "Feychromed"
-      ],
-      [
-        "32",
-        "Jade component"
-      ],
-      [
-        "33",
-        "Rose gold finish"
-      ],
-      [
-        "34",
-        "Blood sealed"
-      ],
-      [
-        "35",
-        "Spectral glow"
-      ],
-      [
-        "36",
-        "Prismatic coating"
-      ],
-      [
-        "37",
-        "Black pearl inlay"
-      ],
-      [
-        "38",
-        "Smoke imbued"
-      ],
-      [
-        "39",
-        "Cold forged"
-      ],
-      [
-        "40",
-        "Blessed"
-      ],
-      [
-        "41",
-        "Hand hammered"
-      ],
-      [
-        "42",
-        "Forge tempered"
-      ],
-      [
-        "43",
-        "Acid etched"
-      ],
-      [
-        "44",
-        "Blued metal"
-      ],
-      [
-        "45",
-        "Marquetry"
-      ],
-      [
-        "46",
-        "Fire-brand embossed"
-      ],
-      [
-        "47",
-        "Burnished mithral"
-      ],
-      [
-        "48",
-        "High gloss obsidian"
-      ],
-      [
-        "49",
-        "{@item Oil of Taggit|DMG|Taggit oiled}"
-      ],
-      [
-        "50",
-        "Shadow forged"
-      ],
-      [
-        "51",
-        "Blaze hardened"
-      ],
-      [
-        "52",
-        "Briarwood"
-      ],
-      [
-        "53",
-        "Treant wood"
-      ],
-      [
-        "54",
-        "Incense rubbed"
-      ],
-      [
-        "55",
-        "Twin-handed"
-      ],
-      [
-        "56",
-        "Swift draw"
-      ],
-      [
-        "57",
-        "Full-grain leather"
-      ],
-      [
-        "58",
-        "Packable"
-      ],
-      [
-        "59",
-        "Hollow construction"
-      ],
-      [
-        "60",
-        "Corrosion resistant"
-      ],
-      [
-        "61",
-        "Shock absorbing"
-      ],
-      [
-        "62",
-        "Camouflaged"
-      ],
-      [
-        "63",
-        "Fillet brazed"
-      ],
-      [
-        "64",
-        "Lightning touched"
-      ],
-      [
-        "65",
-        "Thrice tempered"
-      ],
-      [
-        "66",
-        "Silvered"
-      ],
-      [
-        "67",
-        "Platinum molded"
-      ],
-      [
-        "68",
-        "Carved elk horn"
-      ],
-      [
-        "69",
-        "Iron riveted"
-      ],
-      [
-        "70",
-        "Brass nailed"
-      ],
-      [
-        "71",
-        "Claw tipped"
-      ],
-      [
-        "72",
-        "Amber veined"
-      ],
-      [
-        "73",
-        "Burlewood"
-      ],
-      [
-        "74",
-        "Crystal studded"
-      ],
-      [
-        "75",
-        "Tiger striped"
-      ],
-      [
-        "76",
-        "Waxed leather"
-      ],
-      [
-        "77",
-        "Hex resistant"
-      ],
-      [
-        "78",
-        "Soulbound"
-      ],
-      [
-        "79",
-        "Rune inscribed"
-      ],
-      [
-        "80",
-        "Magnetized"
-      ],
-      [
-        "81",
-        "Harmonic tuned"
-      ],
-      [
-        "82",
-        "Owlbear fur lined"
-      ],
-      [
-        "83",
-        "Faerie dusted"
-      ],
-      [
-        "84",
-        "Hand carved"
-      ],
-      [
-        "85",
-        "Lattice patterned"
-      ],
-      [
-        "86",
-        "Rust proof"
-      ],
-      [
-        "87",
-        "Self-cleaning"
-      ],
-      [
-        "88",
-        "Iridescent finish"
-      ],
-      [
-        "89",
-        "Dire alligator leather"
-      ],
-      [
-        "90",
-        "Tortoiseshell veneer"
-      ],
-      [
-        "91",
-        "Copper banded"
-      ],
-      [
-        "92",
-        "Brass collared"
-      ],
-      [
-        "93",
-        "Diamond tipped"
-      ],
-      [
-        "94",
-        "Gemstone adorned"
-      ],
-      [
-        "95",
-        "Steel cored"
-      ],
-      [
-        "96",
-        "Rosewood"
-      ],
-      [
-        "97",
-        "Snakeskin"
-      ],
-      [
-        "98",
-        "Dreamvine smoked"
-      ],
-      [
-        "99",
-        "Rune branded"
-      ],
-      [
-        "100",
-        "Ichor stained"
-      ]
+      ["1", "Dwarven heirloom"],
+      ["2", "Kiln hardened"],
+      ["3", "Clan stamped"],
+      ["4", "Luminous inlay"],
+      ["5", "Tailored balance"],
+      ["6", "Crystalline core"],
+      ["7", "Ergonomic grip"],
+      ["8", "Sound dampened"],
+      ["9", "Artfully whittled"],
+      ["10", "Spring-loaded"],
+      ["11", "Mirror polished"],
+      ["12", "Brass filigree"],
+      ["13", "Bejeweled"],
+      ["14", "Ivory inset"],
+      ["15", "Fluted"],
+      ["16", "Ultra-light"],
+      ["17", "Braided leather"],
+      ["18", "Gilded edge"],
+      ["19", "{@item Delerium-forged blade|DungeonsDrakkenheim|Delerium forged}"],
+      ["20", "Underdark shroomwood"],
+      ["21", "Fungal resin grip"],
+      ["22", "Polished bone"],
+      ["23", "Weather sealed"],
+      ["24", "Tin plated"],
+      ["25", "Blackened silver"],
+      ["26", "Dragonscale leather"],
+      ["27", "Moon-bathed"],
+      ["28", "Fireproof"],
+      ["29", "Elemental etched"],
+      ["30", "Bronzed"],
+      ["31", "Feychromed"],
+      ["32", "Jade component"],
+      ["33", "Rose gold finish"],
+      ["34", "Blood sealed"],
+      ["35", "Spectral glow"],
+      ["36", "Prismatic coating"],
+      ["37", "Black pearl inlay"],
+      ["38", "Smoke imbued"],
+      ["39", "Cold forged"],
+      ["40", "Blessed"],
+      ["41", "Hand hammered"],
+      ["42", "Forge tempered"],
+      ["43", "Acid etched"],
+      ["44", "Blued metal"],
+      ["45", "Marquetry"],
+      ["46", "Fire-brand embossed"],
+      ["47", "Burnished mithral"],
+      ["48", "High gloss obsidian"],
+      ["49", "{@item Oil of Taggit|DMG|Taggit oiled}"],
+      ["50", "Shadow forged"],
+      ["51", "Blaze hardened"],
+      ["52", "Briarwood"],
+      ["53", "Treant wood"],
+      ["54", "Incense rubbed"],
+      ["55", "Twin-handed"],
+      ["56", "Swift draw"],
+      ["57", "Full-grain leather"],
+      ["58", "Packable"],
+      ["59", "Hollow construction"],
+      ["60", "Corrosion resistant"],
+      ["61", "Shock absorbing"],
+      ["62", "Camouflaged"],
+      ["63", "Fillet brazed"],
+      ["64", "Lightning touched"],
+      ["65", "Thrice tempered"],
+      ["66", "Silvered"],
+      ["67", "Platinum molded"],
+      ["68", "Carved elk horn"],
+      ["69", "Iron riveted"],
+      ["70", "Brass nailed"],
+      ["71", "Claw tipped"],
+      ["72", "Amber veined"],
+      ["73", "Burlewood"],
+      ["74", "Crystal studded"],
+      ["75", "Tiger striped"],
+      ["76", "Waxed leather"],
+      ["77", "Hex resistant"],
+      ["78", "Soulbound"],
+      ["79", "Rune inscribed"],
+      ["80", "Magnetized"],
+      ["81", "Harmonic tuned"],
+      ["82", "Owlbear fur lined"],
+      ["83", "Faerie dusted"],
+      ["84", "Hand carved"],
+      ["85", "Lattice patterned"],
+      ["86", "Rust proof"],
+      ["87", "Self-cleaning"],
+      ["88", "Iridescent finish"],
+      ["89", "Dire alligator leather"],
+      ["90", "Tortoiseshell veneer"],
+      ["91", "Copper banded"],
+      ["92", "Brass collared"],
+      ["93", "Diamond tipped"],
+      ["94", "Gemstone adorned"],
+      ["95", "Steel cored"],
+      ["96", "Rosewood"],
+      ["97", "Snakeskin"],
+      ["98", "Dreamvine smoked"],
+      ["99", "Rune branded"],
+      ["100", "Ichor stained"]
     ]
   },
     {
@@ -9449,50 +8449,17 @@
         "Draught"
       ],
       "rows": [
-        [
-          "1",
-          "{@item Berserker's Draught|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@item Pyrotov Cocktail|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@item Migrant Bitters|dungeonchurch}"
-        ],
-        [
-          "4",
-          "{@item Forge Mead|dungeonchurch}"
-        ],
-        [
-          "5",
-          "{@item Blacklung Brew|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@item Dubbelheart Ale|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@item Hearthhoney Braggot|dungeonchurch}"
-        ],
-        [
-          "8",
-          "{@item Stoneflower Ale|dungeonchurch}"
-        ],
-        [
-          "9",
-          "{@item Deepgarden Cider|dungeonchurch}"
-        ],
-        [
-          "10",
-          "{@item Lumengrove Tincture|dungeonchurch}"
-        ],
-        [
-          "11",
-          "{@item Pluvovitz Schnapps|dungeonchurch}"
-        ]
+        ["1", "{@item Berserker's Draught|dungeonchurch}"],
+        ["2", "{@item Pyrotov Cocktail|dungeonchurch}"],
+        ["3", "{@item Migrant Bitters|dungeonchurch}"],
+        ["4", "{@item Forge Mead|dungeonchurch}"],
+        ["5", "{@item Blacklung Brew|dungeonchurch}"],
+        ["6", "{@item Dubbelheart Ale|dungeonchurch}"],
+        ["7", "{@item Hearthhoney Braggot|dungeonchurch}"],
+        ["8", "{@item Stoneflower Ale|dungeonchurch}"],
+        ["9", "{@item Deepgarden Cider|dungeonchurch}"],
+        ["10", "{@item Lumengrove Tincture|dungeonchurch}"],
+        ["11", "{@item Pluvovitz Schnapps|dungeonchurch}"]
       ]
     },
     {
@@ -9504,30 +8471,12 @@
         "Reputation"
       ],
       "rows": [
-        [
-          "Favor",
-          "+3"
-        ],
-        [
-          "Mutual Aid",
-          "+2"
-        ],
-        [
-          "Minor Boon",
-          "+1"
-        ],
-        [
-          "Minor Slight",
-          "-1"
-        ],
-        [
-          "Disrespect",
-          "-2"
-        ],
-        [
-          "Crime",
-          "-3"
-        ]
+        ["Favor", "+3"],
+        ["Mutual Aid", "+2"],
+        ["Minor Boon", "+1"],
+        ["Minor Slight", "-1"],
+        ["Disrespect", "-2"],
+        ["Crime", "-3"]
       ]
     },
     {
@@ -9539,54 +8488,18 @@
         "Organization"
       ],
       "rows": [
-        [
-          "1",
-          "{@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}"
-        ],
-        [
-          "2",
-          "{@link Arkwrights of Durandar|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}"
-        ],
-        [
-          "3",
-          "{@link Gold Scale Company|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP}"
-        ],
-        [
-          "4",
-          "{@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}"
-        ],
-        [
-          "5",
-          "{@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}"
-        ],
-        [
-          "6",
-          "{@link Striborg House of Commons|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"
-        ],
-        [
-          "7",
-          "{@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}"
-        ],
-        [
-          "8",
-          "{@link Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"
-        ],
-        [
-          "9",
-          "{@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}"
-        ],
-        [
-          "10",
-          "{@link Striborg Navy|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX}"
-        ],
-        [
-          "11",
-          "{@link The Night Messengers|https://lore.dungeon.church/doc/the-night-messengers-1lb9etph9O}"
-        ],
-        [
-          "12",
-          "{@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}"
-        ]
+        ["1", "{@link Celestia de Lamour|https://lore.dungeon.church/doc/celestia-de-lamour-w5YwcY3B29}"],
+        ["2", "{@link Arkwrights of Durandar|https://lore.dungeon.church/doc/arkwrights-guild-xpUNyD7GMm}"],
+        ["3", "{@link Gold Scale Company|https://lore.dungeon.church/doc/gold-scale-company-m1WdlmIYwP}"],
+        ["4", "{@link Hand of Adalind|https://lore.dungeon.church/doc/hand-of-adalind-kFepjGY6vb}"],
+        ["5", "{@link Iron Riders|https://lore.dungeon.church/doc/iron-riders-of-abraxas-P77pTaxjou}"],
+        ["6", "{@link Striborg House of Commons|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"],
+        ["7", "{@link Saltmarsh Council|https://lore.dungeon.church/doc/saltmarsh-council-8KxfpMfTQ0}"],
+        ["8", "{@link Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"],
+        ["9", "{@link Storm Barons|https://lore.dungeon.church/doc/storm-barons-9bIflGjrAd}"],
+        ["10", "{@link Striborg Navy|https://lore.dungeon.church/doc/striborg-navy-ndvIs6jZtX}"],
+        ["11", "{@link The Night Messengers|https://lore.dungeon.church/doc/the-night-messengers-1lb9etph9O}"],
+        ["12", "{@link Red Talon Society|https://lore.dungeon.church/doc/the-red-talon-society-tI9out85of}"]
       ]
     },
     {
@@ -9598,54 +8511,18 @@
         "Hero"
       ],
       "rows": [
-        [
-          "1",
-          "{@link Atashi|https://lore.dungeon.church/doc/atashi-atVd38Z9vD}"
-        ],
-        [
-          "2",
-          "{@link Adalind Rumblebelly|https://lore.dungeon.church/doc/adalind-rumblebelly-SLXdYH518j}"
-        ],
-        [
-          "3",
-          "{@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}"
-        ],
-        [
-          "4",
-          "{@link Ching Hai|https://lore.dungeon.church/doc/ching-hai-yoiW7rLxlV}"
-        ],
-        [
-          "5",
-          "{@link Cirilla of Avalon|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP}"
-        ],
-        [
-          "6",
-          "{@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}"
-        ],
-        [
-          "7",
-          "{@link Edgeface|https://lore.dungeon.church/doc/edgeface-M9VxCkPEOP}"
-        ],
-        [
-          "8",
-          "{@link Estelar Thelen|https://lore.dungeon.church/doc/estelar-thelen-3oPlHNG1pr}"
-        ],
-        [
-          "9",
-          "{@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}"
-        ],
-        [
-          "10",
-          "{@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}"
-        ],
-        [
-          "11",
-          "{@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}"
-        ],
-        [
-          "12",
-          "{@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}"
-        ]
+        ["1", "{@link Atashi|https://lore.dungeon.church/doc/atashi-atVd38Z9vD}"],
+        ["2", "{@link Adalind Rumblebelly|https://lore.dungeon.church/doc/adalind-rumblebelly-SLXdYH518j}"],
+        ["3", "{@link Ashardolon|https://lore.dungeon.church/doc/ashardolon-tpAzsPflZX}"],
+        ["4", "{@link Ching Hai|https://lore.dungeon.church/doc/ching-hai-yoiW7rLxlV}"],
+        ["5", "{@link Cirilla of Avalon|https://lore.dungeon.church/doc/cirilla-of-house-naberius-Rx97WvltxP}"],
+        ["6", "{@link King Durradin|https://lore.dungeon.church/doc/king-durradin-SGe3lRM9BN}"],
+        ["7", "{@link Edgeface|https://lore.dungeon.church/doc/edgeface-M9VxCkPEOP}"],
+        ["8", "{@link Estelar Thelen|https://lore.dungeon.church/doc/estelar-thelen-3oPlHNG1pr}"],
+        ["9", "{@link Razorback the Uniter|https://lore.dungeon.church/doc/razorback-the-uniter-O3oe7NBQqK}"],
+        ["10", "{@link Eve|https://lore.dungeon.church/doc/eve-QQyGI5YbZc}"],
+        ["11", "{@link Fiz Junkbrand|https://lore.dungeon.church/doc/fiz-junkbrand-6fvhYAH5OE}"],
+        ["12", "{@link Vizimir|https://lore.dungeon.church/doc/vizimir-aebWWF4Ho0}"]
       ]
     },
     {
@@ -9657,54 +8534,18 @@
         "Organization"
       ],
       "rows": [
-        [
-          "1",
-          "Society of Distinguished Wizards"
-        ],
-        [
-          "2",
-          "Union of Independent Potion Brewers"
-        ],
-        [
-          "3",
-          "Anonymous Legion of Locksmiths"
-        ],
-        [
-          "4",
-          "{@link Longshoreman's Union|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}"
-        ],
-        [
-          "5",
-          "Amalgated Lithomancers"
-        ],
-        [
-          "6",
-          "{@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}"
-        ],
-        [
-          "7",
-          "Fishmongers' Fellowship"
-        ],
-        [
-          "8",
-          "The Most Diligent Order of the Streets"
-        ],
-        [
-          "9",
-          "{@link New City Brewing Distributors|https://lore.dungeon.church/doc/new-city-brewing-distributors-pufN7D27wa}"
-        ],
-        [
-          "10",
-          "Fraternal Order of Wandering Muses"
-        ],
-        [
-          "11",
-          "Circles of Midwives"
-        ],
-        [
-          "12",
-          "{@link The Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"
-        ]
+        ["1", "Society of Distinguished Wizards"],
+        ["2", "Union of Independent Potion Brewers"],
+        ["3", "Anonymous Legion of Locksmiths"],
+        ["4", "{@link Longshoreman's Union|https://lore.dungeon.church/doc/longshoremans-union-of-new-galmaarden-s29wx1YOfo}"],
+        ["5", "Amalgated Lithomancers"],
+        ["6", "{@link Society of the Spectacle|https://lore.dungeon.church/doc/society-of-the-spectacle-CKrqvCifAH}"],
+        ["7", "Fishmongers' Fellowship"],
+        ["8", "The Most Diligent Order of the Streets"],
+        ["9", "{@link New City Brewing Distributors|https://lore.dungeon.church/doc/new-city-brewing-distributors-pufN7D27wa}"],
+        ["10", "Fraternal Order of Wandering Muses"],
+        ["11", "Circles of Midwives"],
+        ["12", "{@link The Silver Suns|https://lore.dungeon.church/doc/the-silver-suns-Qtggev16EG}"]
       ]
     },
     {
@@ -9716,86 +8557,26 @@
         "Bond"
       ],
       "rows": [
-        [
-          "1",
-          "Is a sibling of"
-        ],
-        [
-          "2",
-          "Was saved by"
-        ],
-        [
-          "3",
-          "Served with"
-        ],
-        [
-          "4",
-          "Adventured with"
-        ],
-        [
-          "5",
-          "Is a friendly rival of"
-        ],
-        [
-          "6",
-          "Protected by"
-        ],
-        [
-          "7",
-          "Childhood friend of"
-        ],
-        [
-          "8",
-          "Is magically bound to"
-        ],
-        [
-          "9",
-          "Survived with"
-        ],
-        [
-          "10",
-          "Escaped with"
-        ],
-        [
-          "11",
-          "Apprentice of"
-        ],
-        [
-          "12",
-          "Acolyte of"
-        ],
-        [
-          "13",
-          "Idolizes"
-        ],
-        [
-          "14",
-          "Drinking buddies with"
-        ],
-        [
-          "15",
-          "Business associate of"
-        ],
-        [
-          "16",
-          "Lost a bet to"
-        ],
-        [
-          "17",
-          "Is indebted to"
-        ],
-        [
-          "18",
-          "Was trained by"
-        ],
-        [
-          "19",
-          "Dueling partner of"
-        ],
-        [
-          "20",
-          "On the run with"
-        ]
+        ["1", "Is a sibling of"],
+        ["2", "Was saved by"],
+        ["3", "Served with"],
+        ["4", "Adventured with"],
+        ["5", "Is a friendly rival of"],
+        ["6", "Protected by"],
+        ["7", "Childhood friend of"],
+        ["8", "Is magically bound to"],
+        ["9", "Survived with"],
+        ["10", "Escaped with"],
+        ["11", "Apprentice of"],
+        ["12", "Acolyte of"],
+        ["13", "Idolizes"],
+        ["14", "Drinking buddies with"],
+        ["15", "Business associate of"],
+        ["16", "Lost a bet to"],
+        ["17", "Is indebted to"],
+        ["18", "Was trained by"],
+        ["19", "Dueling partner of"],
+        ["20", "On the run with"]
       ]
     },
     {
@@ -9919,46 +8700,16 @@
         "Deity"
       ],
       "rows": [
-        [
-          "1",
-          "{@deity Abraxas|pyora|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@deity Anhon|pyora|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@deity Azrael|pyora|dungeonchurch}"
-        ],
-        [
-          "4",
-          "{@deity Ostara|pyora|dungeonchurch}"
-        ],
-        [
-          "5",
-          "{@deity Proteus|pyora|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@deity Raven Queen|pyora|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@deity Sarenrae|pyora|dungeonchurch}"
-        ],
-        [
-          "8",
-          "{@deity Selûne|pyora|dungeonchurch}"
-        ],
-        [
-          "9",
-          "{@deity Siduri|pyora|dungeonchurch}"
-        ],
-        [
-          "10",
-          "{@deity The Traveler|pyora|dungeonchurch}"
-        ]
+        ["1", "{@deity Abraxas|pyora|dungeonchurch}"],
+        ["2", "{@deity Anhon|pyora|dungeonchurch}"],
+        ["3", "{@deity Azrael|pyora|dungeonchurch}"],
+        ["4", "{@deity Ostara|pyora|dungeonchurch}"],
+        ["5", "{@deity Proteus|pyora|dungeonchurch}"],
+        ["6", "{@deity Raven Queen|pyora|dungeonchurch}"],
+        ["7", "{@deity Sarenrae|pyora|dungeonchurch}"],
+        ["8", "{@deity Selûne|pyora|dungeonchurch}"],
+        ["9", "{@deity Siduri|pyora|dungeonchurch}"],
+        ["10", "{@deity The Traveler|pyora|dungeonchurch}"]
       ]
     },
     {
@@ -9970,78 +8721,24 @@
         "Location"
       ],
       "rows": [
-        [
-          "1",
-          "{@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"
-        ],
-        [
-          "2",
-          "{@link The Fens|https://lore.dungeon.church/doc/the-fens-kGwQDJ8Sxp}"
-        ],
-        [
-          "3",
-          "{@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}"
-        ],
-        [
-          "4",
-          "{@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}"
-        ],
-        [
-          "5",
-          "{@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}"
-        ],
-        [
-          "6",
-          "{@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}"
-        ],
-        [
-          "7",
-          "{@link Duskmire|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}"
-        ],
-        [
-          "8",
-          "{@link Pirate Ship|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}"
-        ],
-        [
-          "9",
-          "{@link Carnival Revelia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K"
-        ],
-        [
-          "10",
-          "{@link Doral|https://lore.dungeon.church/doc/doral-7CPHFPqsXA}"  
-        ],
-        [
-          "11",
-          "{@link Blue Harbour|https://lore.dungeon.church/doc/blue-harbour-BvSEhfEXJ5}"
-        ],
-        [
-          "12",
-          "{@link Burle|https://lore.dungeon.church/doc/burle-8ZuZ4qZsXt}"
-        ],
-        [
-          "13",
-          "{@link Fallowhold|https://lore.dungeon.church/doc/fallowhold-uW0oE42B6F"
-        ],
-        [
-          "14",
-          "{@link Avalon|https://lore.dungeon.church/doc/avalon-4JX1Y2o8YV}"
-        ],
-        [
-          "15",
-          "{@link Havong|https://lore.dungeon.church/doc/havong-zTmSPWVPVA}"
-        ],
-        [
-          "16",
-          "{@link Lamordia|https://lore.dungeon.church/doc/lamordia-0bX1Y2o8YV}"
-        ],
-        [
-          "17",
-          "{@link Jhaampe|https://lore.dungeon.church/doc/jhaampe-mCxU5WAN7q"
-        ],
-        [
-          "18",
-          "{@link Strümfreihåfen|https://lore.dungeon.church/doc/sturmfreihafen-strumfreihafen-9imRbQ02Fq}"
-        ]
+        ["1", "{@link Striborg|https://lore.dungeon.church/doc/striborg-mZk9jSyJUV}"],
+        ["2", "{@link The Fens|https://lore.dungeon.church/doc/the-fens-kGwQDJ8Sxp}"],
+        ["3", "{@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}"],
+        ["4", "{@link Durandar|https://lore.dungeon.church/doc/durandar-sWDxZHDVIC}"],
+        ["5", "{@link Dreadwood|https://lore.dungeon.church/doc/dreadwood-GcfKdBzGyT}"],
+        ["6", "{@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5}"],
+        ["7", "{@link Duskmire|https://lore.dungeon.church/doc/duskmire-hJey19lfsu}"],
+        ["8", "{@link Pirate Ship|https://lore.dungeon.church/doc/confederacy-of-hearthships-EDksxQvprt}"],
+        ["9", "{@link Carnival Revelia|https://lore.dungeon.church/doc/revelia-hGJF8ybX3K}"],
+        ["10", "{@link Doral|https://lore.dungeon.church/doc/doral-7CPHFPqsXA}"],
+        ["11", "{@link Blue Harbour|https://lore.dungeon.church/doc/blue-harbour-BvSEhfEXJ5}"],
+        ["12", "{@link Burle|https://lore.dungeon.church/doc/burle-8ZuZ4qZsXt}"],
+        ["13", "{@link Fallowhold|https://lore.dungeon.church/doc/fallowhold-uW0oE42B6F}"],
+        ["14", "{@link Avalon|https://lore.dungeon.church/doc/avalon-4JX1Y2o8YV}"],
+        ["15", "{@link Havong|https://lore.dungeon.church/doc/havong-zTmSPWVPVA}"],
+        ["16", "{@link Lamordia|https://lore.dungeon.church/doc/lamordia-0bX1Y2o8YV}"],
+        ["17", "{@link Jhaampe|https://lore.dungeon.church/doc/jhaampe-mCxU5WAN7q}"],
+        ["18", "{@link Strümfreihåfen|https://lore.dungeon.church/doc/sturmfreihafen-strumfreihafen-9imRbQ02Fq}"]
       ]
     },
     {
@@ -10053,414 +8750,108 @@
         "Item"
       ],
       "rows": [
-        [
-          "1",
-          "{@item Abi-Tseos's Machete|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@item Amulet of Betrayal|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@item Cirilla's Gift|dungeonchurch}"
-        ],
-        [
-          "4",
-          "{@item Collector of Souls|dungeonchurch}"
-        ],
-        [
-          "5",
-          "{@item Dagger of Profuse Bleeding|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@item Dimensional Glasses|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@item Fedora of Disguise|dungeonchurch}"
-        ],
-        [
-          "8",
-          "{@item Fist of Durradin|dungeonchurch}"
-        ],
-        [
-          "9",
-          "{@item Fiz's Flute|dungeonchurch}"
-        ],
-        [
-          "10",
-          "{@item Longsword of the Dragon Empire|dungeonchurch}"
-        ],
-        [
-          "11",
-          "{@item Mage Bane|dungeonchurch}"
-        ],
-        [
-          "12",
-          "{@item Minor Belt of Dwarvenkind|dungeonchurch}"
-        ],
-        [
-          "13",
-          "{@item Monster Identification Cards|dungeonchurch}"
-        ],
-        [
-          "14",
-          "{@item Night Messenger's Cloak|dungeonchurch}"
-        ],
-        [
-          "15",
-          "{@item Nightshade's Ring|dungeonchurch}"
-        ],
-        [
-          "16",
-          "{@item Painting of Lamont Solmar|dungeonchurch}"
-        ],
-        [
-          "17",
-          "{@item Potion of Midnight Oil|dungeonchurch}"
-        ],
-        [
-          "18",
-          "{@item Potion of Undeath|dungeonchurch}"
-        ],
-        [
-          "19",
-          "{@item Ring of Prestidigitation|dungeonchurch}"
-        ],
-        [
-          "20",
-          "{@item Sapphire Nightshade|dungeonchurch}"
-        ],
-        [
-          "21",
-          "{@item Shield of Missile Deflection|dungeonchurch}"
-        ],
-        [
-          "22",
-          "{@item Skeleton Key|dungeonchurch}"
-        ],
-        [
-          "23",
-          "{@item Ring of Water Breathing|dungeonchurch}"
-        ],
-        [
-          "24",
-          "{@item Brooch of Witchsight|dungeonchurch}"
-        ],
-        [
-          "25",
-          "{@item Gnomish Tea Set|dungeonchurch}"
-        ],
-        [
-          "26",
-          "{@item Potion of Oblivion|dungeonchurch}"
-        ],
-        [
-          "27",
-          "{@item Sphere of Everlasting Ice|dungeonchurch}"
-        ],
-        [
-          "28",
-          "{@item Rationing Spice|dungeonchurch}"
-        ],
-        [
-          "29",
-          "{@item Entrancing Mirror|dungeonchurch}"
-        ],
-        [
-          "30",
-          "{@item Spores of Delirium|dungeonchurch}"
-        ],
-        [
-          "31",
-          "{@item Potion of the Mossy Oak|dungeonchurch}"
-        ],
-        [
-          "32",
-          "{@item Ley Line Lens|dungeonchurch}"
-        ],
-        [
-          "33",
-          "{@item Entrancing Mirror|dungeonchurch}"
-        ],
-        [
-          "34",
-          "{@item Vial of the Last Harvest|dungeonchurch}"
-        ],
-        [
-          "35",
-          "{@item Potion of Unbridled Potential|dungeonchurch}"
-        ],
-        [
-          "36",
-          "{@item Oil of Immolation|dungeonchurch}"
-        ],
-        [
-          "37",
-          "{@item Avalonian Lantern|dungeonchurch}"
-        ],
-        [
-          "38",
-          "{@item Cloak of Rats|dungeonchurch}"
-        ],
-        [
-          "39",
-          "{@item Sporebane|dungeonchurch}"
-        ],
-        [
-          "40",
-          "{@item Avalon Engineer's Signet|dungeonchurch}"
-        ],
-        [
-          "41",
-          "{@item Siduri's Token|dungeonchurch}"
-        ],
-        [
-          "42",
-          "{@item Banshee Blight|dungeonchurch}"
-        ],
-        [
-          "43",
-          "{@item Black Diamond|dungeonchurch}"
-        ],
-        [
-          "44",
-          "{@item Dream Vine|dungeonchurch}"
-        ],
-        [
-          "45",
-          "{@item Nightshade Poison|dungeonchurch}"
-        ],
-        [
-          "46",
-          "{@item Stone Tea|dungeonchurch}"
-        ],
-        [
-          "47",
-          "{@item Potion of Vile Strength|dungeonchurch}"
-        ],
-        [
-          "48",
-          "{@item Gloomroot Extract|dungeonchurch}"
-        ],
-        [
-          "49",
-          "{@item Void Essence|dungeonchurch}"
-        ],
-        [
-          "50",
-          "{@item Berserker's Draught|dungeonchurch}"
-        ],
-        [
-          "51",
-          "{@item Potion of Incorporeal Passage|dungeonchurch}"
-        ],
-        [
-          "52",
-          "{@item Guildmaster's Hunting Horn|dungeonchurch}"
-        ],
-        [
-          "53",
-          "{@item Shield of Duskmire|dungeonchurch}"
-        ],
-        [
-          "54",
-          "{@item Mildred's Amulet|dungeonchurch}"
-        ],
-        [
-          "55",
-          "{@item Bag of Rust|dungeonchurch}"
-        ],
-        [
-          "56",
-          "{@item Vial of Veilblood|dungeonchurch}"
-        ],
-        [
-          "57",
-          "{@item Essence of Submission|dungeonchurch}"
-        ],
-        [
-          "58",
-          "{@item Wooden Stake|dungeonchurch}"
-        ],
-        [
-          "59",
-          "{@item Dark Truth Serum|dungeonchurch}"
-        ],
-        [
-          "60",
-          "{@item Pyrotov Cocktail|dungeonchurch}"
-        ],
-        [
-          "61",
-          "{@item Forge Mead|dungeonchurch}"
-        ],
-        [
-          "62",
-          "{@item Whisperwine|dungeonchurch}"
-        ],
-        [
-          "63",
-          "{@item Vial of Dark Resolve|dungeonchurch}"
-        ],
-        [
-          "64",
-          "{@item Amulet of False Life|dungeonchurch}"
-        ],
-        [
-          "65",
-          "{@item Soulbound Skull|dungeonchurch}"
-        ],
-        [
-          "66",
-          "{@item Blacklung Brew|dungeonchurch}"
-        ],
-        [
-          "67",
-          "{@item Dubbelheart Ale|dungeonchurch}"
-        ],
-        [
-          "68",
-          "{@item Hearthhoney Braggot|dungeonchurch}"
-        ],
-        [
-          "69",
-          "{@item Stoneflower Ale|dungeonchurch}"
-        ],
-        [
-          "70",
-          "{@item Deepgarden Cider|dungeonchurch}"
-        ],
-        [
-          "71",
-          "{@item Lumengrove Tincture|dungeonchurch}"
-        ],
-        [
-          "72",
-          "{@item Delerium-Forged Dagger|dungeonchurch}"
-        ],
-        [
-          "73",
-          "{@item Pluvovitz Schnapps|dungeonchurch}"
-        ],
-        [
-          "74",
-          "{@item Nilbog's Scepter|dungeonchurch}"
-        ],
-        [
-          "75",
-          "{@item Boots of Black Ice|dungeonchurch}"
-        ],
-        [
-          "76",
-          "{@item Boot of Beer|dungeonchurch}"
-        ],
-        [
-          "77",
-          "{@item Whip of Blinding Speed|dungeonchurch}"
-        ],
-        [
-          "78",
-          "{@item Pumpkin of Unreliable Fireball|dungeonchurch}"
-        ],
-        [
-          "79",
-          "{@item Otto's Gong|dungeonchurch}"
-        ],
-        [
-          "80",
-          "{@item Red Wizard's Bong|dungeonchurch}"
-        ],
-        [
-          "81",
-          "{@item Dust of Deliciousness|dungeonchurch}"
-        ],
-        [
-          "82",
-          "{@item Vial of Gladiator Sweat|dungeonchurch}"
-        ],
-        [
-          "83",
-          "{@item Vial of Gladiator Blood|dungeonchurch}"
-        ],
-        [
-          "84",
-          "{@item Animated Peanuts|dungeonchurch}"
-        ],
-        [
-          "85",
-          "{@item Red Cape of Taunting|dungeonchurch}"
-        ],
-        [
-          "86",
-          "{@item Ring of Summon Streaker|dungeonchurch}"
-        ],
-        [
-          "87",
-          "{@item Bottled Sarlacc Pheromones|dungeonchurch}"
-        ],
-        [
-          "88",
-          "{@item Grease Grenade|dungeonchurch}"
-        ],
-        [
-          "89",
-          "{@item Stink Grenade|dungeonchurch}"
-        ],
-        [
-          "90",
-          "{@item Silence Grenade|dungeonchurch}"
-        ],
-        [
-          "91",
-          "{@item Faerie Fire Grenade|dungeonchurch}"
-        ],
-        [
-          "92",
-          "{@item Glyph of Jump Pad|dungeonchurch}"
-        ],
-        [
-          "93",
-          "{@item Glyph of Longstrider|dungeonchurch}"
-        ],
-        [
-          "94",
-          "{@item Glyph of Teleportation Circle|dungeonchurch}"
-        ],
-        [
-          "95",
-          "{@item Garlic Fries|dungeonchurch}"
-        ],
-        [
-          "96",
-          "{@item Bag of Alligator Tongues|dungeonchurch}"
-        ],
-        [
-          "97",
-          "{@item Potion of Shouting|dungeonchurch}"
-        ],
-        [
-          "98",
-          "{@item Orc's Arse|dungeonchurch}"
-        ],
-        [
-          "99",
-          "{@item Slug Slime|dungeonchurch}"
-        ],
-        [
-          "100",
-          "{@item Snake Oil|dungeonchurch}"
-        ],
-        [
-          "101",
-          "{@item Eclipse Lantern|dungeonchurch}"
-        ],
-        [
-          "102",
-          "{@item Swordstick|dungoenchurch}"
-        ]
+        ["1", "{@item Abi-Tseos's Machete|dungeonchurch}"],
+        ["2", "{@item Amulet of Betrayal|dungeonchurch}"],
+        ["3", "{@item Cirilla's Gift|dungeonchurch}"],
+        ["4", "{@item Collector of Souls|dungeonchurch}"],
+        ["5", "{@item Dagger of Profuse Bleeding|dungeonchurch}"],
+        ["6", "{@item Dimensional Glasses|dungeonchurch}"],
+        ["7", "{@item Fedora of Disguise|dungeonchurch}"],
+        ["8", "{@item Fist of Durradin|dungeonchurch}"],
+        ["9", "{@item Fiz's Flute|dungeonchurch}"],
+        ["10", "{@item Longsword of the Dragon Empire|dungeonchurch}"],
+        ["11", "{@item Mage Bane|dungeonchurch}"],
+        ["12", "{@item Minor Belt of Dwarvenkind|dungeonchurch}"],
+        ["13", "{@item Monster Identification Cards|dungeonchurch}"],
+        ["14", "{@item Night Messenger's Cloak|dungeonchurch}"],
+        ["15", "{@item Nightshade's Ring|dungeonchurch}"],
+        ["16", "{@item Painting of Lamont Solmar|dungeonchurch}"],
+        ["17", "{@item Potion of Midnight Oil|dungeonchurch}"],
+        ["18", "{@item Potion of Undeath|dungeonchurch}"],
+        ["19", "{@item Ring of Prestidigitation|dungeonchurch}"],
+        ["20", "{@item Sapphire Nightshade|dungeonchurch}"],
+        ["21", "{@item Shield of Missile Deflection|dungeonchurch}"],
+        ["22", "{@item Skeleton Key|dungeonchurch}"],
+        ["23", "{@item Ring of Water Breathing|dungeonchurch}"],
+        ["24", "{@item Brooch of Witchsight|dungeonchurch}"],
+        ["25", "{@item Gnomish Tea Set|dungeonchurch}"],
+        ["26", "{@item Potion of Oblivion|dungeonchurch}"],
+        ["27", "{@item Sphere of Everlasting Ice|dungeonchurch}"],
+        ["28", "{@item Rationing Spice|dungeonchurch}"],
+        ["29", "{@item Entrancing Mirror|dungeonchurch}"],
+        ["30", "{@item Spores of Delirium|dungeonchurch}"],
+        ["31", "{@item Potion of the Mossy Oak|dungeonchurch}"],
+        ["32", "{@item Ley Line Lens|dungeonchurch}"],
+        ["33", "{@item Entrancing Mirror|dungeonchurch}"],
+        ["34", "{@item Vial of the Last Harvest|dungeonchurch}"],
+        ["35", "{@item Potion of Unbridled Potential|dungeonchurch}"],
+        ["36", "{@item Oil of Immolation|dungeonchurch}"],
+        ["37", "{@item Avalonian Lantern|dungeonchurch}"],
+        ["38", "{@item Cloak of Rats|dungeonchurch}"],
+        ["39", "{@item Sporebane|dungeonchurch}"],
+        ["40", "{@item Avalon Engineer's Signet|dungeonchurch}"],
+        ["41", "{@item Siduri's Token|dungeonchurch}"],
+        ["42", "{@item Banshee Blight|dungeonchurch}"],
+        ["43", "{@item Black Diamond|dungeonchurch}"],
+        ["44", "{@item Dream Vine|dungeonchurch}"],
+        ["45", "{@item Nightshade Poison|dungeonchurch}"],
+        ["46", "{@item Stone Tea|dungeonchurch}"],
+        ["47", "{@item Potion of Vile Strength|dungeonchurch}"],
+        ["48", "{@item Gloomroot Extract|dungeonchurch}"],
+        ["49", "{@item Void Essence|dungeonchurch}"],
+        ["50", "{@item Berserker's Draught|dungeonchurch}"],
+        ["51", "{@item Potion of Incorporeal Passage|dungeonchurch}"],
+        ["52", "{@item Guildmaster's Hunting Horn|dungeonchurch}"],
+        ["53", "{@item Shield of Duskmire|dungeonchurch}"],
+        ["54", "{@item Mildred's Amulet|dungeonchurch}"],
+        ["55", "{@item Bag of Rust|dungeonchurch}"],
+        ["56", "{@item Vial of Veilblood|dungeonchurch}"],
+        ["57", "{@item Essence of Submission|dungeonchurch}"],
+        ["58", "{@item Wooden Stake|dungeonchurch}"],
+        ["59", "{@item Dark Truth Serum|dungeonchurch}"],
+        ["60", "{@item Pyrotov Cocktail|dungeonchurch}"],
+        ["61", "{@item Forge Mead|dungeonchurch}"],
+        ["62", "{@item Whisperwine|dungeonchurch}"],
+        ["63", "{@item Vial of Dark Resolve|dungeonchurch}"],
+        ["64", "{@item Amulet of False Life|dungeonchurch}"],
+        ["65", "{@item Soulbound Skull|dungeonchurch}"],
+        ["66", "{@item Blacklung Brew|dungeonchurch}"],
+        ["67", "{@item Dubbelheart Ale|dungeonchurch}"],
+        ["68", "{@item Hearthhoney Braggot|dungeonchurch}"],
+        ["69", "{@item Stoneflower Ale|dungeonchurch}"],
+        ["70", "{@item Deepgarden Cider|dungeonchurch}"],
+        ["71", "{@item Lumengrove Tincture|dungeonchurch}"],
+        ["72", "{@item Delerium-Forged Dagger|dungeonchurch}"],
+        ["73", "{@item Pluvovitz Schnapps|dungeonchurch}"],
+        ["74", "{@item Nilbog's Scepter|dungeonchurch}"],
+        ["75", "{@item Boots of Black Ice|dungeonchurch}"],
+        ["76", "{@item Boot of Beer|dungeonchurch}"],
+        ["77", "{@item Whip of Blinding Speed|dungeonchurch}"],
+        ["78", "{@item Pumpkin of Unreliable Fireball|dungeonchurch}"],
+        ["79", "{@item Otto's Gong|dungeonchurch}"],
+        ["80", "{@item Red Wizard's Bong|dungeonchurch}"],
+        ["81", "{@item Dust of Deliciousness|dungeonchurch}"],
+        ["82", "{@item Vial of Gladiator Sweat|dungeonchurch}"],
+        ["83", "{@item Vial of Gladiator Blood|dungeonchurch}"],
+        ["84", "{@item Animated Peanuts|dungeonchurch}"],
+        ["85", "{@item Red Cape of Taunting|dungeonchurch}"],
+        ["86", "{@item Ring of Summon Streaker|dungeonchurch}"],
+        ["87", "{@item Bottled Sarlacc Pheromones|dungeonchurch}"],
+        ["88", "{@item Grease Grenade|dungeonchurch}"],
+        ["89", "{@item Stink Grenade|dungeonchurch}"],
+        ["90", "{@item Silence Grenade|dungeonchurch}"],
+        ["91", "{@item Faerie Fire Grenade|dungeonchurch}"],
+        ["92", "{@item Glyph of Jump Pad|dungeonchurch}"],
+        ["93", "{@item Glyph of Longstrider|dungeonchurch}"],
+        ["94", "{@item Glyph of Teleportation Circle|dungeonchurch}"],
+        ["95", "{@item Garlic Fries|dungeonchurch}"],
+        ["96", "{@item Bag of Alligator Tongues|dungeonchurch}"],
+        ["97", "{@item Potion of Shouting|dungeonchurch}"],
+        ["98", "{@item Orc's Arse|dungeonchurch}"],
+        ["99", "{@item Slug Slime|dungeonchurch}"],
+        ["100", "{@item Snake Oil|dungeonchurch}"],
+        ["101", "{@item Eclipse Lantern|dungeonchurch}"],
+        ["102", "{@item Swordstick|dungoenchurch}"]
       ]
     },
     {
@@ -10468,78 +8859,32 @@
       "source": "DungeonChurch",
       "caption": "Monsters known to inhabit the realm of Pyora.",
       "colLabels": [
-        "d17",
+        "d22",
         "Monster"
       ],
       "rows": [
-        [
-          "1",
-          "{@creature Hellion Child|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@creature Sap Ooze|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@creature Zombie Raccoon|dungeonchurch}"
-        ],
-        [
-          "4",
-          "{@creature Iron Rider Hunter|dungeonchurch}"
-        ],
-        [
-          "5",
-          "{@creature Iron Rider Knight|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@creature Iron Rider Commodore|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@creature Iron Rider Priest|dungeonchurch}"
-        ],
-        [
-          "8",
-          "{@creature Iron Rider Warder|dungeonchurch}"
-        ],
-        [
-          "9",
-          "{@creature Coal Golem|dungeonchurch}"
-        ],
-        [
-          "10",
-          "{@creature Giant Coal Ant|dungeonchurch}"
-        ],
-        [
-          "11",
-          "{@creature Clockwork Shark|dungeonchurch}"
-        ],
-        [
-          "12",
-          "{@creature Iron Rider Deputy|dungeonchurch}"
-        ],
-        [
-          "13",
-          "{@creature Briar Tree|dungeonchurch}"
-        ],
-        [
-          "14",
-          "{@creature Briar Mound|dungeonchurch}"
-        ],
-        [
-          "15",
-          "{@creature Zombie Vulture|dungeonchurch}"
-        ],
-        [
-          "16",
-          "{@creature Scorchcock|dungeonchurch}"
-        ],
-        [
-          "17",
-          "{@creature One-Eyed Purple Breasted Warbler|dungeonchurch}"
-        ]
+        ["1", "{@creature Boomerang Cat|dungeonchurch}"],
+        ["2", "{@creature Briar Mound|dungeonchurch}"],
+        ["3", "{@creature Briar Tree|dungeonchurch}"],
+        ["4", "{@creature Clockwork Shark|dungeonchurch}"],
+        ["5", "{@creature Coal Golem|dungeonchurch}"],
+        ["6", "{@creature Dire Boar|dungeonchurch}"],
+        ["7", "{@creature Dire Bullfrog|dungeonchurch}"],
+        ["8", "{@creature Dire Hare|dungeonchurch}"],
+        ["9", "{@creature Giant Coal Ant|dungeonchurch}"],
+        ["10", "{@creature Hellion Child|dungeonchurch}"],
+        ["11", "{@creature Iron Rider Commodore|dungeonchurch}"],
+        ["12", "{@creature Iron Rider Deputy|dungeonchurch}"],
+        ["13", "{@creature Iron Rider Hunter|dungeonchurch}"],
+        ["14", "{@creature Iron Rider Knight|dungeonchurch}"],
+        ["15", "{@creature Iron Rider Priest|dungeonchurch}"],
+        ["16", "{@creature Iron Rider Warder|dungeonchurch}"],
+        ["17", "{@creature One-Eyed Purple Breasted Warbler|dungeonchurch}"],
+        ["18", "{@creature Sap Ooze|dungeonchurch}"],
+        ["19", "{@creature Scorchcock|dungeonchurch}"],
+        ["20", "{@creature Vomit Ooze|dungeonchurch}"],
+        ["21", "{@creature Zombie Raccoon|dungeonchurch}"],
+        ["22", "{@creature Zombie Vulture|dungeonchurch}"]
       ]
     },
     {
@@ -10551,118 +8896,34 @@
         "Potion"
       ],
       "rows": [
-        [
-          "1",
-          "{@item Potion of Undeath|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@item Potion of Midnight Oil|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@item Potion of Oblivion|dungeonchurch}"
-        ],
-        [
-          "4",
-          "{@item Spores of Delirium|dungeonchurch}"
-        ],
-        [
-          "5",
-          "{@item Potion of the Mossy Oak|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@item Vial of the Last Harvest|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@item Potion of Unbridled Potential|dungeonchurch}"
-        ],
-        [
-          "8",
-          "{@item Oil of Immolation|dungeonchurch}"
-        ],
-        [
-          "9",
-          "{@item Potion of Vile Strength|dungeonchurch}"
-        ],
-        [
-          "10",
-          "{@item Gloomroot Extract|dungeonchurch}"
-        ],
-        [
-          "11",
-          "{@item Void Essence|dungeonchurch}"
-        ],
-        [
-          "12",
-          "{@item Berserker's Draught|dungeonchurch}"
-        ],
-        [
-          "13",
-          "{@item Potion of Incorporeal Passage|dungeonchurch}"
-        ],
-        [
-          "14",
-          "{@item Vial of Veilblood|dungeonchurch}"
-        ],
-        [
-          "15",
-          "{@item Essence of Submission|dungeonchurch}"
-        ],
-        [
-          "16",
-          "{@item Dark Truth Serum|dungeonchurch}"
-        ],
-        [
-          "17",
-          "{@item Pyrotov Cocktail|dungeonchurch}"
-        ],
-        [
-          "18",
-          "{@item Migrant Bitters|dungeonchurch}"
-        ],
-        [
-          "19",
-          "{@item Forge Mead|dungeonchurch}"
-        ],
-        [
-          "20",
-          "{@item Whisperwine|dungeonchurch}"
-        ],
-        [
-          "21",
-          "{@item Vial of Dark Resolve|dungeonchurch}"
-        ],
-        [
-          "22",
-          "{@item Pluvovitz Schnapps|dungeonchurch}"
-        ],
-        [
-          "23",
-          "{@item Vial of Gladiator Sweat|dungeonchurch}"
-        ],
-        [
-          "24",
-          "{@item Vial of Gladiator Blood|dungeonchurch}"
-        ],
-        [
-          "25",
-          "{@item Bottled Sarlacc Pheromones|dungeonchurch}"
-        ],
-        [
-          "26",
-          "{@item Potion of Shouting|dungeonchurch}"
-        ],
-        [
-          "27",
-          "{@item Slug Slime|dungeonchurch}"
-        ],
-        [
-          "28",
-          "{@item Snake Oil|dungeonchurch}"
-        ]
+        ["1", "{@item Potion of Undeath|dungeonchurch}"],
+        ["2", "{@item Potion of Midnight Oil|dungeonchurch}"],
+        ["3", "{@item Potion of Oblivion|dungeonchurch}"],
+        ["4", "{@item Spores of Delirium|dungeonchurch}"],
+        ["5", "{@item Potion of the Mossy Oak|dungeonchurch}"],
+        ["6", "{@item Vial of the Last Harvest|dungeonchurch}"],
+        ["7", "{@item Potion of Unbridled Potential|dungeonchurch}"],
+        ["8", "{@item Oil of Immolation|dungeonchurch}"],
+        ["9", "{@item Potion of Vile Strength|dungeonchurch}"],
+        ["10", "{@item Gloomroot Extract|dungeonchurch}"],
+        ["11", "{@item Void Essence|dungeonchurch}"],
+        ["12", "{@item Berserker's Draught|dungeonchurch}"],
+        ["13", "{@item Potion of Incorporeal Passage|dungeonchurch}"],
+        ["14", "{@item Vial of Veilblood|dungeonchurch}"],
+        ["15", "{@item Essence of Submission|dungeonchurch}"],
+        ["16", "{@item Dark Truth Serum|dungeonchurch}"],
+        ["17", "{@item Pyrotov Cocktail|dungeonchurch}"],
+        ["18", "{@item Migrant Bitters|dungeonchurch}"],
+        ["19", "{@item Forge Mead|dungeonchurch}"],
+        ["20", "{@item Whisperwine|dungeonchurch}"],
+        ["21", "{@item Vial of Dark Resolve|dungeonchurch}"],
+        ["22", "{@item Pluvovitz Schnapps|dungeonchurch}"],
+        ["23", "{@item Vial of Gladiator Sweat|dungeonchurch}"],
+        ["24", "{@item Vial of Gladiator Blood|dungeonchurch}"],
+        ["25", "{@item Bottled Sarlacc Pheromones|dungeonchurch}"],
+        ["26", "{@item Potion of Shouting|dungeonchurch}"],
+        ["27", "{@item Slug Slime|dungeonchurch}"],
+        ["28", "{@item Snake Oil|dungeonchurch}"]
       ]
     },
     {
@@ -10675,51 +8936,15 @@
         "Distribution"
       ],
       "rows": [
-        [
-          "1",
-          "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}",
-          "Common"
-        ],
-        [
-          "2",
-          "{@race Dwarf (Durandar)|dungeonchurch|Dwarf (Durandar)}",
-          "Common"
-        ],
-        [
-          "3",
-          "{@race Dwarf (Hearth)|dungeonchurch|Dwarf (Hearth)}",
-          "Common"
-        ],
-        [
-          "4",
-          "{@race Elfmarked|dungeonchurch|Elfmarked}",
-          "Uncommon"
-        ],
-        [
-          "5",
-          "{@race Gnome (Rock)|dungeonchurch|Gnome (Rock)}",
-          "Rare"
-        ],
-        [
-          "6",
-          "{@race Halfling (Pyoran)|dungeonchurch|Halfling (Pyoran)}",
-          "Uncommon"
-        ],
-        [
-          "7",
-          "{@race Human (Pyoran)|dungeonchurch|Human}",
-          "Common"
-        ],
-        [
-          "8",
-          "{@race Ravenfolk|dungeonchurch|Ravenfolk}",
-          "Rare"
-        ],
-        [
-          "9",
-          "{@race Tribeborn|dungeonchurch|Tribeborn}",
-          "Uncommon"
-        ]
+        ["1", "{@race Dragonborn (Pyoran)|dungeonchurch|Dragonborn}", "Common"],
+        ["2", "{@race Dwarf (Durandar)|dungeonchurch|Dwarf (Durandar)}", "Common"],
+        ["3", "{@race Dwarf (Hearth)|dungeonchurch|Dwarf (Hearth)}", "Common"],
+        ["4", "{@race Elfmarked|dungeonchurch|Elfmarked}", "Uncommon"],
+        ["5", "{@race Gnome (Rock)|dungeonchurch|Gnome (Rock)}", "Rare"],
+        ["6", "{@race Halfling (Pyoran)|dungeonchurch|Halfling (Pyoran)}", "Uncommon"],
+        ["7", "{@race Human (Pyoran)|dungeonchurch|Human}", "Common"],
+        ["8", "{@race Ravenfolk|dungeonchurch|Ravenfolk}", "Rare"],
+        ["9", "{@race Tribeborn|dungeonchurch|Tribeborn}", "Uncommon"]
       ]
     },
     {
@@ -10731,38 +8956,14 @@
         "Drug"
       ],
       "rows": [
-        [
-          "1",
-          "{@item Banshee Blight|dungeonchurch}"
-        ],
-        [
-          "2",
-          "{@item Black Diamond|dungeonchurch}"
-        ],
-        [
-          "3",
-          "{@item Dream Vine|dungeonchurch}"
-        ],
-        [
-          "4",
-          "Dwarven Glög"
-        ],
-        [
-          "5",
-          "{@item Nightshade Poison|dungeonchurch}"
-        ],
-        [
-          "6",
-          "{@item Rationing Spice|dungeonchurch}"
-        ],
-        [
-          "7",
-          "{@item Stone Tea|dungeonchurch}"
-        ],
-        [
-          "8",
-          "Never touch the stuff"
-        ]
+        ["1", "{@item Banshee Blight|dungeonchurch}"],
+        ["2", "{@item Black Diamond|dungeonchurch}"],
+        ["3", "{@item Dream Vine|dungeonchurch}"],
+        ["4", "Dwarven Glög"],
+        ["5", "{@item Nightshade Poison|dungeonchurch}"],
+        ["6", "{@item Rationing Spice|dungeonchurch}"],
+        ["7", "{@item Stone Tea|dungeonchurch}"],
+        ["8", "Never touch the stuff"]
       ]
     }
   ]
