@@ -61,10 +61,11 @@
       },
       "skill": {
         "history": "+8",
-        "insight": "+15",
-        "perception": "+15",
-        "arcana": "+7",
-        "survival": "+13"
+        "insight": "+9",
+        "perception": "+9",
+        "arcana": "+8",
+        "survival": "+13",
+        "deception": "+9"
       },
       "spellcasting": [
         {
@@ -142,6 +143,12 @@
           "entries": [
             "Amelia attunes herself to the threads of the PCs' fates. Ask each player to write down their prediction of how the PC to their left will die, and at what level. Collect the notes without revealing the answers. When one of those PCs dies, reveal the prediction. If the character died in the manner predicted, they fulfill their destiny and are immediately resurrected by the gods as a reward. If they died at or within one level of the prediction, they return to life with some useful insight into the destiny of someone important."
           ]
+        },
+        {
+          "name": "Regeneration",
+          "entries": [
+            "Amelia regains 20 hit points at the start of her turn if she has at least 1 hit point and isn't in sunlight or running water. If she takes radiant damage or damage from holy water, this trait doesn't function at the start of her next turn."
+          ]
         }
       ],
       "action": [
@@ -154,19 +161,19 @@
         {
           "name": "Inexorable Threads",
           "entries": [
-            "{@atk mw} {@hit 9} to hit, reach 30 ft., one target. {@h}27 ({@damage 5d8 + 5}) radiant damage, and the target is \"one step closer to death.\" If the target is reduced to 0 hit points, it's treated as if it's already failed one death saving throw. This effect is cumulative; each inexorable threads hit adds one unsuccessful death saving throw. If a character who's been hit three or more times by inexorable threads is reduced to 0 hit points, he or she dies immediately. This effect lasts until the character completes a long rest."
+            "{@atk mw} {@hit 9} to hit, reach 30 ft., one target. {@h}27 ({@damage 5d8 + 5}) radiant damage, and the target is \"one step closer to death.\" If the target is reduced to 0 hit points, it's treated as if it's already failed one death saving throw. This effect is cumulative; each inexorable threads hit adds one unsuccessful death saving throw. A creature can remove this cumulative effect by completing a long rest or by being the target of a {@spell greater restoration} or {@spell heal} spell. If a creature who's been hit three or more times by inexorable threads is reduced to 0 hit points, they die immediately."
           ]
         },
         {
           "name": "Bind Fates (1/Day)",
           "entries": [
-            "One target within 60 feet of Amelia must make a {@dc 18} Wisdom saving throw. On a failed save, the target's fate is bound to one random ally of the target. Any damage or condition the target suffers is inflicted on the individual to which they are bound instead, and vice versa. A creature can be bound to only one other creature at a time. This effect lasts until either of the affected creatures gains a level, or until a heal or heroes' feast lifts this binding."
+            "One target within 60 feet of Amelia must make a {@dc 18} Wisdom saving throw. On a failed save, the target's fate is bound to one random ally of the target within 60 feet. Any damage or condition the target suffers is inflicted on the individual to which they are bound instead, and vice versa. A creature can be bound to only one other creature at a time. This effect lasts until 7 days pass, either of the affected creatures gains a level, or until a {@spell heal} or {@spell heroes' feast} spell is used to lift this binding."
           ]
         },
         {
           "name": "Destiny Distortion Wave {@recharge 5}",
           "entries": [
-            "Amelia projects a 60-foot cone of distortion that frays the strands of fate. All targets in the cone take 55 ({@damage 10d10}) force damage, or half damage with a successful {@dc 18} Wisdom saving throw. In addition, if more than one target that failed its saving throw is affected by a condition, those conditions are randomly redistributed among the targets with failed saving throws."
+            "Amelia projects a 60-foot cone of distortion that frays the strands of fate. Each creature in that area must make a {@dc 18} Wisdom saving throw. On a failed save, a creature takes 55 ({@damage 10d10}) force damage, and if more than one creature failed its saving throw, all conditions affecting those creatures are randomly redistributed among them. On a successful save, a creature takes half as much damage and isn't affected by the condition redistribution."
           ]
         }
       ],
@@ -228,7 +235,8 @@
       },
       "shortName": "Amelia",
       "resist": [
-        "radiant"
+        "radiant",
+        "necrotic"
       ],
       "damageTags": [
         "O",
@@ -247,7 +255,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-            "pyoran"
+          "pyoran"
         ]
       },
       "alignment": [
@@ -469,7 +477,7 @@
       "type": {
         "type": "humanoid",
         "tags": [
-            "pyoran"
+          "pyoran"
         ]
       },
       "alignment": [
