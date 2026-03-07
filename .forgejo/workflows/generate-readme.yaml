@@ -1,0 +1,44 @@
+name: Generate README Setting Section
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Dungeon Church*.json'
+      - '.forgejo/scripts/generate_readme.py'
+  workflow_dispatch:
+
+jobs:
+  generate-readme:
+    name: Update README from JSON
+    runs-on: docker
+    container:
+      image: node:20-bookworm
+
+    steps:
+    - name: Install git
+      run: apt-get update && apt-get install -y git
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        sparse-checkout: |
+          /*
+          !static
+        sparse-checkout-cone-mode: false
+
+    - name: Generate README section
+      run: python3 .forgejo/scripts/generate_readme.py
+
+    - name: Commit changes if needed
+      run: |
+        git config user.name "Forgejo Actions"
+        git config user.email "actions@dungeon.church"
+        git add README.md
+        if git diff --cached --quiet; then
+          echo "No changes to README.md"
+        else
+          git commit -m "[skip ci] auto-update README Pyora Setting section"
+          git push
+        fi
