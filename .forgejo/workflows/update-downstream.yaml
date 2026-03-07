@@ -17,7 +17,7 @@ jobs:
       image: node:20-bookworm
     steps:
       - name: Trigger downstream workflow
-        uses: https://git.michaelsasser.org/actions/workflow-dispatch@main
+        uses: https://git.brads.house/actions/workflow-dispatch@main
         with:
           repository: dungeonchurch/homebrew
           workflowname: sync-upstream.yml

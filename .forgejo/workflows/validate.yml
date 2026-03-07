@@ -2,6 +2,8 @@ name: Validate 5eTools Homebrew JSON
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'Dungeon Church*.json'
   pull_request:

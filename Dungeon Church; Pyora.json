@@ -161,7 +161,7 @@
       ],
       "soundClip": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/pron-elfmarked.mp3"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-elfmarked.mp3"
       },
       "foundryImg": "https://raw.githubusercontent.com/oakbrad/dungeonchurch/main/icon.jpg",
       "fluff": {
@@ -1287,7 +1287,7 @@
       ],
       "tokenHref": {
         "type": "external",
-        "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/tokens/bestiary-boomerang-cat-token.png"
+        "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-boomerang-cat-token.png"
       },
       "fluff": {
         "images": [
@@ -1295,7 +1295,7 @@
             "type": "image",
             "href": {
               "type": "external",
-              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/static/bestiary-boomerang-cat.png"
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/bestiary-boomerang-cat.png"
             }
           }
         ]

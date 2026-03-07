@@ -65,6 +65,25 @@ jobs:
           # Check if any files were actually transferred
           if grep -q "Copied (new)\|Copied (replaced)\|Deleted" /tmp/rclone.log; then
             echo "Files were synced to bucket"
+            echo "synced=true" >> "$GITHUB_OUTPUT"
           else
             echo "No files needed syncing"
           fi
+
+    outputs:
+      synced: ${{ steps.sync.outputs.synced }}
+
+  trigger-url-update:
+    name: Trigger asset URL migration
+    needs: sync-assets
+    if: needs.sync-assets.outputs.synced == 'true'
+    runs-on: docker
+    container:
+      image: node:20-bookworm
+    steps:
+      - name: Dispatch update-asset-urls workflow
+        uses: https://git.brads.house/actions/workflow-dispatch@main
+        with:
+          repository: ${{ github.repository }}
+          workflowname: update-asset-urls.yaml
+          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}

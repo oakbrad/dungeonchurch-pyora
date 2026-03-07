@@ -1,0 +1,48 @@
+name: Update Asset URLs to OCI
+
+# Triggered by sync-assets-to-s3.yaml after new files are synced to OCI.
+# Runs migrate_assets.py to replace old asset URLs with OCI URLs in the JSON,
+# then commits. The commit triggers generate-readme.yaml (which uses [skip ci]).
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-urls:
+    name: Migrate asset URLs to OCI
+    runs-on: docker
+    container:
+      image: node:20-bookworm
+
+    steps:
+    - name: Install git
+      run: apt-get update && apt-get install -y git
+
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        sparse-checkout: |
+          /*
+          !static
+        sparse-checkout-cone-mode: false
+
+    - name: Run URL migration
+      run: python3 .forgejo/scripts/migrate_assets.py
+
+    - name: Validate JSON
+      run: |
+        for f in Dungeon\ Church*.json; do
+          npx --package=5etools-utils -- test-json-brew "$f"
+        done
+
+    - name: Commit and push if changed
+      run: |
+        git config user.name "Forgejo Actions"
+        git config user.email "actions@dungeon.church"
+        git add "Dungeon Church*.json"
+        if git diff --cached --quiet; then
+          echo "No URL changes needed"
+        else
+          git commit -m "auto-update asset URLs to OCI Object Storage"
+          git push
+        fi
