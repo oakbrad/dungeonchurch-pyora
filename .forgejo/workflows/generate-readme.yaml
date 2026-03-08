@@ -41,5 +41,6 @@ jobs:
           echo "No changes to README.md"
         else
           git commit -m "[skip ci] auto-update README Pyora Setting section"
+          git pull --rebase
           git push
         fi

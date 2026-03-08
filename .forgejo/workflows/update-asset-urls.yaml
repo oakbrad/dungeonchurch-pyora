@@ -45,5 +45,6 @@ jobs:
           echo "No URL changes needed"
         else
           git commit -m "auto-update asset URLs to OCI Object Storage"
+          git pull --rebase
           git push
         fi
