@@ -26,7 +26,14 @@
       "source": "DungeonChurch",
       "page": 420,
       "entries": [
-        "An intoxicated creature has disadvantage on attack rolls and ability checks. To cast a spell, the creature must first succeed a DC 10 Constitution check. Otherwise, the spellcasting action is wasted, but the spell is not."
+        "An intoxicated creature has disadvantage on attack rolls and ability checks. To cast a spell, the creature must first succeed a DC 10 Constitution check. Otherwise, the spellcasting action is wasted, but the spell is not.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about becoming {@link Intoxicated in the wiki|https://lore.dungeon.church/doc/intoxicated-ulnWpIr1P6}."
+          ]
+        }
       ],
       "fluff": {
         "name": "Intoxicated",
@@ -1290,6 +1297,15 @@
         "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-boomerang-cat-token.png"
       },
       "fluff": {
+        "entries": [
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Boomerang Cat in the wiki|https://lore.dungeon.church/doc/boomerang-cat-W3QY45gDvY}."
+            ]
+          }
+        ],
         "images": [
           {
             "type": "image",
@@ -2956,7 +2972,13 @@
       ],
       "fluff": {
         "entries": [
-          ""
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+              "Learn more about the {@link Iron Rider Commodore in the wiki|https://lore.dungeon.church/doc/iron-rider-commodore-Lvy7jFg6KW}."
+            ]
+          }
         ],
         "images": [
           {
@@ -3539,6 +3561,13 @@
                   }
                 ]
               }
+            ]
+          },
+          {
+            "type": "inset",
+            "name": "Dungeon Church Lore",
+            "entries": [
+                "Learn more about the {@link Timothy's One-Eyed Purple Breasted Warbler in the wiki|https://lore.dungeon.church/doc/one-eyed-purple-breasted-warbler-ADcmqFENee}."
             ]
           }
         ],
@@ -4931,7 +4960,20 @@
             "Learn more about {@link Cirilla's Gift in the wiki|https://lore.dungeon.church/doc/cirillas-gift-pKEY4nYJDS}."
           ]
         }
-      ]
+      ],
+      "fluff": {
+        "name": "Cirilla's Gift",
+        "source": "DungeonChurch",
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/refs/heads/main/static/item-cirillas-gift.png"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Cloak of Rats",
@@ -5331,10 +5373,17 @@
       "wondrous": true,
       "entries": [
         "This elegant, elven {@item bullseye lantern|PHB} is masterfully crafted from metal and etched with delicate runes. A crystal shard is embedded in it's mechanism in place of a wick, which focuses and projects darkness comparable to that produced by a {@spell Darkness} spell.",
-        "The user can perform a ritual to charge the lantern by turning a clockwork key on it's side for at least 1 minute. Once charged, the lantern can be activated using an action to press a button creating a 30 foot cone of magical darkness The darkness persists for 10 minutes, or until the lanternet is closed. Once activated, the ritual cannot be repeated until the next dawn."
+        "The user can perform a ritual to charge the lantern by turning a clockwork key on it's side for at least 1 minute. Once charged, the lantern can be activated using an action to press a button creating a 30 foot cone of magical darkness The darkness persists for 10 minutes, or until the lanternet is closed. Once activated, the ritual cannot be repeated until the next dawn.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about the {@link Eclipse Lantern in the wiki|https://lore.dungeon.church/doc/eclipse-lantern-yskfkyraHC}."
+          ]
+        }
       ],
       "fluff": {
-        "name": "Avalonian Lantern",
+        "name": "Eclipse Lantern",
         "source": "DungeonChurch",
         "images": [
           {
@@ -6031,7 +6080,20 @@
             "Learn more about the {@link Mage Bane in the wiki|https://lore.dungeon.church/doc/mage-bane-vvIjgk9BDu}."
           ]
         }
-      ]
+      ],
+      "fluff": {
+        "name": "Mage Bane",
+        "source": "DungeonChurch",
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/refs/heads/main/static/item-mage-bane.png"
+            }
+          }
+        ]
+      }
     },
     {
       "name": "Migrant Bitters",
@@ -7510,7 +7572,14 @@
       "rarity": "common",
       "entries": [
         "This thick, viscous slime is harvested from {@creature giant slug|TTP|giant slugs} and is carefully bottled in small glass vials. Once exposed to air, it rapidly expands into a remarkably adhesive substance.",
-        "As an action, you can throw this vial at a creature within 20 feet, shattering it upon impact. The target must succeed on a DC 13 Dexterity saving throw or become {@condition restrained} in place. A stuck creature may repeat the save at the beginning of their next turn."
+        "As an action, you can throw this vial at a creature within 20 feet, shattering it upon impact. The target must succeed on a DC 13 Dexterity saving throw or become {@condition restrained} in place. A stuck creature may repeat the save at the beginning of their next turn.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link Slug Slime in the wiki|https://lore.dungeon.church/doc/slug-slime-0WSxbeLgVX}."
+          ]
+        }
       ],
       "lootTables": [
         "Pyoran Magic Items|dungeonchurch",
@@ -7543,6 +7612,13 @@
           "items": [
             "{@b Heads - True Snake Oil} - The target gains advantage on their next ability check, attack roll, or saving throw.",
             "{@b Tails - False Snake Oil} - The target suffers disadvantage instead."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link Snake Oil in the wiki|https://lore.dungeon.church/doc/snake-oil-CXj1r0uH4i}."
           ]
         }
       ],
