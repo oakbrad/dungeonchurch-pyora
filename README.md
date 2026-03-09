@@ -102,6 +102,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | [Delerium-Forged Dagger](https://5e.dungeon.church/items.html#delerium-forged%20dagger_dungeonchurch) | Melee Weapon | [✅](https://lore.dungeon.church/doc/delerium-forged-dagger-5OshXhJW5D) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-delerium-forged-dagger.png) |
 | [Dimensional Glasses](https://5e.dungeon.church/items.html#dimensional%20glasses_dungeonchurch) | Other | [✅](https://lore.dungeon.church/doc/dimensional-glasses-953LlRzRKE) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dimensional-glasses.png) |
 | [Dream Vine](https://5e.dungeon.church/items.html#dream%20vine_dungeonchurch) | Illegal Drug | [✅](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dream-vine.png) |
+| [Dreamless Drops](https://5e.dungeon.church/items.html#dreamless%20drops_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/dreamless-drops-J6y4dxroZn) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dreamless-drops.png) |
 | [Dubbelheart Ale](https://5e.dungeon.church/items.html#dubbelheart%20ale_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dubbelheart-ale.png) |
 | [Dust of Deliciousness](https://5e.dungeon.church/items.html#dust%20of%20deliciousness_dungeonchurch) |  | ❌ | ❌ |
 | [Eclipse Lantern](https://5e.dungeon.church/items.html#eclipse%20lantern_dungeonchurch) | Gear | [✅](https://lore.dungeon.church/doc/eclipse-lantern-yskfkyraHC) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-eclipse-lantern.png) |
@@ -262,9 +263,9 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | d102 | [Pyoran Magic Items](https://5e.dungeon.church/tables.html#pyoran%20magic%20items_dungeonchurch) |
 | d22 | [Pyoran Monsters](https://5e.dungeon.church/tables.html#pyoran%20monsters_dungeonchurch) |
 | d7 | [Pyoran NPCs](https://5e.dungeon.church/tables.html#pyoran%20npcs_dungeonchurchnpcs) |
-| d28 | [Pyoran Potions](https://5e.dungeon.church/tables.html#pyoran%20potions_dungeonchurch) |
+| d29 | [Pyoran Potions](https://5e.dungeon.church/tables.html#pyoran%20potions_dungeonchurch) |
 | d9 | [Pyoran Species](https://5e.dungeon.church/tables.html#pyoran%20species_dungeonchurch) |
-| d8 | [Pyoran Substances](https://5e.dungeon.church/tables.html#pyoran%20substances_dungeonchurch) |
+| d9 | [Pyoran Substances](https://5e.dungeon.church/tables.html#pyoran%20substances_dungeonchurch) |
 | 2d20 | [Ravenfolk Mimicry](https://5e.dungeon.church/tables.html#ravenfolk%20mimicry_dungeonchurch) |
 
 ## House Rules
