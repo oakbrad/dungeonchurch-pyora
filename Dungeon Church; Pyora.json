@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1711973394,
-    "dateLastModified": 1769653673,
+    "dateLastModified": 1773079108,
     "edition": "classic"
   },
   "condition": [
@@ -5290,6 +5290,46 @@
       }
     },
     {
+      "name": "Dreamless Drops",
+      "source": "DungeonChurch",
+      "type": "P",
+      "rarity": "uncommon",
+      "entries": [
+        "A grey-green tincture that tastes of salt and smells strongly of anise, sold in small dropper vials. When consumed, this potion suppresses dreams for 8 hours, granting seemingly restful sleep.",
+        {
+          "type": "entries",
+          "name": "Curse",
+          "entries": [
+            "This potion is cursed. For 24 hours after drinking it, you have disadvantage on saving throws against psychic damage and against being {@condition charmed} or {@condition dominated}.",
+            "If you drink this potion for 7 consecutive days, you must succeed on a DC 13 Wisdom saving throw or begin sleepwalking toward the nearest body of water each night until you receive a {@spell remove curse} spell or similar magic."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about {@link Dreamless Draught in the wiki|https://lore.dungeon.church/doc/dreamless-drops-J6y4dxroZn}."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Dreamless Drops",
+        "source": "DungeonChurch",
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dreamless-drops.png"
+            }
+          }
+        ],
+        "entries": [
+          "The dreams are not prevented - merely redirected. They flow into the collective unconscious, feeding something vast and terrible beyond our comprehension."
+        ]
+      }
+    },
+    {
       "name": "Dubbelheart Ale",
       "source": "DungeonChurch",
       "type": "P",
@@ -8925,7 +8965,7 @@
         ["99", "{@item Slug Slime|dungeonchurch}"],
         ["100", "{@item Snake Oil|dungeonchurch}"],
         ["101", "{@item Eclipse Lantern|dungeonchurch}"],
-        ["102", "{@item Swordstick|dungoenchurch}"]
+        ["102", "{@item Dreamless Drops|dungeonchurch}"]
       ]
     },
     {
@@ -8966,7 +9006,7 @@
       "source": "DungeonChurch",
       "caption": "Potions from the realm of Pyora.",
       "colLabels": [
-        "d28",
+        "d29",
         "Potion"
       ],
       "rows": [
@@ -8997,7 +9037,8 @@
         ["25", "{@item Bottled Sarlacc Pheromones|dungeonchurch}"],
         ["26", "{@item Potion of Shouting|dungeonchurch}"],
         ["27", "{@item Slug Slime|dungeonchurch}"],
-        ["28", "{@item Snake Oil|dungeonchurch}"]
+        ["28", "{@item Snake Oil|dungeonchurch}"],
+        ["29", "{@item Dreamless Drops|dungeonchurch}"]
       ]
     },
     {
@@ -9026,18 +9067,19 @@
       "source": "DungeonChurch",
       "caption": "Illicit substances in the realm of Pyora.",
       "colLabels": [
-        "d8",
+        "d9",
         "Drug"
       ],
       "rows": [
         ["1", "{@item Banshee Blight|dungeonchurch}"],
         ["2", "{@item Black Diamond|dungeonchurch}"],
         ["3", "{@item Dream Vine|dungeonchurch}"],
-        ["4", "Dwarven Glög"],
+        ["4", "{@table Durandian Draughts|dungeonchurch|Dwarven Ales}"],
         ["5", "{@item Nightshade Poison|dungeonchurch}"],
         ["6", "{@item Rationing Spice|dungeonchurch}"],
         ["7", "{@item Stone Tea|dungeonchurch}"],
-        ["8", "Never touch the stuff"]
+        ["8", "{@item Dreamless Drops|dungeonchurch}"],
+        ["9", "Never touch the stuff"]
       ]
     }
   ]
