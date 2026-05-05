@@ -104,6 +104,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | [Dream Vine](https://5e.dungeon.church/items.html#dream%20vine_dungeonchurch) | Illegal Drug | [✅](https://lore.dungeon.church/doc/dream-vine-viEBw5FxT7) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dream-vine.png) |
 | [Dreamless Drops](https://5e.dungeon.church/items.html#dreamless%20drops_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/dreamless-drops-J6y4dxroZn) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dreamless-drops.png) |
 | [Dubbelheart Ale](https://5e.dungeon.church/items.html#dubbelheart%20ale_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/dubbelheart-ale-hhJAx5QaAA) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-dubbelheart-ale.png) |
+| [Duskmoss Bundle](https://5e.dungeon.church/items.html#duskmoss%20bundle_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/duskmoss-bundle-consumable-magic-item-zBWpLwEtLo) | [⚠️](https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/refs/heads/main/static/item-duskmoss-bundle.png) |
 | [Dust of Deliciousness](https://5e.dungeon.church/items.html#dust%20of%20deliciousness_dungeonchurch) |  | ❌ | ❌ |
 | [Eclipse Lantern](https://5e.dungeon.church/items.html#eclipse%20lantern_dungeonchurch) | Gear | [✅](https://lore.dungeon.church/doc/eclipse-lantern-yskfkyraHC) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-eclipse-lantern.png) |
 | [Entrancing Mirror](https://5e.dungeon.church/items.html#entrancing%20mirror_dungeonchurch) |  | [✅](https://lore.dungeon.church/doc/entrancing-mirror-LEDVsFaum5) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-entrancing-mirror.png) |
@@ -260,10 +261,10 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | 1d20 | [Party Bonds](https://5e.dungeon.church/tables.html#party%20bonds_dungeonchurch) |
 | d10 | [Pyoran Gods](https://5e.dungeon.church/tables.html#pyoran%20gods_dungeonchurch) |
 | 1d10 | [Pyoran Hometowns](https://5e.dungeon.church/tables.html#pyoran%20hometowns_dungeonchurch) |
-| d102 | [Pyoran Magic Items](https://5e.dungeon.church/tables.html#pyoran%20magic%20items_dungeonchurch) |
+| d103 | [Pyoran Magic Items](https://5e.dungeon.church/tables.html#pyoran%20magic%20items_dungeonchurch) |
 | d22 | [Pyoran Monsters](https://5e.dungeon.church/tables.html#pyoran%20monsters_dungeonchurch) |
 | d7 | [Pyoran NPCs](https://5e.dungeon.church/tables.html#pyoran%20npcs_dungeonchurchnpcs) |
-| d29 | [Pyoran Potions](https://5e.dungeon.church/tables.html#pyoran%20potions_dungeonchurch) |
+| d30 | [Pyoran Potions](https://5e.dungeon.church/tables.html#pyoran%20potions_dungeonchurch) |
 | d9 | [Pyoran Species](https://5e.dungeon.church/tables.html#pyoran%20species_dungeonchurch) |
 | d9 | [Pyoran Substances](https://5e.dungeon.church/tables.html#pyoran%20substances_dungeonchurch) |
 | 2d20 | [Ravenfolk Mimicry](https://5e.dungeon.church/tables.html#ravenfolk%20mimicry_dungeonchurch) |
