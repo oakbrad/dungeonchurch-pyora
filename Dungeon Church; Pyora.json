@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1711973394,
-    "dateLastModified": 1773079108,
+    "dateLastModified": 1777944307,
     "edition": "classic"
   },
   "condition": [
@@ -5364,6 +5364,32 @@
         ],
         "entries": [
           "The forgemasters of Durandar keep the recipe close among their own, believing that the unqiue spice blend with the heat of the hearth imparts not just flavor, but fortitude. It is often shared before long journeys, coming of age celebrations, or dangerous battles, ensuring that a dwarf's heart burns as strong as their forge."
+        ]
+      }
+    },
+    {
+      "name": "Duskmoss Bundle",
+      "source": "DungeonChurch",
+      "type": "P",
+      "rarity": "common",
+      "lootTables": [
+        "Pyoran Potions|dungeonchurch",
+        "Pyoran Magic Items|dungeonchurch"
+      ],
+      "entries": [
+        "A fist-sized bundle of pale grey moss wrapped in oilskin, damp and faintly warm to the touch regardless of the weather. When opened, it releases a sharp, antiseptic smell like brine and whiskey.",
+        "You can use an action to press the moss against an open wound, regaining 2d4+2 hit points. For the next 5 minutes, you are immune to being {@condition frightened}. The moss dries into a normal sponge after one use.",
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about the {@link Duskmoss Bundle in the wiki|https://lore.dungeon.church/doc/duskmoss-bundle-consumable-magic-item-zBWpLwEtLo}."
+          ]
+        }
+      ],
+      "fluff": {
+        "entries": [
+          "Duskmoss grows on the ceilings of sea caves below the tideline. Harvesters in {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} call it {@i widow's comfort}. In {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}, duskmoss tea is the only known non-magical remedy for early-stage delirium contamination."
         ]
       }
     },
