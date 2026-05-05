@@ -5378,7 +5378,7 @@
       ],
       "entries": [
         "A fist-sized bundle of pale grey moss wrapped in oilskin, damp and faintly warm to the touch regardless of the weather. When opened, it releases a sharp, antiseptic smell like brine and whiskey.",
-        "You can use an action to press the moss against an open wound, regaining 2d4+2 hit points. For the next 5 minutes, you are immune to being {@condition frightened}. The moss dries into a normal sponge after one use.",
+        "You can use an action to press the moss against an open wound, regaining {@dice 2d4+2} hit points. For the next 5 minutes, you are immune to being {@condition frightened}. The moss dries into a normal sponge after one use.",
         {
           "type": "inset",
           "name": "Dungeon Church Lore",
@@ -8897,7 +8897,7 @@
       "source": "DungeonChurch",
       "caption": "Items and relics uncovered in the world of Pyora.",
       "colLabels": [
-        "d102",
+        "d103",
         "Item"
       ],
       "rows": [
@@ -9044,7 +9044,7 @@
       "source": "DungeonChurch",
       "caption": "Potions from the realm of Pyora.",
       "colLabels": [
-        "d29",
+        "d30",
         "Potion"
       ],
       "rows": [
