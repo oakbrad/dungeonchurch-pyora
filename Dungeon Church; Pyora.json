@@ -5388,6 +5388,17 @@
         }
       ],
       "fluff": {
+        "name": "Duskmoss Bundle",
+        "source": "DungeonChurch",
+        "images": [
+          {
+            "type": "image",
+            "href": {
+              "type": "external",
+              "url": "https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/refs/heads/main/static/item-duskmoss-bundle.png"
+            }
+          }
+        ],
         "entries": [
           "Duskmoss grows on the ceilings of sea caves below the tideline. Harvesters in {@link Saltmarsh|https://lore.dungeon.church/doc/saltmarsh-GkGI6ISio5} call it {@i widow's comfort}. In {@link New Galmaarden|https://lore.dungeon.church/doc/new-galmaarden-03tcpxxc2t}, duskmoss tea is the only known non-magical remedy for early-stage delirium contamination."
         ]
