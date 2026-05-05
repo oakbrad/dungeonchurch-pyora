@@ -8991,7 +8991,8 @@
         ["99", "{@item Slug Slime|dungeonchurch}"],
         ["100", "{@item Snake Oil|dungeonchurch}"],
         ["101", "{@item Eclipse Lantern|dungeonchurch}"],
-        ["102", "{@item Dreamless Drops|dungeonchurch}"]
+        ["102", "{@item Dreamless Drops|dungeonchurch}"],
+        ["103", "{@item Duskmoss Bundle|dungeonchurch}"]
       ]
     },
     {
@@ -9064,7 +9065,8 @@
         ["26", "{@item Potion of Shouting|dungeonchurch}"],
         ["27", "{@item Slug Slime|dungeonchurch}"],
         ["28", "{@item Snake Oil|dungeonchurch}"],
-        ["29", "{@item Dreamless Drops|dungeonchurch}"]
+        ["29", "{@item Dreamless Drops|dungeonchurch}"],
+        ["30", "{@item Duskmoss Bundle|dungeonchurch}"]
       ]
     },
     {
