@@ -17,7 +17,7 @@
       }
     ],
     "dateAdded": 1711973394,
-    "dateLastModified": 1777944307,
+    "dateLastModified": 1784168279,
     "edition": "classic"
   },
   "condition": [
@@ -8099,6 +8099,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "Wand of Exception",
+      "source": "DungeonChurch",
+      "type": "WD|DungeonChurch",
+      "rarity": "legendary",
+      "reqAttune": true,
+      "weight": 1,
+      "lootTables": [
+        "Pyoran Magic Items|dungeonchurch"
+      ],
+      "entries": [
+        "This pale wand of stripped birch has the words \"Well, actually...\" crudely carved along its length in Common.",
+        {
+          "type": "entries",
+          "name": "One Exception",
+          "entries": [
+            "When you attune to this wand, you may invoke it to petition the DM to waive one campaign requirement — a restricted species, class, subclass, background, or similar character creation rule. The DM retains final approval. Once invoked, the wand disappears in a puff of smoke, possibly to be found again by another most-valuable-player."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Dungeon Church Lore",
+          "entries": [
+            "Learn more about the {@link Wand of Exception in the wiki|https://lore.dungeon.church/doc/wand-of-exception-DzacfZurQS/edit}."
+          ]
+        }
+      ],
+      "fluff": {
+        "name": "Wand of Exception",
+        "source": "DungeonChurch",
+        "entries": [
+          "The exception that proves the rule.",
+          "The first Wand of Exception was carved from a gaming table at which a player argued for three hours about playing a {@creature Centaur|MM} paladin. The DM eventually relented — then carved this wand from the ruined table as both trophy and warning. It has circulated through adventuring parties ever since, most often finding its way to the player who wants it least."
+        ]
+      }
     }
   ],
   "variantrule": [
@@ -8897,7 +8933,7 @@
       "source": "DungeonChurch",
       "caption": "Items and relics uncovered in the world of Pyora.",
       "colLabels": [
-        "d103",
+        "d104",
         "Item"
       ],
       "rows": [
@@ -9003,7 +9039,8 @@
         ["100", "{@item Snake Oil|dungeonchurch}"],
         ["101", "{@item Eclipse Lantern|dungeonchurch}"],
         ["102", "{@item Dreamless Drops|dungeonchurch}"],
-        ["103", "{@item Duskmoss Bundle|dungeonchurch}"]
+        ["103", "{@item Duskmoss Bundle|dungeonchurch}"],
+        ["104", "{@item Wand of Exception|dungeonchurch}"]
       ]
     },
     {
