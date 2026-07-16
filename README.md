@@ -183,6 +183,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | [Vial of Veilblood](https://5e.dungeon.church/items.html#vial%20of%20veilblood_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/vial-of-veilblood-cuYF9sYCbQ) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-vial-of-veilblood.png) |
 | [Vial of the Last Harvest](https://5e.dungeon.church/items.html#vial%20of%20the%20last%20harvest_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/vial-of-the-last-harvest-tsIxDMwTeP) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-vial-of-last-harvest.png) |
 | [Void Essence](https://5e.dungeon.church/items.html#void%20essence_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/void-essence-lYJOMctLcD) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-void-essence.png) |
+| [Wand of Exception](https://5e.dungeon.church/items.html#wand%20of%20exception_dungeonchurch) | Wand | [✅](https://lore.dungeon.church/doc/wand-of-exception-DzacfZurQS/edit) | ❌ |
 | [Whip of Blinding Speed](https://5e.dungeon.church/items.html#whip%20of%20blinding%20speed_dungeonchurch) | Melee Weapon | ❌ | ❌ |
 | [Whisperwine](https://5e.dungeon.church/items.html#whisperwine_dungeonchurch) | Potion | [✅](https://lore.dungeon.church/doc/whisperwine-PWBtjr4LcS) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-whisperwine.png) |
 | [Wooden Stake](https://5e.dungeon.church/items.html#wooden%20stake_dungeonchurch) | Melee Weapon | [✅](https://lore.dungeon.church/doc/wooden-stake-FnGtypUkbI) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/item-wooden-stake.png) |
@@ -261,7 +262,7 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | 1d20 | [Party Bonds](https://5e.dungeon.church/tables.html#party%20bonds_dungeonchurch) |
 | d10 | [Pyoran Gods](https://5e.dungeon.church/tables.html#pyoran%20gods_dungeonchurch) |
 | 1d10 | [Pyoran Hometowns](https://5e.dungeon.church/tables.html#pyoran%20hometowns_dungeonchurch) |
-| d103 | [Pyoran Magic Items](https://5e.dungeon.church/tables.html#pyoran%20magic%20items_dungeonchurch) |
+| d104 | [Pyoran Magic Items](https://5e.dungeon.church/tables.html#pyoran%20magic%20items_dungeonchurch) |
 | d22 | [Pyoran Monsters](https://5e.dungeon.church/tables.html#pyoran%20monsters_dungeonchurch) |
 | d7 | [Pyoran NPCs](https://5e.dungeon.church/tables.html#pyoran%20npcs_dungeonchurchnpcs) |
 | d30 | [Pyoran Potions](https://5e.dungeon.church/tables.html#pyoran%20potions_dungeonchurch) |
