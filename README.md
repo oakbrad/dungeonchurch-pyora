@@ -52,10 +52,11 @@ https://raw.githubusercontent.com/oakbrad/dungeonchurch-pyora/main/Dungeon Churc
 | [Elfmarked](https://5e.dungeon.church/races.html#elfmarked_dungeonchurch) |  | [✅](https://lore.dungeon.church/doc/elfmarked-ohkfCOb0aT) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-elfmarked.mp3) |
 | [Hearth (Dwarf)](https://5e.dungeon.church/races.html#dwarf%2C%20hearth_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/dwarf-hearth-JqwmFsdhFj) | ❌ |
 | [Pyoran (Dragonborn)](https://5e.dungeon.church/races.html#dragonborn%2C%20pyoran_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/dragonborn-pyoran-Pd8mdtKo6V) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-pyoran.mp3) |
+| [Pyoran (Gnome)](https://5e.dungeon.church/races.html#gnome%2C%20pyoran_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/gnome-rock-ARFvDASnZz) | ❌ |
 | [Pyoran (Halfling)](https://5e.dungeon.church/races.html#halfling%2C%20pyoran_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/halfling-fFZiVbQDbC) | ❌ |
 | [Pyoran (Human)](https://5e.dungeon.church/races.html#human%2C%20pyoran_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/human-pyoran-LMuc7qNrv4) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-pyoran.mp3) |
 | [Ravenfolk](https://5e.dungeon.church/races.html#ravenfolk_dungeonchurch) |  | [✅](https://lore.dungeon.church/doc/ravenfolk-2FqUStq1FR) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-ravenfolk.mp3) |
-| [Rock (Gnome)](https://5e.dungeon.church/races.html#gnome%2C%20rock_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/gnome-rock-ARFvDASnZz) | ❌ |
+| [Shadow (Elf)](https://5e.dungeon.church/races.html#elf%2C%20shadow_dungeonchurch) | ✅ | [✅](https://lore.dungeon.church/doc/elf-shadow-EmydHFu0Dj) | ❌ |
 | [Tribeborn](https://5e.dungeon.church/races.html#tribeborn_dungeonchurch) |  | [✅](https://lore.dungeon.church/doc/tribeborn-KVgPsdxk3f) | [✅](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/sounds/pron-tribeborn.mp3) |
 
 ## Deities
