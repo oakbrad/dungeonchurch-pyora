@@ -52,8 +52,11 @@ jobs:
 
     - name: Trigger downstream update
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: https://git.michaelsasser.org/actions/workflow-dispatch@main
-      with:
-        workflowname: update-downstream.yaml
-        token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+      run: |
+        curl -fsS -X POST \
+          -H "Authorization: token ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}" \
+          -H "Accept: application/json" \
+          -H "Content-Type: application/json" \
+          "$GITHUB_SERVER_URL/api/v1/repos/${GITHUB_REPOSITORY}/actions/workflows/update-downstream.yaml/dispatches" \
+          -d '{"ref":"main"}'
 

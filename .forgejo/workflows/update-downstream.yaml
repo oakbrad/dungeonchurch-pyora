@@ -17,8 +17,10 @@ jobs:
       image: node:20-bookworm
     steps:
       - name: Trigger downstream workflow
-        uses: https://git.brads.house/actions/workflow-dispatch@main
-        with:
-          repository: dungeonchurch/homebrew
-          workflowname: sync-upstream.yml
-          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: token ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}" \
+            -H "Accept: application/json" \
+            -H "Content-Type: application/json" \
+            "$GITHUB_SERVER_URL/api/v1/repos/dungeonchurch/homebrew/actions/workflows/sync-upstream.yml/dispatches" \
+            -d '{"ref":"main"}'

@@ -38,7 +38,7 @@ jobs:
       - name: Checkout repository
         run: |
           apk add --no-cache git
-          git clone --depth 1 $GITHUB_SERVER_URL/$GITHUB_REPOSITORY.git .
+          git clone --depth 1 "https://x-access-token:${{ secrets.WORKFLOW_DISPATCH_TOKEN }}@${GITHUB_SERVER_URL#https://}/$GITHUB_REPOSITORY.git" .
 
       - name: Sync to OCI Object Storage
         id: sync
@@ -82,8 +82,10 @@ jobs:
       image: node:20-bookworm
     steps:
       - name: Dispatch update-asset-urls workflow
-        uses: https://git.brads.house/actions/workflow-dispatch@main
-        with:
-          repository: ${{ github.repository }}
-          workflowname: update-asset-urls.yaml
-          token: ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: token ${{ secrets.WORKFLOW_DISPATCH_TOKEN }}" \
+            -H "Accept: application/json" \
+            -H "Content-Type: application/json" \
+            "$GITHUB_SERVER_URL/api/v1/repos/${GITHUB_REPOSITORY}/actions/workflows/update-asset-urls.yaml/dispatches" \
+            -d '{"ref":"main"}'
