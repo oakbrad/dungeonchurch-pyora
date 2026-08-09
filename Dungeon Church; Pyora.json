@@ -65,9 +65,6 @@
     {
       "name": "Gobbledygook",
       "source": "DungeonChurch",
-      "otherSources": [
-        {"source": "Heckna","page":"278"}
-      ],
       "entries": [
         "Gobbledygook is the language of The Revelia. To outsiders, it sounds rough, guttural, and mocking. It is essential for carnival members to communicate right under the noses of the rubes."
       ],
