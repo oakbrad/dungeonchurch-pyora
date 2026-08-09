@@ -4522,6 +4522,164 @@
       }
     },
     {
+      "name": "Werespider Acrobat",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "humanoid",
+        "tags": [
+          "any race",
+          "shapechanger"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13,
+          "condition": "in humanoid form"
+        },
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ],
+          "condition": "in giant spider or hybrid form"
+        }
+      ],
+      "hp": {
+        "average": 49,
+        "formula": "9d8 + 9"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": {
+          "number": 40,
+          "condition": "in hybrid or giant spider form only"
+        }
+      },
+      "str": 15,
+      "dex": 16,
+      "con": 12,
+      "int": 14,
+      "wis": 15,
+      "cha": 16,
+      "skill": {
+        "acrobatics": "+7",
+        "perception": "+4",
+        "performance": "+5",
+        "stealth": "+7",
+        "athletics": "+4"
+      },
+      "immune": [
+        {
+          "immune": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks not made with silvered weapons",
+          "cond": true
+        }
+      ],
+      "senses": [
+        "darkvision 60 ft."
+      ],
+      "passive": 14,
+      "languages": [
+        "Common",
+        "Gobbledygook"
+      ],
+      "cr": {
+        "cr": "3",
+        "xp": 700
+      },
+      "trait": [
+        {
+          "name": "Shapechanger",
+          "entries": [
+            "The werespider can use its action to {@spell Polymorph|PHB} into a spider-humanoid hybrid or into a {@creature Giant Spider|MM}, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+          ]
+        },
+        {
+          "name": "Acrobatic",
+          "entries": [
+            "The werespider's base long jump and high jump is 20 feet, with or without a running start. As long as the werespider is able to move, it can fall up to 50 feet without taking fall damage or landing {@condition prone}."
+          ]
+        },
+        {
+          "name": "Spider Climb (Giant Spider or Hybrid Form Only)",
+          "entries": [
+            "The werespider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+          ]
+        },
+        {
+          "name": "Web Sense (Giant Spider or Hybrid Form Only)",
+          "entries": [
+            "While in contact with a web, the werespider knows the exact location of any other creature in contact with the same web."
+          ]
+        },
+        {
+          "name": "Web Walker (Giant Spider or Hybrid Form Only)",
+          "entries": [
+            "The werespider ignores movement restrictions caused by webbing."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack (Humanoid or Hybrid Form Only)",
+          "entries": [
+            "The werespider makes two kick attacks. It can forgo one kick attack to make an attack with its bite instead."
+          ]
+        },
+        {
+          "name": "Bite (Giant Spider or Hybrid Form Only)",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage and the target must succeed on a DC 13 Constitution saving throw or take 9 ({@damage 2d8}) poison damage, or half as much on a success. If the poison damage reduces the target to 0 hit points, it is stable but {@condition poisoned} for 1 hour and {@condition paralyzed} for as long as it is {@condition poisoned}. If the target is a humanoid, it must succeed on a second DC 13 Constitution saving throw or be cursed with werespider lycanthropy."
+          ]
+        },
+        {
+          "name": "Kick (Humanoid or Hybrid Form Only)",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Web (Giant Spider or Hybrid Form Only, Recharges 5-6)",
+          "entries": [
+            "{@atk rw} {@hit +5} to hit, range 30/60 ft., one creature. {@h}The target is {@condition restrained} by webbing. As an action the {@condition restrained} target can attempt a DC 14 Strength check, bursting the webbing on a success. The web can also be attacked and destroyed (AC 10; 10 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D"
+      ],
+      "languageTags": [
+        "C",
+        "OTH"
+      ],
+      "damageTags": [
+        "B",
+        "I",
+        "P"
+      ],
+      "conditionInflict": [
+        "paralyzed",
+        "poisoned",
+        "restrained"
+      ]
+    },
+    {
       "name": "Vomit Ooze",
       "source": "DungeonChurch",
       "size": [
