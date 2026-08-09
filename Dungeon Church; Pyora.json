@@ -1840,7 +1840,7 @@
         {
           "name": "Parasite Host",
           "entries": [
-            "When the thrall dies and its body remains intact, the parasitic schnozling which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
+            "When the thrall dies and its body remains intact, the parasitic {@creature schnozling|DungeonChurch} which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
           ]
         }
       ],
@@ -2406,6 +2406,124 @@
       ]
     },
     {
+      "name": "Feral Clown Thrall",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 15,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 90,
+        "formula": "12d8 + 36"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 16,
+      "dex": 12,
+      "con": 17,
+      "int": 8,
+      "wis": 14,
+      "cha": 12,
+      "save": {
+        "str": "+6",
+        "wis": "+5"
+      },
+      "skill": {
+        "acrobatics": "+4",
+        "athletics": "+6",
+        "perception": "+5"
+      },
+      "passive": 15,
+      "languages": [
+        "Gobbledygook"
+      ],
+      "cr": {
+        "cr": "5",
+        "xp": 1800
+      },
+      "trait": [
+        {
+          "name": "Charge",
+          "entries": [
+            "If the feral thrall moves at least 20 feet straight toward a creature and then hits it with a charging slam attack on the same turn, that target must succeed on a DC {@dc 14} Strength saving throw or be knocked {@condition prone}. If the target is {@condition prone}, the feral thrall can make one bite attack against it as a bonus action."
+          ]
+        },
+        {
+          "name": "Life's A Laugh",
+          "entries": [
+            "The feral thrall has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Parasite Host",
+          "entries": [
+            "When the feral thrall dies and its body remains intact, the parasitic {@creature schnozling|DungeonChurch} which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
+          ]
+        },
+        {
+          "name": "Reckless",
+          "entries": [
+            "At the start of its turn, the feral thrall can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The feral thrall makes three charging slam attacks and a bite attack."
+          ]
+        },
+        {
+          "name": "Bite",
+          "entries": [
+            "{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) piercing damage."
+          ]
+        },
+        {
+          "name": "Charging Slam",
+          "entries": [
+            "{@atk mw} {@hit +6} to hit, reach 5 ft., one target. {@h}12 ({@damage 2d8 + 3}) bludgeoning damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "P"
+      ],
+      "savingThrowForced": [
+        "strength"
+      ],
+      "conditionInflict": [
+        "prone"
+      ]
+    },
+    {
       "name": "Giant Coal Ant",
       "source": "DungeonChurch",
       "otherSources": [
@@ -2633,6 +2751,12 @@
           "name": "Magic Resistance",
           "entries": [
             "The hellbilly clown has advantage on saving throws against spells and other magical effects."
+          ]
+        },
+        {
+          "name": "Parasite Host",
+          "entries": [
+            "When the mangy thrall dies and its body remains intact, the parasitic {@creature schnozling|DungeonChurch} which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
           ]
         }
       ],
@@ -3826,6 +3950,109 @@
           }
         ]
       }
+    },
+    {
+      "name": "Mangy Clown Thrall",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 65,
+        "formula": "10d8 + 20"
+      },
+      "speed": {
+        "walk": 20
+      },
+      "str": 16,
+      "dex": 10,
+      "con": 15,
+      "int": 8,
+      "wis": 10,
+      "cha": 12,
+      "skill": {
+        "athletics": "+5"
+      },
+      "passive": 10,
+      "languages": [
+        "Gobbledygook"
+      ],
+      "cr": {
+        "cr": "2",
+        "xp": 450
+      },
+      "trait": [
+        {
+          "name": "Life's A Laugh",
+          "entries": [
+            "The mangy thrall has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Parasite Host",
+          "entries": [
+            "When the mangy thrall dies and its body remains intact, the parasitic {@creature schnozling|DungeonChurch} which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
+          ]
+        },
+        {
+          "name": "Reckless",
+          "entries": [
+            "At the start of its turn, the mangy thrall can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against it have advantage until the start of its next turn."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The mangy thrall makes three Stumbling Slam attacks."
+          ]
+        },
+        {
+          "name": "Rotten Breath",
+          "entries": [
+            "{@recharge 5-6} The mangy thrall exhales a putrid cloud of junk food breath in a 30-foot cone. Each creature in that area must make a DC {@dc 13} Constitution saving throw, taking 12 ({@damage 5d4}) poison damage on a failed save, or half as much damage on a successful one."
+          ]
+        },
+        {
+          "name": "Stumbling Slam",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "OTH"
+      ],
+      "actionTags": [
+        "Breath Weapon",
+        "Multiattack"
+      ],
+      "damageTags": [
+        "B",
+        "I"
+      ],
+      "savingThrowForced": [
+        "constitution"
+      ]
     },
     {
       "name": "One-Eyed Purple Breasted Warbler",
