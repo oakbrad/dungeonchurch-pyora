@@ -63,6 +63,17 @@
       ]
     },
     {
+      "name": "Gobbledygook",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {"source": "Heckna","page":"278"}
+      ],
+      "entries": [
+        "Gobbledygook is the language of The Revelia. To outsiders, it sounds rough, guttural, and mocking. It is essential for carnival members to communicate right under the noses of the rubes."
+      ],
+      "type": "secret"
+    },
+    {
       "name": "Tribal",
       "source": "DungeonChurch",
       "entries": [
@@ -1771,6 +1782,93 @@
           }
         ]
       }
+    },
+    {
+      "name": "Clown Thrall",
+      "source": "CHURCH",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "C",
+        "N"
+      ],
+      "ac": [
+        {
+          "ac": 11,
+          "from": [
+            "tattered leathers"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 11,
+        "formula": "2d8 + 2"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 12,
+      "dex": 10,
+      "con": 13,
+      "int": 8,
+      "wis": 10,
+      "cha": 12,
+      "skill": {
+        "athletics": "+3",
+        "performance": "+3"
+      },
+      "passive": 10,
+      "languages": [
+        "Common",
+        "Gobbledygook"
+      ],
+      "cr": {
+        "cr": "1/8",
+        "xp": 25
+      },
+      "trait": [
+        {
+          "name": "Life's A Laugh",
+          "entries": [
+            "The thrall has advantage on saving throws against being {@condition frightened}."
+          ]
+        },
+        {
+          "name": "Parasite Host",
+          "entries": [
+            "When the thrall dies and its body remains intact, the parasitic schnozling which serves as its nose detaches, appearing in the nearest unoccupied space with maximum hit points."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Bad Joke",
+          "entries": [
+            "{@atk rs} {@hit +3} to hit, range 30 ft., one creature. {@h}3 ({@damage 1d6}) psychic damage."
+          ]
+        },
+        {
+          "name": "Slam",
+          "entries": [
+            "{@atk mw} {@hit +3} to hit, reach 5 ft., one creature. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+          ]
+        }
+      ],
+      "languageTags": [
+        "C",
+        "OTH"
+      ],
+      "damageTags": [
+        "B",
+        "Y"
+      ]
     },
     {
       "name": "Coal Golem",
@@ -3865,6 +3963,98 @@
         "B",
         "C",
         "F"
+      ]
+    },
+    {
+      "name": "Schnozling",
+      "source": "CHURCH",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "T"
+      ],
+      "type": "aberration",
+      "alignment": [
+        "U"
+      ],
+      "ac": [
+        {
+          "ac": 12
+        }
+      ],
+      "hp": {
+        "average": 3,
+        "formula": "1d4 + 1"
+      },
+      "speed": {
+        "walk": 40,
+        "climb": 30
+      },
+      "str": 4,
+      "dex": 14,
+      "con": 13,
+      "int": 2,
+      "wis": 10,
+      "cha": 15,
+      "skill": {
+        "stealth": "+4",
+        "perception": "+2"
+      },
+      "conditionImmune": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "senses": [
+        "blindsight 30 ft. (blind beyond this radius)"
+      ],
+      "passive": 12,
+      "languages": [
+        "—"
+      ],
+      "cr": {
+        "cr": "1/2",
+        "xp": 100
+      },
+      "trait": [
+        {
+          "name": "Keen Smell",
+          "entries": [
+            "The schnozling has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Clown 'Em",
+          "entries": [
+            "{@atk mw} {@hit +4} to hit, reach 0 ft., one humanoid creature with a nose. {@h}The schnozling attaches itself to the creature's face, becoming {@condition incapacitated} for as long as it remains attached. Unless it is already {@condition charmed} by the schnozling, at the start of each of the creature's turns it must succeed on a DC {@dc 12} Wisdom saving throw or be {@condition charmed} by the schnozling. While {@condition charmed} in this way, the creature does everything in its power to protect the schnozling, finds all acts of comedy hilarious, and will not willingly remove the schnozling. The schnozling can only be removed if slain or if a creature uses an action to succeed on a DC {@dc 12} Wisdom ({@skill Medicine}) check to safely remove it. If the schnozling remains attached to a creature for more than 1 minute, it eats the host's nose and replaces it, integrating with the creature's biology. When it does so, the target's body becomes infected by Clown Corruption, as detailed on App. G: Clown Corruption."
+          ]
+        },
+        {
+          "name": "Honk",
+          "entries": [
+            "The schnozling honks noisily. Creatures within 15 feet of it can't hear anything other than the honking of the schnozling until the start of the schnozling's next turn."
+          ]
+        }
+      ],
+      "senseTags": [
+        "B"
+      ],
+      "savingThrowForced": [
+        "wisdom"
+      ],
+      "conditionInflict": [
+        "charmed",
+        "incapacitated"
       ]
     },
     {
