@@ -4522,6 +4522,120 @@
       }
     },
     {
+      "name": "Warped Reflection",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M",
+        "S"
+      ],
+      "type": "construct",
+      "alignment": [
+        "C",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 13
+        }
+      ],
+      "hp": {
+        "special": "half the hit point maximum of its duplicate"
+      },
+      "speed": {
+        "walk": 30,
+        "fly": {
+          "number": 30,
+          "condition": "(hover)"
+        },
+        "canHover": true
+      },
+      "str": 16,
+      "dex": 16,
+      "con": 16,
+      "int": 16,
+      "wis": 16,
+      "cha": 16,
+      "senses": [
+        "darkvision 60 ft.",
+        "truesight 60 ft."
+      ],
+      "passive": 13,
+      "conditionImmune": [
+        "charmed",
+        "frightened",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "unconscious"
+      ],
+      "languages": [
+        "all languages known by its duplicate"
+      ],
+      "cr": {
+        "cr": "0",
+        "xp": 0
+      },
+      "trait": [
+        {
+          "name": "Double Life",
+          "entries": [
+            "The warped reflection exists as the nefarious double of a character, which is its duplicate. The warped reflection looks, behaves, and sounds just like its duplicate, except that it is evil and revels in causing chaos. If the warped reflection is reduced to 0 hit points, its body dissolves into mist and shadows."
+          ]
+        },
+        {
+          "name": "Double Trouble",
+          "entries": [
+            "The warped reflection uses its duplicate's total modifier (ability score + proficiency bonus) for any saving throw, attack roll, or skill check it makes, regardless of its own modifiers. The warped reflection knows the cantrips learned by its duplicate, and casts them as a character of its duplicate's level. It also knows each spell of 2nd-level or lower currently known or prepared by its duplicate, and uses its duplicate's spell attack modifier and spell save DC for these spells. The warped reflection possesses an illusory copy of any special equipment worn or carried by its duplicate, and uses them as its duplicate would in combat. These copies are unusable by creatures other than the warped reflection, and turn to mist and shadows when the warped reflection dies.",
+            "As long as its duplicate is alive, the warped reflection is immune to all damage not dealt by its duplicate, and all spell effects or magic items cast or used by creatures other than its duplicate."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Imitate",
+          "entries": [
+            "The warped reflection makes a weapon attack, or casts a spell. If the warped reflection's duplicate has the ability to make more than one attack using the attack action, or by using a bonus action as part of its attack, the warped reflection can make the same attacks as part of this action."
+          ]
+        }
+      ],
+      "reaction": [
+        {
+          "name": "Right Back At Ya",
+          "entries": [
+            "If the warped reflection succeeds on a saving throw against a spell cast by its duplicate, or is missed by an attack made by their duplicate, it can use its reaction to make the same attack or cast the same spell back at its duplicate. In the case of spells with multiple targets or areas of effect, only the warped reflection's duplicate is targeted or damaged by the effect."
+          ]
+        }
+      ],
+      "senseTags": [
+        "D",
+        "U"
+      ],
+      "languageTags": [
+        "XX"
+      ],
+      "save": {
+        "special": "the same as its duplicate"
+      },
+      "skill": {
+        "special": "the same as its duplicate"
+      },
+      "resist": [
+        {
+          "special": "any resistances possessed by its duplicate"
+        }
+      ],
+      "immune": [
+        {
+          "special": "any immunities possessed by its duplicate; all damage not dealt by its duplicate (see the Double Trouble trait)"
+        }
+      ]
+    },
+    {
       "name": "Werespider Acrobat",
       "source": "DungeonChurch",
       "otherSources": [
