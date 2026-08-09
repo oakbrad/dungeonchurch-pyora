@@ -1782,7 +1782,7 @@
     },
     {
       "name": "Clown Thrall",
-      "source": "CHURCH",
+      "source": "DungeonChurch",
       "otherSources": [
         {
           "source": "Heckna"
@@ -2537,6 +2537,145 @@
         "type": "external",
         "url": "https://objectstorage.us-sanjose-1.oraclecloud.com/n/axhus520kaxe/b/dungeonchurch-content/o/5e/tokens/bestiary-giant-coal-ant-token.png"
       }
+    },
+    {
+      "name": "Hellbilly Clown",
+      "source": "DungeonChurch",
+      "otherSources": [
+        {
+          "source": "Heckna"
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "type": {
+        "type": "fiend",
+        "tags": [
+          "devil"
+        ]
+      },
+      "alignment": [
+        "N",
+        "E"
+      ],
+      "ac": [
+        {
+          "ac": 14,
+          "from": [
+            "natural armor"
+          ]
+        }
+      ],
+      "hp": {
+        "average": 45,
+        "formula": "7d8 + 14"
+      },
+      "speed": {
+        "walk": 30
+      },
+      "str": 17,
+      "dex": 14,
+      "con": 15,
+      "int": 11,
+      "wis": 12,
+      "cha": 16,
+      "save": {
+        "str": "+5",
+        "dex": "+4"
+      },
+      "skill": {
+        "acrobatics": "+4",
+        "intimidation": "+5",
+        "perception": "+3",
+        "performance": "+5"
+      },
+      "resist": [
+        "cold",
+        {
+          "resist": [
+            "bludgeoning",
+            "piercing",
+            "slashing"
+          ],
+          "note": "from nonmagical attacks that aren't silvered",
+          "cond": true
+        }
+      ],
+      "immune": [
+        "fire",
+        "poison"
+      ],
+      "conditionImmune": [
+        "poisoned"
+      ],
+      "senses": [
+        "darkvision 120 ft."
+      ],
+      "passive": 13,
+      "languages": [
+        "Common",
+        "Gobbledygook",
+        "Infernal"
+      ],
+      "cr": {
+        "cr": "2",
+        "xp": 450
+      },
+      "trait": [
+        {
+          "name": "Devil's Sight",
+          "entries": [
+            "Magical darkness doesn't impede the hellbilly clown's darkvision."
+          ]
+        },
+        {
+          "name": "Magic Resistance",
+          "entries": [
+            "The hellbilly clown has advantage on saving throws against spells and other magical effects."
+          ]
+        }
+      ],
+      "action": [
+        {
+          "name": "Multiattack",
+          "entries": [
+            "The hellbilly clown makes two attacks with its Hellish Harmonica."
+          ]
+        },
+        {
+          "name": "Bludgeoning Banjo",
+          "entries": [
+            "{@atk mw} {@hit +5} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Hellish Harmonica",
+          "entries": [
+            "{@atk rs} {@hit +5} to hit, range 60/120 ft., one target. {@h}7 ({@damage 1d8 + 3}) psychic damage."
+          ]
+        }
+      ],
+      "traitTags": [
+        "Devil's Sight",
+        "Magic Resistance"
+      ],
+      "senseTags": [
+        "SD"
+      ],
+      "actionTags": [
+        "Multiattack"
+      ],
+      "languageTags": [
+        "C",
+        "I",
+        "OTH"
+      ],
+      "damageTags": [
+        "B",
+        "P",
+        "Y"
+      ]
     },
     {
       "name": "Hellion Child",
@@ -3964,7 +4103,7 @@
     },
     {
       "name": "Schnozling",
-      "source": "CHURCH",
+      "source": "DungeonChurch",
       "otherSources": [
         {
           "source": "Heckna"
